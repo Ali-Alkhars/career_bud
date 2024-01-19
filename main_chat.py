@@ -24,7 +24,7 @@ class T5Chatbot:
 
 class LlamaChatbot:
     def __init__(self, model_name="meta-llama/Llama-2-7b-chat-hf"):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
         self.chat_history_ids = None
 
