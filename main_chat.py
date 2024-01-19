@@ -7,18 +7,12 @@ class T5Chatbot:
         self.model = T5ForConditionalGeneration.from_pretrained(model_name)
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.model.to(self.device)
-        self.context = ""
-
-    def add_context(self, text):
-        self.context += text + " "
+        self.context = "Ali is an Arab. He comes from Saudi Arabia. Ali is 22 years old, even though he feels 18."
 
     def chat(self, question):
         # Prepend with "question:" or "answer the question:"
         input_text = f"question: {question} context: {self.context}"
         input_ids = self.tokenizer.encode(input_text, return_tensors='pt').to(self.device)
-
-        # Update context for next question
-        self.add_context(question)
 
         # Generate an answer
         output_ids = self.model.generate(input_ids, max_length=150, num_beams=3, early_stopping=True)
@@ -26,15 +20,6 @@ class T5Chatbot:
 
         return answer
 
-    # def generate_response(self, input_text):
-    #     self.add_context(input_text)
-    #     input_ids = self.tokenizer.encode(self.context, return_tensors='pt').to(self.device)
-        
-    #     # Generate a response
-    #     output_ids = self.model.generate(input_ids, max_length=512, num_return_sequences=1, num_beams=5, temperature=0.9)
-    #     response = self.tokenizer.decode(output_ids[0], skip_special_tokens=True)
-        
-    #     return response
 
 class LlamaChatbot:
     def __init__(self, model_name="meta-llama/Llama-2-7b-chat-hf"):
@@ -60,12 +45,12 @@ class RoBERTaChatbot:
     def __init__(self):
         self.tokenizer = RobertaTokenizer.from_pretrained('roberta-large')
         self.model = RobertaForQuestionAnswering.from_pretrained('roberta-large')
-        self.context = ""
+        self.fixed_context = "Ali is an Arab. He comes from Saudi Arabia. Ali is 22 years old, even though he feels 18."
 
     def chat(self, question):
-        # Append the question to the context
-        input_text = self.context + " " + question
-        inputs = self.tokenizer(input_text, return_tensors='pt')
+        # Combine the fixed context with the question
+        input_text = self.fixed_context + " " + question
+        inputs = self.tokenizer(input_text, return_tensors='pt', truncation=True)
 
         # Get model outputs
         with torch.no_grad():
@@ -77,8 +62,6 @@ class RoBERTaChatbot:
         answer_end = torch.argmax(answer_end_scores) + 1
         answer = self.tokenizer.convert_tokens_to_string(self.tokenizer.convert_ids_to_tokens(inputs['input_ids'][0][answer_start:answer_end]))
 
-        # Update the context
-        self.context += " " + question + " " + answer
         return answer
 
 
