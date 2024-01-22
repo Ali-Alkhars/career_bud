@@ -20,6 +20,9 @@ class T5Chatbot:
 
         return answer
 
+    def name(self):
+        return 'T5'
+
 
 class LlamaChatbot:
     def __init__(self, model_name="meta-llama/Llama-2-7b-chat-hf"):
@@ -40,6 +43,9 @@ class LlamaChatbot:
         # Decode and return the response
         response = self.tokenizer.decode(self.chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
         return response
+
+    def name(self):
+        return 'Llama-2'
 
 class RoBERTaChatbot:
     def __init__(self):
@@ -64,6 +70,9 @@ class RoBERTaChatbot:
 
         return answer
 
+    def name(self):
+        return 'RoBERTa'
+
 
 choice = input("Choose a model (1 for T5), (2 for Llama-2), (3 for RoBERTa): ")
 print()
@@ -85,7 +94,7 @@ else:
 while input_text != 'quit' and bot != None:
     input_text = input("User: ")
     response = bot.chat(input_text)
-    print("Career Bud: ", response, "\n\n")
+    print(f'{bot.name()} Career Bud: {response} \n\n')
 
 
 
