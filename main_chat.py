@@ -73,8 +73,31 @@ class RoBERTaChatbot:
     def name(self):
         return 'RoBERTa'
 
+class DialoGPTChatbot:
+    def __init__(self, model_name="microsoft/DialoGPT-medium"):
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
+        self.model = AutoModelForCausalLM.from_pretrained(model_name)
+        self.chat_history_ids = None
 
-choice = input("Choose a model (1 for T5), (2 for Llama-2), (3 for RoBERTa): ")
+    def chat(self, user_input):
+        # Encode the new user input, add the eos_token and return a tensor in Pytorch
+        new_user_input_ids = self.tokenizer.encode(user_input + self.tokenizer.eos_token, return_tensors='pt')
+
+        # Append the new user input tokens to the chat history
+        bot_input_ids = torch.cat([self.chat_history_ids, new_user_input_ids], dim=-1) if self.chat_history_ids is not None else new_user_input_ids
+
+        # Generate a response from the model
+        self.chat_history_ids = self.model.generate(bot_input_ids, max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
+
+        # Return the model's response
+        response = self.tokenizer.decode(self.chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
+        return response
+
+    def name(self):
+        return 'DialoGPT'
+
+
+choice = input("Choose a model (1 for T5), (2 for Llama-2), (3 for RoBERTa), (4 for DialoGPT): ")
 print()
 input_text = ''
 bot = None
@@ -87,13 +110,20 @@ elif choice == '2':
 
 elif choice == '3':
     bot = RoBERTaChatbot()
+
+elif choice == '4':
+    bot = DialoGPTChatbot()
     
 else:
     print("Incorrect input! Try again")
 
 while input_text != 'quit' and bot != None:
     input_text = input("User: ")
-    response = bot.chat(input_text)
+    if input_text == 'quit':
+        response = 'Goodbye! Talk to you soon'
+    else:
+        response = bot.chat(input_text)
+
     print(f'{bot.name()} Career Bud: {response} \n\n')
 
 
