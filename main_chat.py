@@ -78,6 +78,8 @@ class DialoGPTChatbot:
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
         self.chat_history_ids = None
+        self.max_history_saved = 5  # keep track of only 5 messages then reset
+        self.current_history_saved = 0
 
     def chat(self, user_input):
         # Encode the new user input, add the eos_token and return a tensor in Pytorch
@@ -85,19 +87,27 @@ class DialoGPTChatbot:
 
         # Append the new user input tokens to the chat history
         bot_input_ids = torch.cat([self.chat_history_ids, new_user_input_ids], dim=-1) if self.chat_history_ids is not None else new_user_input_ids
+        self.current_history_saved += 1
 
         # Generate a response from the model
         self.chat_history_ids = self.model.generate(bot_input_ids, max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
 
         # Return the model's response
         response = self.tokenizer.decode(self.chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
+
+        # reset chat history if limit was exceeded
+        if self.current_history_saved >= self.max_history_saved:
+            self.chat_history_ids = None
+            self.current_history_saved = 0
+            print("ALERT: I'll have to reset my chat history after this response!!")
+
         return response
 
     def name(self):
         return 'DialoGPT'
 
 
-choice = input("Choose a model (1 for T5), (2 for Llama-2), (3 for RoBERTa), (4 for DialoGPT): ")
+choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2), (4 for RoBERTa): ")
 print()
 input_text = ''
 bot = None
@@ -106,13 +116,13 @@ if choice == '1':
     bot = T5Chatbot()
 
 elif choice == '2':
-    bot = LlamaChatbot()
+    bot = DialoGPTChatbot()
 
 elif choice == '3':
-    bot = RoBERTaChatbot()
+    bot = LlamaChatbot()
 
 elif choice == '4':
-    bot = DialoGPTChatbot()
+    bot = RoBERTaChatbot()
     
 else:
     print("Incorrect input! Try again")
