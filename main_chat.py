@@ -106,8 +106,35 @@ class DialoGPTChatbot:
     def name(self):
         return 'DialoGPT'
 
+# Encounters error: RuntimeError: "LayerNormKernelImpl" not implemented for 'Half'
+class PhiChatbot:
+    def __init__(self, model_name="microsoft/phi-2"):
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        self.model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", trust_remote_code=True)
 
-choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2), (4 for RoBERTa): ")
+    def chat(self, user_input):
+        # inputs = self.tokenizer(user_input, return_tensors="pt", return_attention_mask=False)
+        # outputs = self.model.generate(**inputs, max_length=200)
+        # response = self.tokenizer.batch_decode(outputs)[0]
+
+        with torch.no_grad():
+            token_ids = self.tokenizer.encode(user_input, add_special_tokens=False ,return_tensors="pt")
+            output_ids = self.model.generate(
+                token_ids.to(self.device),
+                max_new_tokens=512,
+                do_sample=True,
+                temperature = 0.3
+            )
+
+        response = self.tokenizer.decode(output_ids[0][token_ids.size(1) :])
+        return response
+
+    def name(self):
+        return 'Phi-2'
+
+
+choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2), (4 for RoBERTa), (5 for Phi-2): ")
 print()
 input_text = ''
 bot = None
@@ -123,6 +150,9 @@ elif choice == '3':
 
 elif choice == '4':
     bot = RoBERTaChatbot()
+
+elif choice == '5':
+    bot = PhiChatbot()
     
 else:
     print("Incorrect input! Try again")
