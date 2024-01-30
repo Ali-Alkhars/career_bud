@@ -1,5 +1,5 @@
 import torch
-from transformers import T5ForConditionalGeneration, T5Tokenizer, AutoModelForCausalLM, AutoTokenizer, RobertaTokenizer, RobertaForQuestionAnswering
+from transformers import T5ForConditionalGeneration, T5Tokenizer, AutoModelForCausalLM, AutoTokenizer
 
 class T5Chatbot:
     def __init__(self, model_name='t5-small'):
@@ -47,34 +47,41 @@ class LlamaChatbot:
     def name(self):
         return 'Llama-2'
 
-class RoBERTaChatbot:
-    def __init__(self):
-        self.tokenizer = RobertaTokenizer.from_pretrained('roberta-large')
-        self.model = RobertaForQuestionAnswering.from_pretrained('roberta-large')
-        self.fixed_context = "Ali is an Arab. He comes from Saudi Arabia. Ali is 22 years old, even though he feels 18."
+class DialoGPTChatbot:
+    def __init__(self, model_name="microsoft/DialoGPT-medium"):
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
+        self.model = AutoModelForCausalLM.from_pretrained(model_name)
+        self.chat_history_ids = None
+        self.max_history_saved = 5  # keep track of only 5 messages then reset
+        self.current_history_saved = 0
 
-    def chat(self, question):
-        # Combine the fixed context with the question
-        input_text = self.fixed_context + " " + question
-        inputs = self.tokenizer(input_text, return_tensors='pt', truncation=True)
+    def chat(self, user_input):
+        # Encode the new user input, add the eos_token and return a tensor in Pytorch
+        new_user_input_ids = self.tokenizer.encode(user_input + self.tokenizer.eos_token, return_tensors='pt')
 
-        # Get model outputs
-        with torch.no_grad():
-            outputs = self.model(**inputs)
+        # Append the new user input tokens to the chat history
+        bot_input_ids = torch.cat([self.chat_history_ids, new_user_input_ids], dim=-1) if self.chat_history_ids is not None else new_user_input_ids
+        self.current_history_saved += 1
 
-        # Extract the answer
-        answer_start_scores, answer_end_scores = outputs.start_logits, outputs.end_logits
-        answer_start = torch.argmax(answer_start_scores)
-        answer_end = torch.argmax(answer_end_scores) + 1
-        answer = self.tokenizer.convert_tokens_to_string(self.tokenizer.convert_ids_to_tokens(inputs['input_ids'][0][answer_start:answer_end]))
+        # Generate a response from the model
+        self.chat_history_ids = self.model.generate(bot_input_ids, max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
 
-        return answer
+        # Return the model's response
+        response = self.tokenizer.decode(self.chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
+
+        # reset chat history if limit was exceeded
+        if self.current_history_saved >= self.max_history_saved:
+            self.chat_history_ids = None
+            self.current_history_saved = 0
+            print("ALERT: I'll have to reset my chat history after this response!!")
+
+        return response
 
     def name(self):
-        return 'RoBERTa'
+        return 'DialoGPT'
 
 
-choice = input("Choose a model (1 for T5), (2 for Llama-2), (3 for RoBERTa): ")
+choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2): ")
 print()
 input_text = ''
 bot = None
@@ -83,17 +90,21 @@ if choice == '1':
     bot = T5Chatbot()
 
 elif choice == '2':
-    bot = LlamaChatbot()
+    bot = DialoGPTChatbot()
 
 elif choice == '3':
-    bot = RoBERTaChatbot()
+    bot = LlamaChatbot()
     
 else:
     print("Incorrect input! Try again")
 
 while input_text != 'quit' and bot != None:
     input_text = input("User: ")
-    response = bot.chat(input_text)
+    if input_text == 'quit':
+        response = 'Goodbye! Talk to you soon'
+    else:
+        response = bot.chat(input_text)
+
     print(f'{bot.name()} Career Bud: {response} \n\n')
 
 
