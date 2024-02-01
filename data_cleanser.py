@@ -53,4 +53,4 @@ def process_top_questions(input_file, output_file, topic):
         file.seek(0)
         json.dump(data, file, indent=4)
 
-process_top_questions('Datasets/Interviews Datasets/500 top ReactJS interview questions/Questions.md', 'interviews_dataset.json', "React")
+process_top_questions('Datasets/Interviews Datasets/1000 top JS interview questions/Questions.md', 'interviews_dataset.json', "JavaScript")

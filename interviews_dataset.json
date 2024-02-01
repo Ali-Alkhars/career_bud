@@ -3386,5 +3386,1809 @@
     {
         "topic": "What are common interview questions for React?",
         "question": "Why does strict mode render twice in React?"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What are the possible ways to create objects in JavaScript"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is a prototype chain"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is the difference between Call, Apply and Bind"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is JSON and its common operations"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is the purpose of the array slice method"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of the array splice method"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is the difference between slice and splice"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you compare an Object with a Map"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the difference between == and === operators"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are lambda or arrow functions"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is a first class function"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is a first order function"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is a higher order function"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is a unary function"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the currying function"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is a pure function"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the purpose of the let keyword"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is the difference between let and var"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is the reason to choose the name let as a keyword"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you redeclare variables in switch block without an error"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the Temporal Dead Zone"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is IIFE(Immediately Invoked Function Expression)"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How do you decode or encode a URL in JavaScript?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is memoization"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is Hoisting"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What are classes in ES6"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are closures"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are modules"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "Why do you need modules"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is scope in javascript"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is a service worker"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you manipulate DOM using a service worker"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you reuse information across service worker restarts"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is IndexedDB"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is web storage"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is a post message"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is a cookie"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Why do you need a Cookie"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What are the options in a cookie"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How do you delete a cookie"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the differences between cookie, local storage and session storage"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the main difference between localStorage and sessionStorage"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you access web storage"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the methods available on session storage"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is a storage event and its event handler"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "Why do you need web storage"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you check web storage browser support"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you check web workers browser support"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "Give an example of a web worker"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are the restrictions of web workers on DOM"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is a promise"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Why do you need a promise"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What are the three states of promise"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is a callback function"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "Why do we need callbacks"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is a callback hell"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What are server-sent events"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you receive server-sent event notifications"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you check browser support for server-sent events"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the events available for server sent events"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the main rules of promise"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is callback in callback"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is promise chaining"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is promise.all"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is the purpose of the race method in promise"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a strict mode in javascript"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "Why do you need strict mode"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How do you declare strict mode"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is the purpose of double exclamation"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the purpose of the delete operator"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is typeof operator"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is undefined property"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is null value"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between null and undefined"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is eval"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is the difference between window and document"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How do you access history in javascript"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you detect caps lock key turned on or not"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is isNaN"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the differences between undeclared and undefined variables"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are global variables"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the problems with global variables"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is NaN property"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is the purpose of isFinite function"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is an event flow"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is event bubbling"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is event capturing"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you submit a form using JavaScript"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you find operating system details"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is the difference between document load and DOMContentLoaded events"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the difference between native, host and user objects"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the tools or techniques used for debugging JavaScript code"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the pros and cons of promises over callbacks"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is the difference between an attribute and a property"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is same-origin policy"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is the purpose of void 0"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Is JavaScript a compiled or interpreted language"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "Is JavaScript a case-sensitive language"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "Is there any relation between Java and JavaScript"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What are events"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "Who created javascript"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is the use of preventDefault method"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the use of stopPropagation method"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the steps involved in return false usage"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is BOM"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is the use of setTimeout"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the use of setInterval"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "Why is JavaScript treated as Single threaded"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is an event delegation"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is ECMAScript"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is JSON"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the syntax rules of JSON"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose JSON stringify"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you parse JSON string"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Why do you need JSON"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What are PWAs"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is the purpose of clearTimeout method"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is the purpose of clearInterval method"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How do you redirect new page in javascript"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you check whether a string contains a substring"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How do you validate an email in javascript"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you get the current url with javascript"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the various url properties of location object"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do get query string values in javascript"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you check if a key exists in an object"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you loop through or enumerate javascript object"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you test for an empty object"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is an arguments object"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you convert the first letter of a string to uppercase"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the pros and cons of for loop"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How do you display the current date in javascript"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you compare two date objects"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you check if a string starts with another string"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you trim a string in javascript"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you add a key value pair in javascript"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "Is the '!--' notation represents a special operator"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you assign default values to variables"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you define multiline strings"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is an app shell model"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Can we define properties for functions"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the way to find the number of parameters expected by a function"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is a polyfill"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are break and continue statements"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are js labels"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the benefits of keeping declarations at the top"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the benefits of initializing variables"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the recommendations to create new object"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you define JSON arrays"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you generate random integers"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you write a random integers function to print integers with in a range"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is tree shaking"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the need of tree shaking"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Is it recommended to use eval"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a Regular Expression"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are the string methods available in Regular expression"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are modifiers in regular expression"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What are regular expression patterns"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is a RegExp object"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you search a string for a pattern"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the purpose of exec method"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How do you change the style of a HTML element"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What would be the result of 1+2+'3'"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is a debugger statement"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is the purpose of breakpoints in debugging"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "Can I use reserved words as identifiers"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How do you detect a mobile browser"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you detect a mobile browser without regexp"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you get the image width and height using JS"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you make synchronous HTTP request"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you make asynchronous HTTP request"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you convert date to another timezone in javascript"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the properties used to get size of window"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a conditional operator in javascript"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "Can you apply chaining on conditional operator"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the ways to execute javascript after page load"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the difference between proto and prototype"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "Give an example where do you really need semicolon"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is a freeze method"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is the purpose of freeze method"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "Why do I need to use freeze method"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you detect a browser language preference"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How to convert string to title case with javascript"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you detect javascript disabled in the page"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are various operators supported by javascript"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is a rest parameter"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What happens if you do not use rest parameter as a last argument"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the bitwise operators available in javascript"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is a spread operator"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How do you determine whether object is frozen or not"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you determine two values same or not using object"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of using object is method"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you copy properties from one object to other"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the applications of assign method"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is a proxy object"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is the purpose of seal method"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the applications of seal method"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What are the differences between freeze and seal methods"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you determine if an object is sealed or not"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you get enumerable key and value pairs"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the main difference between Object.values and Object.entries method"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How can you get the list of keys of any object"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How do you create an object with prototype"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is a WeakSet"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are the differences between a WeakSet and a Set"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "List down the collection of methods available on WeakSet"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is a WeakMap"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the differences between a WeakMap and a Map"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "List down the collection of methods available on WeakMap"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is the purpose of uneval"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you encode an URL"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How do you decode an URL"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you print the contents of web page"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the difference between uneval and eval"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is an anonymous function"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the precedence order between local and global variables"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are javascript accessors"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How do you define property on Object constructor"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the difference between get and defineProperty"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are the advantages of Getters and Setters"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can I add getters and setters using defineProperty method"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the purpose of switch-case"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the conventions to be followed for the usage of switch case"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are primitive data types"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the different ways to access object properties"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the function parameter rules"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is an error object"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "When you get a syntax error"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the different error names from error object"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What are the various statements in error handling"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the two types of loops in javascript"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is nodejs"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is an Intl object"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you perform language specific date and time formatting"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is an Iterator"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How does the synchronous iteration work"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is an event loop"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is call stack"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is an event queue"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is a decorator"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the properties of Intl object"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is an Unary operator"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How do you sort elements in an array"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the purpose of compareFunction while sorting arrays"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you reversing an array"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you find min and max value in an array"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How do you find min and max values without Math functions"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is an empty statement and purpose of it"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How do you get metadata of a module"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is a comma operator"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is the advantage of a comma operator"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is typescript"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are the differences between javascript and typescript"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the advantages of typescript over javascript"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is an object initializer"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a constructor method"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What happens if you write constructor more than once in a class"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you call the constructor of a parent class"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you get the prototype of an object"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What happens If I pass string type for getPrototype method"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you set prototype of one object to another"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you check whether an object can be extendable or not"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you prevent an object to extend"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What are the different ways to make an object non-extensible"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How do you define multiple properties on an object"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is MEAN in javascript"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What Is Obfuscation in javascript"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "Why do you need Obfuscation"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is Minification"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What are the advantages of minification"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the differences between Obfuscation and Encryption"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the common tools used for minification"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How do you perform form validation using javascript"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you perform form validation without javascript"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What are the DOM methods available for constraint validation"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the available constraint validation DOM properties"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the list of validity properties"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Give an example usage of rangeOverflow property"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "Is enums feature available in javascript"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is an enum"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you list all properties of an object"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you get property descriptors of an object"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What are the attributes provided by a property descriptor"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you extend classes"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do I modify the url without reloading the page"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you check whether an array includes a particular value or not"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you compare scalar arrays"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How to get the value from get parameters"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you print numbers with commas as thousand separators"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the difference between java and javascript"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Does javascript supports namespace"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you declare namespace"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you invoke javascript code in an iframe from parent page"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do get the timezone offset from date"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you load CSS and JS files dynamically"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the different methods to find HTML elements in DOM"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is jQuery"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is V8 JavaScript engine"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Why do we call javascript as dynamic language"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is a void operator"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How to set the cursor to wait"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you create an infinite loop"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "Why do you need to avoid with statement"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is the output of below for loops"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "List down some of the features of ES6"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is ES6"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Can I redeclare let and const variables"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Is const variable makes the value immutable"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are default parameters"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are template literals"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you write multi-line strings in template literals"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What are nesting templates"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are tagged templates"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are raw strings"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is destructuring assignment"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What are default values in destructuring assignment"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you swap variables in destructuring assignment"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are enhanced object literals"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are dynamic imports"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What are the use cases for dynamic imports"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are typed arrays"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the advantages of module loaders"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is collation"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is for...of statement"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the output of below spread operator array"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "Is PostMessage secure"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the problems with postmessage target origin as wildcard"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you avoid receiving postMessages from attackers"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can I avoid using postMessages completely"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "Is postMessages synchronous"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What paradigm is Javascript"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is the difference between internal and external javascript"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "Is JavaScript faster than server side script"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you get the status of a checkbox"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the purpose of double tilde operator"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you convert character to ASCII code"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is ArrayBuffer"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the output of below string expression"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the purpose of Error object"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of EvalError object"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the list of cases error thrown from non-strict mode to strict mode"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "Do all objects have prototypes"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the difference between a parameter and an argument"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is the purpose of some method in arrays"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you combine two or more arrays"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is the difference between Shallow and Deep copy"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you create specific number of copies of a string"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you return all matching strings against a regular expression"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you trim a string at the beginning or ending"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is the output of below console statement with unary operator"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Does javascript uses mixins"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a thunk function"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are asynchronous thunks"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is the output of below function calls"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How to remove all line breaks from a string"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the difference between reflow and repaint"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What happens with negating an array"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What happens if we add two arrays"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is the output of prepend additive operator on falsy values"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you create self string using special characters"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you remove falsy values from an array"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you get unique values of an array"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is destructuring aliases"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you map the array values without using map method"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How do you empty an array"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do you round numbers to certain decimals"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is the easiest way to convert an array to an object"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you create an array with some data"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What are the placeholders from console object"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "Is it possible to add CSS to console messages"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of dir method of console object"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "Is it possible to debug HTML elements in console"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you display data in a tabular format using console object"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you verify that an argument is a Number or not"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you create copy to clipboard button"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the shortcut to get timestamp"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How do you flattening multi dimensional arrays"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is the easiest multi condition checking"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you capture browser back button"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you disable right click in the web page"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are wrapper objects"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is AJAX"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What are the different ways to deal with Asynchronous Code"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How to cancel a fetch request"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is web speech API"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is minimum timeout throttling"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you implement zero timeout in modern browsers"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are tasks in event loop"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is microtask"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are different event loops"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of queueMicrotask"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How do you use javascript libraries in typescript file"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the differences between promises and observables"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is heap"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is an event table"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is a microTask queue"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the difference between shim and polyfill"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "How do you detect primitive or non primitive value type"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is babel"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "Is Node.js completely single threaded"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the common use cases of observables"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is RxJS"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the difference between Function constructor and function declaration"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is a Short circuit condition"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is the easiest way to resize an array"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is an observable"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is the difference between function and class declarations"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is an async function"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How do you prevent promises swallowing errors"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is deno"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you make an object iterable in javascript"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is a Proper Tail Call"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you check an object is a promise or not"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How to detect if a function is called as constructor"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What are the differences between arguments object and rest parameter"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the differences between spread operator and rest parameter"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the different kinds of generators"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are the built-in iterables"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What are the differences between for...of and for...in statements"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you define instance and non-instance properties"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is the difference between isNaN and Number.isNaN?"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "How to invoke an IIFE without any extra brackets?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Is that possible to use expressions in switch cases?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the easiest way to ignore promise errors?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How do style the console output using CSS?"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is nullish coalescing operator (??)?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How do you group and nest console output?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between dense and sparse arrays?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the different ways to create sparse arrays?"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is the difference between setTimeout, setImmediate and process.nextTick?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you reverse an array without modifying original array?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you create custom HTML element?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is global execution context?"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is function execution context?"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is debouncing?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is throttling?"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is optional chaining?"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is an environment record?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How to verify if a variable is an array?"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is pass by value and pass by reference?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the differences between primitives and non-primitives?"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What are hidden classes?"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is inline caching?"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How do you create your own bind method using either call or apply method?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the differences between pure and impure functions?"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is referential transparency?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What are the possible side-effects in javascript?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are compose and pipe functions?"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is module pattern?"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is Function Composition?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to use await outside of async function prior to ES2022?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the purpose of the this keyword in JavaScript?"
     }
 ]
