@@ -1,11 +1,1126 @@
 [
     {
-      "topic": "General interview question",
-      "question": "Why should we hire you?"
+        "topic": "General interview question",
+        "question": "Why should we hire you?"
     },
     {
-      "topic": "General interview question",
-      "question": "Tell me about yourself."
+        "topic": "General interview question",
+        "question": "Tell me about yourself."
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is Angular Framework?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between AngularJS and Angular?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is TypeScript?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Write a pictorial diagram of Angular architecture?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the key components of Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are directives?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What are components?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What are the differences between Component and Directive?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is a template?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is a module?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What are lifecycle hooks available?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is a data binding?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is metadata?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What is Angular CLI?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is the difference between constructor and ngOnInit?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is a service"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is dependency injection in Angular?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "How is Dependency Hierarchy formed?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the purpose of async pipe?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is the option to choose between inline and external template file?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of *ngFor directive?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the purpose of ngIf directive?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What happens if you use script tag inside template?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is interpolation?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are template expressions?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are template statements?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you categorize data binding types?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are pipes?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is a parameterized pipe?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you chain pipes?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is a custom pipe?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "Give an example of custom pipe?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What is the difference between pure and impure pipe?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is a bootstrapping module?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are observables?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is HttpClient and its benefits?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "Explain on how to use HttpClient with an example?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How can you read full response?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "How do you perform Error handling?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is RxJS?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is subscribing?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is an observable?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is an observer?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the difference between promise and observable?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is multicasting?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you perform error handling in observables?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is the shorthand notation for subscribe method?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What are the utility functions provided by RxJS?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What are observable creation functions?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What will happen if you do not supply handler for the observer?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What are Angular elements?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is the browser support of Angular Elements?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are custom elements?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "Do I need to bootstrap custom elements?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "Explain how custom elements works internally?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "How to transfer components to custom elements?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What are the mapping rules between Angular component and custom element?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you define typings for custom elements?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are dynamic components?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the various kinds of directives?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "How do you create directives using CLI?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "Give an example for attribute directives?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What is Angular Router?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is the purpose of base href tag?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What are the router imports?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is router outlet?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What are router links?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are active router links?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is router state?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What are router events?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is activated route?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you define routes?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the purpose of Wildcard route?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "Do I need a Routing Module always?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is Angular Universal?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are different types of compilation in Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is JIT?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is AOT?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "Why do we need compilation process?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What are the advantages with AOT?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What are the ways to control AOT compilation?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What are the restrictions of metadata?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What are the three phases of AOT?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can I use arrow functions in AOT?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is the purpose of metadata json files?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Can I use any javascript feature for expression syntax in AOT?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is folding?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What are macros?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "Give an example of few metadata errors?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is metadata rewriting?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you provide configuration inheritance?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you specify angular template compiler options?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you enable binding expression validation?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is the purpose of any type cast function?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What is Non null type assertion operator?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What is type narrowing?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you describe various dependencies in angular application?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is zone?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the purpose of common module?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is codelyzer?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is angular animation?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What are the steps to use animation module?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is State function?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is Style function?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What is the purpose of animate function?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is transition function?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "How to inject the dynamic script in angular?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is a service worker and its role in Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the design goals of service workers?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the differences between AngularJS and Angular with respect to dependency injection?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is Angular Ivy?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the features included in ivy preview?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Can I use AOT compilation with Ivy?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is Angular Language Service?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "How do you install angular language service in the project?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "Is there any editor support for Angular Language Service?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Explain the features provided by Angular Language Service?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you add web workers in your application?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What are the limitations with web workers?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is Angular CLI Builder?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is a builder?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "How do you invoke a builder?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "How do you create app shell in Angular?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the case types in Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the class decorators in Angular?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What are class field decorators?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is declarable in Angular?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What are the restrictions on declarable classes?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is a DI token?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is Angular DSL?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is an rxjs Subject?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is Bazel tool?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What are the advantages of Bazel tool?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "How do you use Bazel with Angular CLI?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "How do you run Bazel directly?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is platform in Angular?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What happens if I import the same module twice?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "How do you select an element with in a component template?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "How do you detect route change in Angular?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you pass headers for HTTP client?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What is the purpose of differential loading in CLI?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Is Angular supports dynamic imports?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is lazy loading?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What are workspace APIs?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "How do you upgrade angular version?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is Angular Material?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "How do you upgrade location service of angularjs?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is NgUpgrade?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "How do you test Angular application using CLI?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "How to use polyfills in Angular application?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What are the ways to trigger change detection in Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the differences of various versions of Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the security principles in angular?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is the reason to deprecate Web Tracing Framework?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the reason to deprecate web worker packages?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you find angular CLI version?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is the browser support for Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is schematic"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What is rule in Schematics?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What is Schematics CLI?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the best practices for security in angular?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is Angular security model for preventing XSS attacks?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What is the role of template compiler for prevention of XSS attacks?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the various security contexts in Angular?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What is Sanitization? Is angular supports it?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of innerHTML?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is the difference between interpolated content and innerHTML?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you prevent automatic sanitization?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "Is safe to use direct DOM API methods in terms of security?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is DOM sanitizer?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "How do you support server side XSS protection in Angular application?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Is angular prevents http level vulnerabilities?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "What are Http Interceptors?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What are the applications of HTTP interceptors?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "Is multiple interceptors supported in Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How can I use interceptor for an entire application?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "How does Angular simplifies Internationalization?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "How do you manually register locale data?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the four phases of template translation?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is the purpose of i18n attribute?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the purpose of custom id?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What happens if the custom id is not unique?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Can I translate text without creating an element?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "How can I translate attribute?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "List down the pluralization categories?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is select ICU expression?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you report missing translations?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you provide build configuration for multiple locales?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is an angular library?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is AOT compiler?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "How do you select an element in component template?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is TestBed?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is protractor?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is collection?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you create schematics for libraries?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "How do you use jquery in Angular?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the reason for No provider for HTTP exception?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is router state?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How can I use SASS in angular project?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is the purpose of hidden property?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is the difference between ngIf and hidden property?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What is slice pipe?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is index property in ngFor directive?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is the purpose of ngFor trackBy?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the purpose of ngSwitch directive?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "Is it possible to do aliasing for inputs and outputs?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is safe navigation operator?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "Is any special configuration required for Angular9?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are type safe TestBed API changes in Angular9?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Is mandatory to pass static flag for ViewChild?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the list of template expression operators?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is the precedence between pipe and ternary operators?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is an entry component?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a bootstrapped component?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "How do you manually bootstrap an application?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Is it necessary for bootstrapped component to be entry component?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is a routed entry component?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Why is not necessary to use entryComponents array every time?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "Do I still need to use entryComponents array in Angular9?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Is it all components generated in production build?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What is Angular compiler?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is the role of ngModule metadata in compilation process?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "How does angular finds components, directives and pipes?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Give few examples for NgModules?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What are feature modules?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the imported modules in CLI generated feature modules?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What are the differences between ngmodule and javascript module?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What are the possible errors with declarations?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What are the steps to use declaration elements?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What happens if browserModule used in feature module?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the types of feature modules?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is a provider?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the recommendation for provider scope?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you restrict provider scope to a module?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you provide a singleton service?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What are the different ways to remove duplicate service registration?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How does forRoot method helpful to avoid duplicate router instances?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a shared module?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "Can I share services using modules?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you get current direction for locales??"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is ngcc?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "What classes should not be added to declarations?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is ngzone?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is NoopZone?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you create displayBlock components?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the possible data change scenarios for change detection?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a zone context?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are the lifecycle hooks of a zone?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Which are the methods of NgZone used to control change detection?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you change the settings of zonejs?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "How do you trigger an animation?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "How do you configure injectors with providers at different levels?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "Is it mandatory to use injectable on every service class?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "What is an optional dependency?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are the types of injector hierarchies?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are reactive forms?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are dynamic forms?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are template driven forms?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the differences between reactive forms and template driven forms?"
+    },
+    {
+        "topic": "Prepare me for an interview on Angular",
+        "question": "What are the different ways to group form controls?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "How do you update specific properties of a form model?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the purpose of FormBuilder?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you verify the model changes in forms?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the state CSS classes provided by ngModel?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you reset the form?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the types of validator functions?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "Can you give an example of built-in validators?"
+    },
+    {
+        "topic": "I want interview questions about Angular",
+        "question": "How do you optimize the performance of async validators?"
+    },
+    {
+        "topic": "I need Angular interview questions",
+        "question": "How to set ngFor and ngIf on the same element?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is host property in css?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you get the current route?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is Component Test Harnesses?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is the benefit of Automatic Inlining of Fonts?"
+    },
+    {
+        "topic": "Can you give me interview questions about Angular?",
+        "question": "What is content projection?"
+    },
+    {
+        "topic": "What are common interview questions for Angular?",
+        "question": "What is ng-content and its purpose?"
+    },
+    {
+        "topic": "Provide me with interview questions about Angular",
+        "question": "What is standalone component?"
+    },
+    {
+        "topic": "Could you question me about Angular?",
+        "question": "How to create a standalone component uing CLI command?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How to create a standalone component manually?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is hydration ?"
     }
-
 ]
