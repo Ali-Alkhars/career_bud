@@ -43,10 +43,10 @@ def process_questions(input_file, output_file, regex, topic):
     for line in lines:
         match = pattern.match(line)
         if match:
-            question_text = match.group(1)
+            question_text = match.group(0).strip()
             questions.append({
                 "topic": question_maker(topic),
-                "question": question_text.strip()
+                "question": question_text
             })
 
     # Append to the existing JSON file
@@ -58,3 +58,4 @@ def process_questions(input_file, output_file, regex, topic):
 
 # process_questions('Datasets/Interviews Datasets/1000 top JS interview questions/Questions.md', 'interviews_dataset.json', r'\[(.*?)\]', "JavaScript")
 # process_questions('Datasets/Interviews Datasets/222 Java interview questions/Questions.md', 'interviews_dataset.json', r'- \d+ \. (.*)', "Java")
+# process_questions('Datasets/Interviews Datasets/Developer interview questions/Questions.md', 'interviews_dataset.json', r'^(?!#|\[).+$', "Back-end")
