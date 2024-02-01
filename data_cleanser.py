@@ -53,4 +53,4 @@ def process_top_questions(input_file, output_file, topic):
         file.seek(0)
         json.dump(data, file, indent=4)
 
-# process_top_questions('Datasets/Interviews Datasets/300 top Vue interview questions/Questions.md', 'interviews_dataset.json', "Vue")
+process_top_questions('Datasets/Interviews Datasets/500 top ReactJS interview questions/Questions.md', 'interviews_dataset.json', "React")

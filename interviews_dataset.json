@@ -2046,5 +2046,1345 @@
     {
         "topic": "Provide me with interview questions about Vue",
         "question": "What is the best way to re-render a component?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is React?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the major features of React?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is JSX?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What is the difference between Element and Component?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "How to create components in React?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "When to use a Class Component over a Function Component?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What are Pure Components?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is state in React?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are props in React?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What is the difference between state and props?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Why should we not update the state directly?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the purpose of callback function as an argument of setState()?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is the difference between HTML and React event handling?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to bind methods or event handlers in JSX callbacks?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How to pass a parameter to an event handler or callback?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are synthetic events in React?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are inline conditional expressions?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is \"key\" prop and what is the benefit of using it in arrays of elements?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What is the use of refs?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "How to create refs?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are forward refs?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Which is preferred option with in callback refs and findDOMNode()?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "Why are String Refs legacy?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is Virtual DOM?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How Virtual DOM works?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is the difference between Shadow DOM and Virtual DOM?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is React Fiber?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the main goal of React Fiber?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What are controlled components?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are uncontrolled components?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is the difference between createElement and cloneElement?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is Lifting State Up in React?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are the different phases of component lifecycle?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the lifecycle methods of React?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are Higher-Order components?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to create props proxy for HOC component?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What is context?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is children prop?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "How to write comments in React?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is the purpose of using super constructor with props argument?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is reconciliation?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "How to set state with a dynamic key name?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What would be the common mistake of function being called every time the component renders?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Is lazy function supports named exports?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "Why React uses className over class attribute?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What are fragments?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "Why fragments are better than container divs?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are portals in React?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What are stateless components?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are stateful components?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to apply validation on props in React?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What are the advantages of React?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What are the limitations of React?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are error boundaries in React v16"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "How are error boundaries handled in React v15?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What are the recommended ways for static type checking?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What is the use of react-dom package?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is the purpose of render method of react-dom?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is ReactDOMServer?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How to use InnerHtml in React?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How to use styles in React?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How events are different in React?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What will happen if you use setState in constructor?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is the impact of indexes as keys?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "Is it good to use setState() in componentWillMount() method?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What will happen if you use props in initial state?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "How do you conditionally render components?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "Why we need to be careful when spreading props on DOM elements??"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How you use decorators in React?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "How do you memoize a component?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How you implement Server-Side Rendering or SSR?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "How to enable production mode in React?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is CRA and its benefits?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is the lifecycle methods order in mounting?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are the lifecycle methods going to be deprecated in React v16?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the purpose of getDerivedStateFromProps() lifecycle method?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is the purpose of getSnapshotBeforeUpdate() lifecycle method?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Do Hooks replace render props and higher order components?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is the recommended way for naming components?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the recommended ordering of methods in component class?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is a switching component?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Why we need to pass a function to setState()?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What are React Mixins?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "Why is isMounted() an anti-pattern and what is the proper solution?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the Pointer Events supported in React?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "Why should component names start with capital letter?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "Are custom DOM attributes supported in React v16?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What is the difference between constructor and getInitialState?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "Can you force a component to re-render without calling setState?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the difference between super() and super(props) in React using ES6 classes?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How to loop inside JSX?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "How do you access props in attribute quotes?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is React PropType array with shape?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How to conditionally apply class attributes?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is the difference between React and ReactDOM?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "Why ReactDOM is separated from React?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How to use React label element?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to combine multiple inline style objects?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How to re-render the view when the browser is resized?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What is the difference between setState and replaceState methods?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to listen to state changes?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the recommended approach of removing an array element in react state?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Is it possible to use React without rendering HTML?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How to pretty print JSON with React?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "Why you can't update props in React?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How to focus an input element on page load?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What are the possible ways of updating objects in state?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "How can we find the version of React at runtime in the browser?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What are the approaches to include polyfills in your create-react-app?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How to use https instead of http in create-react-app?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How to avoid using relative path imports in create-react-app?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to add Google Analytics for react-router?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How to update a component every second?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "How do you apply vendor prefixes to inline styles in React?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How to import and export components using react and ES6?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the exceptions on React component naming?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Why is a component constructor called only once?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "How to define constants in React?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "How to programmatically trigger click event in React?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "Is it possible to use async/await in plain React?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are the common folder structures for React?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What are the popular packages for animation?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the benefit of styles modules?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the popular React-specific linters?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to make AJAX call and In which component lifecycle methods should I make an AJAX call?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What are render props?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is React Router?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How React Router is different from history library?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What are the \\<Router> components of React Router v4?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is the purpose of push and replace methods of history?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you programmatically navigate using React router v4?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "How to get query parameters in React Router v4"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "Why you get \"Router may have only one child element\" warning?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How to pass params to history.push method in React Router v4?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "How to implement default or NotFound page?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "How to get history on React Router v4?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How to perform automatic redirect after login?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is React-Intl?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What are the main features of React Intl?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What are the two ways of formatting in React Intl?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How to use FormattedMessage as placeholder using React Intl?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "How to access current locale with React Intl"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to format date using React Intl?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is Shallow Renderer in React testing?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is TestRenderer package in React?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the purpose of ReactTestUtils package?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What is Jest?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the advantages of Jest over Jasmine?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "Give a simple example of Jest test case"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is Flux?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is Redux?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What are the core principles of Redux?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the downsides of Redux compared to Flux?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the difference between mapStateToProps() and mapDispatchToProps()?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "Can I dispatch an action in reducer?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How to access Redux store outside a component?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are the drawbacks of MVW pattern"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Are there any similarities between Redux and RxJS?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "How to dispatch an action on load?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How to use connect from React Redux?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to reset state in Redux?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Whats the purpose of at symbol in the redux connect decorator?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the difference between React context and React Redux?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Why are Redux state functions called reducers?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How to make AJAX request in Redux?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "Should I keep all component's state in Redux store?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the proper way to access Redux store?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is the difference between component and container in React Redux?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is the purpose of the constants in Redux? "
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the different ways to write mapDispatchToProps()?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the use of the ownProps parameter in mapStateToProps() and mapDispatchToProps()?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to structure Redux top level directories?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is redux-saga?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the mental model of redux-saga?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What are the differences between call and put in redux-saga"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is Redux Thunk?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the differences between redux-saga and redux-thunk"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What is Redux DevTools?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What are the features of Redux DevTools?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are Redux selectors and Why to use them?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is Redux Form?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What are the main features of Redux Form?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to add multiple middlewares to Redux?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How to set initial state in Redux?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How Relay is different from Redux?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is an action in Redux?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is the difference between React Native and React?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How to test React Native apps?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How to do logging in React Native?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "How to debug your React Native?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What is reselect and how it works?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is Flow?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between Flow and PropTypes?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How to use font-awesome icons in React?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is React Dev Tools?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Why is DevTools not loading in Chrome for local files?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "How to use Polymer in React?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are the advantages of React over Vue.js?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "What is the difference between React and Angular?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "Why React tab is not showing up in DevTools?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are styled components?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "Give an example of Styled Components?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is Relay?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How to use TypeScript in create-react-app application?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the main features of reselect library?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Give an example of reselect usage?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Does the statics object work with ES6 classes in React?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "Can Redux only be used with React?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Do you need to have a particular build tool to use Redux?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How Redux Form initialValues get updated from state?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "How React PropTypes allow different type for one prop?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can I import an SVG file as react component?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Why are inline ref callbacks or functions not recommended?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is render hijacking in React?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What are HOC factory implementations?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "How to pass numbers to React component?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "Do I need to keep all my state into Redux? Should I ever use react internal state?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is the purpose of registerServiceWorker in React?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is React memo function?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is React lazy function?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How to prevent unnecessary updates using setState?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "How do you render Array, Strings and Numbers in React 16 Version?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to use class field declarations syntax in React classes?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What are hooks?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What rules need to be followed for hooks?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "How to ensure hooks followed the rules in your project?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What are the differences between Flux and Redux?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What are the benefits of React Router V4?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Can you describe about componentDidCatch lifecycle method signature?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "In which scenarios error boundaries do not catch errors?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Why do you not need error boundaries for event handlers?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the difference between try catch block and error boundaries?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is the behavior of uncaught errors in react 16?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the proper placement for error boundaries?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the benefit of component stack trace from error boundary?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What is the required method to be defined for a class component?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the possible return types of render method?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the main purpose of constructor?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Is it mandatory to define constructor for React component?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are default props?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "Why should not call setState in componentWillUnmount?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the purpose of getDerivedStateFromError?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is the methods order when component re-rendered?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the methods invoked during error handling?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the purpose of displayName class property?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the browser support for react applications?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of unmountComponentAtNode method?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is code-splitting?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What is the benefit of strict mode?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What are Keyed Fragments?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Does React support all HTML attributes?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What are the limitations with HOCs?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to debug forwardRefs in DevTools?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "When component props defaults to true?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is NextJS and major features of it?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How do you pass an event handler to a component?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Is it good to use arrow functions in render methods?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to prevent a function from being called multiple times?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How JSX prevents Injection Attacks?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "How do you update rendered elements?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "How do you say that props are read only?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How do you say that state updates are merged?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "How do you pass arguments to an event handler?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to prevent component from rendering?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What are the conditions to safely use the index as a key?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "Is it keys should be globally unique?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the popular choice for form handling?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What are the advantages of formik over redux form library?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "Why do you not required to use inheritance?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "Can I use web components in react application?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is dynamic import?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What are loadable components?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is suspense component?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What is route based code splitting?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Give an example on How to use context?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the purpose of default value in context?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "How do you use contextType?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is a consumer?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "How do you solve performance corner cases while using context?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is the purpose of forward ref in HOCs?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "Is it ref argument available for all functions or class components?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "Why do you need additional care for component libraries while using forward refs?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How to create react class components without ES6?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "Is it possible to use react without JSX?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is diffing algorithm?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What are the rules covered by diffing algorithm?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "When do you need to use refs?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Is it prop must be named as render for render props?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are the problems of using render props with pure components?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "How do you create HOC using render props?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is windowing technique?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "How do you print falsy values in JSX?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What is the typical use case of portals?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you set default value for uncontrolled component?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What is your favorite React stack?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between Real DOM and Virtual DOM?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to add Bootstrap to a react application?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can you list down top websites or applications using react as front end framework?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "Is it recommended to use CSS In JS technique in React?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "Do I need to rewrite all my class components with hooks?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to fetch data with React Hooks?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Is Hooks cover all use cases for classes?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is the stable release for hooks support?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Why do we use array destructuring (square brackets notation) in useState?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the sources used for introducing hooks?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "How do you access imperative API of web components?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What is formik?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are typical middleware choices for handling asynchronous calls in Redux?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "Do browsers understand JSX code?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Describe about data flow in react?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is react scripts?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What are the features of create react app?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is the purpose of renderToNodeStream method?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is MobX?"
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What are the differences between Redux and MobX?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "Should I learn ES6 before learning ReactJS?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is Concurrent Rendering?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What is the difference between async mode and concurrent mode?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can I use javascript urls in react16.9?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What is the purpose of eslint plugin for hooks?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "What is the difference between Imperative and Declarative in React?"
+    },
+    {
+        "topic": "Prepare me for an interview on React",
+        "question": "What are the benefits of using typescript with reactjs?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "How do you make sure that user remains authenticated on page refresh while using Context API State Management?"
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are the benefits of new JSX transform?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How is the new JSX transform different from old transform?"
+    },
+    {
+        "topic": "Provide me with interview questions about React",
+        "question": "How do you get redux scaffolding using create-react-app?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are React Server components?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is prop drilling?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is state mutation and how to prevent it?"
+    },
+    {
+        "topic": "I want interview questions about React",
+        "question": "What is the difference between useState and useRef hook?"
+    },
+    {
+        "topic": "I need React interview questions",
+        "question": "What is a wrapper component "
+    },
+    {
+        "topic": "Could you question me about React?",
+        "question": "What are the differences between useEffect and useLayoutEffect hooks"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the differences between Functional and Class Components "
+    },
+    {
+        "topic": "Can you give me interview questions about React?",
+        "question": "What is strict mode in React?"
+    },
+    {
+        "topic": "What are common interview questions for React?",
+        "question": "Why does strict mode render twice in React?"
     }
 ]
