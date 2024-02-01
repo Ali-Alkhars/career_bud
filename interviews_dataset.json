@@ -5190,5 +5190,857 @@
     {
         "topic": "Prepare me for an interview for a software engineering role",
         "question": "What is the purpose of the this keyword in JavaScript?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "Why is Java so popular?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is platform independence?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What is bytecode?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "Compare JDK vs JVM vs JRE"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What are the important differences between C++ and Java?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What is the role for a classloader in Java?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "What are Wrapper classes?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Why do we need Wrapper classes in Java?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the different ways of creating Wrapper class instances?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are differences in the two ways of creating Wrapper classes?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What is auto boxing?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What are the advantages of auto boxing?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is casting?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "What is implicit casting?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is explicit casting?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Are all String\u2019s immutable?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Where are String values stored in memory?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Why should you be careful about String concatenation(+) operator in loops?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "How do you solve above problem?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are differences between String and StringBuffer?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What are differences between StringBuilder and StringBuffer?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Can you give examples of different utility methods in String class?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a class?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is an object?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What is state of an object?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is behavior of an object?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the super class of every class in Java?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "Explain about toString method ?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the use of equals method in Java?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "What are the important things to consider when implementing equals method?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What is the Hashcode method used for in Java?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "Explain inheritance with examples ."
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "What is method overloading?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is method overriding?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "Can super class reference variable can hold an object of sub class?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "Is multiple inheritance allowed in Java?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "What is an interface?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "How do you define an interface?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you implement an interface?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Can you explain a few tricky things about interfaces?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Can you extend an interface?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can a class extend multiple interfaces?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What is an abstract class?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "When do you use an abstract class?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "How do you define an abstract method?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "Compare abstract class vs interface?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is a constructor?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What is a default constructor?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you call a super class constructor from a constructor?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can a constructor be called directly from a method?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Is a super class constructor called even when there is no explicit call from a sub class constructor?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is polymorphism?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What is the use of instanceof operator in Java?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is coupling?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What is cohesion?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What is encapsulation?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is an inner class?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What is a static inner class?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Can you create an inner class inside a method?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is an anonymous class?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is default class modifier?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is private access modifier?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is default or package access modifier?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "What is protected access modifier?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is public access modifier?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What access types of variables can be accessed from a class in same package?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What access types of variables can be accessed from a class in different package?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What access types of variables can be accessed from a sub class in same package?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What access types of variables can be accessed from a sub class in different package?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the use of a final modifier on a class?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the use of a final modifier on a method?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What is a final variable?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is a final argument?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "What happens when a variable is marked as volatile?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is a static variable?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Why should you always use blocks around if statement?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Should default be the last case in a switch statement?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "Can a switch statement be used around a String"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is an enhanced for loop?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Why is exception handling important?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What design pattern is used to implement exception handling features in most languages?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the need for finally block?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "In what scenarios is code in finally not executed?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "Will finally be executed in the program below?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Is try without a catch is allowed?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Is try without catch and finally allowed?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "Can you explain the hierarchy of exception handling classes?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the difference between error and exception?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What is the difference between checked exceptions and unchecked exceptions?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "How do you throw an exception from a method?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What happens when you throw a checked exception from a method?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the options you have to eliminate compilation errors when handling checked exceptions?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "How do you create a custom exception?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you handle multiple exception types with same exception handling block?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Can you explain about try with resources?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How does try with resources work?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Can you explain a few exception handling best practices?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the default values in an array?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "How do you loop around an array using enhanced for loop?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "How do you print the content of an array?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you compare two arrays?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is an enum?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Can you use a switch statement around an enum?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What are variable arguments or varargs?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What are asserts used for?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "When should asserts be used?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "What is garbage collection?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can you explain garbage collection with an example?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "When is garbage collection run?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are best practices on garbage collection?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What are initialization blocks?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What is a static initializer?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is an instance initializer block?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is tokenizing?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you give an example of tokenizing?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is serialization?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you serialize an object using serializable interface?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "How do you de-serialize in Java?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What do you do if only parts of the object have to be serialized?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you serialize a hierarchy of objects?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "Are the constructors in an object invoked when it is de-serialized?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Are the values of static variables stored when an object is serialized?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Why do we need collections in Java?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What are the important interfaces in the collection hierarchy?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the important methods that are declared in the collection interface?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Can you explain briefly about the List interface?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Explain about ArrayList with an example?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Can an ArrayList have duplicate elements?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "How do you iterate around an ArrayList using iterator?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "How do you sort an ArrayList?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "How do you sort elements in an ArrayList using comparable interface?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "How do you sort elements in an ArrayList using comparator interface?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What is vector class? How is it different from an ArrayList?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What is linkedList? What interfaces does it implement? How is it different from an ArrayList?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "Can you briefly explain about the Set interface?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "What are the important interfaces related to the Set interface?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What is the difference between Set and sortedSet interfaces?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "Can you give examples of classes that implement the Set interface?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a HashSet?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is a linkedHashSet? How is different from a HashSet?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What is a TreeSet? How is different from a HashSet?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can you give examples of implementations of navigableSet?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Explain briefly about Queue interface?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the important interfaces related to the Queue interface?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Explain about the Deque interface?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Explain the BlockingQueue interface?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What is a priorityQueue?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Can you give example implementations of the BlockingQueue interface?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "Can you briefly explain about the Map interface?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is difference between Map and sortedMap?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is a HashMap?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "What are the different methods in a Hash Map?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "What is a TreeMap? How is different from a HashMap?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you give an example of implementation of navigableMap interface?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the static methods present in the collections class?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is the difference between synchronized and concurrent collections in Java?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "Explain about the new concurrent collections in Java?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Explain about copyonwrite concurrent collections approach?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is compareandswap approach?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is a lock? How is it different from using synchronized approach?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What is initial capacity of a Java collection?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is load factor?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "When does a Java collection throw UnsupportedOperationException?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What is difference between fail-safe and fail-fast iterators?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What are atomic operations in Java?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "What is BlockingQueue in Java?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What are Generics?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "Why do we need Generics? Can you give an example of how Generics make a program more flexible?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "How do you declare a generic class?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What are the restrictions in using generic type that is declared in a class declaration?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "How can we restrict Generics to a subclass of particular class?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "How can we restrict Generics to a super class of particular class?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Can you give an example of a generic method?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What is the need for threads in Java?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "How do you create a thread?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "How do you create a thread by extending thread class?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "How do you create a thread by implementing runnable interface?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "How do you run a thread in Java?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the different states of a thread?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is priority of a thread? How do you change the priority of a thread?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is executorservice?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "Can you give an example for executorservice?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "Explain different ways of creating executor services ."
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you check whether an executionservice task executed successfully?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What is callable? How do you execute a callable from executionservice?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is synchronization of threads?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Can you give an example of a synchronized block?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "Can a static method be synchronized?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the use of join method in threads?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "Describe a few other important methods in threads?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a deadlock?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What are the important methods in Java for inter-thread communication?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the use of wait method?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is the use of notify method?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What is the use of notifyall method?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you write a synchronized program with wait and notify methods?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is functional programming?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you give an example of functional programming?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What is a stream?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Explain about streams with an example?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What are terminal operations in streams?"
+    },
+    {
+        "topic": "Provide me with interview questions about Java",
+        "question": "What are method references?"
+    },
+    {
+        "topic": "I want interview questions about Java",
+        "question": "What are lambda expressions?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you give an example of lambda expression?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Can you explain the relationship between lambda expression and functional interfaces?"
+    },
+    {
+        "topic": "What are common interview questions for Java?",
+        "question": "What is a predicate?"
+    },
+    {
+        "topic": "Prepare me for an interview on Java",
+        "question": "What is the functional interface - function?"
+    },
+    {
+        "topic": "Can you give me interview questions about Java?",
+        "question": "What is a consumer?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "Can you give examples of functional interfaces with multiple arguments?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What are the new features in Java 5?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What are the new features in Java 6?"
+    },
+    {
+        "topic": "I need Java interview questions",
+        "question": "What are the new features in Java 7?"
+    },
+    {
+        "topic": "Could you question me about Java?",
+        "question": "What are the new features in Java 8?"
     }
 ]

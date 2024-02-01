@@ -27,10 +27,13 @@ def question_maker(topic="software engineering"):
     ]
     return random.choice(questions)
 
-# Extract the questions of the data file that are structured
-# similarly (the ones with the word "top") and add them
-# in the correct structure to the JSON dataset
-def process_top_questions(input_file, output_file, topic):
+# Extract the questions of a data file that are structured
+# in an undesirable way, use a given regular expression 
+# to get the correct structure to the JSON dataset
+def process_questions(input_file, output_file, regex, topic):
+    # Regular expression to match the new question pattern
+    pattern = re.compile(regex)
+
     # Read the input file
     with open(input_file, 'r') as file:
         lines = file.readlines()
@@ -38,12 +41,12 @@ def process_top_questions(input_file, output_file, topic):
     # Extract questions from each line
     questions = []
     for line in lines:
-        match = re.search(r'\[(.*?)\]', line)
+        match = pattern.match(line)
         if match:
             question_text = match.group(1)
             questions.append({
                 "topic": question_maker(topic),
-                "question": question_text
+                "question": question_text.strip()
             })
 
     # Append to the existing JSON file
@@ -53,4 +56,5 @@ def process_top_questions(input_file, output_file, topic):
         file.seek(0)
         json.dump(data, file, indent=4)
 
-process_top_questions('Datasets/Interviews Datasets/1000 top JS interview questions/Questions.md', 'interviews_dataset.json', "JavaScript")
+# process_questions('Datasets/Interviews Datasets/1000 top JS interview questions/Questions.md', 'interviews_dataset.json', r'\[(.*?)\]', "JavaScript")
+# process_questions('Datasets/Interviews Datasets/222 Java interview questions/Questions.md', 'interviews_dataset.json', r'- \d+ \. (.*)', "Java")
