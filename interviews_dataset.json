@@ -1122,5 +1122,929 @@
     {
         "topic": "I need software engineering interview questions",
         "question": "What is hydration ?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is VueJS"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the major features of VueJS"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What are the lifecycle methods of VueJS"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What are the conditional directives"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the difference between v-show and v-if directives"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What is the purpose of v-for directive?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What is a vue instance?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you achieve a conditional group of elements?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "How do you reuse elements with a key attribute?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "Why should you not use if and for directives together on the same element?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Why do you need to use a key attribute on for directive?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are the array detection mutation methods?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the array detection non mutation methods?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the caveats of array changes detection?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the caveats of object changes detection?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you use for directive with a range?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you use for directive on template?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you use event handlers?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the event modifiers provided by vue?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "What are key modifiers?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you define custom key modifier aliases?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What are the supported System Modifier Keys?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "What are the supported Mouse Button Modifiers?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "How do you implement two way binding?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What are the supported modifiers on model?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "What are components and give an example?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are props?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "When component needs a single root element?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you communicate from child to parent using events?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you implement model on custom input components?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What are slots?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is global registration in components?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "Why do you need local registration?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between local and global registration in module system?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What are possible prop types?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What is the data flow followed by props?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What are non prop attributes?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "Describe about validations available for props?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you customize model directive for a component?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What are the possible ways to provide transitions?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "What is vue router and their features?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What are the steps to use vue router and give an example?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What is dynamic route matching?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "How to make router param changes as reactive?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What is route matching priority?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are nested routes?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What are single file components?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Is Single File Components violating separation of concerns?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What are the problems solved by Single File Components?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What are filters?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "What are the different ways to create filters?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "How do you chain filters"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Is it possible to pass parameters for filters?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are plugins and their various services?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": " How to create a plugin?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "How to use a plugin?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "What are mixins?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are global mixins?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you use mixins in CLI?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What are the merging strategies in mixins?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are custom options merging strategies?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "What are custom directives?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "How do you register directives locally?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What are the hook functions provided by directives?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What are the directive Hook Arguments?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "How do you pass multiple values to a directive?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is function shorthand in directive hooks?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the benefit of render functions over templates?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What is a render function?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "Explain the structure of createElement with arguments"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "How can you write duplicate virtual nodes in a component?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "List down the template equivalents in render functions?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are functional components?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What are the similarities between VueJS and ReactJS?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the difference between VueJS and ReactJS?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the advantages of VueJS over ReactJS?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What are the advantages of ReactJS over VueJS?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the differences between VueJS and Angular?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What are dynamic components?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the purpose of keep alive tag?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "What are async components?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What is the structure of async component factory?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are inline templates?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What are X Templates?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What are recursive components?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "How do you resolve circular dependencies between components?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you make sure vue application is CSP complaint?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What is the difference between full and runtime only builds?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "List down different builds of vuejs?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you configure vuejs in webpack?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "What is the purpose of vuejs compiler?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What is Dev Tools and its purpose?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the browser support of VueJS?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you use various CDNs?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you force update?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the purpose of vuejs once directive?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you access the root instance?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "List out top 10 organizations using Vuejs?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What is the purpose of renderError?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you access parent instance?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What is vuex?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What are the major components of State Management Pattern?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you represent one way data flow in vuex?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is a vuejs loader?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you configure vue loader in webpack?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What are asset url transform rules?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "How do you work with preprocessors using vue loader?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "What is scoped CSS?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "Is it possible to mix both local and global styles?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you use deep selectors?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Is parent styles leaked into child components in scoped css?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "How do you style dynamic generated content using scoped css?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Is CSS modules supported in Vuejs?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "Can I use runtime builds for all templates?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "How to use CSS modules in vuejs?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Can I use CSS modules for preprocessors?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Is it possible to use custom inject name for CSS modules?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is hot reloading in vue loader?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What is the default behavior of hot reloading?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you disable hot reloading explicitly?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "How do you use hot reloading?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What are state preservation rules in hot reloading?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "How to create functional components using vue loader?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "How do you access global properties of functional components?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you perform testing in vuejs?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How do you apply linting for css?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you use eslint plugin?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What is the purpose of eslint loader?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What is CSS extraction?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What are custom blocks?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What are the features of stylelint?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "What are the principles for vuex application structure?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "Does Vuex support hot reloading??"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the purpose of hotUpdate API of vuex store?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you test mutations?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "How do you test your getters?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the procedure to run tests in node?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the procedure to run tests in browser?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What is the purpose of strict mode in vuex?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "Can I use strict mode in production environment?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is vuex plugin?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "How do you mutate state in plugins?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What is vuex store?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What are the differences of vuex store and plain global object?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What is the reason not to update the state directly?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is Single state tree?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you install vuex?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "Do I need promise for vuex?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "How do you display store state in vue components?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you inject store into child components?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is mapState helper?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "How do you combine local computed properties with mapState helper?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Do you need to replace entire local state with vuex?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What are vuex getters?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is a property style access?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What is a method style access?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What is mapGetter helper?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "What are mutations?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "How do you commit with payload?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "What is object style commit?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What are the caveats with vuex mutations?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "Why mutations should be synchronous?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you perform mutations in components?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "Is it mandatory to use constants for mutation types?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you perform asynchronous operations?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What are differences between mutations and actions?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "Give an example usage of actions?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you dispatch actions?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "Can you dispatch an action using payload or object?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "Can I use styled components in vuejs?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "How do you dispatch actions in components?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "How do you compose actions?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are modules in vuex?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is module local state?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What is namespacing in vuex"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the default namespace behavior in vuex?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "When do you reuse modules?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "What are the principles enforced by vuex?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "Can I perform mutations directly in strict mode?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How to use model directive with two way computed property?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "What is Vue CLI?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What are the features provided by Vue CLI?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What is instant prototyping?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you create project using Vue CLI?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you create project using GUI?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What are plugins in vue CLI?"
+    },
+    {
+        "topic": "Prepare me for an interview on Vue",
+        "question": "How do you install plugins in an existing Vue CLI project?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How to access local plugins in a project?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you create UI plugins kind of behavior?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What are presets?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What is the versioning behavior in preset plugins?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you allow plugin prompts?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are remote presets?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "Can I use local presets?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is the purpose of browserslist option?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How do you find VueJS version using API?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "How do you create reactive objects"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What is the purpose new slot directive?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the use of compile method?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "What does nextTick do in VueJS?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What is async error handling?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are Dynamic Directive Arguments?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the drawbacks of dynamic directive arguments?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What is the special handling for null values in dynamic directive arguments?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "Can I use dynamic directive null value for slots?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What is Vue I18n plugin?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "#What are the types of formatting?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "What is custom formatting?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "How do you handle Pluralization?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How to implement DateTime localization?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How do you implement Number localization?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you perform locale changing"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is Lazy loading translations?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the main difference between method and computed property?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What is vuetify?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "How do you watch for nested data changes?"
+    },
+    {
+        "topic": "Can you give me interview questions about Vue?",
+        "question": "How to trigger watchers on initialization?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the purpose of comments option?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "How to identify whether code is running on client or server?"
+    },
+    {
+        "topic": "I need Vue interview questions",
+        "question": "How do you watch route object changes?"
+    },
+    {
+        "topic": "I want interview questions about Vue",
+        "question": "How do you sync current route in vuex store?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are navigation guards in vue router?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "Can I use computed property in another computed property?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "How can I use imported constant in template section?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Is recommended to use async for computed properties?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What happens if you use duplicate field names?"
+    },
+    {
+        "topic": "What are common interview questions for Vue?",
+        "question": "Why the component data must be a function?"
+    },
+    {
+        "topic": "Could you question me about Vue?",
+        "question": "What is the reason for recommendation for multi-word component names?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How to use composition API in Vue2.0?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is composition API?"
+    },
+    {
+        "topic": "Provide me with interview questions about Vue",
+        "question": "What is the best way to re-render a component?"
     }
 ]
