@@ -7146,5 +7146,125 @@
     {
         "topic": "I need Front-end interview questions",
         "question": "Do you have any pet projects? What kind?"
+    },
+    {
+        "topic": "I need Front-end interview questions",
+        "question": "What did you learn yesterday/this week?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What excites or interests you about coding?"
+    },
+    {
+        "topic": "Can you give me interview questions about Front-end?",
+        "question": "What is a recent technical challenge you experienced and how did you solve it?"
+    },
+    {
+        "topic": "I want interview questions about Front-end",
+        "question": "When building a new web site or maintaining one, can you explain some techniques you have used to increase performance?"
+    },
+    {
+        "topic": "Provide me with interview questions about Front-end",
+        "question": "Can you describe some SEO best practices or techniques you have used lately?"
+    },
+    {
+        "topic": "Can you give me interview questions about Front-end?",
+        "question": "Can you explain any common techniques or recent issues solved in regards to front-end security?"
+    },
+    {
+        "topic": "Provide me with interview questions about Front-end",
+        "question": "What actions have you personally taken on recent projects to increase maintainability of your code?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Talk about your preferred development environment."
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Which version control systems are you familiar with?"
+    },
+    {
+        "topic": "Can you give me interview questions about Front-end?",
+        "question": "Can you describe your workflow when you create a web page?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "If you have 5 different stylesheets, how would you best integrate them into the site?"
+    },
+    {
+        "topic": "Provide me with interview questions about Front-end",
+        "question": "Can you describe the difference between progressive enhancement and graceful degradation?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How would you optimize a website's assets/resources?"
+    },
+    {
+        "topic": "I need Front-end interview questions",
+        "question": "How many resources will a browser download from a given domain at a time?  What are the exceptions?"
+    },
+    {
+        "topic": "Prepare me for an interview on Front-end",
+        "question": "Name 3 ways to decrease page load (perceived or actual load time)."
+    },
+    {
+        "topic": "I want interview questions about Front-end",
+        "question": "If you jumped on a project and they used tabs and you used spaces, what would you do?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Describe how you would create a simple slideshow page."
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "If you could master one technology this year, what would it be?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Explain the importance of standards and standards bodies."
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is Flash of Unstyled Content? How do you avoid FOUC?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Explain what ARIA and screenreaders are, and how to make a website accessible."
+    },
+    {
+        "topic": "Prepare me for an interview on Front-end",
+        "question": "Explain some of the pros and cons for CSS animations versus JavaScript animations."
+    },
+    {
+        "topic": "Could you question me about Front-end?",
+        "question": "What does CORS stand for and what issue does it address?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How did you handle a disagreement with your boss or your collaborator?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What resources do you use to learn about the latest in front end development and design?"
+    },
+    {
+        "topic": "Can you give me interview questions about Front-end?",
+        "question": "What skills are needed to be a good front-end developer?"
+    },
+    {
+        "topic": "Prepare me for an interview on Front-end",
+        "question": "What role do you see yourself in?"
+    },
+    {
+        "topic": "Provide me with interview questions about Front-end",
+        "question": "Explain the difference between cookies, session storage, and local storage?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Can you explain what happens when you enter a URL into the browser?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Describe the difference between SSR and CSR. Discuss the pros and cons."
     }
 ]
