@@ -1,7 +1,8 @@
-from datasets import load_dataset, DatasetDict, load_metric
+from datasets import load_dataset, DatasetDict
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer
 from sklearn.model_selection import train_test_split
-import datetime;
+import datetime
+import evaluate
 
 """
 This script uses the Hugging Face Trainer API to
@@ -26,8 +27,13 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token
 
 def tokenize_function(examples):
-    # Combine "topic" and "question" for each entry
-    return tokenizer(examples['topic'], examples['question'], truncation=True, padding="max_length", max_length=512)
+    # Tokenize the inputs and labels
+    tokenized_inputs = tokenizer(examples["topic"], truncation=True, padding="max_length", max_length=128)
+    # Assume that "question" should be predicted from "topic"
+    with tokenizer.as_target_tokenizer():
+        labels = tokenizer(examples["question"], truncation=True, padding="max_length", max_length=128)["input_ids"]
+    tokenized_inputs["labels"] = labels
+    return tokenized_inputs
 
 tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
@@ -45,16 +51,29 @@ training_args = TrainingArguments(
     logging_steps=10,                      # Log every 10 steps
     load_best_model_at_end=True,           # Load the best model at the end of training
     save_strategy="epoch",                 # Save model checkpoint after each epoch
-    metric_for_best_model="accuracy",      # Use accuracy to identify the best model
+    metric_for_best_model="f1",      # Use f1 to identify the best model
 )
 
-# Define compute_metrics function for tracking accuracy
-accuracy_metric = load_metric("accuracy")
+# Define evaluate function for tracking F1 score
+f1_metric = evaluate.load("f1")
 
 def compute_metrics(eval_pred):
-    logits, labels = eval_pred
-    predictions = logits.argmax(-1)
-    return accuracy_metric.compute(predictions=predictions, references=labels)
+    try:
+        predictions, labels = eval_pred
+        # Decode predictions
+        decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+        decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+
+        # Flatten the outputs if they're not already
+        flattened_predictions = [pred.strip() for pred in decoded_preds]
+        flattened_references = [label.strip() for label in decoded_labels]
+
+        # Compute F1 score
+        return f1_metric.compute(predictions=flattened_predictions, references=flattened_references)
+    except Exception as e:
+        print(f"An error occurred during metric computation: {e}")
+        return {"F1": None} 
+
 
 # Initialise the Trainer
 trainer = Trainer(
