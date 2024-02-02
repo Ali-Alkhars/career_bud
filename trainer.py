@@ -1,6 +1,12 @@
 from datasets import load_dataset, DatasetDict
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer
 from sklearn.model_selection import train_test_split
+import datetime;
+
+"""
+This script uses the Hugging Face Trainer API to
+train a language model on a particular dataset.
+"""
 
 model_name = 'microsoft/DialoGPT-medium'
 
@@ -60,8 +66,12 @@ trainer = Trainer(
     compute_metrics=compute_metrics,
 )
 
+print(f'Trainer initialised and now starting. Timestamp: {datetime.datetime.now()}')
+
 # Train the model
 trainer.train()
+
+print(f'Training done! Timestamp: {datetime.datetime.now()}')
 
 # Save the model
 trainer.save_model("DialoGPT-interviews")
