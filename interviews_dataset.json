@@ -7130,5 +7130,21 @@
     {
         "topic": "Provide me with interview questions about CSS",
         "question": "What is the difference between fixed, fluid and responsive layouts?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is a cool project that you've recently worked on?"
+    },
+    {
+        "topic": "I want interview questions about Front-end",
+        "question": "What are some things you like about the developer tools you use?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Who inspires you in the front-end community?"
+    },
+    {
+        "topic": "I need Front-end interview questions",
+        "question": "Do you have any pet projects? What kind?"
     }
 ]
