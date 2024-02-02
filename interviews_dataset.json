@@ -7534,5 +7534,37 @@
     {
         "topic": "I need programming interview questions",
         "question": "What is domain pre-fetching and how does it help with performance?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What tools would you use to find a performance bug in your code?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are some ways you may improve your website's scrolling performance?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Explain the difference between layout, painting and compositing."
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are some advantages/disadvantages to testing your code?"
+    },
+    {
+        "topic": "Could you question me about Testing?",
+        "question": "What tools would you use to test your code's functionality?"
+    },
+    {
+        "topic": "I need Testing interview questions",
+        "question": "What is the difference between a unit test and a functional/integration test?"
+    },
+    {
+        "topic": "Could you question me about Testing?",
+        "question": "What is the purpose of a code style linting tool?"
+    },
+    {
+        "topic": "I need Testing interview questions",
+        "question": "What are some of the testing best practices?"
     }
 ]
