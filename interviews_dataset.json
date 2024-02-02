@@ -7514,5 +7514,25 @@
     {
         "topic": "I need JavaScript interview questions",
         "question": "Write an immediately invoked function expression (IIFE)"
+    },
+    {
+        "topic": "Prepare me for an interview on Networks",
+        "question": "Traditionally, why has it been better to serve site assets from multiple domains?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen."
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the differences between Long-Polling, Websockets and Server-Sent Events?"
+    },
+    {
+        "topic": "I want interview questions about Networks",
+        "question": "What are HTTP methods? List all HTTP methods that you know, and explain them."
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is domain pre-fetching and how does it help with performance?"
     }
 ]
