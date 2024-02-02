@@ -7266,5 +7266,57 @@
     {
         "topic": "Could we do a mock interview?",
         "question": "Describe the difference between SSR and CSR. Discuss the pros and cons."
+    },
+    {
+        "topic": "What are common interview questions for HTML?",
+        "question": "What does a `doctype` do?"
+    },
+    {
+        "topic": "I want interview questions about HTML",
+        "question": "How do you serve a page with content in multiple languages?"
+    },
+    {
+        "topic": "I need HTML interview questions",
+        "question": "What kind of things must you be wary of when designing or developing for multilingual sites?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are `data-` attributes good for?"
+    },
+    {
+        "topic": "I want interview questions about HTML",
+        "question": "Consider HTML5 as an open web platform. What are the building blocks of HTML5?"
+    },
+    {
+        "topic": "Prepare me for an interview on HTML",
+        "question": "Describe the difference between a `cookie`, `sessionStorage` and `localStorage`."
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Describe the difference between `<script>`, `<script async>` and `<script defer>`."
+    },
+    {
+        "topic": "Prepare me for an interview on HTML",
+        "question": "Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?"
+    },
+    {
+        "topic": "I need HTML interview questions",
+        "question": "What is progressive rendering?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute."
+    },
+    {
+        "topic": "Can you give me interview questions about HTML?",
+        "question": "Have you used different HTML templating languages before?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between `canvas` and `svg`?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are empty elements in HTML ?"
     }
 ]
