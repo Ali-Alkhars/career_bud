@@ -23,6 +23,7 @@ dataset = DatasetDict({
 
 # Preprocess data
 tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer.pad_token = tokenizer.eos_token
 
 def tokenize_function(examples):
     # Combine "topic" and "question" for each entry
