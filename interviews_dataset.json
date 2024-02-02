@@ -6878,5 +6878,113 @@
     {
         "topic": "I need Back-end interview questions",
         "question": "If you could travel back in time, which advice would you give to your younger self?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What's the difference between `undefined` and `not defined` in JavaScript"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the drawback of declaring methods directly in JavaScript objects?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is 'closure' in javascript? Can you provide an example?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How to check if an object is an array or not?"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "In which case the function definition is not hoisted in JavaScript?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What's the difference between `typeof` and `instanceof`?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Difference between `Function`, `Method` and `Constructor` calls in JavaScript."
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What are Service Workers and when can you use them?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the difference between a method and a function in javascript?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is IIFE (Immediately Invoked Function Expression) and how it can be useful?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Describe Singleton Pattern In JavaScript"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What are the ways of creating objects in JavaScript ?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Write a function called deepClone which takes an object and creates a object copy of it."
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "Best way to detect `undefined` object property in JavaScript."
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "Write a function called `Clone` which takes an object and creates a object copy of it but not copy deep property of object."
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What are promises and how they are useful?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How to check whether a key exist in a JavaScript object or not."
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is NaN, why do we need it, and when can it break the page?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "How to check if the value of a variable in an array?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "Best way to detect reference values of any type in JavaScript ?"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "How does Object.create method works JavaScript?"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "How to use constructor functions for inheritance in JavaScript?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "How we can prevent modification of object in JavaScript ?."
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "Write a log function which will add prefix `(your message)` to every message you log using console.log ?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Write code for merge two JavaScript Object dynamically."
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "What is non-enumerable property in JavaScript and how you can create one?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is Function binding ?"
     }
 ]
