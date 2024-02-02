@@ -7318,5 +7318,201 @@
     {
         "topic": "I need software engineering interview questions",
         "question": "What are empty elements in HTML ?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "Explain event delegation."
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "Explain how `this` works in JavaScript."
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "Can you give an example of one of the ways that working with `this` has changed in ES6?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Explain how prototypal inheritance works."
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "What is the difference between a variable that is: `null`, `undefined` or undeclared? Also, how would you go about checking for any of these states?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is a closure, and how/why would you use one?"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What language constructions do you use for iterating over object properties and array items?"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "Can you describe the main difference between the `Array.forEach()` loop and `Array.map()` methods and why you would pick one versus the other?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is a typical use case for anonymous functions?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between host objects and native objects?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Explain the difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Explain the differences on the usage of `foo` between `function foo() {}` and `var foo = function() {}`"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Can you explain what `Function.call` and `Function.apply` do? What is the notable difference between the two?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "Explain `Function.prototype.bind`."
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the difference between feature detection, feature inference, and using the UA string?"
+    },
+    {
+        "topic": "Prepare me for an interview on JavaScript",
+        "question": "Explain \"hoisting\"."
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is type coercion? What are common pitfalls of relying on type coercion in JavaScript code?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Describe event bubbling."
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "Describe event capturing."
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "What is the difference between an \"attribute\" and a \"property\"?"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the pros and cons of extending built-in JavaScript objects?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "What is the difference between `==` and `===`?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Explain the same-origin policy with regards to JavaScript."
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "Why is it called a Ternary operator, what does the word \"Ternary\" indicate?"
+    },
+    {
+        "topic": "Can you give me interview questions about JavaScript?",
+        "question": "What is strict mode? What are some of the advantages/disadvantages of using it?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What tools and techniques do you use debugging JavaScript code?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Explain the difference between mutable and immutable objects."
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What is an example of an immutable object in JavaScript?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What are the pros and cons of immutability?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "How can you achieve immutability in your own code?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Explain the difference between synchronous and asynchronous functions."
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is event loop?"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What is the difference between call stack and task queue?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What are the differences between variables created using `let`, `var` or `const`?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What are the differences between ES6 class and ES5 function constructors?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "Can you offer a use case for the new arrow `=>` function syntax? How does this new syntax differ from other functions?"
+    },
+    {
+        "topic": "What are common interview questions for JavaScript?",
+        "question": "What advantage is there for using the arrow syntax for a method in a constructor?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "What is the definition of a higher-order function?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "Can you give an example for destructuring an object or an array?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you give an example of generating a string with ES6 Template Literals?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Can you give an example of a curry function and why this syntax offers an advantage?"
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "What are the benefits of using `spread syntax` and how is it different from `rest syntax`?"
+    },
+    {
+        "topic": "I want interview questions about JavaScript",
+        "question": "How can you share code between files?"
+    },
+    {
+        "topic": "Provide me with interview questions about JavaScript",
+        "question": "Why you might want to create static class members?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "What is the difference between `while` and `do-while` loops in JavaScript?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is a promise? Where and how would you use promise?"
+    },
+    {
+        "topic": "Could you question me about JavaScript?",
+        "question": "Discuss how you might use Object Oriented Programming principles when coding with JavaScript."
+    },
+    {
+        "topic": "I need JavaScript interview questions",
+        "question": "Write an immediately invoked function expression (IIFE)"
     }
 ]
