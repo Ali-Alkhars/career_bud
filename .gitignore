@@ -22,3 +22,6 @@ myenv/
 # Other files and folders
 *.log
 .env
+
+# Unfiltered Training Datasets
+Datasets/
