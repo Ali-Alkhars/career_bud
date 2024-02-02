@@ -6986,5 +6986,149 @@
     {
         "topic": "Could you question me about JavaScript?",
         "question": "What is Function binding ?"
+    },
+    {
+        "topic": "I need CSS interview questions",
+        "question": "What is CSS selector specificity and how does it work?"
+    },
+    {
+        "topic": "Can you give me interview questions about CSS?",
+        "question": "What is the difference between \"resetting\" and \"normalizing\" CSS? Which would you choose, and why?"
+    },
+    {
+        "topic": "Provide me with interview questions about CSS",
+        "question": "Describe Floats and how they work."
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "Describe z-index and how stacking context is formed."
+    },
+    {
+        "topic": "Provide me with interview questions about CSS",
+        "question": "Describe BFC (Block Formatting Context) and how it works."
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What are the various clearing techniques and which is appropriate for what context?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "How would you approach fixing browser-specific styling issues?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What are the different ways to visually hide content (and make it available only for screen readers)?"
+    },
+    {
+        "topic": "Provide me with interview questions about CSS",
+        "question": "Have you ever used a grid system, and if so, what do you prefer?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "Have you used or implemented media queries or mobile specific layouts/CSS?"
+    },
+    {
+        "topic": "Can you give me interview questions about CSS?",
+        "question": "Are you familiar with styling SVG?"
+    },
+    {
+        "topic": "Could you question me about CSS?",
+        "question": "Can you give an example of an `@media` property other than `screen`?"
+    },
+    {
+        "topic": "Provide me with interview questions about CSS",
+        "question": "What are some of the \"gotchas\" for writing efficient CSS?"
+    },
+    {
+        "topic": "Prepare me for an interview on CSS",
+        "question": "What are the advantages/disadvantages of using CSS preprocessors?"
+    },
+    {
+        "topic": "Can you give me interview questions about CSS?",
+        "question": "Describe what you like and dislike about the CSS preprocessors you have used."
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "How would you implement a web design comp that uses non-standard fonts?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "Explain how a browser determines what elements match a CSS selector."
+    },
+    {
+        "topic": "I need CSS interview questions",
+        "question": "Describe pseudo-elements and discuss what they are used for."
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models."
+    },
+    {
+        "topic": "Prepare me for an interview on CSS",
+        "question": "What does ```* { box-sizing: border-box; }``` do? What are its advantages?"
+    },
+    {
+        "topic": "I need software engineering interview questions",
+        "question": "What is the CSS `display` property and can you give a few examples of its use?"
+    },
+    {
+        "topic": "Provide me with interview questions about CSS",
+        "question": "What is the difference between inline and inline-block?"
+    },
+    {
+        "topic": "Prepare me for an interview",
+        "question": "What is the difference between the \"nth-of-type()\" and \"nth-child()\" selectors?"
+    },
+    {
+        "topic": "Prepare me for an interview on CSS",
+        "question": "What is the difference between a relative, fixed, absolute and statically positioned element?"
+    },
+    {
+        "topic": "Can you give me interview questions about CSS?",
+        "question": "What existing CSS frameworks have you used locally, or in production? How would you change/improve them?"
+    },
+    {
+        "topic": "What are common interview questions for CSS?",
+        "question": "Have you used CSS Grid?"
+    },
+    {
+        "topic": "Prepare me for an interview for a software engineering role",
+        "question": "Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?"
+    },
+    {
+        "topic": "I want interview questions about CSS",
+        "question": "Have you ever worked with retina graphics? If so, when and what techniques did you use?"
+    },
+    {
+        "topic": "Could you question me about CSS?",
+        "question": "Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?"
+    },
+    {
+        "topic": "Could you question me about CSS?",
+        "question": "How is clearfix css property useful?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you explain the difference between px, em and rem as they relate to font sizing?"
+    },
+    {
+        "topic": "I need programming interview questions",
+        "question": "Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class?"
+    },
+    {
+        "topic": "Could we do a mock interview?",
+        "question": "What is the difference between a block level element and an inline element. Can you provide examples of each type of element?"
+    },
+    {
+        "topic": "I need CSS interview questions",
+        "question": "What is the difference between CSS Grid and Flexbox? When would you use one over the other?"
+    },
+    {
+        "topic": "Provide me with interview questions about CSS",
+        "question": "What is the difference between fixed, fluid and responsive layouts?"
     }
 ]

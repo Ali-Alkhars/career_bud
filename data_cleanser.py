@@ -59,4 +59,5 @@ def process_questions(input_file, output_file, regex, topic):
 # process_questions('Datasets/Interviews Datasets/1000 top JS interview questions/Questions.md', 'interviews_dataset.json', r'\[(.*?)\]', "JavaScript")
 # process_questions('Datasets/Interviews Datasets/222 Java interview questions/Questions.md', 'interviews_dataset.json', r'- \d+ \. (.*)', "Java")
 # process_questions('Datasets/Interviews Datasets/Developer interview questions/Questions.md', 'interviews_dataset.json', r'^(?!#|\[).+$', "Back-end")
-process_questions('Datasets/Interviews Datasets/Essential JS interview questions/Questions.md', 'interviews_dataset.json', r'^## Question \d+\.\s*(.*)$', "JavaScript")
+# process_questions('Datasets/Interviews Datasets/Essential JS interview questions/Questions.md', 'interviews_dataset.json', r'^## Question \d+\.\s*(.*)$', "JavaScript")
+process_questions('Datasets/Interviews Datasets/Front-end interview questions/questions/css-questions.md', 'interviews_dataset.json', r'^\* (.*)$', "CSS")
