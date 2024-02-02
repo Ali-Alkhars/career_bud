@@ -1,4 +1,4 @@
-from datasets import load_dataset, DatasetDict
+from datasets import load_dataset, DatasetDict, load_metric
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer
 from sklearn.model_selection import train_test_split
 import datetime;
@@ -12,7 +12,7 @@ model_name = 'microsoft/DialoGPT-medium'
 
 # Load dataset
 data_path = "interviews_dataset.json"
-raw_dataset = load_dataset('json', data_files=data_path, field='data')
+raw_dataset = load_dataset('json', data_files=data_path)
 
 # Split dataset into training and testing
 train_test_split = raw_dataset["train"].train_test_split(test_size=0.1)
@@ -48,8 +48,6 @@ training_args = TrainingArguments(
 )
 
 # Define compute_metrics function for tracking accuracy
-from datasets import load_metric
-
 accuracy_metric = load_metric("accuracy")
 
 def compute_metrics(eval_pred):
