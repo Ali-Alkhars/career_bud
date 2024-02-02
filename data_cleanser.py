@@ -65,8 +65,8 @@ def process_csv_questions(input_file, output_file):
         reader = csv.DictReader(csvfile)
         for row in reader:
             questions.append({
-                "topic": question_maker(row['Category']),
-                "question": row['Question']
+                "topic": row['Question'],
+                "question": row['Answer']
             })
     
     # Append to the existing JSON file
