@@ -19,8 +19,8 @@ raw_dataset = load_dataset('json', data_files=data_path)
 # Split dataset into training and testing
 train_test_split = raw_dataset["train"].train_test_split(test_size=0.1)
 dataset = DatasetDict({
-    'train': train_test_split['train'].select(range(20)),
-    'test': train_test_split['test'].select(range(10))
+    'train': train_test_split['train'],
+    'test': train_test_split['test']
 })
 
 # Preprocess data
