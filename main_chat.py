@@ -1,5 +1,8 @@
 import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer, AutoModelForCausalLM, AutoTokenizer
+# from transformers.utils import logging
+# import warnings
+import logging
 
 class T5Chatbot:
     def __init__(self, model_name='t5-small'):
@@ -48,8 +51,9 @@ class LlamaChatbot:
         return 'Llama-2'
 
 class DialoGPTChatbot:
-    def __init__(self, model_name="microsoft/DialoGPT-medium"):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
+    def __init__(self, model_name="DialoGPT-interviews-unevaluated-new", tokenizer_name="microsoft/DialoGPT-medium"):
+        logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the misleading left_padding warning
+        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
         self.chat_history_ids = None
         self.max_history_saved = 5  # keep track of only 5 messages then reset
@@ -78,7 +82,7 @@ class DialoGPTChatbot:
         return response
 
     def name(self):
-        return 'DialoGPT'
+        return f'({self.current_history_saved if self.current_history_saved != 0 else "5"}/{self.max_history_saved}) DialoGPT'
 
 
 choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2): ")
