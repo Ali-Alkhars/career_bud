@@ -3,7 +3,7 @@ import evaluate
 import json
 from datasets import Dataset, DatasetDict
 from sklearn.model_selection import train_test_split
-from transformers import T5Tokenizer, T5ForConditionalGeneration, Seq2SeqTrainer, Seq2SeqTrainingArguments
+from transformers import T5Tokenizer, AutoModelForSeq2SeqLM, Seq2SeqTrainer, Seq2SeqTrainingArguments
 import numpy as np
 
 """
@@ -16,6 +16,7 @@ with open('../interviews_dataset.json', 'r') as file:
     data = json.load(file)
 
 # Convert each item to the specified format for inputs and targets
+# Here we train the model to answer without context.
 formatted_questions = [{'inputs': f"question: {item['topic']} context: ", 'targets': item['question']} for item in data]
 
 # Convert the list of dictionaries into a Hugging Face Dataset
@@ -34,7 +35,7 @@ dataset = DatasetDict({
 # Load the tokenizer and model
 model_name = 't5-small'
 tokenizer = T5Tokenizer.from_pretrained(model_name)
-model = T5ForConditionalGeneration.from_pretrained(model_name)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
 # Encode the dataset
 def encode(examples):
@@ -50,11 +51,11 @@ encoded_dataset = dataset.map(encode, batched=True)
 training_args = Seq2SeqTrainingArguments(
     output_dir="../T5-interviews",
     evaluation_strategy="epoch",
-    learning_rate=1e-4,                    # As recommended by the Hugging Face T5 Docs
+    learning_rate=3e-4,                    # As recommended by the Hugging Face T5 Docs
     per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
     predict_with_generate = True,
-    num_train_epochs=3,
+    num_train_epochs=5,
     weight_decay=0.01,
     logging_dir='../logs',
     logging_steps=10,                      # Log every 10 steps
@@ -62,7 +63,6 @@ training_args = Seq2SeqTrainingArguments(
     metric_for_best_model="eval_bleu",
     greater_is_better=True,
     save_strategy="epoch",
-    generation_max_length=50
 )
 
 # Define evaluate function for tracking BLEU score
@@ -75,6 +75,12 @@ def compute_metrics(eval_pred):
     # From: https://medium.com/nlplanet/a-full-guide-to-finetuning-t5-for-text2text-and-building-a-demo-with-streamlit-c72009631887
     labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+
+    # Manually check for empty predictions so BLEU doesn't crash
+    filtered_predictions = [pred for pred in decoded_predictions if pred]
+    filtered_references = [[ref] for ref in decoded_labels if ref]
+    if not filtered_predictions or not filtered_references:
+        return {"bleu": 0.0}
 
     # Load BLEU metric
     bleu_metric = evaluate.load('bleu')
