@@ -3,16 +3,15 @@ from transformers import T5Tokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalL
 import logging
 
 class T5Chatbot:
-    def __init__(self, model_name='t5-small'):
-        self.tokenizer = T5Tokenizer.from_pretrained(model_name)
+    def __init__(self, model_name='T5-interviews', tokenizer_name='t5-small'):
+        self.tokenizer = T5Tokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.model.to(self.device)
-        self.context = "Ali is an Arab. He comes from Saudi Arabia. Ali is 22 years old, even though he feels 18."
 
     def chat(self, question):
         # Prepend with "question:" or "answer the question:"
-        input_text = f"question: {question} context: {self.context}"
+        input_text = f"question: {question} context: "
         input_ids = self.tokenizer.encode(input_text, return_tensors='pt').to(self.device)
 
         # Generate an answer
