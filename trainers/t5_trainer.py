@@ -3,7 +3,8 @@ import evaluate
 import json
 from datasets import Dataset, DatasetDict
 from sklearn.model_selection import train_test_split
-from transformers import T5Tokenizer, T5ForConditionalGeneration, Trainer, TrainingArguments
+from transformers import T5Tokenizer, T5ForConditionalGeneration, Seq2SeqTrainer, Seq2SeqTrainingArguments
+import numpy as np
 
 """
 This script uses the Hugging Face Trainer API to
@@ -37,28 +38,31 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 # Encode the dataset
 def encode(examples):
-    model_inputs = tokenizer(examples['inputs'], padding="max_length", truncation=True)
+    model_inputs = tokenizer(examples['inputs'], padding="max_length", truncation=True, max_length=128)
     with tokenizer.as_target_tokenizer():
-        labels = tokenizer(examples['targets'], padding="max_length", truncation=True)
+        labels = tokenizer(examples['targets'], padding="max_length", truncation=True, max_length=128)
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
 
 encoded_dataset = dataset.map(encode, batched=True)
 
 # Define the Training Arguments
-training_args = TrainingArguments(
+training_args = Seq2SeqTrainingArguments(
     output_dir="../T5-interviews",
     evaluation_strategy="epoch",
-    learning_rate=1e-4,                 # As recommended by the Hugging Face T5 Docs
+    learning_rate=1e-4,                    # As recommended by the Hugging Face T5 Docs
     per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
+    predict_with_generate = True,
     num_train_epochs=3,
     weight_decay=0.01,
     logging_dir='../logs',
+    logging_steps=10,                      # Log every 10 steps
     load_best_model_at_end=True,
     metric_for_best_model="eval_bleu",
     greater_is_better=True,
     save_strategy="epoch",
+    generation_max_length=50
 )
 
 # Define evaluate function for tracking BLEU score
@@ -66,16 +70,21 @@ def compute_metrics(eval_pred):
     predictions, labels = eval_pred
 
     decoded_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+    
+    # Replace -100 in the labels as we can't decode them.
+    # From: https://medium.com/nlplanet/a-full-guide-to-finetuning-t5-for-text2text-and-building-a-demo-with-streamlit-c72009631887
+    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-    decoded_labels = [[label] for label in decoded_labels]
-    
+
+    # Load BLEU metric
     bleu_metric = evaluate.load('bleu')
+    # Compute BLEU score, ensuring that inputs are correctly formatted
     results = bleu_metric.compute(predictions=decoded_predictions, references=decoded_labels)
-    
+
     return {"bleu": results["bleu"]}
 
 # Initialise the Trainer
-trainer = Trainer(
+trainer = Seq2SeqTrainer(
     model=model,
     args=training_args,
     train_dataset=encoded_dataset["train"],
