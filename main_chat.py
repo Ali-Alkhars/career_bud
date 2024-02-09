@@ -1,7 +1,5 @@
 import torch
 from transformers import T5ForConditionalGeneration, T5Tokenizer, AutoModelForCausalLM, AutoTokenizer
-# from transformers.utils import logging
-# import warnings
 import logging
 
 class T5Chatbot:
@@ -51,7 +49,7 @@ class LlamaChatbot:
         return 'Llama-2'
 
 class DialoGPTChatbot:
-    def __init__(self, model_name="DialoGPT-interviews-unevaluated-new", tokenizer_name="microsoft/DialoGPT-medium"):
+    def __init__(self, model_name="DialoGPT-interviews", tokenizer_name="microsoft/DialoGPT-medium"):
         logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the misleading left_padding warning
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
