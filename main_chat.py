@@ -26,11 +26,25 @@ class T5Chatbot:
 
 class LlamaChatbot:
     def __init__(self, model_name="meta-llama/Llama-2-7b-chat-hf"):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
-        self.model = AutoModelForCausalLM.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, torch_dtype="auto")
+        self.model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", load_in_4bit=True, device_map="auto")
         self.chat_history_ids = None
 
     def chat(self, input_text):
+        # Tokenize the new input sentence
+        new_input_ids = self.tokenizer.encode(input_text + self.tokenizer.eos_token, return_tensors='pt')
+
+        # Generate a response
+        chat_ids = self.model.generate(new_input_ids.to(self.device), max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
+
+        # Decode and return the response
+        response = self.tokenizer.decode(chat_ids[0], skip_special_tokens=True)
+        
+        return response
+
+    
+
+    def chat_with_history(self, input_text):
         # Tokenize the new input sentence
         new_input_ids = self.tokenizer.encode(input_text + self.tokenizer.eos_token, return_tensors='pt')
 
