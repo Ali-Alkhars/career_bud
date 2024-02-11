@@ -26,6 +26,7 @@ networkx==3.2.1
 numpy==1.26.3
 packaging==23.2
 pandas==2.1.4
+peft==0.8.2
 portalocker==2.8.2
 psutil==5.9.8
 pyarrow==14.0.2
