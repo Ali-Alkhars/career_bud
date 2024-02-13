@@ -25,8 +25,8 @@ class T5Chatbot:
 
 
 class LlamaChatbot:
-    def __init__(self, model_name="meta-llama/Llama-2-7b-chat-hf"):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name, torch_dtype="auto")
+    def __init__(self, tokenizer_name="meta-llama/Llama-2-7b-chat-hf", model_name="Llama-2-interviews"):
+        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, torch_dtype="auto")
         self.model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", load_in_4bit=True, device_map="auto")
         self.chat_history_ids = None
 
@@ -39,7 +39,7 @@ class LlamaChatbot:
 
         # Decode and return the response
         response = self.tokenizer.decode(chat_ids[0], skip_special_tokens=True)
-        
+
         return response
 
     
@@ -52,7 +52,7 @@ class LlamaChatbot:
         bot_input_ids = torch.cat([self.chat_history_ids, new_input_ids], dim=-1) if self.chat_history_ids is not None else new_input_ids
 
         # Generate a response
-        self.chat_history_ids = self.model.generate(bot_input_ids, max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
+        self.chat_history_ids = self.model.generate(bot_input_ids, max_length=500, pad_token_id=self.tokenizer.eos_token_id)
 
         # Decode and return the response
         response = self.tokenizer.decode(self.chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
