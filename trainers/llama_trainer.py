@@ -10,6 +10,7 @@ from trl import SFTTrainer
 This script uses the Hugging Face Trainer API to
 train the Llama-2-chat model on a particular dataset.
 Taken from: https://www.youtube.com/watch?v=MDA3LUKNl1E
+And: https://medium.com/@ud.chandra/instruction-fine-tuning-llama-2-with-pefts-qlora-method-d6a801ebb19
 
 Doesn't work (Some deep data setup issues)
 """
@@ -19,7 +20,7 @@ with open('../interviews_dataset.json', 'r') as file:
     data = json.load(file)
 
 # Convert each item to the specified string format and collect them
-formatted_questions = [{'questions': f"{item['topic']} {item['question']}"} for item in data]
+formatted_questions = [{'questions': f"### Input:{item['topic']}  ### Response:{item['question']}"} for item in data]
 
 # Convert the list of strings into a Hugging Face Dataset
 dataset = Dataset.from_dict({'questions': [item['questions'] for item in formatted_questions]})
@@ -42,23 +43,18 @@ bnb_config = BitsAndBytesConfig(
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    use_safetensors=True,
     quantization_config=bnb_config,
+    device_map={"": 0},
     trust_remote_code=True,
-    device_map="auto"
+    use_auth_token=True
 )
-
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-tokenizer.pad_token = tokenizer.eos_token
-tokenizer.padding_side = "right"
-
 model.config.use_cache = False
-model.config.quantization_config.to_dict()
+model.config.pretraining_tp = 1 
 
 # Setup LoRA
-lora_alpha = 32
-lora_dropout = 0.05
-lora_r = 16
+lora_alpha = 16
+lora_dropout = 0.1
+lora_r = 64
 
 peft_config = LoraConfig(
     lora_alpha=lora_alpha,
@@ -68,32 +64,43 @@ peft_config = LoraConfig(
     task_type="CASUAL_LM"
 )
 
-model.add_adapter(peft_config)
+tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+tokenizer.pad_token = tokenizer.eos_token
+
+# model.add_adapter(peft_config)
 
 # Define the Training Arguments
+# training_args = TrainingArguments(
+#     output_dir="../Llama-2-interviews",    # Directory for model outputs
+#     evaluation_strategy="epoch",           # Evaluate after each epoch
+#     per_device_train_batch_size=4,
+#     per_device_eval_batch_size=4,
+#     gradient_accumulation_steps=4,
+#     optim="paged_adamw_32bit",
+#     learning_rate=1e-4,
+#     fp16=True,
+#     max_grad_norm=0.3,
+#     warmup_ratio=0.05,
+#     group_by_length=True,
+#     save_safetensors=True,
+#     lr_scheduler_type="cosine",
+#     seed=43,
+#     num_train_epochs=3,                    # Number of training epochs
+#     weight_decay=0.01,                     # Regularization
+#     logging_dir='../logs',                  # Directory for logs
+#     logging_steps=10,                      # Log every 10 steps
+#     load_best_model_at_end=True,           # Load the best model at the end of training
+#     save_strategy="epoch",                 # Save model checkpoint after each epoch
+#     metric_for_best_model="eval_loss",
+#     greater_is_better=False,
+# )
 training_args = TrainingArguments(
-    output_dir="../Llama-2-interviews",    # Directory for model outputs
-    evaluation_strategy="epoch",           # Evaluate after each epoch
+    output_dir="../Llama-2-interviews",
     per_device_train_batch_size=4,
-    per_device_eval_batch_size=4,
     gradient_accumulation_steps=4,
-    optim="paged_adamw_32bit",
-    learning_rate=1e-4,
-    fp16=True,
-    max_grad_norm=0.3,
-    warmup_ratio=0.05,
-    group_by_length=True,
-    save_safetensors=True,
-    lr_scheduler_type="cosine",
-    seed=43,
-    num_train_epochs=3,                    # Number of training epochs
-    weight_decay=0.01,                     # Regularization
-    logging_dir='../logs',                  # Directory for logs
-    logging_steps=10,                      # Log every 10 steps
-    load_best_model_at_end=True,           # Load the best model at the end of training
-    save_strategy="epoch",                 # Save model checkpoint after each epoch
-    metric_for_best_model="eval_loss",
-    greater_is_better=False,
+    learning_rate=2e-4,
+    logging_steps=10,
+    max_steps=500
 )
 
 # Initialise the Trainer
@@ -102,9 +109,9 @@ trainer = SFTTrainer(
     tokenizer=tokenizer,
     args=training_args,
     train_dataset=dataset["train"],
-    eval_dataset=dataset["test"],
     peft_config=peft_config,
     dataset_text_field="questions",
+    max_seq_length=512
 )
 
 print(f'Trainer initialised and now starting. Timestamp: {datetime.datetime.now()}')
