@@ -1,18 +1,19 @@
-import datetime
-import json
-from datasets import Dataset, DatasetDict
-from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, BitsAndBytesConfig
-from peft import LoraConfig
 import torch
+import json
+import datetime
+from datasets import Dataset, DatasetDict
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, TrainingArguments
+from peft import LoraConfig
 from trl import SFTTrainer
+import numpy as np
+import evaluate
 
 """
 This script uses the Hugging Face Trainer API to
 train the Llama-2-chat model on a particular dataset.
-Taken from: https://www.youtube.com/watch?v=MDA3LUKNl1E
-And: https://medium.com/@ud.chandra/instruction-fine-tuning-llama-2-with-pefts-qlora-method-d6a801ebb19
 
-Doesn't work (Some deep data setup issues)
+Taken from: https://deci.ai/blog/fine-tune-llama-2-with-lora-for-question-answering/
+Useful: https://huggingface.co/blog/4bit-transformers-bitsandbytes
 """
 
 # Load the JSON dataset
@@ -20,7 +21,7 @@ with open('../interviews_dataset.json', 'r') as file:
     data = json.load(file)
 
 # Convert each item to the specified string format and collect them
-formatted_questions = [{'questions': f"### Input:{item['topic']}  ### Response:{item['question']}"} for item in data]
+formatted_questions = [{'questions': f"### Input: {item['topic']} ### Response: {item['question']}"} for item in data]
 
 # Convert the list of strings into a Hugging Face Dataset
 dataset = Dataset.from_dict({'questions': [item['questions'] for item in formatted_questions]})
@@ -32,86 +33,99 @@ dataset = DatasetDict({
     'test': train_test_split['test']
 })
 
-# Load the tokenizer and model
-model_name = 'meta-llama/Llama-2-7b-chat-hf'
 
-bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.float16
-)
+# Model and tokenizer names
+model_name = "meta-llama/Llama-2-7b-chat-hf"
 
-model = AutoModelForCausalLM.from_pretrained(
-    model_name,
-    quantization_config=bnb_config,
-    device_map={"": 0},
-    trust_remote_code=True,
-    use_auth_token=True
-)
-model.config.use_cache = False
-model.config.pretraining_tp = 1 
-
-# Setup LoRA
-lora_alpha = 16
-lora_dropout = 0.1
-lora_r = 64
-
-peft_config = LoraConfig(
-    lora_alpha=lora_alpha,
-    lora_dropout=lora_dropout,
-    r=lora_r,
-    bias="none",
-    task_type="CASUAL_LM"
-)
-
+# Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
 tokenizer.pad_token = tokenizer.eos_token
+tokenizer.padding_side = "right"
 
-# model.add_adapter(peft_config)
+# Quantization Config
+quant_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=False
+)
+
+# Model
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    quantization_config=quant_config,
+    device_map={"": 0}
+)
+model.config.use_cache = False
+model.config.pretraining_tp = 1
+
+# Define evaluate function for tracking BLEU score (using evaluate library)
+def compute_metrics(eval_pred):
+    logits, labels = eval_pred
+    # Decode the predictions
+    predictions = np.argmax(logits, axis=-1)
+    
+    # Convert the integer predictions and labels back to text
+    decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+    # Labels are -100 for non-target values, so we need to filter those out
+    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+    
+    # Since BLEU expects a list of references for each prediction, we need to adjust the format
+    decoded_labels = [[label] for label in decoded_labels]
+
+    # Initialize the BLEU metric
+    bleu_metric = evaluate.load('bleu')
+
+    # Calculate BLEU scores
+    result = bleu_metric.compute(predictions=decoded_preds, references=decoded_labels)
+    
+    return {"bleu": result["bleu"]}
+
+
+# LoRA Config
+peft_parameters = LoraConfig(
+    lora_alpha=16,
+    lora_dropout=0.1,
+    r=8,
+    bias="none",
+    task_type="CAUSAL_LM"
+)
 
 # Define the Training Arguments
-# training_args = TrainingArguments(
-#     output_dir="../Llama-2-interviews",    # Directory for model outputs
-#     evaluation_strategy="epoch",           # Evaluate after each epoch
-#     per_device_train_batch_size=4,
-#     per_device_eval_batch_size=4,
-#     gradient_accumulation_steps=4,
-#     optim="paged_adamw_32bit",
-#     learning_rate=1e-4,
-#     fp16=True,
-#     max_grad_norm=0.3,
-#     warmup_ratio=0.05,
-#     group_by_length=True,
-#     save_safetensors=True,
-#     lr_scheduler_type="cosine",
-#     seed=43,
-#     num_train_epochs=3,                    # Number of training epochs
-#     weight_decay=0.01,                     # Regularization
-#     logging_dir='../logs',                  # Directory for logs
-#     logging_steps=10,                      # Log every 10 steps
-#     load_best_model_at_end=True,           # Load the best model at the end of training
-#     save_strategy="epoch",                 # Save model checkpoint after each epoch
-#     metric_for_best_model="eval_loss",
-#     greater_is_better=False,
-# )
-training_args = TrainingArguments(
+train_params = TrainingArguments(
     output_dir="../Llama-2-interviews",
+    evaluation_strategy="epoch",           # Evaluate after each epoch
+    num_train_epochs=3,
     per_device_train_batch_size=4,
-    gradient_accumulation_steps=4,
-    learning_rate=2e-4,
+    per_device_eval_batch_size=4,
+    gradient_accumulation_steps=1,
+    optim="paged_adamw_32bit",
     logging_steps=10,
-    max_steps=500
+    learning_rate=2e-4,                     # Suggested by author
+    weight_decay=0.001,
+    fp16=False,
+    bf16=False,
+    max_grad_norm=0.3,
+    max_steps=-1,
+    warmup_ratio=0.03,
+    group_by_length=True,
+    lr_scheduler_type="constant",
+    load_best_model_at_end=True,           # Load the best model at the end of training
+    save_strategy="epoch",                 # Save model checkpoint after each epoch
+    metric_for_best_model="eval_bleu",      # Use BLEU to identify the best model
 )
 
 # Initialise the Trainer
 trainer = SFTTrainer(
     model=model,
-    tokenizer=tokenizer,
-    args=training_args,
-    train_dataset=dataset["train"],
-    peft_config=peft_config,
+    train_dataset=dataset['train'],
+    eval_dataset=dataset['test'],
+    peft_config=peft_parameters,
     dataset_text_field="questions",
-    max_seq_length=512
+    tokenizer=tokenizer,
+    args=train_params,
+    compute_metrics=compute_metrics
 )
 
 print(f'Trainer initialised and now starting. Timestamp: {datetime.datetime.now()}')
