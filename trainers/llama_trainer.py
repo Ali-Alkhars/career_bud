@@ -1,16 +1,17 @@
 import datetime
 import json
 from datasets import Dataset, DatasetDict
-from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer, BitsAndBytesConfig
+from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, BitsAndBytesConfig
 from peft import LoraConfig
 import torch
+from trl import SFTTrainer
 
 """
 This script uses the Hugging Face Trainer API to
 train the Llama-2-chat model on a particular dataset.
-
 Taken from: https://www.youtube.com/watch?v=MDA3LUKNl1E
-Useful: https://huggingface.co/blog/4bit-transformers-bitsandbytes
+
+Doesn't work (Some deep data setup issues)
 """
 
 # Load the JSON dataset
@@ -67,6 +68,8 @@ peft_config = LoraConfig(
     task_type="CASUAL_LM"
 )
 
+model.add_adapter(peft_config)
+
 # Define the Training Arguments
 training_args = TrainingArguments(
     output_dir="../Llama-2-interviews",    # Directory for model outputs
@@ -94,13 +97,14 @@ training_args = TrainingArguments(
 )
 
 # Initialise the Trainer
-trainer = Trainer(
+trainer = SFTTrainer(
     model=model,
     tokenizer=tokenizer,
     args=training_args,
     train_dataset=dataset["train"],
     eval_dataset=dataset["test"],
     peft_config=peft_config,
+    dataset_text_field="questions",
 )
 
 print(f'Trainer initialised and now starting. Timestamp: {datetime.datetime.now()}')
@@ -112,4 +116,3 @@ print(f'Training done! Timestamp: {datetime.datetime.now()}')
 
 # Save the model
 trainer.save_model("Llama-2-interviews")
-    
