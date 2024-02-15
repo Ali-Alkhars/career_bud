@@ -15,7 +15,7 @@ class T5Chatbot:
         input_ids = self.tokenizer.encode(input_text, return_tensors='pt').to(self.device)
 
         # Generate an answer
-        output_ids = self.model.generate(input_ids, max_length=150, num_beams=3, early_stopping=True)
+        output_ids = self.model.generate(input_ids, max_length=500, num_beams=3, early_stopping=True)
         answer = self.tokenizer.decode(output_ids[0], skip_special_tokens=True)
 
         return answer
@@ -35,7 +35,7 @@ class LlamaChatbot:
         new_input_ids = self.tokenizer.encode(input_text + self.tokenizer.eos_token, return_tensors='pt')
 
         # Generate a response
-        chat_ids = self.model.generate(new_input_ids.to(self.device), max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
+        chat_ids = self.model.generate(new_input_ids.to(self.device), max_length=500, pad_token_id=self.tokenizer.eos_token_id)
 
         # Decode and return the response
         response = self.tokenizer.decode(chat_ids[0], skip_special_tokens=True)
@@ -79,7 +79,7 @@ class DialoGPTChatbot:
         self.current_history_saved += 1
 
         # Generate a response from the model
-        self.chat_history_ids = self.model.generate(bot_input_ids, max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
+        self.chat_history_ids = self.model.generate(bot_input_ids, max_length=500, pad_token_id=self.tokenizer.eos_token_id)
 
         # Return the model's response
         response = self.tokenizer.decode(self.chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
