@@ -24,4 +24,9 @@ myenv/
 .env
 
 # Unfiltered Training Datasets
-Datasets/
+Unfiltered-datasets/
+
+# New Trained Models
+DialoGPT-interviews*/
+T5-interviews*/
+Llama-2-interviews*/

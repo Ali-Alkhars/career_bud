@@ -1,17 +1,17 @@
 import torch
-from transformers import T5ForConditionalGeneration, T5Tokenizer, AutoModelForCausalLM, AutoTokenizer
+from transformers import T5Tokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM, AutoTokenizer
+import logging
 
 class T5Chatbot:
-    def __init__(self, model_name='t5-small'):
-        self.tokenizer = T5Tokenizer.from_pretrained(model_name)
-        self.model = T5ForConditionalGeneration.from_pretrained(model_name)
+    def __init__(self, model_name='T5-interviews', tokenizer_name='t5-small'):
+        self.tokenizer = T5Tokenizer.from_pretrained(tokenizer_name)
+        self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.model.to(self.device)
-        self.context = "Ali is an Arab. He comes from Saudi Arabia. Ali is 22 years old, even though he feels 18."
 
     def chat(self, question):
         # Prepend with "question:" or "answer the question:"
-        input_text = f"question: {question} context: {self.context}"
+        input_text = f"question: {question} context: "
         input_ids = self.tokenizer.encode(input_text, return_tensors='pt').to(self.device)
 
         # Generate an answer
@@ -25,12 +25,26 @@ class T5Chatbot:
 
 
 class LlamaChatbot:
-    def __init__(self, model_name="meta-llama/Llama-2-7b-chat-hf"):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
-        self.model = AutoModelForCausalLM.from_pretrained(model_name)
+    def __init__(self, tokenizer_name="meta-llama/Llama-2-7b-chat-hf", model_name="Llama-2-interviews"):
+        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, torch_dtype="auto")
+        self.model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", load_in_4bit=True, device_map="auto")
         self.chat_history_ids = None
 
     def chat(self, input_text):
+        # Tokenize the new input sentence
+        new_input_ids = self.tokenizer.encode(input_text + self.tokenizer.eos_token, return_tensors='pt')
+
+        # Generate a response
+        chat_ids = self.model.generate(new_input_ids.to(self.device), max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
+
+        # Decode and return the response
+        response = self.tokenizer.decode(chat_ids[0], skip_special_tokens=True)
+
+        return response
+
+    
+
+    def chat_with_history(self, input_text):
         # Tokenize the new input sentence
         new_input_ids = self.tokenizer.encode(input_text + self.tokenizer.eos_token, return_tensors='pt')
 
@@ -38,7 +52,7 @@ class LlamaChatbot:
         bot_input_ids = torch.cat([self.chat_history_ids, new_input_ids], dim=-1) if self.chat_history_ids is not None else new_input_ids
 
         # Generate a response
-        self.chat_history_ids = self.model.generate(bot_input_ids, max_length=1000, pad_token_id=self.tokenizer.eos_token_id)
+        self.chat_history_ids = self.model.generate(bot_input_ids, max_length=500, pad_token_id=self.tokenizer.eos_token_id)
 
         # Decode and return the response
         response = self.tokenizer.decode(self.chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)
@@ -48,8 +62,9 @@ class LlamaChatbot:
         return 'Llama-2'
 
 class DialoGPTChatbot:
-    def __init__(self, model_name="microsoft/DialoGPT-medium"):
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
+    def __init__(self, model_name="DialoGPT-interviews", tokenizer_name="microsoft/DialoGPT-medium"):
+        logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the misleading left_padding warning
+        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
         self.chat_history_ids = None
         self.max_history_saved = 5  # keep track of only 5 messages then reset
@@ -78,7 +93,7 @@ class DialoGPTChatbot:
         return response
 
     def name(self):
-        return 'DialoGPT'
+        return f'({self.current_history_saved if self.current_history_saved != 0 else "5"}/{self.max_history_saved}) DialoGPT'
 
 
 choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2): ")
