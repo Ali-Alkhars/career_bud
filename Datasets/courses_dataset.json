@@ -1,3 +1,1518 @@
 [
-    
+    {
+        "input": "Help me learn more about Getting Started with Enterprise-grade AI",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Getting Started with Enterprise-grade AI): This course covers the foundations of Artificial Intelligence for business, including the following topics: AI Evolution, AI Industry Adoption Trends, Natural Language Processing and Virtual Agents."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Fundamentals): Does artificial intelligence (AI) spark your interest? Here\u2019s your chance to visualize yourself in an AI career! You\u2019ll explore AI\u2019s history, then see how it can change the world."
+    },
+    {
+        "input": "Show me courses on Artificial Intelligence Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Fundamentals): you\u2019ll deep dive into ways that AI makes predictions, understands language and images, and learns using circuits inspired by the human brain. After a hands-on simulation in which you build and test a machine learning model, you\u2019ll finish with tips on how to find your own career in artificial intelligence."
+    },
+    {
+        "input": "Recommend me some courses on Fundamentals of Sustainability and Technology",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): In this learning plan, you\u2019ll have the chance to learn about sustainability science and its applications in various fields of technology."
+    },
+    {
+        "input": "Could you give me Fundamentals of Sustainability and Technology online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): Not only will you gain knowledge about sustainability, but you\u2019ll also develop practical skills to make a difference in various industries such as renewable energy, sustainable agriculture, green building, and waste management."
+    },
+    {
+        "input": "I want a course on Fundamentals of Sustainability and Technology",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): You\u2019ll learn to define sustainability, identify ways that sustainability updates and extends the concept of conservation, and describe key applications of artificial intelligence and data analytics to drive sustainability."
+    },
+    {
+        "input": "I am looking for courses on Building Trustworthy AI Enterprise Solutions",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Building Trustworthy AI Enterprise Solutions): This course is intended to assist individuals with an active interest in becoming part of a team tasked with the implementation of an Artificial Intelligence (AI) solution within an organization to tackle real-world industry challenges, taking into account the principles of trust and responsibility deemed critical for the success of the enterprise."
+    },
+    {
+        "input": "Recommend me some courses on Building AI Solutions Using Advanced Algorithms and Open Source Frameworks",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Building AI Solutions Using Advanced Algorithms and Open Source Frameworks): This course is intended to assist individuals with an active interest in understanding the internal building blocks of an Artificial Intelligence (AI) solution, specifically focused on identifying algorithms, neural network structures, and open source frameworks that can be leveraged for the development of AI solutions aimed to tackle real-world industry challenges."
+    },
+    {
+        "input": "Show me courses on Art of Prompt Writing",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): This is an activity-based course. You\u2019ll learn about AI language models and the rules to follow when giving instructions, or prompting, an AI language model."
+    },
+    {
+        "input": "Are there any online courses you recommend on Art of Prompt Writing?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): You\u2019ll walk-through a guided activity that demonstrates how to write effective prompts for an AI language model to help plan a travel itinerary."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): you\u2019ll participate in an activity to apply what you\u2019ve learned to effectively write prompts for an AI language model to create your own custom music playlist"
+    },
+    {
+        "input": "Could you give me Introduction to Generative AI in Action online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Generative AI in Action): This credential earner has applied technical knowledge of principles of generative AI, prompt engineering techniques, and Python libraries. The individual has demonstrated general knowledge of the methods, applications, and ethical considerations of using GenAI models. The earner has practiced essential workplace skills and explored generative AI career pathways."
+    },
+    {
+        "input": "I want a course on OpenDS4All",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (OpenDS4All): OpenDS4All is a project created to accelerate the creation of data science curriculum at academic institutions. "
+    },
+    {
+        "input": "I want a course on OpenDS4All",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (OpenDS4All): The project hosts educational modules that may be used as building blocks for a data science curriculum."
+    },
+    {
+        "input": "Are there any online courses you recommend on IBM AI Education?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM AI Education): We know that students need to understand AI to be successful in the modern workforce. Through this PD experience, teachers will be able to equip their students to think about how AI impacts their lives and what it means for their professional futures."
+    },
+    {
+        "input": "Help me learn more about Watson Academy",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Watson Academy): Your fast track to cognitive computing"
+    },
+    {
+        "input": "I want a course on Data Refinery Essentials",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Refinery Essentials): Data Refinery is a self-service data preparation client for data scientists, data engineers, and business analysts. With it, you can quickly transform large amounts of raw data into consumable, quality information that\u2019s ready for analytics."
+    },
+    {
+        "input": "Could you give me IBM Watson Knowledge Catalog Essentials online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Watson Knowledge Catalog Essentials): IBM Watson Knowledge Catalog is a secure enterprise catalog to index, classify, and govern your data with greater efficiency. Manage your data from every angle giving you a 360-degree view of your data so you can create models, uncover insights, and collaborate more effectively."
+    },
+    {
+        "input": "Show me courses on Create a Node-RED starter application",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Create a Node-RED starter application): In this tutorial, you will learn how to create a Node-RED starter application in the IBM Cloud, including a Cloudant database to store the application flow configuration."
+    },
+    {
+        "input": "I want a course on Getting Started with Enterprise-grade AI",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Getting Started with Enterprise-grade AI): This course covers the foundations of Artificial Intelligence for business, including the following topics: AI Evolution, AI Industry Adoption Trends, Natural Language Processing and Virtual Agents."
+    },
+    {
+        "input": "Could you give me Getting Started with Enterprise Data Science online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Getting Started with Enterprise Data Science): This course provides a basic understanding of the foundations of Data Science including: Data Science Team Roles, Data Analysis Tools, and real-world use cases for the application of the Data Science method."
+    },
+    {
+        "input": "Help me learn more about Getting Started with Threat Intelligence and Hunting",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Getting Started with Threat Intelligence and Hunting): This is a foundational course, exposing the learner to threat intelligence concepts including: Attack trends by geography, threat intelligence tools and real-world use cases. Complete this course to get your badge."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Getting Started with Cloud for the Enterprise): This course covers the basic foundations of cloud for the enterprise including: Consumer applications, Enterprise adoption, Delivery models and Industry Cloud Adoption."
+    },
+    {
+        "input": "How can I improve my OpenDS4All skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (OpenDS4All): OpenDS4All is a project created to accelerate the creation of data science curriculum at academic institutions. "
+    },
+    {
+        "input": "I am looking for courses on OpenDS4All",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (OpenDS4All): The project hosts educational modules that may be used as building blocks for a data science curriculum."
+    },
+    {
+        "input": "How can I improve my Enterprise Data Science in Practice skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Enterprise Data Science in Practice): This is a survey course, exposing the learner to the data science methodology."
+    },
+    {
+        "input": "I need some training on Enterprise Data Science in Practice",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Enterprise Data Science in Practice): The course covers the following topics: data science team roles, data science method, data analysis tools, and real-world use cases."
+    },
+    {
+        "input": "Show me courses on Machine Learning for Data Science Projects",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Machine Learning for Data Science Projects): This course introduces advanced topics core to the data science profession."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Machine Learning for Data Science Projects): The course covers the following topics: data modeling, machine learning, deep learning, and real-world use cases."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Fundamentals): Do you love to discover meaning in facts and numbers? Learn the concepts and methods of data science and how its discoveries change the world. "
+    },
+    {
+        "input": "Recommend me some courses on Data Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Fundamentals): get hands-on practice cleaning, refining, and visualizing data, in a series of simulations, using IBM Watson Studio with the data refinery tool. Finish by gathering tips and resources that can help you launch a great career in data science."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Constraint Programming with ILOG CP Optimizer): Fundamentals of constraint programming (CP)."
+    },
+    {
+        "input": "How can I improve my Constraint Programming with ILOG CP Optimizer skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Constraint Programming with ILOG CP Optimizer): CP is demonstrated through the use of ILOG CP Optimizer via ILOG OPL-CPLEX/ILOG Analyst Studio, a complete integrated development environment which leverages the powerful and intuitive algebraic modeling language, Optimization Programming Language."
+    },
+    {
+        "input": "Recommend me some courses on Overview of IBM Cognos Analytics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Overview of IBM Cognos Analytics): This course provides participants with a high level overview of the IBM Cognos Analytics suite of products and their underlying architecture. They will examine each component as it relates to an Analytics solution. Participants will be shown a range of resources to provide additional information."
+    },
+    {
+        "input": "Are there any online courses you recommend on IBM Planning Analytics - Design and Develop Models in Planning Analytics Workspace?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Planning Analytics - Design and Develop Models in Planning Analytics Workspace): This course is designed to teach modelers how to build a complete model in IBM Planning Analytics."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Planning Analytics - Design and Develop Models in Planning Analytics Workspace): Through a series of lectures and hands-on exercises, students will learn how to set up dimensions and cubes, manually enter data into these structures, and define the data that users can see."
+    },
+    {
+        "input": "I want a course on IBM Planning Analytics - Analyze Data and Create Reports",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Planning Analytics - Analyze Data and Create Reports): This course is designed to teach analysts how to use IBM Planning Analytics to analyze data to discover trends and exceptions, create and customize reports and templates, and contribute data to plans."
+    },
+    {
+        "input": "Are there any online courses you recommend on IBM Cognos Framework Manager - Design Metadata Models?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cognos Framework Manager - Design Metadata Models): This course provides an introduction to advanced knowledge of metadata modeling concepts, and how to model metadata for predictable reporting and analysis results using IBM Cognos Framework Manager."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cognos Analytics - Author Reports Fundamentals): This course provides authors with an introduction to build reports using Cognos Analytics."
+    },
+    {
+        "input": "Could you give me IBM Cognos Analytics - Author Reports Fundamentals online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cognos Analytics - Author Reports Fundamentals): Techniques to enhance, customize, and manage reports will be explored. Activities will illustrate and reinforce key concepts during this learning opportunity."
+    },
+    {
+        "input": "I need some training on IBM Cognos Analytics - Author Reports Advanced",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cognos Analytics - Author Reports Advanced): This course teaches experienced authors advanced report building techniques to enhance, customize, manage, and distribute reports. "
+    },
+    {
+        "input": "How can I improve my IBM Cognos Analytics - Author Reports Advanced skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cognos Analytics - Author Reports Advanced):  the student will learn how to create highly interactive and engaging reports that can be run offline by creating Active Reports."
+    },
+    {
+        "input": "How can I improve my IBM Cognos Analytics - Author Reports with Multidimensional Data skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cognos Analytics - Author Reports with Multidimensional Data): Through interactive demonstrations and exercises, participants will learn how to author reports that navigate and manipulate dimensional data structures using the specific dimensional functions and features available in IBM Cognos Analytics."
+    },
+    {
+        "input": "Are there any online courses you recommend on IBM Cognos Analytics - Architecture and Logging?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cognos Analytics - Architecture and Logging): Through lecture and interactive exercises participants will identify IBM Cognos Analytics components, examine how these components interact with Java, and will explore logging to assist when troubleshooting issues."
+    },
+    {
+        "input": "Are there any online courses you recommend on IBM Automation Learning Center?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Automation Learning Center): Getting started in your Automation journey is easy! Visit the IBM Automation Learning Center to complete the Future of Work learning modules and visit Credly to see the requirements for the IBM Automation Compass badge."
+    },
+    {
+        "input": "Could you give me IBM Automation Learning Center online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Automation Learning Center): the completion of lessons you will allow you to  earn an externally recognized badge to showcase your understanding of Automation in business. "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Process Mining Collection): Process mining uses business system data to create and visualize an end-to-end process that includes all the process activities involved along with the various process paths. Businesses analyze the discovered process to gain actionable insights for improvement."
+    },
+    {
+        "input": "How can I improve my IBM Robotic Process Automation - Basic I skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Robotic Process Automation - Basic I): This is an introductory course to IBM Robotic Process Automation"
+    },
+    {
+        "input": "How can I improve my IBM Robotic Process Automation - Basic I skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Robotic Process Automation - Basic I): In this course, students will learn the basics of inserting commands, publishing scripts, controlling the flow of scripts, and many other RPA essentials. "
+    },
+    {
+        "input": "Show me courses on IBM Robotic Process Automation - Basic I",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Robotic Process Automation - Basic I): This course provides students with the opportunity to learn and sharpen the basic skills needed to successfully learn IBM\u2019s Robotic Process Automation."
+    },
+    {
+        "input": "I want a course on IBM Robotic Process Automation - Basic II",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Robotic Process Automation - Basic II): RPA Basic II is a continuation of the Basic I course, where students will further their RPA skills and learn more in-depth and essential concepts for the development of the programmer within IBM RPA resources."
+    },
+    {
+        "input": "Help me learn more about IBM Robotic Process Automation - Basic II",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Robotic Process Automation - Basic II): This course covers the use of assets, parameters, and the manipulation of PDFs, data tables, and databases"
+    },
+    {
+        "input": "Are there any online courses you recommend on Overview of Process Mining?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Overview of Process Mining): This course introduces students to IBM Process Mining."
+    },
+    {
+        "input": "Could you give me Overview of Process Mining online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Overview of Process Mining): Students will learn the differences between process mining and task mining, the different phases of process mining, use cases, and how process mining is performed."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Overview of Process Mining): Students will also learn how to use IBM Process Mining to import data sources, map data, and how to visualize a process, along with the introduction to other major features of process mining."
+    },
+    {
+        "input": "How can I improve my Fundamentals of IBM Process Mining skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of IBM Process Mining): Fundamentals of IBM process mining is a collection of courses that introduces students to process mining and how it is used to perform process and data analysis. "
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of IBM Process Mining): Students will learn how to evaluate a process for potential candidates for Robotic Process Automation implementation. Students will also learn advanced data preparation, transformation concepts, and how to evaluate a multi-level process for maverick buying patterns."
+    },
+    {
+        "input": "Are there any online courses you recommend on Fundamentals of IBM Process Mining?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of IBM Process Mining): students will learn how to create and visualize end-to-end processes that include all process activities involved along with various process paths."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Journey to Cloud: Envisioning Your Solution): This credential earner demonstrates knowledge and understanding of the digital transformation drivers made possible by cloud technologies and services. "
+    },
+    {
+        "input": "How can I improve my Journey to Cloud: Envisioning Your Solution skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Journey to Cloud: Envisioning Your Solution): This includes: how cloud works, its capabilities, types, and delivery models (IaaS, SaaS, and PaaS); digital transformation strategies such as Agile practices, the IBM Garage Method, and Enterprise Design Thinking to help organizations get started on their transformation journey; & deploying a test pilot cloud application using IBM Code Engine."
+    },
+    {
+        "input": "Are there any online courses you recommend on Cloud Computing Fundamentals?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Computing Fundamentals): Computer and information technology (IT) jobs are in demand and the cloud market is growing. The cloud is driving technological innovation and serving as the foundation for business innovation. Are you ready for this and the future ahead?"
+    },
+    {
+        "input": "I need some training on Cloud Computing Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Computing Fundamentals): Learn the basics of cloud computing, service models, deployment models, software, and the many ways businesses benefit from cloud technology."
+    },
+    {
+        "input": "Show me courses on Cloud Computing Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Computing Fundamentals): get practice working with cloud computing in a series of simulations to build and deploy a Docker container and create and review the security settings for an IBM Cloudant database. Finish by gathering tips and resources that can help you launch a great career in cloud computing."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Journey to Cloud: Transforming Your Culture): In the intermediate course, we will continue following Acme Airlines as it moves away from its traditional IT infrastructure to a modern hybrid cloud model."
+    },
+    {
+        "input": "How can I improve my Journey to Cloud: Transforming Your Culture skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Journey to Cloud: Transforming Your Culture): In this course, we will do a deep dive into cloud culture, modern cloud practices, and roles with an examination of cloud development practices such as DevOps & Agile. "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Journey to Cloud: Transforming Your Culture): We'll also give you an overview of technical concepts such as cloud native architecture, microservices, containerization, and APIs to help you better understand what organizational changes may be required when an organization decides to migrate its workloads to the cloud. Finally, we conduct a simulated lab using Red Hat OpenShift automation tools."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Journey to Cloud: Orchestrating Your Solution): This course is intended to assist individuals with an active interest in understanding advanced concepts related to the adoption of Cloud Computing within the enterprise, and get a view inside an organization to appreciate which roles and technologies are involved for a Cloud Computing project team to tackle real-world industry challenges."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (DevOps for Enterprise Business Agility): This course exposes the learner to a new joint practice for business agility combining development and operations. "
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (DevOps for Enterprise Business Agility):  This course covers the following topics: DevOps, agile culture, and pipelines."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Solution tutorials): Learn how to build, deploy and scale real-world solutions on IBM Cloud. "
+    },
+    {
+        "input": "Could you give me Solution tutorials online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Solution tutorials): These guides provide step-by-step instructions on how to use IBM Cloud to implement common patterns based on best practices and proven technologies."
+    },
+    {
+        "input": "Help me learn more about IBM Cloud Associate Solution Advisor",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cloud Associate Solution Advisor): Learners in any job role can get a first look at cloud computing and IBM Cloud. No experience needed. Learn to discuss and use cloud services with confidence. Earn your first cloud certification."
+    },
+    {
+        "input": "I am looking for courses on Cloud Native Bootcamp",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Native Bootcamp): Cloud is everywhere. Today, many companies want to migrate their applications on to cloud. For this migration to be done, the applications must be re-architected in a way that they fully utilize the advantages of the cloud."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quick Start Sessions): Learn how to use IBM Engineering tools."
+    },
+    {
+        "input": "Help me learn more about Quick Start Sessions",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quick Start Sessions): Quick Starts are short, focused, introductory hands-on labs designed to take less than two hours to complete."
+    },
+    {
+        "input": "I need some training on IBM Security Learning Academy",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Security Learning Academy): Get free technical training for IBM Security products."
+    },
+    {
+        "input": "Are there any online courses you recommend on IBM Security Learning Academy?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Security Learning Academy): You can explore the course catalog and build your own curriculum by enrolling in courses."
+    },
+    {
+        "input": "I need some training on Getting Started with Threat Intelligence and Hunting",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Getting Started with Threat Intelligence and Hunting): This is a foundational course, exposing the learner to threat intelligence concepts including: Attack trends by geography, threat intelligence tools and real-world use cases. "
+    },
+    {
+        "input": "I am looking for courses on Enterprise Security in Practice",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Enterprise Security in Practice): This is a survey course, exposing the learner to hands-on experience on cybersecurity threats. "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Enterprise Security in Practice): The course covers the following topics: cyber-protection techniques, attack vectors per industry, penetration testing tools, key cybersecurity roles, real-world use cases."
+    },
+    {
+        "input": "Could you give me Security Operations Center in Practice online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Security Operations Center in Practice): This course will empower you to techniques, technologies, roles and scenarios needed to establish the foundations of a (SOC) \u2013 Security Operations Center within your organization."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM QRadar SIEM Foundations): IBM QRadar SIEM provides deep visibility into network, user, and application activity. "
+    },
+    {
+        "input": "How can I improve my IBM QRadar SIEM Foundations skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM QRadar SIEM Foundations): It provides collection, normalization, correlation, and secure storage of events, flows, asset profiles, and vulnerabilities."
+    },
+    {
+        "input": "I want a course on IBM QRadar SIEM Foundations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM QRadar SIEM Foundations): QRadar SIEM classifies suspected attacks and policy violations as offenses."
+    },
+    {
+        "input": "Could you give me IBM QRadar SIEM Advanced Topics online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM QRadar SIEM Advanced Topics): Using the skills taught in this course, you will be able to configure processing of uncommon events, work with reference data, and develop custom rules, custom actions, and custom anomoly detection rules using IBM Security QRadar."
+    },
+    {
+        "input": "I am looking for courses on Developing Secure Software",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing Secure Software): Learn the security basics to develop software that is hardened against attacks, and understand how you can reduce the damage and speed the response when a vulnerability is exploited."
+    },
+    {
+        "input": "Could you give me Developing Secure Software online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing Secure Software): Thanks to the involvement of OpenSSF, a cross-industry collaboration that brings together leaders to improve the security of open source software by building a broader community, targeted initiatives, and best practices, this course provides specific tips on how to use and develop open source and other software securely."
+    },
+    {
+        "input": "Recommend me some courses on IBM Z Enterprise Computing Kickstart",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Enterprise Computing Kickstart): 13 Courses (56 hours) of online, self-paced courses covering topics from the z/OS Mainframe System, the IBM Development Environment, JCL, WebSphere, COBOL and DB2."
+    },
+    {
+        "input": "Could you give me IBM Z Enterprise Computing Kickstart online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Enterprise Computing Kickstart): Differentiate yourself with essential skills needed by Fortune 500 companies to run their mission-critical workloads."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to the Mainframe): This textbook provides students with the background, knowledge, and skills necessary to begin using the basic facilities of a mainframe computer. "
+    },
+    {
+        "input": "Recommend me some courses on Introduction to the Mainframe",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to the Mainframe): Topics include: job roles; mainframe interfaces; Job Control Language; mainframe hardware and architecture; networking, and security topics"
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to the Cobol Language): The student will learn computer programming and reporting for file-oriented, computerized information systems utilizing the COBOL language. "
+    },
+    {
+        "input": "Show me courses on Introduction to the Cobol Language",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to the Cobol Language): topics include: COBOL sorting routines; table handling features; structured coding techniques; sequential disk organization"
+    },
+    {
+        "input": "Help me learn more about Introduction to IBM zSystems",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to IBM zSystems): This learning journey provides learning content and hands-on labs, and industry recognized badges and certifications from the hardware to the software."
+    },
+    {
+        "input": "How can I improve my IBM Z System Administrator skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z System Administrator): Build knowledge and skills in IBM Z, a platform used in the world's most critical businesses."
+    },
+    {
+        "input": "How can I improve my IBM Z System Administrator skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z System Administrator): Start your career as an IBM Z System Administrator for free with this collection of learning assets."
+    },
+    {
+        "input": "How can I improve my Architecting Applications with IBM Z skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Architecting Applications with IBM Z):  This collection covers how to architect enterprise workloads with IBM Z using the latest technologies to successfully integrate with your hybrid multicloud."
+    },
+    {
+        "input": "Help me learn more about DevOps Transformations for IBM zSystems and CICD pipelines with DBB Git",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (DevOps Transformations for IBM zSystems and CICD pipelines with DBB Git): This learning collection provides technical enablement materials in the area of Z DevOps transformations."
+    },
+    {
+        "input": "Recommend me some courses on DevOps Transformations for IBM zSystems and CICD pipelines with DBB Git",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (DevOps Transformations for IBM zSystems and CICD pipelines with DBB Git):  There are cookbooks, tutorials, technical documents, white papers, demo videos, webinars, badged courses and more! These materials have been broken down into several sections based on the Persona/Role required for each phase of the project."
+    },
+    {
+        "input": "Recommend me some courses on Application Modernization with IBM z/OS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Application Modernization with IBM z/OS): Applications running on IBM Z tend to be very stable, but not stagnant. This Learning Collection covers how to safely update apps using the latest technologies to deliver changes at the speed of business."
+    },
+    {
+        "input": "Recommend me some courses on Linux on IBM Z",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Linux on IBM Z): This course introduces the major functions and capabilities of Linux on IBM Z."
+    },
+    {
+        "input": "Show me courses on Linux on IBM Z",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Linux on IBM Z): It also goes into the advantages of Linux on System z including total cost of ownership, scalability, performance, administration, availability, system, memory management, security and connectivity advantages."
+    },
+    {
+        "input": "I want a course on z/OS Introduction",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (z/OS Introduction): This series of short videos teaches you about the IBM Z environment."
+    },
+    {
+        "input": "Are there any online courses you recommend on z/OS Introduction?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (z/OS Introduction): The course starts from the beginning teaching IBM Z basics and the flagship operating system z/OS"
+    },
+    {
+        "input": "I want a course on z/OS Introduction",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (z/OS Introduction): The course addresses access and interaction basics, data sets and data access methods, and operating system environment topics."
+    },
+    {
+        "input": "I want a course on Red Hat System Administration I (RH124)",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat System Administration I (RH124)): The first of two courses that cover the core system administration tasks needed to manage Red Hat\u00ae Enterprise Linux\u00ae servers."
+    },
+    {
+        "input": "I am looking for courses on Red Hat System Administration II (RH134)",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat System Administration II (RH134)): Focuses on the key tasks needed to become a full-time Linux administrator"
+    },
+    {
+        "input": "I need some training on Red Hat Enterprise Linux Automation with Ansible (RH294)",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat Enterprise Linux Automation with Ansible (RH294)): Learn how to automate Linux system administration tasks with Red Hat Ansible\u00ae Automation Platform"
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to OpenShift Applications (DO101)): A developer-focused introduction to OpenShift application building, deployment, scaling, and troubleshooting."
+    },
+    {
+        "input": "Are there any online courses you recommend on Red Hat OpenShift I: Containers & Kubernetes (DO180)?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat OpenShift I: Containers & Kubernetes (DO180)): Introduction to building and managing containers for deployment on a Kubernetes and OpenShift 4 cluster."
+    },
+    {
+        "input": "How can I improve my Red Hat OpenStack Administration I: Core Operations for Domain Operators (CL110) skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat OpenStack Administration I: Core Operations for Domain Operators (CL110)): Learn to operate a Red Hat OpenStack Platform private cloud and manage domain resources to secure and deploy modern, scalable cloud applications, networks, and storage."
+    },
+    {
+        "input": "Show me courses on Red Hat Application Development I: Programming in Java EE (AD183)",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat Application Development I: Programming in Java EE (AD183)): Helping Java SE developers write Java EE applications."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Qiskit Textbook): Qiskit makes it easy to start learning quantum software to run on real quantum hardware."
+    },
+    {
+        "input": "Help me learn more about Qiskit Textbook",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Qiskit Textbook): Teach your students with the same tools used by scientists and engineers worldwide to accelerate research towards practical applications for quantum computing"
+    },
+    {
+        "input": "I need some training on Introduction to Quantum Computing and Quantum Hardware",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Quantum Computing and Quantum Hardware): This course is an introduction to the world of quantum computing, with an exploration of some of the key quantum algorithms and their implementations using quantum circuits, as well as the quantum hardware that is designed to run these algorithms."
+    },
+    {
+        "input": "Show me courses on Quantum Machine Learning",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Machine Learning): This course contains around eight hours of content, and is aimed at self-learners who are comfortable with undergraduate-level mathematics and quantum computing fundamentals."
+    },
+    {
+        "input": "Are there any online courses you recommend on Quantum Machine Learning?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Machine Learning): This course will take you through key concepts in quantum machine learning, such as parameterized quantum circuits, training these circuits, and applying them to basic problems."
+    },
+    {
+        "input": "I want a course on Quantum Machine Learning",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Machine Learning): By the end of the course, you\u2019ll understand the state of the field, and you\u2019ll be familiar with recent developments in both supervised and unsupervised learning such as quantum kernels and general adversarial networks. This course finishes with a project that you can use to showcase what you\u2019ve learnt."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with deep learning): This learning path is designed for anyone interested in getting familiar with and exploring deep learning topics."
+    },
+    {
+        "input": "Show me courses on Get started with deep learning",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with deep learning): Currently, the learning path covers the fundamentals of deep learning, but will be enhanced in the future to cover supervised and unsupervised deep learning concepts."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with deep learning): Discover how deep learning is related to machine learning, explore its fundamentals, and look at the advantages of using deep learning algorithms in certain applications."
+    },
+    {
+        "input": "How can I improve my Get started with watsonx Assistant skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with watsonx Assistant): Deploy your first assistant without any coding"
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with watsonx Assistant): This learning path is designed for anyone interested in quickly getting up to speed and working with watsonx Assistant."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with watsonx Assistant): It uses tutorials to demonstrate how to create skills and use them with virtual assistants. "
+    },
+    {
+        "input": "Show me courses on Get started with IBM Cloud Pak for Data",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with IBM Cloud Pak for Data): Understand its functions and get a working knowledge of the different steps and tasks"
+    },
+    {
+        "input": "Help me learn more about Get started with IBM Cloud Pak for Data",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with IBM Cloud Pak for Data): This learning path is designed for anyone interested in quickly getting up to speed with using IBM Cloud Pak for Data. "
+    },
+    {
+        "input": "Are there any online courses you recommend on Get started with IBM Cloud Pak for Data?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Get started with IBM Cloud Pak for Data):  IBM Cloud Pak for Data is a unified, pre-integrated data and AI platform that runs natively on the Red Hat OpenShift Container platform, and runs on many cloud platforms including IBM Cloud, Amazon Web Services (AWS), and Microsoft Azure."
+    },
+    {
+        "input": "Show me courses on Enforcing data governance",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Enforcing data governance): Enforcing data governance and security for shared data"
+    },
+    {
+        "input": "I need some training on Enforcing data governance",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Enforcing data governance): This learning path is designed for developers interested in enforcing data governance and security. "
+    },
+    {
+        "input": "Could you give me Enforcing data governance online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Enforcing data governance): You get an introduction to the data fabric topic as well as guidance on enforcing data governance and security for shared data between applications."
+    },
+    {
+        "input": "Recommend me some courses on Take control of your data with Watson Studio",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Take control of your data with Watson Studio): Tutorials, articles, and other resources to solve your data science and machine learning needs"
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Take control of your data with Watson Studio): IBM Watson Studio simplifies the process of experimentation to deployment, as well as data exploration, model development, and training."
+    },
+    {
+        "input": "Show me courses on Take control of your data with Watson Studio",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Take control of your data with Watson Studio): It lets you build, run, and manage AI models, and optimize decisions anywhere on IBM Cloud Pak for Data. You can bring together open source frameworks like PyTorch, TensorFlow, and scikit-learn with IBM for code-based and visual data science."
+    },
+    {
+        "input": "Show me courses on Artificial Intelligence Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Fundamentals): This credential earner demonstrates knowledge of artificial intelligence (AI) concepts, such as natural language processing, computer vision, machine learning, deep learning, chatbots, and neural networks; AI ethics; and the applications of AI."
+    },
+    {
+        "input": "Recommend me some courses on Artificial Intelligence Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Fundamentals): The individual has a conceptual understanding of how to run an AI model using IBM Watson Studio. The earner is aware of the job outlook in fields that use AI and is familiar with the skills required for success in various roles in the domain."
+    },
+    {
+        "input": "How can I improve my Open Source Origin Stories: Adventures in Hybrid Cloud, AI Ethics, and Open Source Technologies skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Open Source Origin Stories: Adventures in Hybrid Cloud, AI Ethics, and Open Source Technologies): Badge earners have acquired foundational knowledge in hybrid cloud computing, artificial intelligence (AI) ethics, and open source technologies. "
+    },
+    {
+        "input": "Show me courses on Open Source Origin Stories: Adventures in Hybrid Cloud, AI Ethics, and Open Source Technologies",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Open Source Origin Stories: Adventures in Hybrid Cloud, AI Ethics, and Open Source Technologies): know the differences between private and public clouds, the attributes of hybrid cloud, and the role of data containers; the types of human ethical behavior, how they relate to AI ethics, how AI ethics can fail, and ways to reduce the resulting harm; open source history, roles, responsibilities; and the role of these technologies in today\u2019s jobs."
+    },
+    {
+        "input": "Show me courses on AI Foundations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI Foundations): This badge earner has the key knowledge, skills, and values necessary to understand and work with artificial intelligence (AI), and is aware of the implications of AI for the future of work and society in general."
+    },
+    {
+        "input": "How can I improve my AI Foundations skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI Foundations): Earners have applied their knowledge through an AI Design Challenge, using design thinking to create a prototype for an AI-powered solution that helps people improve their skills."
+    },
+    {
+        "input": "Show me courses on Build Your Own Chatbot - Level 1",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Build Your Own Chatbot - Level 1): The badge earner has demonstrated an understanding of the creation of Chatbots by leveraging Watson Conversation and their deployment on WordPress."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Watson va a clase: Fundamentos de Inteligencia Artificial): Earners of this badge (Watson Goes to School: Artificial Intelligence Fundamentals) use basic principles of coding and understand key concepts of artificial intelligence."
+    },
+    {
+        "input": "I need some training on Watson va a clase: Fundamentos de Inteligencia Artificial",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Watson va a clase: Fundamentos de Inteligencia Artificial): Earners are able to develop applications on Node-RED with Watson AI services and to connect them to external devices. They know how to develop chatbots with Watson Assistant and how to train them, and are familiar with the IBM Cloud."
+    },
+    {
+        "input": "Recommend me some courses on Development with AI and Web Services",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Development with AI and Web Services): This badge earner knows how to integrate Watson artificial intelligence and web services using Node-RED as a programming tool."
+    },
+    {
+        "input": "I am looking for courses on Development with AI and Web Services",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Development with AI and Web Services): The earner understands the basics of cloud-based software and web services communications using API REST protocol."
+    },
+    {
+        "input": "I am looking for courses on Development with AI and Web Services",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Development with AI and Web Services): build their own programs to consume data from the internet and integrate them with AI capabilities."
+    },
+    {
+        "input": "Help me learn more about Development for Cognitive Robots",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Development for Cognitive Robots): This badge earner has developed knowledge in the Internet of Things, web development, and chatbots through hands-on activities."
+    },
+    {
+        "input": "Recommend me some courses on Development for Cognitive Robots",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Development for Cognitive Robots): Using current industry technologies, the earner is able to build robots that interact with their environment, devices, and people."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Artificial Intelligence): In this course, you\u2019ll survey AI\u2019s history and explore ways that it can shed light on unstructured data."
+    },
+    {
+        "input": "Could you give me Natural Language Processing and Computer Vision online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Natural Language Processing and Computer Vision): In this course, you\u2019ll explore the theory of natural language and vision processing, and learn how these technologies drive real-world mechanisms such as chatbots and photo analysis."
+    },
+    {
+        "input": "I want a course on Machine Learning and Deep Learning",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Machine Learning and Deep Learning): In this course, you\u2019ll see how machines can learn and make amazing, evidence-based predictions."
+    },
+    {
+        "input": "Are there any online courses you recommend on Machine Learning and Deep Learning?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Machine Learning and Deep Learning): Explore the logic behind computers\u2019 ability to learn, then investigate new ways that AI systems inspired by neurons in the human brain can solve difficult problems."
+    },
+    {
+        "input": "Are there any online courses you recommend on Run AI Models with IBM Watson Studio?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Run AI Models with IBM Watson Studio): In this course, you\u2019ll practice creating an AI machine learning model in a series of simulations, using IBM Watson Studio."
+    },
+    {
+        "input": "Help me learn more about AI Ethics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI Ethics): In this course, you\u2019ll learn about the five pillars of AI ethics: fairness, robustness, explainability, transparency, and privacy."
+    },
+    {
+        "input": "I want a course on AI Ethics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI Ethics): Through real-world examples you\u2019ll learn about AI ethics, how they are implemented, and why AI ethics are so important in building trustworthy AI systems."
+    },
+    {
+        "input": "Are there any online courses you recommend on Your Future in AI: The Job Landscape?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in AI: The Job Landscape): In this course, learn about the AI job market\u2019s rapid growth and the skills needed for success in this exciting field."
+    },
+    {
+        "input": "Show me courses on Your Future in AI: The Job Landscape",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in AI: The Job Landscape): You\u2019ll hear how real professionals got their start, and find resources and learning opportunities that could help you work alongside them."
+    },
+    {
+        "input": "Show me courses on The Librarian: Master of Vast Data Treasures",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (The Librarian: Master of Vast Data Treasures): Did you know that a technology called \u201chybrid cloud\u201d is giving businesses\u2014and entire governments!\u2014a secure way to store their most treasured information? This technology is creating the largest, most valuable libraries in human history, and you could find a career working with it."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (The Advocate: Protector of AI Ethical Values): You know that artificial intelligence can do great good, but you've also heard about problems it can cause. Can an AI system cause harm? If so, what can scientists do to prevent that from happening or ease its consequences? Is there a future for you, too, in this kind of work? If so, how do you get started on an AI career?"
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (The Paladin: Defender of Open Source Freedom): You may have heard the term \u201copen source\u201d before, but do you really know what it is? What is an open source project and what are the components of an open source project? How do you get started in a career that uses open source software?"
+    },
+    {
+        "input": "I need some training on Module 1: What is AI?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Module 1: What is AI?): This module introduces you to the fundamentals of Artificial Intelligence (what is AI), the history of AI, and the distinctions between Artificial Intelligence and Human Intelligence. "
+    },
+    {
+        "input": "Show me courses on Module 2: AI and You",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Module 2: AI and You): In this module, you will explore ethical considerations around AI. "
+    },
+    {
+        "input": "I am looking for courses on AI and You",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI and You): You will also learn about the design thinking process and dive into the first step of design thinking (Empathizing) to prepare for your AI Design Challenge."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Module 3: Machine Learning in AI): This module introduces you to the key concept of machine learning and how it intersects with AI, data, algorithms, and neural networks."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Module 4: AI Applications): In this module, you will explore applications of AI tools including natural interaction, computer vision, recommender systems, and autonomous systems."
+    },
+    {
+        "input": "I need some training on Module 5: Bringing It All Together",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Module 5: Bringing It All Together): In this module, you will walk through the final stages of your AI Design Challenge project, including prototyping, testing, and reflecting on potential future updates."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (What is cloud computing?):  Learn different ways that data can be stored and managed with the newest cloud technology."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (What is artificial intelligence?): Can a computer really think? Learn how experts answer this question, and explore concepts like machine learning and deep learning."
+    },
+    {
+        "input": "Recommend me some courses on Artificial Intelligence in Practice",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence in Practice): What's it all for? From communicating with chatbots, to piloting self-driving cars, to solving complex global problems, AI is solving problems everywhere."
+    },
+    {
+        "input": "How can I improve my What is blockchain? skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (What is blockchain?): In this course, learn about what blockchain is and how blockchains help companies."
+    },
+    {
+        "input": "I want a course on How is blockchain used?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (How is blockchain used?): Learn more about the uses and implications of blockchain, and ways you can build your skills and knowledge in blockchain."
+    },
+    {
+        "input": "I am looking for courses on Cloud Computing Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Computing Fundamentals): This credential earner demonstrates knowledge of cloud computing, including cloud services, deployment models, virtualization, orchestration, and cloud security."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Computing Fundamentals): The individual is aware of cloud benefits for users and businesses. The individual has a conceptual understanding of how to create a container, deploy a web app to the cloud, and analyze security in a simulated environment."
+    },
+    {
+        "input": "Help me learn more about Cloud Computing Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Computing Fundamentals): The earner is aware of the job outlook in cloud computing and the skills required for success in various roles."
+    },
+    {
+        "input": "I want a course on Introduction to Cloud Computing",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing): In this course, you\u2019ll learn how computers communicate and how that communication enables the cloud technologies you use every day."
+    },
+    {
+        "input": "I need some training on Introduction to Cloud Computing",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing):  You\u2019ll explore the components that cloud computing utilizes and how they work together to benefit users and businesses alike."
+    },
+    {
+        "input": "Are there any online courses you recommend on Introduction to Cloud Computing?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing): you\u2019ll discover some new scenarios that advancements in the cloud will offer in the future."
+    },
+    {
+        "input": "How can I improve my Understanding Cloud Computing Services skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): In this course, you\u2019ll get an overview of how the cloud supports and powers new technologies like artificial intelligence (AI) and the Internet of Things (IoT)"
+    },
+    {
+        "input": "Help me learn more about Understanding Cloud Computing Services",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): You\u2019ll learn about the four main types of cloud service models and two types of software approaches when it comes to cloud solutions: proprietary and open source."
+    },
+    {
+        "input": "I am looking for courses on Understanding Cloud Computing Services",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): You\u2019ll get to explore the services offered by major cloud providers: IBM Cloud, Microsoft Azure, and Amazon Web Services."
+    },
+    {
+        "input": "I want a course on Understanding Cloud Computing Services",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): you\u2019ll learn through some scenarios about the advantages and value businesses and individuals can expect when they use the various cloud service models."
+    },
+    {
+        "input": "Recommend me some courses on Understanding Cloud Deployment Models",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): In this course, you\u2019ll learn about modern mainframe computers and how a business can host an infrastructure on premises or in the cloud. "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): You\u2019ll explore the steps businesses take to decide, plan, and make the move to the cloud."
+    },
+    {
+        "input": "Help me learn more about Understanding Cloud Deployment Models",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): You\u2019ll learn about different cloud deployment models and the advantages they bring to businesses."
+    },
+    {
+        "input": "Help me learn more about Understanding Cloud Deployment Models",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): you\u2019ll explore some scenarios to better understand when a public, private, or hybrid cloud deployment is appropriate for a business."
+    },
+    {
+        "input": "Are there any online courses you recommend on Virtualization on the Cloud?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud): In this course, you will learn about virtualization and the benefits it brings to cloud computing."
+    },
+    {
+        "input": "Could you give me Virtualization on the Cloud online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud): You\u2019ll explore different virtualization technologies and when to use them"
+    },
+    {
+        "input": "Are there any online courses you recommend on Virtualization on the Cloud?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud): You\u2019ll discover the advantages that microservices offer to a cloud application and how microservices use APIs to communicate"
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud):  you\u2019ll get a chance to put what you\u2019ve learned into practice by using a simulation to create a container and run a web app inside it."
+    },
+    {
+        "input": "Show me courses on Developing and Deploying Software in the Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): In this course, you will learn about developing and deploying software in the cloud."
+    },
+    {
+        "input": "How can I improve my Developing and Deploying Software in the Cloud skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): You\u2019ll discover how cloud developers can use DevOps to quickly develop and deploy scalable, reliable, and cost-effective software."
+    },
+    {
+        "input": "I want a course on Developing and Deploying Software in the Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): you\u2019ll explore different methods of cloud orchestration to manage and automate cloud applications."
+    },
+    {
+        "input": "Help me learn more about Developing and Deploying Software in the Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): you\u2019ll get a chance to put what you\u2019ve learned into practice by deploying a web app to the cloud in a simulation."
+    },
+    {
+        "input": "Are there any online courses you recommend on Introduction to Data Management and Security in the Cloud?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Data Management and Security in the Cloud): In this course, you will learn about the importance of cloud data security"
+    },
+    {
+        "input": "Show me courses on Introduction to Data Management and Security in the Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Data Management and Security in the Cloud): You'll learn ways to identify vulnerabilities in cloud data security and describe the essential features of identity and access management (IAM)"
+    },
+    {
+        "input": "Recommend me some courses on Introduction to Data Management and Security in the Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Data Management and Security in the Cloud): You'll explore the delivery of databases using the cloud with the database as a service (DBaaS) cloud model."
+    },
+    {
+        "input": "Show me courses on Introduction to Data Management and Security in the Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Data Management and Security in the Cloud): you'll learn about how to ensure cloud database integrity and security using data governance and data compliance"
+    },
+    {
+        "input": "Recommend me some courses on Introduction to Data Management and Security in the Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Data Management and Security in the Cloud): you\u2019ll get a chance to put what you\u2019ve learned into practice by using a simulation to create an IBM Cloudant database and review the settings in the database."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in Cloud Computing: The Job Landscape): In this course, you\u2019ll learn about the cloud computing job market, the skills that cloud engineers need to be successful, and how cloud engineers interact with other job roles on a team. "
+    },
+    {
+        "input": "Show me courses on Cloud Core",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Core): This badge holder understands the basics of cloud technology and is able to describe cloud platforms and models including IaaS, PaaS, SaaS, Public, Private and Hybrid Multi clouds. "
+    },
+    {
+        "input": "Could you give me Cloud Core online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Core): he badge earner is familiar with essentials of cloud applications and terms like Virtualization, VMs, Containers, Object Storage, Microservices, Serverless, Cloud Native, and DevOps."
+    },
+    {
+        "input": "Could you give me Cloud Core online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cloud Core): The individual has also gained hands-on experience at creating a Cloud account and provisioning services on IBM Cloud."
+    },
+    {
+        "input": "I am looking for courses on Introduction to Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud): This course introduces you to the core concepts of cloud computing."
+    },
+    {
+        "input": "Help me learn more about Introduction to Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud): You will gain the foundational knowledge required for understanding cloud computing from both business and practitioner perspectives."
+    },
+    {
+        "input": "Help me learn more about Introduction to Cloud",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud): You will also learn about cloud adoption and emerging technologies, cloud computing service and deployment models, different types of cloud storage, and emergent cloud trends."
+    },
+    {
+        "input": "Are there any online courses you recommend on IBM Cloud Essentials?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cloud Essentials): This badge earner is able to relate how the IBM Cloud enables the different service (IaaS, PaaS, SaaS) models and different deployment (Public, Hybrid, Private) models of cloud computing."
+    },
+    {
+        "input": "Recommend me some courses on IBM Cloud Essentials",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cloud Essentials): They know how to: access the IBM Cloud using various tools and interfaces; discover appropriate IBM Cloud products or services available for specific functionality; articulate the different ways IBM Cloud delivers services to developers and operational teams; and summarize core groups of available services."
+    },
+    {
+        "input": "I want a course on IBM Cloud Essentials V3",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Cloud Essentials V3): Get hands-on experience with IBM Cloud, Cloud Foundry, and best practices for agile and test-driven development."
+    },
+    {
+        "input": "How can I improve my Cybersecurity Fundamentals skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cybersecurity Fundamentals): This badge earner demonstrates a foundational understanding of cybersecurity concepts, objectives, and practices. "
+    },
+    {
+        "input": "I want a course on Cybersecurity Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cybersecurity Fundamentals): This includes cyber threat groups, types of attacks, social engineering, case studies, overall security strategies, cryptography, and common approaches that organizations take to prevent, detect, and respond to cyber attacks. "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Cybersecurity Fundamentals): This also includes an awareness of the job market. Badge earners can use this knowledge to pursue further education for a variety of roles in cybersecurity."
+    },
+    {
+        "input": "How can I improve my What is cybersecurity? skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (What is cybersecurity?): You already know ways to protect your devices from hackers. Now learn more about the threats and tactics used by cyberattackers, and dig into concepts like encryption and cryptography."
+    },
+    {
+        "input": "I am looking for courses on How is cybersecurity used?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (How is cybersecurity used?): Learn about Havyn, the voice-enabled cybersecurity assistant, and watch a team in action as they isolate cyberattacks and shut down the threat. Then, try it for yourself and test your cyber-defense skills with the NOVA Cybersecurity Lab."
+    },
+    {
+        "input": "I want a course on IBM and Cybersecurity",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM and Cybersecurity): Get a feel for cybersecurity as a career. You'll see how IBM is helping clients defend against cyberattacks and respond to broader security threats. "
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM and Cybersecurity): You\u2019ll also learn about basic cybersecurity terminology and types of cyberattacks."
+    },
+    {
+        "input": "Show me courses on Data Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Fundamentals): This credential earner demonstrates knowledge of data analytics concepts, methodologies and applications of data science, and the tools and programming languages used in the data ecosystem."
+    },
+    {
+        "input": "How can I improve my Data Fundamentals skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Fundamentals): The individual has a conceptual understanding of how to clean, refine, and visualize data using IBM Watson Studio"
+    },
+    {
+        "input": "I need some training on Data Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Fundamentals): The earner is aware of the job outlook in data and is familiar with the skills required for success in various roles in the domain."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Data Concepts): In this course, you will become familiar with fundamental data concepts such as types of data, big data, the typical steps in the data analytics process, and data visualization."
+    },
+    {
+        "input": "Could you give me Data Science in Our World online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science in Our World): In this course, you will learn about the field of data science, including widely adopted methodologies, an example project as it moves through the steps of a data science methodology, the application of data science in our world, and the role of data scientists and their colleagues."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Overview of Data Tools and Languages): In this course, you will get an introduction to common data analysis and visualization tools so you\u2019re familiar with them and can recognize how data science projects use them."
+    },
+    {
+        "input": "I am looking for courses on Clean, Refine, and Visualize Data with IBM Watson Studio",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Clean, Refine, and Visualize Data with IBM Watson Studio): In this course, you will practice cleaning, refining, and visualizing data, in a series of simulations, using IBM Watson Studio with the data refinery tool."
+    },
+    {
+        "input": "How can I improve my Your Future in Data: The Job Landscape skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in Data: The Job Landscape): In this course, you will learn about the data job market and projections, the responsibilities and skill sets of a data analyst and data scientist, and resources and learning opportunities so you can explore more."
+    },
+    {
+        "input": "I want a course on Data Science Foundations - Level 1",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science Foundations - Level 1): This badge earner has an understanding of the possibilities and opportunities that data science, analytics and big data bring to new applications in any industry."
+    },
+    {
+        "input": "Are there any online courses you recommend on Data Science 101?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science 101): In this course, we will meet some data science practitioners and we will get an overview of what data science is today."
+    },
+    {
+        "input": "I am looking for courses on Data Science Tools",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science Tools): This badge earner is able to use Jupyter Notebooks including its features and popular tools used by R Programmers including RStudio IDE"
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science Tools): The earner understands how to use various data science and data visualization tools hosted on Skills Network Labs."
+    },
+    {
+        "input": "Could you give me Data Science Tools online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science Tools): The individual is familiar with IBM Watson Studio including its features and capabilities, and can create and share a Jupyter Notebook."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science Methodologies): This badge earner understands the essential steps used in data science business and research problem solving. This includes problem definition, collecting and analyzing data, building relevant models and understanding model deployment results"
+    },
+    {
+        "input": "How can I improve my What is data science? skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (What is data science?): Learn why data science is like hunting for treasure! You'll get a closer look at the work and why you might choose it as your own career."
+    },
+    {
+        "input": "Recommend me some courses on Techniques to Manage, Share, and Put Data to Work",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Techniques to Manage, Share, and Put Data to Work): Dive into applications of data science and machine learning. You'll see how programming languages like R and Python and visualization tools like Tableau and ggplot2 can help uncover data's deepest secrets."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science in the Real World): Explore what it's like to be a data scientist. From an overview of job opportunities to interviews with people currently working in data analysis, you'll get a feel for this exciting career."
+    },
+    {
+        "input": "Recommend me some courses on Big Data Foundations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Big Data Foundations): It is designed move you from an initial understanding of Big Data terms and concepts to working with tool sets to dig into the data itself and start identifying the patterns and trends that would otherwise go unnoticed."
+    },
+    {
+        "input": "Help me learn more about Big Data Foundations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Big Data Foundations): It will introduce you to tools like Apache Hadoop and Apache Spark frameworks, which enable the analysis of large sets of data."
+    },
+    {
+        "input": "Show me courses on Big Data 101",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Big Data 101): In this course you will see the Big Data big picture and you will learn the terminology used in Big Data discussions."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Hadoop 101): This beginner Apache Hadoop course introduces you to Big Data concepts, and teaches you how to perform distributed processing of large data sets with Hadoop."
+    },
+    {
+        "input": "Show me courses on Spark Fundamentals I",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Spark Fundamentals I): Ignite your interest in Spark with an introduction to the core concepts that make this general processor an essential tool set for working with Big Data."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Explore Emerging Tech): Badges earners have an understanding of six emerging technologies that power today's jobs: AI, blockchain, cloud computing, cybersecurity, data and analytics, and the Internet of Things."
+    },
+    {
+        "input": "Show me courses on Explore Emerging Tech",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Explore Emerging Tech): Individuals know foundational concepts, terminology, and how technologies are applied to solve problems in organizations and business. Badge earners can use this knowledge to explore careers in tech."
+    },
+    {
+        "input": "Could you give me What is the Internet of Things? online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (What is the Internet of Things?): The Internet of Things, or IoT, is the network of physical devices, vehicles, home appliances, and other everyday items embedded with sensors, enabling the objects to connect and exchange data. Learn more about IoT in this introductory topic."
+    },
+    {
+        "input": "How can I improve my IBM Z Xplore: Concepts | IBM skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Xplore: Concepts | IBM): Begin your IBM Z learning experience right here! IBM Z Xplore is a fun way to get hands-on experience across a variety of technologies, develop valuable skills, and earn IBM-issued digital badges."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Xplore: Advanced | IBM): Continue your IBM Z learning experience right here! IBM Z Xplore is a fun way to get hands-on experience across a variety of technologies, develop valuable skills, and earn IBM-issued digital badges."
+    },
+    {
+        "input": "Are there any online courses you recommend on IBM Z Xplore: Advanced | IBM?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Xplore: Advanced | IBM): You'll learn about solving advanced IBM Z problems by thinking critically and applying information from a wide variety of sources"
+    },
+    {
+        "input": "How can I improve my IBM Z Xplore: Advanced | IBM skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Xplore: Advanced | IBM): You\u2019ll learn about orchestrated system activities using Ansible and Zowe, while working in Docker containerized environments. You\u2019ll also gain key IBM Z skills, including REXX, COBOL, VSAM, and TSO."
+    },
+    {
+        "input": "Recommend me some courses on An Introduction to Enterprise Computing | IBM",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (An Introduction to Enterprise Computing | IBM): What are mainframes? What is IBM Z? Who uses IBM Z? Have you used IBM Z? These questions and more are answered in this short course, designed to introduce you to the world of enterprise computing."
+    },
+    {
+        "input": "Recommend me some courses on IBM Z Xplore Essentials",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Xplore Essentials): This is a hands-on learning application so you can get an introduction to enterprise computing. You'll get to see what happends behind the scenes when you order an item."
+    },
+    {
+        "input": "I am looking for courses on IBM Z Xplore Essentials",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Xplore Essentials): You will learn how technology works from the time you click on your device, like your smartphone, until it shows up at your door."
+    },
+    {
+        "input": "Recommend me some courses on IBM Z Code Patterns | IBM",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Code Patterns | IBM): Learn how to work with code patterns to offer up complete solutions to problems that developers face every day. "
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Code Patterns | IBM): Code patterns leverage multiple technologies, products, or services to solve issues that our developer advocates have recognized as common use cases across multiple industries."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Tutorials | IBM): Use these tutorials for step-by-step instructions that a developer can follow to complete a specific task or set of tasks"
+    },
+    {
+        "input": "Show me courses on What is hybrid cloud? | Red Hat",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (What is hybrid cloud? | Red Hat): This site from Red Hat provides an overview of hybrid cloud and answers some important questions around hybrid cloud. "
+    },
+    {
+        "input": "Help me learn more about Information Technology Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Information Technology Fundamentals): This credential earner demonstrates knowledge of information technology (IT) basics, methodologies of troubleshooting, and the tools and resources that IT professionals use. "
+    },
+    {
+        "input": "Are there any online courses you recommend on Information Technology Fundamentals?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Information Technology Fundamentals): The individual has a conceptual understanding of computer basics, networking, hardware, software, computer security, and has experience supporting a customer with a simulated remote connection tool. "
+    },
+    {
+        "input": "Show me courses on Information Technology Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Information Technology Fundamentals): The earner is aware of the job outlook in IT and is familiar with the skills required for success in various roles."
+    },
+    {
+        "input": "Recommend me some courses on Computer Basics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Basics): In this course, you\u2019ll learn key concepts from computer parts and networking to security, support, and user identification. Discover the core computing area of the field of information technology (IT)."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Networking Basics: How Computers Communicate): In this course, you\u2019ll learn about the ways that computer networking touches areas of everyday life. You\u2019ll examine how network connections help you send and receive information."
+    },
+    {
+        "input": "Could you give me Computer Networking Basics: How Computers Communicate online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Networking Basics: How Computers Communicate): You\u2019ll explore different types of networks that cover personal, local, and wide areas, and you\u2019ll discover the importance of network security."
+    },
+    {
+        "input": "I am looking for courses on Computing from Past to Present",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Computing from Past to Present): In this course, you\u2019ll learn about milestone events in the history of computing. You will discover why key concepts like accessibility and security have become essential qualities of information technology."
+    },
+    {
+        "input": "I am looking for courses on Security Basics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Security Basics): In this course, you\u2019ll learn about threats to computer security and ways to keep computer systems and users safe."
+    },
+    {
+        "input": "Show me courses on Security Basics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Security Basics):  You will discover the differences between threats, such as hacking, malware, and viruses, and vulnerabilities, such as bugs and buffer overflows."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Security Basics): You will explore key security measures to protect computer hardware, software, and networks."
+    },
+    {
+        "input": "I want a course on Support Basics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Support Basics): In this course, you\u2019ll explore the intriguing world of troubleshooting. You will learn key ways to hone in on the causes of problems that don\u2019t have an obvious solution."
+    },
+    {
+        "input": "Help me learn more about Troubleshooting for Hardware, Networks, and Software",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): In this course, you\u2019ll learn the troubleshooting techniques that IT professionals rely upon to resolve difficult issues. "
+    },
+    {
+        "input": "Could you give me Troubleshooting for Hardware, Networks, and Software online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): You\u2019ll explore established approaches to fixing hardware, networking, and software issues."
+    },
+    {
+        "input": "Recommend me some courses on Troubleshooting for Hardware, Networks, and Software",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): You\u2019ll discover the steps to take when the answer is not immediately obvious."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Support a Customer with a Network Issue): In this course, you\u2019ll practice supporting a customer by troubleshooting a network issue in a series of simulations."
+    },
+    {
+        "input": "I need some training on Support a Customer with a Network Issue",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Support a Customer with a Network Issue): You\u2019ll get a clear description of the problem, create a theory of probable cause, resolve the issue, and close the support engagement."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in IT Support: The Job Landscape): In this course, you\u2019ll learn about the IT support job market and projections, the responsibilities and skill sets of an IT professional, and resources and learning opportunities that you can explore."
+    },
+    {
+        "input": "How can I improve my Introduction to IT | Codecademy skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to IT | Codecademy): This course is geared towards beginners looking to take their first steps into the world of IT."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Internet of Things (IoT) Tutorial for Beginners: Introduction, Basics, Applications | Guru 99): In this online course, you'll learn about the history of IoT, how IoT works, and the applications, challenges, advantages, disadvantages, and best best practices of IoT."
+    },
+    {
+        "input": "Could you give me Algorithms | Khan Academy online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Algorithms | Khan Academy): What are algorithms and why should you care? We'll start with an overview of algorithms and then discuss two games that you could use an algorithm to solve more efficiently - the number guessing game and a route-finding game."
+    },
+    {
+        "input": "Could you give me SPACE GAMING | Code Today, Game Tomorrow - Free Gaming Hours Exercise online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (SPACE GAMING | Code Today, Game Tomorrow - Free Gaming Hours Exercise): Here you will have the chance to try out coding in Java Script."
+    },
+    {
+        "input": "Are there any online courses you recommend on Think like a computer: the logic of programming | openclassrooms?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Think like a computer: the logic of programming | openclassrooms): This course is designed to demystify the logic used in computer programming and give you the confidence you need to take your first steps towards a career in development."
+    },
+    {
+        "input": "Recommend me some courses on Think like a computer: the logic of programming | openclassrooms",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Think like a computer: the logic of programming | openclassrooms):  By using concrete, everyday examples, you'll be able to focus on learning the most frequently used concepts without getting lost in a sea of jargon."
+    },
+    {
+        "input": "I need some training on Think like a computer: the logic of programming | openclassrooms",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Think like a computer: the logic of programming | openclassrooms): You'll discover that coding isn't as complex as people make it out to be, and that anyone can learn it."
+    },
+    {
+        "input": "I am looking for courses on Build Your First Web Pages With HTML and CSS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Build Your First Web Pages With HTML and CSS): In this course, you will learn how to use HTML5 and CSS3, the two types of code upon which all websites are based."
+    },
+    {
+        "input": "Show me courses on Build Your First Web Pages With HTML and CSS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Build Your First Web Pages With HTML and CSS): Create your page's content with HTML, and make it look great with CSS. You'll learn all about these two languages and how they work together to render all your favorite websites."
+    },
+    {
+        "input": "I want a course on Learn Programming with JavaScript",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn Programming with JavaScript): This course is designed to teach you the fundamentals of the  JavaScript programming language and to give you lots of practice along the way!"
+    },
+    {
+        "input": "Recommend me some courses on Learn the Command Line in Terminal",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn the Command Line in Terminal): In this course, you'll explore simple but crucial commands to navigate your computer's files and folders, search for content, and even create brand-new files from Terminal."
+    },
+    {
+        "input": "Are there any online courses you recommend on Tutorial HTML?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Tutorial HTML): Learn how to use HTML to create websites with this hands on tutorial."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn CSS Tutorial): Learn the basics of Cascading Style Sheets (CSS) with this hands on tutorial."
+    },
+    {
+        "input": "I need some training on Learn JavaScript Tutorial",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn JavaScript Tutorial): Learn the basics of JavaScript with this hands on tutorial."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (A Beginner\u2019s Guide to Using WordPress): Learn how to use WordPress from start to finish in this course. It's the only WordPress beginner's guide you'll ever need."
+    },
+    {
+        "input": "Help me learn more about Create web page layouts with CSS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Create web page layouts with CSS): In this course on layouts, we'll explore basic properties that can really make your elements pop, like spacing, borders, and custom styles for mobile and tablet screens. "
+    },
+    {
+        "input": "Help me learn more about Create web page layouts with CSS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Create web page layouts with CSS): You'll also discover CSS Grid and Flexbox, two powerful CSS systems for arranging elements in rows, columns, or both! "
+    },
+    {
+        "input": "I want a course on Create web page layouts with CSS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Create web page layouts with CSS): you'll cover some legacy layout techniques you might see in older codebases so that you feel prepared for all possible styling situations.  "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): Building on the basics of JavaScript"
+    },
+    {
+        "input": "Recommend me some courses on Write JavaScript for the Web",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): modify documents after they have finished loading \u2014 add new content to a page, change the color of an element to reflect a changing state, or remove an element the user does not need anymore"
+    },
+    {
+        "input": "I am looking for courses on Write JavaScript for the Web",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): interact with your users \u2014 whether ticking a box, commenting on a blog post, or submitting a tax form, your users need to be able to communicate with you, and JavaScript allows them to do so;"
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): send and receive data to and from external APIs \u2014 harness the power of the thousands of useful APIs that already exist or plug your frontend app into your own custom backend."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to jQuery): By learning the necessary JavaScript concepts and then diving into jQuery, as we'll do in this course, you'll have a solid foundation for whatever your next steps with front-end development might be."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Build web apps with ReactJS): In this course, you'll learn how to use the React JavaScript library for building user interfaces. "
+    },
+    {
+        "input": "I want a course on Build web apps with ReactJS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Build web apps with ReactJS): In this course, you'll learn how to build a React interface from the ground up, beginning with a set of specifications and ending with a working application that follows the best practices advocated by the React team."
+    },
+    {
+        "input": "I need some training on Deep Dive Into Modern Web Development",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Deep Dive Into Modern Web Development): This course will introduce you to modern JavaScript-based web development. The main focus of this course is on building single page applications with ReactJS that use REST APIs built with Node.js."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Deep Dive Into Modern Web Development): Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go!"
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn W3.JS Tutorial ): Learn how to use the W3.JS library with this hands on tutorial. "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn React Tutorial): Learn how to use React with this hands on tutorial."
+    },
+    {
+        "input": "How can I improve my Learn AngularJS Tutorial skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn AngularJS Tutorial): In this tutorial, you will learn the basics of AngularJS: directives, expressions, filters, modules, and controllers"
+    },
+    {
+        "input": "How can I improve my Learn XML Tutorial skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn XML Tutorial): Learn how to use XML with this hands on tutorial. "
+    },
+    {
+        "input": "How can I improve my Learn PHP Tutorial skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn PHP Tutorial): Learn how to use PHP  with this hands on tutorial."
+    },
+    {
+        "input": "I want a course on Learn jQuery Tutorial",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn jQuery Tutorial): Learn how to use jQuery with this hands on tutorial. jQuery is desgined to make it much easier to use JavaScript on websites. "
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write object-oriented Ruby): This course is for people who already have some familiarity with Ruby and want to really understand how to take full advantage of Ruby's object-oriented design."
+    },
+    {
+        "input": "Show me courses on Write object-oriented Ruby",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write object-oriented Ruby): This course assumes you have some familiarity with basic operations in Ruby like doing math and working with such structures as loops, strings, and arrays."
+    },
+    {
+        "input": "Are there any online courses you recommend on Write object-oriented Ruby?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write object-oriented Ruby):  Instead of surveying the language's syntax, we will approach Ruby by looking deeply at how classes and objects work together.  "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to AJAX): Learn how to use AJAX with this hands on tutorial."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn Node.js Tutorial): Learn how to use Node.js with this hands on tutorial."
+    },
+    {
+        "input": "Recommend me some courses on Learning JSON Tutorial ",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learning JSON Tutorial ): Learn how to use JSON with this hands on tutorial. "
+    },
+    {
+        "input": "Could you give me Learn Python Basics for Data Analysis online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn Python Basics for Data Analysis): This course is designed to teach you the fundamentals of the Python programming language and especially for the purpose of data analysis."
+    },
+    {
+        "input": "Could you give me Learn Python Tutorial online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn Python Tutorial): Learn how to use the Python programming language with this hands on tutorial."
+    },
+    {
+        "input": "Could you give me Learn programming with Java online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn programming with Java): This course is designed to teach you the fundamentals of the Java programming language and to give you lots of practice along the way!"
+    },
+    {
+        "input": "Could you give me Learn Java Tutorial online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn Java Tutorial): Learn how to program using the Java language with this hands on tutorial."
+    },
+    {
+        "input": "How can I improve my Learn C++ Tutorial skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn C++ Tutorial): Learn how to program using C Plus Plus with this hands on tutorial."
+    },
+    {
+        "input": "Are there any online courses you recommend on Learn Machine Learning with Python Tutorial?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn Machine Learning with Python Tutorial): Learn how to use Python to work with machine learning with this hands on tutorial."
+    },
+    {
+        "input": "I am looking for courses on Learn Machine Learning with Python Tutorial",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn Machine Learning with Python Tutorial): In this tutorial we will go back to mathematics and study statistics, and how to calculate important numbers based on data sets."
+    },
+    {
+        "input": "I want a course on Learn Machine Learning with Python Tutorial",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learn Machine Learning with Python Tutorial): We will also learn how to use various Python modules to get the answers we need and we will learn how to make functions that are able to predict the outcome based on what we have learned."
+    },
+    {
+        "input": "I am looking for courses on Introduction to Game AI and Reinforcement Learning",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Game AI and Reinforcement Learning): Learn the core ideas in machine learning and build your first models in this practical course."
+    },
+    {
+        "input": "I need some training on Introduction to Game AI and Reinforcement Learning",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Game AI and Reinforcement Learning): You will build your own video game bots using classic algorithms and cutting edge techniques."
+    },
+    {
+        "input": "I need some training on Introduction to Quantum Computing",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Quantum Computing): These courses are designed to provide you with a deeper understanding of quantum computing principles and techniques through the exploration and solving of intriguing quantum enigmas."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Enigmas: Part 1): In this course, you will dive into the perplexing and mind-bending concepts that define the quantum world."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Enigmas: Part 1): Through a series of illuminating videos and exercises, you will unravel the fascinating nature of quantum computing, exploring topics such as superposition, entanglement, and the mysterious behavior of qubits."
+    },
+    {
+        "input": "How can I improve my Quantum Enigmas: Part 1 skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Enigmas: Part 1): Whether you are a curious science enthusiast or a budding physicist, this course will expand your understanding of quantum phenomena and leave you awestruck by the wonders of the quantum realm."
+    },
+    {
+        "input": "Could you give me Quantum Computing Virtual Labs online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Computing Virtual Labs): In this course you'll learn about those ideas: how atomic particles can take on two contrary states at one time and seemingly influence each other faster than the speed of light. And, you'll hear from real computer scientists about research that's harnessing these concepts to a new kind of computer that can solve, in seconds, problems that would take a conventional computer longer than the age of the universe. "
+    },
+    {
+        "input": "Recommend me some courses on User Experience Design Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (User Experience Design Fundamentals): This credential earner demonstrates knowledge of UX design concepts, processes, and tools that UX designers use"
+    },
+    {
+        "input": "Recommend me some courses on User Experience Design Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (User Experience Design Fundamentals): The individual has a conceptual understanding of user personas, wireframes, prototypes, usability testing, working collaboratively with a UX design team, and has experience reviewing a UX design case study to make conclusions about redesigning a website. "
+    },
+    {
+        "input": "I want a course on User Experience Design Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (User Experience Design Fundamentals): The earner is aware of the job outlook in UX design and is familiar with the skills required for success in various roles."
+    },
+    {
+        "input": "Help me learn more about Introduction to UX Design",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): In this course, you\u2019ll get an overview of user experience (UX) design."
+    },
+    {
+        "input": "Recommend me some courses on Introduction to UX Design",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You\u2019ll learn about some of the essential qualities that make a great UX designer stand out from the crowd."
+    },
+    {
+        "input": "Recommend me some courses on Introduction to UX Design",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You\u2019ll discover user-centered design (UCD), ways to design for diversity, and the importance of adaptive and responsive designs in UX design. "
+    },
+    {
+        "input": "I want a course on Introduction to UX Design",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You\u2019ll also learn about a case study in UX design, including its components and the step-by-step process to create it."
+    },
+    {
+        "input": "I need some training on Introduction to UX Design",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): you\u2019ll review an example case study that defines project requirements."
+    },
+    {
+        "input": "I am looking for courses on Conducting UX Research",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): In this course, you\u2019ll learn the importance of research in creating a user-centered design."
+    },
+    {
+        "input": "I want a course on Conducting UX Research",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): You\u2019ll explore various user experience (UX) research methods and techniques."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): You\u2019ll also learn the importance of user personas in UX design and the ways to create them based on the research conducted and the data collected."
+    },
+    {
+        "input": "I am looking for courses on Conducting UX Research",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research):  you\u2019ll learn the ways to conduct a competitive and comparative analysis by evaluating and comparing a product or service against its competitors in the market."
+    },
+    {
+        "input": "I am looking for courses on Conducting UX Research",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): you\u2019ll review an example UX case study that conducted research and created user personas."
+    },
+    {
+        "input": "Recommend me some courses on Building a Story-based Design",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): In this course, you\u2019ll discover how user stories serve as an effective tool that captures a user\u2019s needs, pain points, and preferences in the UX design process."
+    },
+    {
+        "input": "Are there any online courses you recommend on Building a Story-based Design?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): You\u2019ll learn that user stories serve as a foundational element for user journeys and user flows, and ultimately are converted into solution sketches."
+    },
+    {
+        "input": "I want a course on Building a Story-based Design",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): you\u2019ll review an example UX design case study to evaluate user stories, user journey, user flows, and solution sketches for a plant-selling e-commerce website."
+    },
+    {
+        "input": "Help me learn more about Wireframing and Prototyping",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): In this course, you\u2019ll learn about UX writing, information architecture (IA), and sitemaps and their role in UX design. "
+    },
+    {
+        "input": "I am looking for courses on Wireframing and Prototyping",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): You\u2019ll explore the wireframing process, its purpose, and the three fidelities of wireframes."
+    },
+    {
+        "input": "I am looking for courses on Wireframing and Prototyping",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): you\u2019ll review an example case study that shows wireframes for a plant-selling e-commerce website. "
+    },
+    {
+        "input": "I want a course on Wireframing and Prototyping",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): by learning about the key principles of user interface (UI) design and the way it enhances the accessibility of digital products. "
+    },
+    {
+        "input": "I am looking for courses on Wireframing and Prototyping",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): you\u2019ll review an example case study that shows the UI design and prototypes for a plant-selling e-commerce website."
+    },
+    {
+        "input": "Are there any online courses you recommend on Conducting Usability Tests and Gathering Feedback?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): In this course, you\u2019ll learn how UX designers evaluate their designs through usability testing."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback):  You\u2019ll identify the different methods of conducting usability testing and the steps in the usability testing process."
+    },
+    {
+        "input": "Are there any online courses you recommend on Conducting Usability Tests and Gathering Feedback?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): You\u2019ll also learn about how designers prioritize feedback they gather from usability testing."
+    },
+    {
+        "input": "I am looking for courses on Conducting Usability Tests and Gathering Feedback",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): you\u2019ll find out how this feedback helps enhance designs by creating a revised prototype."
+    },
+    {
+        "input": "I need some training on Conducting Usability Tests and Gathering Feedback",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): you\u2019ll review an example UX design case study that shows a test plan and tools for usability testing, the test\u2019s analysis report, and revised prototype for a plant selling e-commerce website."
+    },
+    {
+        "input": "Help me learn more about Working Collaboratively with Teams on UX Design Projects",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): In this course, you\u2019ll learn about cross-functional teams and their benefits. "
+    },
+    {
+        "input": "Show me courses on Working Collaboratively with Teams on UX Design Projects",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): You\u2019ll discover the different roles on a UX design project team and the best practices to effectively collaborate with them"
+    },
+    {
+        "input": "How can I improve my  Working Collaboratively with Teams on UX Design Projects skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled ( Working Collaboratively with Teams on UX Design Projects): You\u2019ll identify the project team\u2019s role in making the user experience (UX) design adaptable to coding, including handing off design artifacts for development. "
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects):  you\u2019ll learn how UX designers review a developed product."
+    },
+    {
+        "input": "I am looking for courses on Working Collaboratively with Teams on UX Design Projects",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): you\u2019ll review an example case study that shows the project team members, their methods to collaborate, the design artifacts to be handed off, and the final review\u2019s feedback for the UX design project of a plant-selling e-commerce website."
+    },
+    {
+        "input": "Recommend me some courses on Your Future in UX Design: The Job Landscape",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in UX Design: The Job Landscape): In this course, you\u2019ll learn about the UX design job market, the skills UX designers need to be successful, and the responsibilities of UX designers. "
+    },
+    {
+        "input": "Help me learn more about  Your Future in UX Design: The Job Landscape",
+        "response": "Here is an online course I found on IBM SkillsBuild titled ( Your Future in UX Design: The Job Landscape): You\u2019ll also discover how UX designers are different from other designers. Furthermore, you\u2019ll find resources and learning opportunities so you can explore more."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (UX Basics: Study Guide): Unsure where to start learing about UX design? Use this collection of links to articles and videos to learn more about the basics of user experience."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Virtual Reality Course): This course is designed for those new to virtual reality, who wish to learn about the principles of virtual reality technology including optics, displays, stereopsis, tracking, and major hardware platforms. "
+    },
+    {
+        "input": "Recommend me some courses on Web Development Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Fundamentals): This credential earner demonstrates knowledge of web development concepts, processes to develop, deploy, and test websites, and the tools and programming languages that web developers use."
+    },
+    {
+        "input": "Show me courses on  Web Development Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled ( Web Development Fundamentals): The individual has a conceptual understanding of how to develop an interactive website using HTML, CSS, and JavaScript in a simulated integrated development environment (IDE)."
+    },
+    {
+        "input": "I need some training on Web Development Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Fundamentals): The earner is aware of the job outlook in web development and is familiar with the skills required for success in various roles."
+    },
+    {
+        "input": "Recommend me some courses on Web Development Basics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): In this course, you\u2019ll learn about basic computer functions and programming languages."
+    },
+    {
+        "input": "Are there any online courses you recommend on Web Development Basics?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): You\u2019ll get an overview of web development, including the scope of the two sides of web development: front-end and back-end."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): you\u2019ll learn about the difference between the internet and the World Wide Web."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing Sites for the Web): In this course, you\u2019ll learn how web developers create websites."
+    },
+    {
+        "input": "I want a course on Developing Sites for the Web",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing Sites for the Web): You will learn about common web development languages including HTML, CSS, and JavaScript, and how they have evolved."
+    },
+    {
+        "input": "Help me learn more about Developing Sites for the Web",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing Sites for the Web): You will also learn about the software development lifecycle and ways that an agile approach improves web development."
+    },
+    {
+        "input": "How can I improve my Introduction to HTML and CSS skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to HTML and CSS): In this course, you will learn about the basic structure of an HTML document and common elements to build a web page. "
+    },
+    {
+        "input": "I need some training on Introduction to HTML and CSS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to HTML and CSS): You\u2019ll explore HTML attributes and understand the importance of organizing information."
+    },
+    {
+        "input": "I need some training on Introduction to HTML and CSS",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to HTML and CSS):  In addition, you will gain insight into CSS and explore the CSS box model."
+    },
+    {
+        "input": "Are there any online courses you recommend on Introduction to HTML and CSS?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to HTML and CSS): you will learn about the best practices web developers use for writing HTML and CSS."
+    },
+    {
+        "input": "Could you give me Bringing Websites to Life with JavaScript online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): In this course, you\u2019ll learn how web developers use JavaScript with HTML to create dynamic websites."
+    },
+    {
+        "input": "I am looking for courses on Bringing Websites to Life with JavaScript",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): You\u2019ll examine JavaScript syntax and how variables, functions, expressions, and events operate in JavaScript code. "
+    },
+    {
+        "input": "Show me courses on  Bringing Websites to Life with JavaScript",
+        "response": "Here is an online course I found on IBM SkillsBuild titled ( Bringing Websites to Life with JavaScript): You\u2019ll explore how web developers use data in websites and MySQL code to work with the data. "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): You\u2019ll also learn about Node.js and the advantages of using frameworks and libraries."
+    },
+    {
+        "input": "Are there any online courses you recommend on Website Testing and Deployment?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Website Testing and Deployment): In this course, you will explore how developers thoroughly test website code before enabling public access to their sites."
+    },
+    {
+        "input": "I need some training on Website Testing and Deployment",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Website Testing and Deployment): You\u2019ll discover how teams use version control systems to speed up the delivery of new features and functionality to their users."
+    },
+    {
+        "input": "Could you give me Website Testing and Deployment online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Website Testing and Deployment): you\u2019ll learn about the tools and processes developers use to streamline and simplify the deployment of their websites to their servers or the cloud."
+    },
+    {
+        "input": "Could you give me Develop an Interactive Task List Web Page online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Develop an Interactive Task List Web Page): In this course, you\u2019ll practice building an interactive task list web page in a series of simulations. "
+    },
+    {
+        "input": "I need some training on Develop an Interactive Task List Web Page",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Develop an Interactive Task List Web Page): You\u2019ll develop code files that lay out the structure of a web page with HTML, add styles with CSS, develop interactions with JavaScript, and then test that your web page functions as expected."
+    },
+    {
+        "input": "I need some training on Your Future in Web Development: The Job Landscape",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in Web Development: The Job Landscape): In this course, you\u2019ll learn about the web development job market, the skills web developers need to be successful, and how web developers interact with other job roles on a team. "
+    }
 ]
