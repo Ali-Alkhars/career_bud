@@ -35,7 +35,7 @@ dataset = DatasetDict({
 # Load the tokenizer and model
 model_name = '../T5-interviews'
 tokenizer_name = 't5-small'
-tokenizer = T5Tokenizer.from_pretrained(model_name)
+tokenizer = T5Tokenizer.from_pretrained(tokenizer_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
 # Encode the dataset

@@ -3,7 +3,8 @@ from transformers import T5Tokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalL
 import logging
 
 class T5Chatbot:
-    def __init__(self, model_name='T5-interviews', tokenizer_name='t5-small'):
+    def __init__(self, model_name='T5-IC', tokenizer_name='t5-small'):
+        logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the irrelevant warnings
         self.tokenizer = T5Tokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
