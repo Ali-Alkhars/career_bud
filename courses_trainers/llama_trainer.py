@@ -10,18 +10,18 @@ import evaluate
 
 """
 This script uses the Hugging Face Trainer API to
-train the Llama-2-chat model on a particular dataset.
+train the Llama-2-chat model on courses_dataset.
 
 Taken from: https://deci.ai/blog/fine-tune-llama-2-with-lora-for-question-answering/
 Useful: https://huggingface.co/blog/4bit-transformers-bitsandbytes
 """
 
 # Load the JSON dataset
-with open('../interviews_dataset.json', 'r') as file:
+with open('../Datasets/courses_dataset.json', 'r') as file:
     data = json.load(file)
 
 # Convert each item to the specified string format and collect them
-formatted_questions = [{'questions': f"### Input: {item['topic']} ### Response: {item['question']}"} for item in data]
+formatted_questions = [{'questions': f"### Input: {item['input']} ### Response: {item['response']}"} for item in data]
 
 # Convert the list of strings into a Hugging Face Dataset
 dataset = Dataset.from_dict({'questions': [item['questions'] for item in formatted_questions]})
@@ -35,10 +35,11 @@ dataset = DatasetDict({
 
 
 # Model and tokenizer names
-model_name = "meta-llama/Llama-2-7b-chat-hf"
+model_name = "../Llama-2-interviews"
+tokenizer_name = "meta-llama/Llama-2-7b-chat-hf"
 
 # Tokenizer
-tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, trust_remote_code=True)
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.padding_side = "right"
 
@@ -94,7 +95,7 @@ peft_parameters = LoraConfig(
 
 # Define the Training Arguments
 train_params = TrainingArguments(
-    output_dir="../Llama-2-interviews",
+    output_dir="../Llama-2-IC-checkpoints",
     evaluation_strategy="epoch",           # Evaluate after each epoch
     num_train_epochs=3,
     per_device_train_batch_size=4,
@@ -136,4 +137,4 @@ trainer.train()
 print(f'Training done! Timestamp: {datetime.datetime.now()}')
 
 # Save the model
-trainer.save_model("Llama-2-interviews")
+trainer.save_model("Llama-2-IC")

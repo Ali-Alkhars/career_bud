@@ -27,6 +27,6 @@ myenv/
 Unfiltered-datasets/
 
 # New Trained Models
-DialoGPT-interviews*/
-T5-interviews*/
-Llama-2-interviews*/
+DialoGPT-*/
+T5-*/
+Llama-2-*/
