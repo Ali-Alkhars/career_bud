@@ -8,16 +8,16 @@ import numpy as np
 
 """
 This script uses the Hugging Face Trainer API to
-train the T5 model on a particular dataset.
+train the T5 model on courses_dataset.
 """
 
 # Load the JSON dataset
-with open('../interviews_dataset.json', 'r') as file:
+with open('../Datasets/courses_dataset.json', 'r') as file:
     data = json.load(file)
 
 # Convert each item to the specified format for inputs and targets
 # Here we train the model to answer without context.
-formatted_questions = [{'inputs': f"question: {item['topic']} context: ", 'targets': item['question']} for item in data]
+formatted_questions = [{'inputs': f"question: {item['input']} context: ", 'targets': item['response']} for item in data]
 
 # Convert the list of dictionaries into a Hugging Face Dataset
 dataset = Dataset.from_dict({
@@ -49,7 +49,7 @@ encoded_dataset = dataset.map(encode, batched=True)
 
 # Define the Training Arguments
 training_args = Seq2SeqTrainingArguments(
-    output_dir="../T5-interviews",
+    output_dir="../T5-IC",
     evaluation_strategy="epoch",
     learning_rate=3e-4,                    # As recommended by the Hugging Face T5 Docs
     per_device_train_batch_size=4,
@@ -106,4 +106,4 @@ trainer.train()
 print(f'Training done! Timestamp: {datetime.datetime.now()}')
 
 # Save the model
-trainer.save_model("T5-interviews")
+trainer.save_model("T5-IC")
