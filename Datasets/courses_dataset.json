@@ -1874,5 +1874,337 @@
     {
         "input": "Recommend me some courses on eLession: Unconscious Bias - MicroSoft",
         "response": "Here is an online course I found on IBM SkillsBuild titled (eLession: Unconscious Bias - MicroSoft): You'll also learn numerous actions you can take to help counter bias in your own work environment."
+    },
+    {
+        "input": "How can I improve my Mastering the Art of Prompting: Effective Instructions for AI Language Models skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Mastering the Art of Prompting: Effective Instructions for AI Language Models): This is an activity-based course. You'll learn about AI language models and the rules to follow when giving instructions, or prompting, an AI language model."
+    },
+    {
+        "input": "Help me learn more about  Mastering the Art of Prompting: Effective Instructions for AI Language Models",
+        "response": "Here is an online course I found on IBM SkillsBuild titled ( Mastering the Art of Prompting: Effective Instructions for AI Language Models): You'll walk-through a guided activity that demonstrates how to write effective prompts for an AI language model to help plan a travel itinerary."
+    },
+    {
+        "input": "Could you give me Mastering the Art of Prompting: Effective Instructions for AI Language Models online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Mastering the Art of Prompting: Effective Instructions for AI Language Models): you'll participate in an activity to apply what you've learned to effectively write prompts for an AI language model to create your own custom music playlist."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Tutorial | AI Tutorial for Beginners | Artificial Intelligence): This Artificial Intelligence tutorial video will help you understand what is Artificial Intelligence, types of Artificial Intelligence, ways of achieving Artificial Intelligence, and applications of Artificial Intelligence."
+    },
+    {
+        "input": "Are there any online courses you recommend on Artificial Intelligence Tutorial | AI Tutorial for Beginners | Artificial Intelligence?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Tutorial | AI Tutorial for Beginners | Artificial Intelligence): we will also implement a use case on TensorFlow in which we will predict whether a person has diabetes or not."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Elements of AI): This course, designed by the Finnish government, is for any one interested in learning what AI is, what is possible and not possible with AI, and how it affects people's lives \u2013 with no complicated math or programming required."
+    },
+    {
+        "input": "Are there any online courses you recommend on Everyday Ethics for Artificial Intelligence?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Everyday Ethics for Artificial Intelligence): This document represents the beginning of a conversation defining Everyday Ethics for AI. Ethics must be embedded in the design and development process from the very beginning of AI creation."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI And Machine Learning Full Course): This complete Artificial Intelligence and Machine Learning full video course covers all the topics that you need to know to become a master in the field of AI and Machine Learning."
+    },
+    {
+        "input": "How can I improve my AI And Machine Learning Full Course skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI And Machine Learning Full Course): The basics of Machine Learning, the different types of Machine Learning, and the various applications of Machine Learning used in different industries. "
+    },
+    {
+        "input": "I need some training on AI And Machine Learning Full Course",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI And Machine Learning Full Course): The basics of artificial intelligence."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (SkillsBuild - Customer Engagement: Communication and Personality Dynamics): This badge earner understands methodologies and best practices for building rapport and engaging in productive communication"
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (SkillsBuild - Customer Engagement: Communication and Personality Dynamics): know communication skills that are clear and concise, understand when and how to say \u201cno,\u201d and effectively collaborate with colleagues. "
+    },
+    {
+        "input": "Show me courses on SkillsBuild - Customer Engagement: Communication and Personality Dynamics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (SkillsBuild - Customer Engagement: Communication and Personality Dynamics):  know personality and behavioral characteristics critical to customer success, show an ability to self-evaluate personality strengths and weaknesses, and can apply strategies to improve upon these attributes."
+    },
+    {
+        "input": "Help me learn more about Course 1: Communication Skills",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 1: Communication Skills): In this course, learners will be introduced to the work environment by exploring the importance of building rapport and maintaining a positive tone while communicating with customers."
+    },
+    {
+        "input": "I am looking for courses on Course 1: Communication Skills",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 1: Communication Skills): Learners will understand the value and demonstrate the ability to use clear and concise communication skills."
+    },
+    {
+        "input": "How can I improve my Course 1: Communication Skills skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 1: Communication Skills): Learners will also explore insider secrets to success, such as the art of saying \"No\" and how to use collaboration with colleagues to improve the overall work experience."
+    },
+    {
+        "input": "I want a course on Course 2: Personality Dynamics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 2: Personality Dynamics): In this course, learners will explore the personality traits that are recognized as leading indicators of success in the field of customer support."
+    },
+    {
+        "input": "Show me courses on Course 2: Personality Dynamics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 2: Personality Dynamics): Learners will identify basic characteristics for each personality trait and evaluate their own strengths and weaknesses."
+    },
+    {
+        "input": "I am looking for courses on Course 2: Personality Dynamics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 2: Personality Dynamics): reflect on recommended strategies to develop traits within themselves and will practice and apply newly acquired knowledge by reacting to and resolving authentic problems."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 3: Problem Solving): In this course, learners will discover best practices related to finding and evaluating resources used to assist in the process to solve problems and provide customers with resolutions."
+    },
+    {
+        "input": "Help me learn more about Course 3: Problem Solving",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 3: Problem Solving): Learners will explore various methods of organizing resources so that they can be efficiently retrieved when needed. "
+    },
+    {
+        "input": "Show me courses on Course 3: Problem Solving",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 3: Problem Solving): Through making connections to the Scientific Method, learners will explore a methodical problem-solving process and apply it to real-world situations."
+    },
+    {
+        "input": "Help me learn more about Course 4: Process Controls",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 4: Process Controls): In this course, learners will build on what they learned about communication, personality, and problem-solving from previous modules and begin to apply this in the workplace."
+    },
+    {
+        "input": "Recommend me some courses on Course 4: Process Controls",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 4: Process Controls): Learners will be introduced to the concept of service level agreements and explore how they impact the service industry. "
+    },
+    {
+        "input": "Could you give me Course 4: Process Controls online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 4: Process Controls): Through exploration of standards, learners will begin to understand the value of ticketing systems in monitoring documentation used to support customers."
+    },
+    {
+        "input": "Show me courses on Course 4: Process Controls",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Course 4: Process Controls): learners will examine their own technical skills, practice refining their typing and diction skills, learn technical terminology, and explore the knowledge-centered service (KCS) methodology."
+    },
+    {
+        "input": "How can I improve my SkillsBuild - Customer Engagement: Problem Solving and Process Controls skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (SkillsBuild - Customer Engagement: Problem Solving and Process Controls): This badge earner knows best practices essential to resolving client problems through organization, retrieval, and usage of resources and information essential to customer success operations."
+    },
+    {
+        "input": "I am looking for courses on SkillsBuild - Customer Engagement: Problem Solving and Process Controls",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (SkillsBuild - Customer Engagement: Problem Solving and Process Controls): The individual understands concepts and methods related to Service Level Agreements (SLAs), application of support ticketing systems, Knowledge-Centered Service (KCS) methodology, and application of effective typing and dictation skills."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fortinet Certified Fundamentals (FCF)): The Fortinet Certified Fundamentals (FCF) certification validates that you have mastered the technical knowledge and skills that are required for any entry-level job role in cybersecurity."
+    },
+    {
+        "input": "Recommend me some courses on Fortinet Certified Fundamentals (FCF)",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fortinet Certified Fundamentals (FCF)): This curriculum will offer courses that cover today\u2019s threat landscape and the fundamentals of cybersecurity."
+    },
+    {
+        "input": "How can I improve my FCF - Introduction to the Threat Landscape skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (FCF - Introduction to the Threat Landscape): In this course, you will learn about the cyberthreat landscape."
+    },
+    {
+        "input": "Help me learn more about FCF - Introduction to the Threat Landscape",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (FCF - Introduction to the Threat Landscape):  This landscape includes the threats that endanger computer networks, the cast of bad actors who are behind these threats, and the cybersecurity first principles that, if followed, can keep you and your computer network safe."
+    },
+    {
+        "input": "Help me learn more about FCF - Introduction to the Threat Landscape",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (FCF - Introduction to the Threat Landscape): This course is designed as an entry point for individuals who are new to cybersecurity."
+    },
+    {
+        "input": "Could you give me FCF - Getting Started in Cybersecurity online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (FCF - Getting Started in Cybersecurity): Getting Started in Cybersecurity is ideal for individuals in non-technical job positions that require a high-level understanding of the most important technical fundamentals of cybersecurity."
+    },
+    {
+        "input": "Are there any online courses you recommend on FCF - Technical Introduction to Cybersecurity?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (FCF - Technical Introduction to Cybersecurity): Technical Introduction to Cybersecurity is ideal for individuals in technical roles that require a more in-depth understanding of the fundamentals of cybersecurity."
+    },
+    {
+        "input": "Recommend me some courses on FCF - Technical Introduction to Cybersecurity",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (FCF - Technical Introduction to Cybersecurity): This course is also ideal for people who are pursuing a technical role in cybersecurity."
+    },
+    {
+        "input": "Show me courses on Fortinet Certified Associate (FCA)",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fortinet Certified Associate (FCA)): The Fortinet Certified Associate (FCA) certification validates your ability to execute high-level operation of FortiGate devices."
+    },
+    {
+        "input": "Show me courses on Fortinet Certified Associate (FCA)",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fortinet Certified Associate (FCA)): This curriculum will offer a course that covers the fundamental operating procedures for the most common FortiGate features."
+    },
+    {
+        "input": "I am looking for courses on FCA - FortiGate Operator",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (FCA - FortiGate Operator): In this course, you will learn how to harden the security of your network by using the most common FortiGate features. "
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (FCA - FortiGate Operator): Through demos and interactive simulations, you will learn how to perform basic operation tasks on FortiGate. You can then build on this knowledge by exploring more advanced topics related to these features."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Applied Data Science with Python): You will learn how to code in Python for data science, then analyze and visualize data with Python with packages like scikit-learn, matplotlib, and bokeh."
+    },
+    {
+        "input": "Are there any online courses you recommend on Applied Data Science with Python?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Applied Data Science with Python): This is an action-packed learning plan for data science enthusiasts who want to work with real world problems using Python."
+    },
+    {
+        "input": "Help me learn more about Python for Data Science",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Python for Data Science): This introduction to Python will kickstart your learning of Python for data science, as well as programming in general."
+    },
+    {
+        "input": "Help me learn more about Python for Data Science",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Python for Data Science): This beginner-friendly Python course will take you from zero to programming in Python in a matter of hours"
+    },
+    {
+        "input": "I am looking for courses on Python for Data Science",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Python for Data Science): Upon its completion, you'll be able to write your own Python scripts. If you want to learn Python from scratch, this free course is for you."
+    },
+    {
+        "input": "Help me learn more about Data Analysis with Python",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Analysis with Python): In this course you will learn about: Data Acquisition How to Obtain Basic Insight From a Dataset Data"
+    },
+    {
+        "input": "Recommend me some courses on Data Visualization with Python",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Visualization with Python): Data visualization is the graphical representation of data in order to interactively and efficiently convey insights to clients, customers, and stakeholders in general"
+    },
+    {
+        "input": "Recommend me some courses on Data Visualization with Python",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Visualization with Python): It is a way to summarize your findings and display it in a form that facilitates interpretation and can help in identifying patterns or trends."
+    },
+    {
+        "input": "Recommend me some courses on Data Visualization with Python",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Visualization with Python): In this course you will learn how to create interesting graphics and charts and customize them to make them more effective and more pleasing to your audience."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Science Methodology): Grab your lab coat, beakers, and pocket calculator ... wait what? Wrong path! Fast forward and get in line with emerging data science methodologies that are in use and are making waves or rather predicting and determining which wave is coming and which one has just passed."
+    },
+    {
+        "input": "Help me learn more about Project Management Fundamentals",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Project Management Fundamentals): This badge earner demonstrates a foundational understanding of project management concepts and processes. "
+    },
+    {
+        "input": "How can I improve my Project Management Fundamentals skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Project Management Fundamentals): This includes knowledge about the value of project management, approaches to project management, and the role and responsibilities of the project manager across the project lifecycle to initiate and plan, execute, and close a project."
+    },
+    {
+        "input": "I am looking for courses on Career Relaunch: Be an Entrepreneur",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Career Relaunch: Be an Entrepreneur): In this online self-guided journey, you will develop an entrepreneurial mindset as you build and test your own business idea to create a valid business opportunity."
+    },
+    {
+        "input": "Show me courses on Career Relaunch: Be an Entrepreneur",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Career Relaunch: Be an Entrepreneur): You will learn the basics needed to build a business model for your idea to pitch it and launch it."
+    },
+    {
+        "input": "I want a course on Career Relaunch: Be an Entrepreneur",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Career Relaunch: Be an Entrepreneur): Take control of your life and pursue your dreams by learning how to think and act entrepreneurially in business and in your life."
+    },
+    {
+        "input": "Are there any online courses you recommend on Lesson 1: Intro to Entrepreneurship?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 1: Intro to Entrepreneurship): Learn about different types of entrepreneurs and their unique skills and characteristics that make up an entrepreneurial mindset."
+    },
+    {
+        "input": "I need some training on Lesson 2: Lean Canvas & Iterative Design",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 2: Lean Canvas & Iterative Design): Identify the Three C's of a business plan. Identify the purpose and sections of the Lean Canvas. Analyze the steps in the IDEO human-centered design process and their purpose. Use the design thinking process to start identifying customer problems and unmet needs that you could solve with a business idea."
+    },
+    {
+        "input": "Could you give me Lesson 3: Ideation & Sources of Opportunity online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 3: Ideation & Sources of Opportunity): 1) Understand the importance of creative thinking in the ideation and discovery phases of developing a business model.  2) Practice using a business ideation vetting process.  3) Use an idea map to identify internal and external sources of business opportunity.  4) Identify the difference between a business idea and a business opportunity."
+    },
+    {
+        "input": "I want a course on Lesson 4: Evaluating Opportunities",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 4: Evaluating Opportunities): 1) Learn about techniques entrepreneurs use to determine the most feasible business opportunities.  2) Identify questions entrepreneurs must answer for an evaluation of a business opportunity.  3) Practice using a SWOT Analysis to evaluate a business opportunity.  4) Utilize a SWOT Analysis to compare the feasibility of your own business opportunities that you would like to pursue."
+    },
+    {
+        "input": "Show me courses on Lesson 5: Lean Market Research",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 5: Lean Market Research): 1) Explain the role and importance of market research in entrepreneurship for determining whether a business solution actually solves a problem for its customers.  2) Compare and contrast primary and secondary data and their functions.  3) Identify the value and role of iterative design and minimum viable product (MVP) testing as part of market research.  4) Assemble an MVP and a plan to gather feedback and test assumptions with an emphasis on informing the Customer Segments and Unique Value Proposition tiles of the Lean Canvas."
+    },
+    {
+        "input": "Help me learn more about Lesson 6: Providing Value to Customers",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 6: Providing Value to Customers): 1) Identify how to determine your unique value proposition.  2) Distinguish the difference between the features and benefits of your product or service.  3) Understand the characteristics of effective lean market research.  4) Explain why customers are more likely to buy benefits versus features, given various value propositions that a business can offer customers."
+    },
+    {
+        "input": "Help me learn more about Lesson 7: Competitive Advantage",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 7: Competitive Advantage): 1) Identify various forms of competition.  2) Identify potential differentiators that can act as a competitive advantage.  3) Distinguish between different types of competition.  4) Use a competitive matrix to determine a competitive advantage for a business, with an emphasis on informing the Unfair Advantage tile of the Lean Canvas."
+    },
+    {
+        "input": "Help me learn more about Lesson 8: Marketing a Business",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 8: Marketing a Business): 1) Identify the characteristics and strategies underlying a successful marketing plan.  2) Recognize examples of the 5 P's of the marketing mix.  3) Create a marketing plan and identify the importance of feasibility.  4) Assemble a marketing plan based on marketing goals for the business, with an emphasis on informing the Channels tile of the Lean Canvas."
+    },
+    {
+        "input": "I need some training on Lesson 9: Targeting a Customer Segment",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 9: Targeting a Customer Segment): 1) Recognize the benefits of targeting a market segment instead of mass marketing.  2) Identify the components of a customer profile.  3) Identify ways that a target market can be separated into market segments.  4) Assemble a customer profile based on market research to help inform a promotional campaign."
+    },
+    {
+        "input": "Help me learn more about Lesson 10: Promotional Channels",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 10: Promotional Channels): 1) Recognize the components of a promotional mix and examples of each.  2) Distinguish between promotions aimed at awareness and promotions aimed at customer retention.  3) Identify the importance and purpose of different types of key metrics.  4) Assemble a promotional campaign designed to appeal to a market segment."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 11: The Cost of Doing Business): 1) Distinguish between fixed, variable, and startup expenses incurred by businesses.  2) Understand how to determine the COGS (Cost of Goods Sold) and COSS (Cost of Service Sold) for a business.  3) Understand how to determine one unit of sale.  4) Identify the expenses needed to run a startup, with an emphasis on informing the Cost Structure and Revenue Streams tiles of the Lean Canvas."
+    },
+    {
+        "input": "Could you give me Lesson 12: Delivering Products and Services online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 12: Delivering Products and Services): 1) Recognize the characteristics of the broad categories of businesses and examples of each.  2) Identify the underlying issues and needs that shape the progression of goods through distribution channels.  3) Recognize strategies for optimizing the costs and time incurred with each step in a distribution chain.  4) Determine the most cost effective channels for delivering your product or service to your customer."
+    },
+    {
+        "input": "How can I improve my Lesson 13: The Economics of One Unit of Sale skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 13: The Economics of One Unit of Sale): 1) Recognize the value of using the Economics of One Unit of Sale (EOU) to determine the profitability of a business.  2) Calculate the contribution margin for a unit of sale.  3) Conduct a break-even analysis to determine the number of units that must be sold in order to turn a profit.  4) Assemble an EOU and break-even analysis for a startup."
+    },
+    {
+        "input": "Show me courses on Lesson 14: Financing a Startup",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Lesson 14: Financing a Startup): 1) Recognize the difference between the two major categories for financing a business: debt and equity.  2) Identify the different sources of funding available through debt and equity financing.  3) Make financing decisions based on the pros and cons of debt and equity financing.  4) Create a financing strategy for your business that is informed by the pros and cons of the different sources of financing."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learning LinkedIn): This is an introductory course offered by LinkedIn that is designed to help you develop a better understanding of the LinkedIn platform so you can use it to your benefit."
+    },
+    {
+        "input": "I want a course on Learning LinkedIn",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learning LinkedIn): By harnessing the power of the LinkedIn platform, you can tap into an expansive network of professionals, companies, and groups in your industry and beyond."
+    },
+    {
+        "input": "I need some training on Learning LinkedIn",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Learning LinkedIn): In this course, discover how to make the most of your LinkedIn account. Follow Oliver Schinkten as he explains how to build a stellar LinkedIn profile, and shares how to expand your network, look for new career opportunities, join groups, share updates, and contribute your own thought leadership."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Personal branding for career success): This is an introductory, free course offered by OpenLearn. It will help you to pick your way through the concept of personal branding, developing and refining your own brand, and choosing tools and tactics that allow you to present yourself to current and future employers in an authentic and effective way."
+    },
+    {
+        "input": "Give me some online course recommendations",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Personal branding for career success): You\u2019ll consider your own values and strengths, identify the key skills employers look for and learn how to present and evidence those skills appropriately, whether you want to raise your profile with your current employer or are looking for something new. "
+    },
+    {
+        "input": "I want a course on Using voluntary work to get ahead in the job market",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Using voluntary work to get ahead in the job market): This is an introductory, free course offered by OpenLearn. It will help you understand using voluntary work to get ahead in the job market. It explores how engaging in voluntary work can enhance your employment opportunities."
+    },
+    {
+        "input": "Show me courses on Conversations and interviews",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conversations and interviews): This is an intermediate level, free course offered by OpenLearn. It explores how to ask and answer questions in interviews and conversations."
+    },
+    {
+        "input": "How can I improve my Climate, Biodiversity, and Human Society skills?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Climate, Biodiversity, and Human Society): you\u2019ll learn how sustainability also investigates human social groups, corporate operations and manufacturing, and even ways that buildings and bridges interact with weather and geology. "
+    },
+    {
+        "input": "Recommend me some courses on Beyond Conservation to Sustainability",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Beyond Conservation to Sustainability): Conservation\u2014the preservation of Earth\u2019s ecology and mineral wealth\u2014will always be important. But sustainability takes a broader focus, using data analytics and advanced technology to consider how ecology works together with fields such as engineering, medicine, and the social sciences as a complex whole."
+    },
+    {
+        "input": "I am looking for courses on Make an Impact with Data Analytics",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with Data Analytics): Data analytics can organize facts to reveal information about sustainability issues. With this information, organizations can predict climate risk and environmental problems, prevent disasters, solve mysteries of food production, and even help reduce deforestation."
+    },
+    {
+        "input": "I want a course on Make an Impact with AI",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with AI): With its ability to rapidly uncover information and make predictions using massive amounts of data, AI is revolutionizing ways that organizations can implement sustainability solutions."
+    },
+    {
+        "input": "Could you give me Make an Impact with AI online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with AI):  Its capabilities range from predicting energy demands and monitoring bridge safety to protecting the oceans and the world\u2019s food supply."
+    },
+    {
+        "input": "Could you give me Make an Impact with Hybrid Cloud online course recommendations?",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with Hybrid Cloud): Hybrid cloud securely combines private and public storage of vast data libraries, simultaneously helping organizations control their data costs while reducing their IT\u2019s carbon emissions."
+    },
+    {
+        "input": "I need some online courses",
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with Future Technology): Advanced technologies such as artificial intelligence and quantum computing are taking their place among the tools that organizations use to tackle sustainability problems. These technologies will enable solutions, previously thought impossible to discover and implement."
     }
 ]
