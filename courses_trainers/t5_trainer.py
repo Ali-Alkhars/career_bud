@@ -33,7 +33,8 @@ dataset = DatasetDict({
 })
 
 # Load the tokenizer and model
-model_name = 't5-small'
+model_name = '../T5-interviews'
+tokenizer_name = 't5-small'
 tokenizer = T5Tokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
