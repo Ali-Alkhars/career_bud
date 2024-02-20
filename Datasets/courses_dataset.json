@@ -5,23 +5,23 @@
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Fundamentals): Does artificial intelligence (AI) spark your interest? Here\u2019s your chance to visualize yourself in an AI career! You\u2019ll explore AI\u2019s history, then see how it can change the world."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Fundamentals): Does artificial intelligence (AI) spark your interest? Here's your chance to visualize yourself in an AI career! You'll explore AI's history, then see how it can change the world."
     },
     {
         "input": "Show me courses on Artificial Intelligence Fundamentals",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Fundamentals): you\u2019ll deep dive into ways that AI makes predictions, understands language and images, and learns using circuits inspired by the human brain. After a hands-on simulation in which you build and test a machine learning model, you\u2019ll finish with tips on how to find your own career in artificial intelligence."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Artificial Intelligence Fundamentals): you'll deep dive into ways that AI makes predictions, understands language and images, and learns using circuits inspired by the human brain. After a hands-on simulation in which you build and test a machine learning model, you'll finish with tips on how to find your own career in artificial intelligence."
     },
     {
         "input": "Recommend me some courses on Fundamentals of Sustainability and Technology",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): In this learning plan, you\u2019ll have the chance to learn about sustainability science and its applications in various fields of technology."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): In this learning plan, you'll have the chance to learn about sustainability science and its applications in various fields of technology."
     },
     {
         "input": "Could you give me Fundamentals of Sustainability and Technology online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): Not only will you gain knowledge about sustainability, but you\u2019ll also develop practical skills to make a difference in various industries such as renewable energy, sustainable agriculture, green building, and waste management."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): Not only will you gain knowledge about sustainability, but you'll also develop practical skills to make a difference in various industries such as renewable energy, sustainable agriculture, green building, and waste management."
     },
     {
         "input": "I want a course on Fundamentals of Sustainability and Technology",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): You\u2019ll learn to define sustainability, identify ways that sustainability updates and extends the concept of conservation, and describe key applications of artificial intelligence and data analytics to drive sustainability."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fundamentals of Sustainability and Technology): You'll learn to define sustainability, identify ways that sustainability updates and extends the concept of conservation, and describe key applications of artificial intelligence and data analytics to drive sustainability."
     },
     {
         "input": "I am looking for courses on Building Trustworthy AI Enterprise Solutions",
@@ -33,15 +33,15 @@
     },
     {
         "input": "Show me courses on Art of Prompt Writing",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): This is an activity-based course. You\u2019ll learn about AI language models and the rules to follow when giving instructions, or prompting, an AI language model."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): This is an activity-based course. You'll learn about AI language models and the rules to follow when giving instructions, or prompting, an AI language model."
     },
     {
         "input": "Are there any online courses you recommend on Art of Prompt Writing?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): You\u2019ll walk-through a guided activity that demonstrates how to write effective prompts for an AI language model to help plan a travel itinerary."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): You'll walk-through a guided activity that demonstrates how to write effective prompts for an AI language model to help plan a travel itinerary."
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): you\u2019ll participate in an activity to apply what you\u2019ve learned to effectively write prompts for an AI language model to create your own custom music playlist"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Art of Prompt Writing): you'll participate in an activity to apply what you've learned to effectively write prompts for an AI language model to create your own custom music playlist"
     },
     {
         "input": "Could you give me Introduction to Generative AI in Action online course recommendations?",
@@ -65,7 +65,7 @@
     },
     {
         "input": "I want a course on Data Refinery Essentials",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Refinery Essentials): Data Refinery is a self-service data preparation client for data scientists, data engineers, and business analysts. With it, you can quickly transform large amounts of raw data into consumable, quality information that\u2019s ready for analytics."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Data Refinery Essentials): Data Refinery is a self-service data preparation client for data scientists, data engineers, and business analysts. With it, you can quickly transform large amounts of raw data into consumable, quality information that's ready for analytics."
     },
     {
         "input": "Could you give me IBM Watson Knowledge Catalog Essentials online course recommendations?",
@@ -197,7 +197,7 @@
     },
     {
         "input": "Show me courses on IBM Robotic Process Automation - Basic I",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Robotic Process Automation - Basic I): This course provides students with the opportunity to learn and sharpen the basic skills needed to successfully learn IBM\u2019s Robotic Process Automation."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Robotic Process Automation - Basic I): This course provides students with the opportunity to learn and sharpen the basic skills needed to successfully learn IBM's Robotic Process Automation."
     },
     {
         "input": "I want a course on IBM Robotic Process Automation - Basic II",
@@ -321,7 +321,7 @@
     },
     {
         "input": "Could you give me Security Operations Center in Practice online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Security Operations Center in Practice): This course will empower you to techniques, technologies, roles and scenarios needed to establish the foundations of a (SOC) \u2013 Security Operations Center within your organization."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Security Operations Center in Practice): This course will empower you to techniques, technologies, roles and scenarios needed to establish the foundations of a (SOC)  Security Operations Center within your organization."
     },
     {
         "input": "I need some online courses",
@@ -421,7 +421,7 @@
     },
     {
         "input": "I want a course on Red Hat System Administration I (RH124)",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat System Administration I (RH124)): The first of two courses that cover the core system administration tasks needed to manage Red Hat\u00ae Enterprise Linux\u00ae servers."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat System Administration I (RH124)): The first of two courses that cover the core system administration tasks needed to manage Red Hat Enterprise Linux servers."
     },
     {
         "input": "I am looking for courses on Red Hat System Administration II (RH134)",
@@ -429,7 +429,7 @@
     },
     {
         "input": "I need some training on Red Hat Enterprise Linux Automation with Ansible (RH294)",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat Enterprise Linux Automation with Ansible (RH294)): Learn how to automate Linux system administration tasks with Red Hat Ansible\u00ae Automation Platform"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Red Hat Enterprise Linux Automation with Ansible (RH294)): Learn how to automate Linux system administration tasks with Red Hat Ansible Automation Platform"
     },
     {
         "input": "I need some online courses",
@@ -469,7 +469,7 @@
     },
     {
         "input": "I want a course on Quantum Machine Learning",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Machine Learning): By the end of the course, you\u2019ll understand the state of the field, and you\u2019ll be familiar with recent developments in both supervised and unsupervised learning such as quantum kernels and general adversarial networks. This course finishes with a project that you can use to showcase what you\u2019ve learnt."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Quantum Machine Learning): By the end of the course, you'll understand the state of the field, and you'll be familiar with recent developments in both supervised and unsupervised learning such as quantum kernels and general adversarial networks. This course finishes with a project that you can use to showcase what you've learnt."
     },
     {
         "input": "I need some online courses",
@@ -545,7 +545,7 @@
     },
     {
         "input": "Show me courses on Open Source Origin Stories: Adventures in Hybrid Cloud, AI Ethics, and Open Source Technologies",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Open Source Origin Stories: Adventures in Hybrid Cloud, AI Ethics, and Open Source Technologies): know the differences between private and public clouds, the attributes of hybrid cloud, and the role of data containers; the types of human ethical behavior, how they relate to AI ethics, how AI ethics can fail, and ways to reduce the resulting harm; open source history, roles, responsibilities; and the role of these technologies in today\u2019s jobs."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Open Source Origin Stories: Adventures in Hybrid Cloud, AI Ethics, and Open Source Technologies): know the differences between private and public clouds, the attributes of hybrid cloud, and the role of data containers; the types of human ethical behavior, how they relate to AI ethics, how AI ethics can fail, and ways to reduce the resulting harm; open source history, roles, responsibilities; and the role of these technologies in today's jobs."
     },
     {
         "input": "Show me courses on AI Foundations",
@@ -589,43 +589,43 @@
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Artificial Intelligence): In this course, you\u2019ll survey AI\u2019s history and explore ways that it can shed light on unstructured data."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Artificial Intelligence): In this course, you'll survey AI's history and explore ways that it can shed light on unstructured data."
     },
     {
         "input": "Could you give me Natural Language Processing and Computer Vision online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Natural Language Processing and Computer Vision): In this course, you\u2019ll explore the theory of natural language and vision processing, and learn how these technologies drive real-world mechanisms such as chatbots and photo analysis."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Natural Language Processing and Computer Vision): In this course, you'll explore the theory of natural language and vision processing, and learn how these technologies drive real-world mechanisms such as chatbots and photo analysis."
     },
     {
         "input": "I want a course on Machine Learning and Deep Learning",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Machine Learning and Deep Learning): In this course, you\u2019ll see how machines can learn and make amazing, evidence-based predictions."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Machine Learning and Deep Learning): In this course, you'll see how machines can learn and make amazing, evidence-based predictions."
     },
     {
         "input": "Are there any online courses you recommend on Machine Learning and Deep Learning?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Machine Learning and Deep Learning): Explore the logic behind computers\u2019 ability to learn, then investigate new ways that AI systems inspired by neurons in the human brain can solve difficult problems."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Machine Learning and Deep Learning): Explore the logic behind computers' ability to learn, then investigate new ways that AI systems inspired by neurons in the human brain can solve difficult problems."
     },
     {
         "input": "Are there any online courses you recommend on Run AI Models with IBM Watson Studio?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Run AI Models with IBM Watson Studio): In this course, you\u2019ll practice creating an AI machine learning model in a series of simulations, using IBM Watson Studio."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Run AI Models with IBM Watson Studio): In this course, you'll practice creating an AI machine learning model in a series of simulations, using IBM Watson Studio."
     },
     {
         "input": "Help me learn more about AI Ethics",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (AI Ethics): In this course, you\u2019ll learn about the five pillars of AI ethics: fairness, robustness, explainability, transparency, and privacy."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI Ethics): In this course, you'll learn about the five pillars of AI ethics: fairness, robustness, explainability, transparency, and privacy."
     },
     {
         "input": "I want a course on AI Ethics",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (AI Ethics): Through real-world examples you\u2019ll learn about AI ethics, how they are implemented, and why AI ethics are so important in building trustworthy AI systems."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (AI Ethics): Through real-world examples you'll learn about AI ethics, how they are implemented, and why AI ethics are so important in building trustworthy AI systems."
     },
     {
         "input": "Are there any online courses you recommend on Your Future in AI: The Job Landscape?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in AI: The Job Landscape): In this course, learn about the AI job market\u2019s rapid growth and the skills needed for success in this exciting field."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in AI: The Job Landscape): In this course, learn about the AI job market's rapid growth and the skills needed for success in this exciting field."
     },
     {
         "input": "Show me courses on Your Future in AI: The Job Landscape",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in AI: The Job Landscape): You\u2019ll hear how real professionals got their start, and find resources and learning opportunities that could help you work alongside them."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in AI: The Job Landscape): You'll hear how real professionals got their start, and find resources and learning opportunities that could help you work alongside them."
     },
     {
         "input": "Show me courses on The Librarian: Master of Vast Data Treasures",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (The Librarian: Master of Vast Data Treasures): Did you know that a technology called \u201chybrid cloud\u201d is giving businesses\u2014and entire governments!\u2014a secure way to store their most treasured information? This technology is creating the largest, most valuable libraries in human history, and you could find a career working with it."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (The Librarian: Master of Vast Data Treasures): Did you know that a technology called hybrid cloud is giving businessesand entire governments!a secure way to store their most treasured information? This technology is creating the largest, most valuable libraries in human history, and you could find a career working with it."
     },
     {
         "input": "I need some online courses",
@@ -633,7 +633,7 @@
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (The Paladin: Defender of Open Source Freedom): You may have heard the term \u201copen source\u201d before, but do you really know what it is? What is an open source project and what are the components of an open source project? How do you get started in a career that uses open source software?"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (The Paladin: Defender of Open Source Freedom): You may have heard the term open source before, but do you really know what it is? What is an open source project and what are the components of an open source project? How do you get started in a career that uses open source software?"
     },
     {
         "input": "I need some training on Module 1: What is AI?",
@@ -693,47 +693,47 @@
     },
     {
         "input": "I want a course on Introduction to Cloud Computing",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing): In this course, you\u2019ll learn how computers communicate and how that communication enables the cloud technologies you use every day."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing): In this course, you'll learn how computers communicate and how that communication enables the cloud technologies you use every day."
     },
     {
         "input": "I need some training on Introduction to Cloud Computing",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing):  You\u2019ll explore the components that cloud computing utilizes and how they work together to benefit users and businesses alike."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing):  You'll explore the components that cloud computing utilizes and how they work together to benefit users and businesses alike."
     },
     {
         "input": "Are there any online courses you recommend on Introduction to Cloud Computing?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing): you\u2019ll discover some new scenarios that advancements in the cloud will offer in the future."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Cloud Computing): you'll discover some new scenarios that advancements in the cloud will offer in the future."
     },
     {
         "input": "How can I improve my Understanding Cloud Computing Services skills?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): In this course, you\u2019ll get an overview of how the cloud supports and powers new technologies like artificial intelligence (AI) and the Internet of Things (IoT)"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): In this course, you'll get an overview of how the cloud supports and powers new technologies like artificial intelligence (AI) and the Internet of Things (IoT)"
     },
     {
         "input": "Help me learn more about Understanding Cloud Computing Services",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): You\u2019ll learn about the four main types of cloud service models and two types of software approaches when it comes to cloud solutions: proprietary and open source."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): You'll learn about the four main types of cloud service models and two types of software approaches when it comes to cloud solutions: proprietary and open source."
     },
     {
         "input": "I am looking for courses on Understanding Cloud Computing Services",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): You\u2019ll get to explore the services offered by major cloud providers: IBM Cloud, Microsoft Azure, and Amazon Web Services."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): You'll get to explore the services offered by major cloud providers: IBM Cloud, Microsoft Azure, and Amazon Web Services."
     },
     {
         "input": "I want a course on Understanding Cloud Computing Services",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): you\u2019ll learn through some scenarios about the advantages and value businesses and individuals can expect when they use the various cloud service models."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Computing Services): you'll learn through some scenarios about the advantages and value businesses and individuals can expect when they use the various cloud service models."
     },
     {
         "input": "Recommend me some courses on Understanding Cloud Deployment Models",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): In this course, you\u2019ll learn about modern mainframe computers and how a business can host an infrastructure on premises or in the cloud. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): In this course, you'll learn about modern mainframe computers and how a business can host an infrastructure on premises or in the cloud. "
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): You\u2019ll explore the steps businesses take to decide, plan, and make the move to the cloud."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): You'll explore the steps businesses take to decide, plan, and make the move to the cloud."
     },
     {
         "input": "Help me learn more about Understanding Cloud Deployment Models",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): You\u2019ll learn about different cloud deployment models and the advantages they bring to businesses."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): You'll learn about different cloud deployment models and the advantages they bring to businesses."
     },
     {
         "input": "Help me learn more about Understanding Cloud Deployment Models",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): you\u2019ll explore some scenarios to better understand when a public, private, or hybrid cloud deployment is appropriate for a business."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Understanding Cloud Deployment Models): you'll explore some scenarios to better understand when a public, private, or hybrid cloud deployment is appropriate for a business."
     },
     {
         "input": "Are there any online courses you recommend on Virtualization on the Cloud?",
@@ -741,15 +741,15 @@
     },
     {
         "input": "Could you give me Virtualization on the Cloud online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud): You\u2019ll explore different virtualization technologies and when to use them"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud): You'll explore different virtualization technologies and when to use them"
     },
     {
         "input": "Are there any online courses you recommend on Virtualization on the Cloud?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud): You\u2019ll discover the advantages that microservices offer to a cloud application and how microservices use APIs to communicate"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud): You'll discover the advantages that microservices offer to a cloud application and how microservices use APIs to communicate"
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud):  you\u2019ll get a chance to put what you\u2019ve learned into practice by using a simulation to create a container and run a web app inside it."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Virtualization on the Cloud):  you'll get a chance to put what you've learned into practice by using a simulation to create a container and run a web app inside it."
     },
     {
         "input": "Show me courses on Developing and Deploying Software in the Cloud",
@@ -757,15 +757,15 @@
     },
     {
         "input": "How can I improve my Developing and Deploying Software in the Cloud skills?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): You\u2019ll discover how cloud developers can use DevOps to quickly develop and deploy scalable, reliable, and cost-effective software."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): You'll discover how cloud developers can use DevOps to quickly develop and deploy scalable, reliable, and cost-effective software."
     },
     {
         "input": "I want a course on Developing and Deploying Software in the Cloud",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): you\u2019ll explore different methods of cloud orchestration to manage and automate cloud applications."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): you'll explore different methods of cloud orchestration to manage and automate cloud applications."
     },
     {
         "input": "Help me learn more about Developing and Deploying Software in the Cloud",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): you\u2019ll get a chance to put what you\u2019ve learned into practice by deploying a web app to the cloud in a simulation."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing and Deploying Software in the Cloud): you'll get a chance to put what you've learned into practice by deploying a web app to the cloud in a simulation."
     },
     {
         "input": "Are there any online courses you recommend on Introduction to Data Management and Security in the Cloud?",
@@ -785,11 +785,11 @@
     },
     {
         "input": "Recommend me some courses on Introduction to Data Management and Security in the Cloud",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Data Management and Security in the Cloud): you\u2019ll get a chance to put what you\u2019ve learned into practice by using a simulation to create an IBM Cloudant database and review the settings in the database."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to Data Management and Security in the Cloud): you'll get a chance to put what you've learned into practice by using a simulation to create an IBM Cloudant database and review the settings in the database."
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in Cloud Computing: The Job Landscape): In this course, you\u2019ll learn about the cloud computing job market, the skills that cloud engineers need to be successful, and how cloud engineers interact with other job roles on a team. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in Cloud Computing: The Job Landscape): In this course, you'll learn about the cloud computing job market, the skills that cloud engineers need to be successful, and how cloud engineers interact with other job roles on a team. "
     },
     {
         "input": "Show me courses on Cloud Core",
@@ -853,7 +853,7 @@
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM and Cybersecurity): You\u2019ll also learn about basic cybersecurity terminology and types of cyberattacks."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM and Cybersecurity): You'll also learn about basic cybersecurity terminology and types of cyberattacks."
     },
     {
         "input": "Show me courses on Data Fundamentals",
@@ -877,7 +877,7 @@
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Overview of Data Tools and Languages): In this course, you will get an introduction to common data analysis and visualization tools so you\u2019re familiar with them and can recognize how data science projects use them."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Overview of Data Tools and Languages): In this course, you will get an introduction to common data analysis and visualization tools so you're familiar with them and can recognize how data science projects use them."
     },
     {
         "input": "I am looking for courses on Clean, Refine, and Visualize Data with IBM Watson Studio",
@@ -969,7 +969,7 @@
     },
     {
         "input": "How can I improve my IBM Z Xplore: Advanced | IBM skills?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Xplore: Advanced | IBM): You\u2019ll learn about orchestrated system activities using Ansible and Zowe, while working in Docker containerized environments. You\u2019ll also gain key IBM Z skills, including REXX, COBOL, VSAM, and TSO."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (IBM Z Xplore: Advanced | IBM): You'll learn about orchestrated system activities using Ansible and Zowe, while working in Docker containerized environments. You'll also gain key IBM Z skills, including REXX, COBOL, VSAM, and TSO."
     },
     {
         "input": "Recommend me some courses on An Introduction to Enterprise Computing | IBM",
@@ -1013,23 +1013,23 @@
     },
     {
         "input": "Recommend me some courses on Computer Basics",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Basics): In this course, you\u2019ll learn key concepts from computer parts and networking to security, support, and user identification. Discover the core computing area of the field of information technology (IT)."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Basics): In this course, you'll learn key concepts from computer parts and networking to security, support, and user identification. Discover the core computing area of the field of information technology (IT)."
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Networking Basics: How Computers Communicate): In this course, you\u2019ll learn about the ways that computer networking touches areas of everyday life. You\u2019ll examine how network connections help you send and receive information."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Networking Basics: How Computers Communicate): In this course, you'll learn about the ways that computer networking touches areas of everyday life. You'll examine how network connections help you send and receive information."
     },
     {
         "input": "Could you give me Computer Networking Basics: How Computers Communicate online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Networking Basics: How Computers Communicate): You\u2019ll explore different types of networks that cover personal, local, and wide areas, and you\u2019ll discover the importance of network security."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Computer Networking Basics: How Computers Communicate): You'll explore different types of networks that cover personal, local, and wide areas, and you'll discover the importance of network security."
     },
     {
         "input": "I am looking for courses on Computing from Past to Present",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Computing from Past to Present): In this course, you\u2019ll learn about milestone events in the history of computing. You will discover why key concepts like accessibility and security have become essential qualities of information technology."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Computing from Past to Present): In this course, you'll learn about milestone events in the history of computing. You will discover why key concepts like accessibility and security have become essential qualities of information technology."
     },
     {
         "input": "I am looking for courses on Security Basics",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Security Basics): In this course, you\u2019ll learn about threats to computer security and ways to keep computer systems and users safe."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Security Basics): In this course, you'll learn about threats to computer security and ways to keep computer systems and users safe."
     },
     {
         "input": "Show me courses on Security Basics",
@@ -1041,31 +1041,31 @@
     },
     {
         "input": "I want a course on Support Basics",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Support Basics): In this course, you\u2019ll explore the intriguing world of troubleshooting. You will learn key ways to hone in on the causes of problems that don\u2019t have an obvious solution."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Support Basics): In this course, you'll explore the intriguing world of troubleshooting. You will learn key ways to hone in on the causes of problems that don't have an obvious solution."
     },
     {
         "input": "Help me learn more about Troubleshooting for Hardware, Networks, and Software",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): In this course, you\u2019ll learn the troubleshooting techniques that IT professionals rely upon to resolve difficult issues. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): In this course, you'll learn the troubleshooting techniques that IT professionals rely upon to resolve difficult issues. "
     },
     {
         "input": "Could you give me Troubleshooting for Hardware, Networks, and Software online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): You\u2019ll explore established approaches to fixing hardware, networking, and software issues."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): You'll explore established approaches to fixing hardware, networking, and software issues."
     },
     {
         "input": "Recommend me some courses on Troubleshooting for Hardware, Networks, and Software",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): You\u2019ll discover the steps to take when the answer is not immediately obvious."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Troubleshooting for Hardware, Networks, and Software): You'll discover the steps to take when the answer is not immediately obvious."
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Support a Customer with a Network Issue): In this course, you\u2019ll practice supporting a customer by troubleshooting a network issue in a series of simulations."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Support a Customer with a Network Issue): In this course, you'll practice supporting a customer by troubleshooting a network issue in a series of simulations."
     },
     {
         "input": "I need some training on Support a Customer with a Network Issue",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Support a Customer with a Network Issue): You\u2019ll get a clear description of the problem, create a theory of probable cause, resolve the issue, and close the support engagement."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Support a Customer with a Network Issue): You'll get a clear description of the problem, create a theory of probable cause, resolve the issue, and close the support engagement."
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in IT Support: The Job Landscape): In this course, you\u2019ll learn about the IT support job market and projections, the responsibilities and skill sets of an IT professional, and resources and learning opportunities that you can explore."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in IT Support: The Job Landscape): In this course, you'll learn about the IT support job market and projections, the responsibilities and skill sets of an IT professional, and resources and learning opportunities that you can explore."
     },
     {
         "input": "How can I improve my Introduction to IT | Codecademy skills?",
@@ -1125,7 +1125,7 @@
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (A Beginner\u2019s Guide to Using WordPress): Learn how to use WordPress from start to finish in this course. It's the only WordPress beginner's guide you'll ever need."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (A Beginner's Guide to Using WordPress): Learn how to use WordPress from start to finish in this course. It's the only WordPress beginner's guide you'll ever need."
     },
     {
         "input": "Help me learn more about Create web page layouts with CSS",
@@ -1145,15 +1145,15 @@
     },
     {
         "input": "Recommend me some courses on Write JavaScript for the Web",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): modify documents after they have finished loading \u2014 add new content to a page, change the color of an element to reflect a changing state, or remove an element the user does not need anymore"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): modify documents after they have finished loading  add new content to a page, change the color of an element to reflect a changing state, or remove an element the user does not need anymore"
     },
     {
         "input": "I am looking for courses on Write JavaScript for the Web",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): interact with your users \u2014 whether ticking a box, commenting on a blog post, or submitting a tax form, your users need to be able to communicate with you, and JavaScript allows them to do so;"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): interact with your users  whether ticking a box, commenting on a blog post, or submitting a tax form, your users need to be able to communicate with you, and JavaScript allows them to do so;"
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): send and receive data to and from external APIs \u2014 harness the power of the thousands of useful APIs that already exist or plug your frontend app into your own custom backend."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Write JavaScript for the Web): send and receive data to and from external APIs  harness the power of the thousands of useful APIs that already exist or plug your frontend app into your own custom backend."
     },
     {
         "input": "Give me some online course recommendations",
@@ -1297,67 +1297,67 @@
     },
     {
         "input": "Help me learn more about Introduction to UX Design",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): In this course, you\u2019ll get an overview of user experience (UX) design."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): In this course, you'll get an overview of user experience (UX) design."
     },
     {
         "input": "Recommend me some courses on Introduction to UX Design",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You\u2019ll learn about some of the essential qualities that make a great UX designer stand out from the crowd."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You'll learn about some of the essential qualities that make a great UX designer stand out from the crowd."
     },
     {
         "input": "Recommend me some courses on Introduction to UX Design",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You\u2019ll discover user-centered design (UCD), ways to design for diversity, and the importance of adaptive and responsive designs in UX design. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You'll discover user-centered design (UCD), ways to design for diversity, and the importance of adaptive and responsive designs in UX design. "
     },
     {
         "input": "I want a course on Introduction to UX Design",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You\u2019ll also learn about a case study in UX design, including its components and the step-by-step process to create it."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): You'll also learn about a case study in UX design, including its components and the step-by-step process to create it."
     },
     {
         "input": "I need some training on Introduction to UX Design",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): you\u2019ll review an example case study that defines project requirements."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to UX Design): you'll review an example case study that defines project requirements."
     },
     {
         "input": "I am looking for courses on Conducting UX Research",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): In this course, you\u2019ll learn the importance of research in creating a user-centered design."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): In this course, you'll learn the importance of research in creating a user-centered design."
     },
     {
         "input": "I want a course on Conducting UX Research",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): You\u2019ll explore various user experience (UX) research methods and techniques."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): You'll explore various user experience (UX) research methods and techniques."
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): You\u2019ll also learn the importance of user personas in UX design and the ways to create them based on the research conducted and the data collected."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): You'll also learn the importance of user personas in UX design and the ways to create them based on the research conducted and the data collected."
     },
     {
         "input": "I am looking for courses on Conducting UX Research",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research):  you\u2019ll learn the ways to conduct a competitive and comparative analysis by evaluating and comparing a product or service against its competitors in the market."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research):  you'll learn the ways to conduct a competitive and comparative analysis by evaluating and comparing a product or service against its competitors in the market."
     },
     {
         "input": "I am looking for courses on Conducting UX Research",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): you\u2019ll review an example UX case study that conducted research and created user personas."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting UX Research): you'll review an example UX case study that conducted research and created user personas."
     },
     {
         "input": "Recommend me some courses on Building a Story-based Design",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): In this course, you\u2019ll discover how user stories serve as an effective tool that captures a user\u2019s needs, pain points, and preferences in the UX design process."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): In this course, you'll discover how user stories serve as an effective tool that captures a user's needs, pain points, and preferences in the UX design process."
     },
     {
         "input": "Are there any online courses you recommend on Building a Story-based Design?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): You\u2019ll learn that user stories serve as a foundational element for user journeys and user flows, and ultimately are converted into solution sketches."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): You'll learn that user stories serve as a foundational element for user journeys and user flows, and ultimately are converted into solution sketches."
     },
     {
         "input": "I want a course on Building a Story-based Design",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): you\u2019ll review an example UX design case study to evaluate user stories, user journey, user flows, and solution sketches for a plant-selling e-commerce website."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Building a Story-based Design): you'll review an example UX design case study to evaluate user stories, user journey, user flows, and solution sketches for a plant-selling e-commerce website."
     },
     {
         "input": "Help me learn more about Wireframing and Prototyping",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): In this course, you\u2019ll learn about UX writing, information architecture (IA), and sitemaps and their role in UX design. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): In this course, you'll learn about UX writing, information architecture (IA), and sitemaps and their role in UX design. "
     },
     {
         "input": "I am looking for courses on Wireframing and Prototyping",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): You\u2019ll explore the wireframing process, its purpose, and the three fidelities of wireframes."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): You'll explore the wireframing process, its purpose, and the three fidelities of wireframes."
     },
     {
         "input": "I am looking for courses on Wireframing and Prototyping",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): you\u2019ll review an example case study that shows wireframes for a plant-selling e-commerce website. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): you'll review an example case study that shows wireframes for a plant-selling e-commerce website. "
     },
     {
         "input": "I want a course on Wireframing and Prototyping",
@@ -1365,55 +1365,55 @@
     },
     {
         "input": "I am looking for courses on Wireframing and Prototyping",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): you\u2019ll review an example case study that shows the UI design and prototypes for a plant-selling e-commerce website."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Wireframing and Prototyping): you'll review an example case study that shows the UI design and prototypes for a plant-selling e-commerce website."
     },
     {
         "input": "Are there any online courses you recommend on Conducting Usability Tests and Gathering Feedback?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): In this course, you\u2019ll learn how UX designers evaluate their designs through usability testing."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): In this course, you'll learn how UX designers evaluate their designs through usability testing."
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback):  You\u2019ll identify the different methods of conducting usability testing and the steps in the usability testing process."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback):  You'll identify the different methods of conducting usability testing and the steps in the usability testing process."
     },
     {
         "input": "Are there any online courses you recommend on Conducting Usability Tests and Gathering Feedback?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): You\u2019ll also learn about how designers prioritize feedback they gather from usability testing."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): You'll also learn about how designers prioritize feedback they gather from usability testing."
     },
     {
         "input": "I am looking for courses on Conducting Usability Tests and Gathering Feedback",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): you\u2019ll find out how this feedback helps enhance designs by creating a revised prototype."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): you'll find out how this feedback helps enhance designs by creating a revised prototype."
     },
     {
         "input": "I need some training on Conducting Usability Tests and Gathering Feedback",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): you\u2019ll review an example UX design case study that shows a test plan and tools for usability testing, the test\u2019s analysis report, and revised prototype for a plant selling e-commerce website."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Conducting Usability Tests and Gathering Feedback): you'll review an example UX design case study that shows a test plan and tools for usability testing, the test's analysis report, and revised prototype for a plant selling e-commerce website."
     },
     {
         "input": "Help me learn more about Working Collaboratively with Teams on UX Design Projects",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): In this course, you\u2019ll learn about cross-functional teams and their benefits. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): In this course, you'll learn about cross-functional teams and their benefits. "
     },
     {
         "input": "Show me courses on Working Collaboratively with Teams on UX Design Projects",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): You\u2019ll discover the different roles on a UX design project team and the best practices to effectively collaborate with them"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): You'll discover the different roles on a UX design project team and the best practices to effectively collaborate with them"
     },
     {
         "input": "How can I improve my  Working Collaboratively with Teams on UX Design Projects skills?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled ( Working Collaboratively with Teams on UX Design Projects): You\u2019ll identify the project team\u2019s role in making the user experience (UX) design adaptable to coding, including handing off design artifacts for development. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled ( Working Collaboratively with Teams on UX Design Projects): You'll identify the project team's role in making the user experience (UX) design adaptable to coding, including handing off design artifacts for development. "
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects):  you\u2019ll learn how UX designers review a developed product."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects):  you'll learn how UX designers review a developed product."
     },
     {
         "input": "I am looking for courses on Working Collaboratively with Teams on UX Design Projects",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): you\u2019ll review an example case study that shows the project team members, their methods to collaborate, the design artifacts to be handed off, and the final review\u2019s feedback for the UX design project of a plant-selling e-commerce website."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Working Collaboratively with Teams on UX Design Projects): you'll review an example case study that shows the project team members, their methods to collaborate, the design artifacts to be handed off, and the final review's feedback for the UX design project of a plant-selling e-commerce website."
     },
     {
         "input": "Recommend me some courses on Your Future in UX Design: The Job Landscape",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in UX Design: The Job Landscape): In this course, you\u2019ll learn about the UX design job market, the skills UX designers need to be successful, and the responsibilities of UX designers. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in UX Design: The Job Landscape): In this course, you'll learn about the UX design job market, the skills UX designers need to be successful, and the responsibilities of UX designers. "
     },
     {
         "input": "Help me learn more about  Your Future in UX Design: The Job Landscape",
-        "response": "Here is an online course I found on IBM SkillsBuild titled ( Your Future in UX Design: The Job Landscape): You\u2019ll also discover how UX designers are different from other designers. Furthermore, you\u2019ll find resources and learning opportunities so you can explore more."
+        "response": "Here is an online course I found on IBM SkillsBuild titled ( Your Future in UX Design: The Job Landscape): You'll also discover how UX designers are different from other designers. Furthermore, you'll find resources and learning opportunities so you can explore more."
     },
     {
         "input": "I need some online courses",
@@ -1437,19 +1437,19 @@
     },
     {
         "input": "Recommend me some courses on Web Development Basics",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): In this course, you\u2019ll learn about basic computer functions and programming languages."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): In this course, you'll learn about basic computer functions and programming languages."
     },
     {
         "input": "Are there any online courses you recommend on Web Development Basics?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): You\u2019ll get an overview of web development, including the scope of the two sides of web development: front-end and back-end."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): You'll get an overview of web development, including the scope of the two sides of web development: front-end and back-end."
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): you\u2019ll learn about the difference between the internet and the World Wide Web."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Web Development Basics): you'll learn about the difference between the internet and the World Wide Web."
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing Sites for the Web): In this course, you\u2019ll learn how web developers create websites."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Developing Sites for the Web): In this course, you'll learn how web developers create websites."
     },
     {
         "input": "I want a course on Developing Sites for the Web",
@@ -1465,7 +1465,7 @@
     },
     {
         "input": "I need some training on Introduction to HTML and CSS",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to HTML and CSS): You\u2019ll explore HTML attributes and understand the importance of organizing information."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Introduction to HTML and CSS): You'll explore HTML attributes and understand the importance of organizing information."
     },
     {
         "input": "I need some training on Introduction to HTML and CSS",
@@ -1477,19 +1477,19 @@
     },
     {
         "input": "Could you give me Bringing Websites to Life with JavaScript online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): In this course, you\u2019ll learn how web developers use JavaScript with HTML to create dynamic websites."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): In this course, you'll learn how web developers use JavaScript with HTML to create dynamic websites."
     },
     {
         "input": "I am looking for courses on Bringing Websites to Life with JavaScript",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): You\u2019ll examine JavaScript syntax and how variables, functions, expressions, and events operate in JavaScript code. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): You'll examine JavaScript syntax and how variables, functions, expressions, and events operate in JavaScript code. "
     },
     {
         "input": "Show me courses on  Bringing Websites to Life with JavaScript",
-        "response": "Here is an online course I found on IBM SkillsBuild titled ( Bringing Websites to Life with JavaScript): You\u2019ll explore how web developers use data in websites and MySQL code to work with the data. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled ( Bringing Websites to Life with JavaScript): You'll explore how web developers use data in websites and MySQL code to work with the data. "
     },
     {
         "input": "I need some online courses",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): You\u2019ll also learn about Node.js and the advantages of using frameworks and libraries."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Bringing Websites to Life with JavaScript): You'll also learn about Node.js and the advantages of using frameworks and libraries."
     },
     {
         "input": "Are there any online courses you recommend on Website Testing and Deployment?",
@@ -1497,23 +1497,23 @@
     },
     {
         "input": "I need some training on Website Testing and Deployment",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Website Testing and Deployment): You\u2019ll discover how teams use version control systems to speed up the delivery of new features and functionality to their users."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Website Testing and Deployment): You'll discover how teams use version control systems to speed up the delivery of new features and functionality to their users."
     },
     {
         "input": "Could you give me Website Testing and Deployment online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Website Testing and Deployment): you\u2019ll learn about the tools and processes developers use to streamline and simplify the deployment of their websites to their servers or the cloud."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Website Testing and Deployment): you'll learn about the tools and processes developers use to streamline and simplify the deployment of their websites to their servers or the cloud."
     },
     {
         "input": "Could you give me Develop an Interactive Task List Web Page online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Develop an Interactive Task List Web Page): In this course, you\u2019ll practice building an interactive task list web page in a series of simulations. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Develop an Interactive Task List Web Page): In this course, you'll practice building an interactive task list web page in a series of simulations. "
     },
     {
         "input": "I need some training on Develop an Interactive Task List Web Page",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Develop an Interactive Task List Web Page): You\u2019ll develop code files that lay out the structure of a web page with HTML, add styles with CSS, develop interactions with JavaScript, and then test that your web page functions as expected."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Develop an Interactive Task List Web Page): You'll develop code files that lay out the structure of a web page with HTML, add styles with CSS, develop interactions with JavaScript, and then test that your web page functions as expected."
     },
     {
         "input": "I need some training on Your Future in Web Development: The Job Landscape",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in Web Development: The Job Landscape): In this course, you\u2019ll learn about the web development job market, the skills web developers need to be successful, and how web developers interact with other job roles on a team. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Your Future in Web Development: The Job Landscape): In this course, you'll learn about the web development job market, the skills web developers need to be successful, and how web developers interact with other job roles on a team. "
     },
     {
         "input": "Are there any online courses you recommend on Agile Explorer?",
@@ -1613,7 +1613,7 @@
     },
     {
         "input": "I want a course on What creative type are you?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (What creative type are you?): The Creative Types test is an exploration of the many faces of the creative personality. Answer these 15 questions and you\u2019ll gain a deeper understanding of your motivations, plus insight into how to maximize your natural gifts and face your challenges. What\u2019s your creativity type?"
+        "response": "Here is an online course I found on IBM SkillsBuild titled (What creative type are you?): The Creative Types test is an exploration of the many faces of the creative personality. Answer these 15 questions and you'll gain a deeper understanding of your motivations, plus insight into how to maximize your natural gifts and face your challenges. What's your creativity type?"
     },
     {
         "input": "I need some online courses",
@@ -1637,7 +1637,7 @@
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (All about algorithms): Algorithms power the world, but they can make mistakes. Lean all about algorithms, build your own, and see how it impacts the future \u2013 for good and for bad."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (All about algorithms): Algorithms power the world, but they can make mistakes. Lean all about algorithms, build your own, and see how it impacts the future  for good and for bad."
     },
     {
         "input": "How can I improve my Enterprise Design Thinking Practitioner skills?",
@@ -1673,7 +1673,7 @@
     },
     {
         "input": "I am looking for courses on How is the digital world impacting careers?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (How is the digital world impacting careers?): In this course, you\u2019ll be introduced to some of the tech jobs that will have an impact in the near future. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (How is the digital world impacting careers?): In this course, you'll be introduced to some of the tech jobs that will have an impact in the near future. "
     },
     {
         "input": "Help me learn more about Digital Footprint",
@@ -1829,7 +1829,7 @@
     },
     {
         "input": "How can I improve my Ocean Science Explorer skills?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Ocean Science Explorer): Earners are able to describe how human interactions affect the health of the world\u2019s oceans, marine animals, coral reefs, and mangroves; they have foundational knowledge of marine, orca, and shark biology and ecology; and they can articulate the threats of microplastics and ghost gear to ocean environments."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Ocean Science Explorer): Earners are able to describe how human interactions affect the health of the world's oceans, marine animals, coral reefs, and mangroves; they have foundational knowledge of marine, orca, and shark biology and ecology; and they can articulate the threats of microplastics and ghost gear to ocean environments."
     },
     {
         "input": "Show me courses on Oceans and Us",
@@ -1897,7 +1897,7 @@
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Elements of AI): This course, designed by the Finnish government, is for any one interested in learning what AI is, what is possible and not possible with AI, and how it affects people's lives \u2013 with no complicated math or programming required."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Elements of AI): This course, designed by the Finnish government, is for any one interested in learning what AI is, what is possible and not possible with AI, and how it affects people's lives  with no complicated math or programming required."
     },
     {
         "input": "Are there any online courses you recommend on Everyday Ethics for Artificial Intelligence?",
@@ -1921,7 +1921,7 @@
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (SkillsBuild - Customer Engagement: Communication and Personality Dynamics): know communication skills that are clear and concise, understand when and how to say \u201cno,\u201d and effectively collaborate with colleagues. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (SkillsBuild - Customer Engagement: Communication and Personality Dynamics): know communication skills that are clear and concise, understand when and how to say no, and effectively collaborate with colleagues. "
     },
     {
         "input": "Show me courses on SkillsBuild - Customer Engagement: Communication and Personality Dynamics",
@@ -1993,7 +1993,7 @@
     },
     {
         "input": "Recommend me some courses on Fortinet Certified Fundamentals (FCF)",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Fortinet Certified Fundamentals (FCF)): This curriculum will offer courses that cover today\u2019s threat landscape and the fundamentals of cybersecurity."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Fortinet Certified Fundamentals (FCF)): This curriculum will offer courses that cover today's threat landscape and the fundamentals of cybersecurity."
     },
     {
         "input": "How can I improve my FCF - Introduction to the Threat Landscape skills?",
@@ -2169,7 +2169,7 @@
     },
     {
         "input": "Give me some online course recommendations",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Personal branding for career success): You\u2019ll consider your own values and strengths, identify the key skills employers look for and learn how to present and evidence those skills appropriately, whether you want to raise your profile with your current employer or are looking for something new. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Personal branding for career success): You'll consider your own values and strengths, identify the key skills employers look for and learn how to present and evidence those skills appropriately, whether you want to raise your profile with your current employer or are looking for something new. "
     },
     {
         "input": "I want a course on Using voluntary work to get ahead in the job market",
@@ -2181,11 +2181,11 @@
     },
     {
         "input": "How can I improve my Climate, Biodiversity, and Human Society skills?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Climate, Biodiversity, and Human Society): you\u2019ll learn how sustainability also investigates human social groups, corporate operations and manufacturing, and even ways that buildings and bridges interact with weather and geology. "
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Climate, Biodiversity, and Human Society): you'll learn how sustainability also investigates human social groups, corporate operations and manufacturing, and even ways that buildings and bridges interact with weather and geology. "
     },
     {
         "input": "Recommend me some courses on Beyond Conservation to Sustainability",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Beyond Conservation to Sustainability): Conservation\u2014the preservation of Earth\u2019s ecology and mineral wealth\u2014will always be important. But sustainability takes a broader focus, using data analytics and advanced technology to consider how ecology works together with fields such as engineering, medicine, and the social sciences as a complex whole."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Beyond Conservation to Sustainability): Conservationthe preservation of Earth's ecology and mineral wealthwill always be important. But sustainability takes a broader focus, using data analytics and advanced technology to consider how ecology works together with fields such as engineering, medicine, and the social sciences as a complex whole."
     },
     {
         "input": "I am looking for courses on Make an Impact with Data Analytics",
@@ -2197,11 +2197,11 @@
     },
     {
         "input": "Could you give me Make an Impact with AI online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with AI):  Its capabilities range from predicting energy demands and monitoring bridge safety to protecting the oceans and the world\u2019s food supply."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with AI):  Its capabilities range from predicting energy demands and monitoring bridge safety to protecting the oceans and the world's food supply."
     },
     {
         "input": "Could you give me Make an Impact with Hybrid Cloud online course recommendations?",
-        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with Hybrid Cloud): Hybrid cloud securely combines private and public storage of vast data libraries, simultaneously helping organizations control their data costs while reducing their IT\u2019s carbon emissions."
+        "response": "Here is an online course I found on IBM SkillsBuild titled (Make an Impact with Hybrid Cloud): Hybrid cloud securely combines private and public storage of vast data libraries, simultaneously helping organizations control their data costs while reducing their IT's carbon emissions."
     },
     {
         "input": "I need some online courses",
