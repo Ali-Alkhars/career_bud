@@ -6,15 +6,15 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel, TrainingArguments, Trai
 
 """
 This script uses the Hugging Face Trainer API to
-train the DialoGPT model on the interviews_dataset.
+train the DialoGPT model on the courses_dataset.
 """
 
 # Load the JSON dataset
-with open('../interviews_dataset.json', 'r') as file:
+with open('../Datasets/courses_dataset.json', 'r') as file:
     data = json.load(file)
 
 # Convert each item to the specified string format and collect them
-formatted_questions = [{'questions': f"{item['topic']} {item['question']}"} for item in data]
+formatted_questions = [{'questions': f"{item['input']} {item['response']}"} for item in data]
 
 # Convert the list of strings into a Hugging Face Dataset
 dataset = Dataset.from_dict({'questions': [item['questions'] for item in formatted_questions]})
@@ -28,8 +28,9 @@ dataset = DatasetDict({
 
 
 # Load the tokenizer and model
-model_name = 'microsoft/DialoGPT-medium'
-tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+tokenizer_name = 'microsoft/DialoGPT-medium'
+model_name = '../DialoGPT-interviews'
+tokenizer = GPT2Tokenizer.from_pretrained(tokenizer_name)
 tokenizer.pad_token = tokenizer.eos_token
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
@@ -43,7 +44,7 @@ encoded_dataset = dataset.map(encode, batched=True)
 
 # Define the Training Arguments
 training_args = TrainingArguments(
-    output_dir="../DialoGPT-interviews",    # Directory for model outputs
+    output_dir="../DialoGPT-IC-checkpoints",    # Directory for model outputs
     evaluation_strategy="epoch",           # Evaluate after each epoch
     per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
@@ -52,6 +53,7 @@ training_args = TrainingArguments(
     logging_dir='../logs',                  # Directory for logs
     logging_steps=10,                      # Log every 10 steps
     load_best_model_at_end=True,           # Load the best model at the end of training
+    greater_is_better=True,
     save_strategy="epoch",                 # Save model checkpoint after each epoch
     metric_for_best_model="eval_bleu",      # Use BLEU to identify the best model
 )
@@ -92,4 +94,4 @@ trainer.train()
 print(f'Training done! Timestamp: {datetime.datetime.now()}')
 
 # Save the model
-trainer.save_model("DialoGPT-interviews")
+trainer.save_model("DialoGPT-IC")
