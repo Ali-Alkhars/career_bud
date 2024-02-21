@@ -25,11 +25,11 @@
     },
     {
         "input": "I want ways to enhance my CV",
-        "response": "Then what are the factors you can't control? Position The position might have already been fulfilled—without you knowing about it. Competition You might have a strong resume with great expertise, but someone might have more than you to impress the recruiter."
+        "response": "Then what are the factors you can't control? Position The position might have already been fulfilled\u2014without you knowing about it. Competition You might have a strong resume with great expertise, but someone might have more than you to impress the recruiter."
     },
     {
         "input": "Could you improve my CV?",
-        "response": "Especially after Covid-19, you will have to compete worldwide—if applying for remote work. Location Although most of the jobs are remote these days, people who are near or don't need to relocate are preferred by hiring staff."
+        "response": "Especially after Covid-19, you will have to compete worldwide\u2014if applying for remote work. Location Although most of the jobs are remote these days, people who are near or don't need to relocate are preferred by hiring staff."
     },
     {
         "input": "How can I improve my CV?",
@@ -109,11 +109,11 @@
     },
     {
         "input": "Could you suggest changes on me Resume?",
-        "response": "If you allow typos or poor  grammar, it will reflect your personality carelessly—someone who doesn't pay  attention to details or doesn't have a good command of the language. Use free spell-checking tools and grammar checking tools such as Grammarly."
+        "response": "If you allow typos or poor  grammar, it will reflect your personality carelessly\u2014someone who doesn't pay  attention to details or doesn't have a good command of the language. Use free spell-checking tools and grammar checking tools such as Grammarly."
     },
     {
         "input": "Could you suggest changes on me Resume?",
-        "response": "Even better is to ask people to re-read your resume. Basic contact details\" Include your email address and relevant contact information, like phone number,  city & country where you live, at the top."
+        "response": "Even better is to ask people to re-read your resume. Basic contact details' Include your email address and relevant contact information, like phone number,  city & country where you live, at the top."
     },
     {
         "input": "Could you suggest changes on me CV?",
@@ -121,7 +121,7 @@
     },
     {
         "input": "Could you improve my Resume?",
-        "response": "Dates in reverse chronological order\" Point your work and education experiences with precise dates. List them from the  latest on the top to earlier ones underneath it."
+        "response": "Dates in reverse chronological order' Point your work and education experiences with precise dates. List them from the  latest on the top to earlier ones underneath it."
     },
     {
         "input": "I want you to help me update my CV",
@@ -133,7 +133,7 @@
     },
     {
         "input": "Can you give me some tips to improve my Resume?",
-        "response": "Two Pages or less\" It's not a strict rule, but wise to follow. If you're a fresh grad or someone with 1 - 2 years of experience, it's not expected  from you to fill two pages."
+        "response": "Two Pages or less' It's not a strict rule, but wise to follow. If you're a fresh grad or someone with 1 - 2 years of experience, it's not expected  from you to fill two pages."
     },
     {
         "input": "I want you to help me update my CV",
@@ -153,7 +153,7 @@
     },
     {
         "input": "I need help with my CV",
-        "response": "It helps for a smooth read. Bullet points  Short sentences with bullet points are easier to read over long, overly verbose  paragraphs."
+        "response": "It helps for a smooth read. Bullet points \u0085 Short sentences with bullet points are easier to read over long, overly verbose  paragraphs."
     },
     {
         "input": "Could you suggest changes on me Resume?",
@@ -169,11 +169,11 @@
     },
     {
         "input": "Can you give me some tips to improve my Resume?",
-        "response": "Date formats Format like 08/07 - 20/12 is hard to understand. The reviewer has to think over  the date, “Oh, it's from the 8th of 2007 to the 20th of 2012”."
+        "response": "Date formats Format like 08/07 - 20/12 is hard to understand. The reviewer has to think over  the date, \u201cOh, it's from the 8th of 2007 to the 20th of 2012\u201d."
     },
     {
         "input": "I want ways to enhance my CV",
-        "response": "The year is not  differentiated from the date. Instead, directly use the standard format — August 2007 - December 2012."
+        "response": "The year is not  differentiated from the date. Instead, directly use the standard format \u2014 August 2007 - December 2012."
     },
     {
         "input": "I want you to help me update my CV",
@@ -189,7 +189,7 @@
     },
     {
         "input": "I want you to help me update my CV",
-        "response": "If you have something important that can help you stand out, e.g., your school &  achievements, maybe you presented as a leader of your batch in your college, or  that university competition—both technical and non-technical (sports), add it at  the end of the resume.After the generalized points of the resume comes its structure. Let's understand  how to structure a resume: There are two types of software developers: one who had their first job and one  looking to land a job."
+        "response": "If you have something important that can help you stand out, e.g., your school &  achievements, maybe you presented as a leader of your batch in your college, or  that university competition\u2014both technical and non-technical (sports), add it at  the end of the resume.After the generalized points of the resume comes its structure. Let's understand  how to structure a resume: There are two types of software developers: one who had their first job and one  looking to land a job."
     },
     {
         "input": "Give me some CV tips",
@@ -209,7 +209,7 @@
     },
     {
         "input": "How can I improve my Resume?",
-        "response": "You can do anything as you're just starting! Here are the experiences that catch the eyes of people reviewing your resume  the most, in priority order: 1. Real-world work software development experience  If you have/had been working as a part-time or full-time developer, list it and your  achievements."
+        "response": "You can do anything as you're just starting! Here are the experiences that catch the eyes of people reviewing your resume  the most, in priority order: 1. Real-world work software development experience \u0083 If you have/had been working as a part-time or full-time developer, list it and your  achievements."
     },
     {
         "input": "I want ways to enhance my CV",
@@ -217,7 +217,7 @@
     },
     {
         "input": "I need help with my CV",
-        "response": "Internships  You can attract attention with the internships on your resume. But don't forget that  there will be many people with internships while applying to large tech  companies."
+        "response": "Internships \u0083 You can attract attention with the internships on your resume. But don't forget that  there will be many people with internships while applying to large tech  companies."
     },
     {
         "input": "Can you give me some tips to improve my CV?",
@@ -325,7 +325,7 @@
     },
     {
         "input": "I want you to help me update my CV",
-        "response": "7. Interests Point out a few things that interest you to make the resume more “human.” Keep it short."
+        "response": "7. Interests Point out a few things that interest you to make the resume more \u201chuman.\u201d Keep it short."
     },
     {
         "input": "Give me some CV tips",
@@ -365,11 +365,11 @@
     },
     {
         "input": "Could you improve my CV?",
-        "response": "User Numbers  Quantify your impact wherever you can. Instead of saying, “Built a tool widely adopted by the company,” say, “Led a team of 3 developers to  build a dependency injection framework adopted by 15 teams and all 50+ developers at the  company.” Numbers can be anything: Number of people on your team\" lines of code\" code coverage percentage before and after\" number of users\" number of installs\" ratings 2."
+        "response": "User Numbers  Quantify your impact wherever you can. Instead of saying, \u201cBuilt a tool widely adopted by the company,\u201d say, \u201cLed a team of 3 developers to  build a dependency injection framework adopted by 15 teams and all 50+ developers at the  company.\u201d Numbers can be anything: Number of people on your team' lines of code' code coverage percentage before and after' number of users' number of installs' ratings 2."
     },
     {
         "input": "Can you give me some tips to improve my Resume?",
-        "response": "Use active language Show what you have done and how you have been proactive. Use active verbs like “led,” “managed,”  “improved,” “developed,” and “rolled out.” 3."
+        "response": "Use active language Show what you have done and how you have been proactive. Use active verbs like \u201cled,\u201d \u201cmanaged,\u201d  \u201cimproved,\u201d \u201cdeveloped,\u201d and \u201crolled out.\u201d 3."
     },
     {
         "input": "I want you to help me update my CV",
@@ -381,7 +381,7 @@
     },
     {
         "input": "I want ways to enhance my CV",
-        "response": "A workaround is to read the job description and pick all the necessary keywords. An excellent way to keep these keywords without losing professionalism is to structure them in the  “languages and technicals” section, where you list technologies you're familiar with or relevant to a  job."
+        "response": "A workaround is to read the job description and pick all the necessary keywords. An excellent way to keep these keywords without losing professionalism is to structure them in the  \u201clanguages and technicals\u201d section, where you list technologies you're familiar with or relevant to a  job."
     },
     {
         "input": "I want ways to enhance my Resume",
@@ -393,11 +393,11 @@
     },
     {
         "input": "Can you give me some tips to improve my Resume?",
-        "response": "Talk about yourself, not your team. Avoid using “we.” The resume is about you and not your team."
+        "response": "Talk about yourself, not your team. Avoid using \u201cwe.\u201d The resume is about you and not your team."
     },
     {
         "input": "How can I improve my CV?",
-        "response": "The hiring team wants you! Always use the first-person  approach. In most cases, you can drop the “I.” 2."
+        "response": "The hiring team wants you! Always use the first-person  approach. In most cases, you can drop the \u201cI.\u201d 2."
     },
     {
         "input": "I want you to help me update my CV",
@@ -417,7 +417,7 @@
     },
     {
         "input": "Could you suggest changes on me Resume?",
-        "response": "Do talk about these activities at the end of the section. Maybe you're a technical writer or content  creator on social media— mention it."
+        "response": "Do talk about these activities at the end of the section. Maybe you're a technical writer or content  creator on social media\u2014 mention it."
     },
     {
         "input": "Can you give me some tips to improve my Resume?",
@@ -481,7 +481,7 @@
     },
     {
         "input": "How can I improve my Resume?",
-        "response": "E.g., “I did FD in aplha2.0 project”. A recruiter can't guess what your FD is in  aplha2.0."
+        "response": "E.g., \u201cI did FD in aplha2.0 project\u201d. A recruiter can't guess what your FD is in  aplha2.0."
     },
     {
         "input": "I want ways to enhance my Resume",
@@ -497,7 +497,7 @@
     },
     {
         "input": "Could you suggest changes on me Resume?",
-        "response": "Using cliches over statements backed by evidence What does the following sentence tell you about you? “I am a team player and a fast learner who  can hit the ground running.” From the point of view of the recruiter, it doesn't provide anyinformation. It's not backed by any fact or evidence that can state it."
+        "response": "Using cliches over statements backed by evidence What does the following sentence tell you about you? \u201cI am a team player and a fast learner who  can hit the ground running.\u201d From the point of view of the recruiter, it doesn't provide anyinformation. It's not backed by any fact or evidence that can state it."
     },
     {
         "input": "Could you improve my CV?",
@@ -589,7 +589,7 @@
     },
     {
         "input": "Give me some CV tips",
-        "response": "Follow these  tips: ́ Good READMEs Aim to write a README with a good summary: screenshots, details on how to run & test. Contribute to other open-source projects Find projects where you can contribute."
+        "response": "Follow these  tips: \u0301 Good READMEs Aim to write a README with a good summary: screenshots, details on how to run & test. Contribute to other open-source projects Find projects where you can contribute."
     },
     {
         "input": "Give me some Resume tips",
@@ -637,7 +637,7 @@
     },
     {
         "input": "Could you suggest changes on me CV?",
-        "response": "Don't over-share past experiences if they aren't beneficial in the software  field. Resume for Career Breaks You might have gone for many months—or years—without a job or work in a software field."
+        "response": "Don't over-share past experiences if they aren't beneficial in the software  field. Resume for Career Breaks You might have gone for many months\u2014or years\u2014without a job or work in a software field."
     },
     {
         "input": "Could you suggest changes on me Resume?",
@@ -645,7 +645,7 @@
     },
     {
         "input": "Can you give me some tips to improve my CV?",
-        "response": "How do you present this? Career break years  You don't need to explain the breaks that have happened more than a few years ago — 4 or 5  years. Recruiters or hiring managers will rarely care about it."
+        "response": "How do you present this? Career break years  You don't need to explain the breaks that have happened more than a few years ago \u2014 4 or 5  years. Recruiters or hiring managers will rarely care about it."
     },
     {
         "input": "I want ways to enhance my CV",
@@ -653,7 +653,7 @@
     },
     {
         "input": "I want ways to enhance my CV",
-        "response": "e.g.., Due to  COVID-19, I decided to take a break to spend more time with my family. How to address a career break on your CV A career break is generally deﬁned as any time you've been oﬀ work for an extended period (of typically more than three months) that has been for any reason other than redundancy."
+        "response": "e.g.., Due to  COVID-19, I decided to take a break to spend more time with my family. How to address a career break on your CV A career break is generally de\ufb01ned as any time you've been o\ufb00 work for an extended period (of typically more than three months) that has been for any reason other than redundancy."
     },
     {
         "input": "How can I improve my Resume?",
@@ -661,11 +661,11 @@
     },
     {
         "input": "Could you suggest changes on me Resume?",
-        "response": "The real trick is how you position the career break. By putting a positive spin on the time oﬀ, many employers will be impressed and more than willing to accept it."
+        "response": "The real trick is how you position the career break. By putting a positive spin on the time o\ufb00, many employers will be impressed and more than willing to accept it."
     },
     {
         "input": "I want you to help me update my CV",
-        "response": "More than anything, they want reassurances that you won't be leaving the workforce again soon and that you're motivated to get back into employment. Where to address the career break on your CVW hile it's always important to address your career break, you don't need to go into great detail about the time oﬀ."
+        "response": "More than anything, they want reassurances that you won't be leaving the workforce again soon and that you're motivated to get back into employment. Where to address the career break on your CVW hile it's always important to address your career break, you don't need to go into great detail about the time o\ufb00."
     },
     {
         "input": "Could you suggest changes on me Resume?",
@@ -673,23 +673,23 @@
     },
     {
         "input": "Could you suggest changes on me CV?",
-        "response": "● If you are on your career break right now: Say you've been out of work caring for a relative for the last six months, you'll want to explain this period out of work in your experience section as well as in your personal statement ● If your career break occurred in the last one to ﬁve years but you're employed now: you needn't mention it in your personal statement, only in your experience section ● If it was a long time ago: Did you take six months to go backpacking around India in 1995? Chances are, you probably needn't mention the career break at all How to describe the career break As noted above, you needn't go into great detail describing the career break – no more than a line or two. The key thing here is to emphasise the positives and, if appropriate, describe any new skills learnt or courses taken."
+        "response": "\u25cf If you are on your career break right now: Say you've been out of work caring for a relative for the last six months, you'll want to explain this period out of work in your experience section as well as in your personal statement \u25cf If your career break occurred in the last one to \ufb01ve years but you're employed now: you needn't mention it in your personal statement, only in your experience section \u25cf If it was a long time ago: Did you take six months to go backpacking around India in 1995? Chances are, you probably needn't mention the career break at all How to describe the career break As noted above, you needn't go into great detail describing the career break \u2013 no more than a line or two. The key thing here is to emphasise the positives and, if appropriate, describe any new skills learnt or courses taken."
     },
     {
         "input": "Could you suggest changes on me Resume?",
-        "response": "It'll also be important to provide some reassurance that you're not planning another career break any time soon. Again, let's look at some examples: ● You went travelling: “I fulﬁlled my life-long dream of travelling through South America for six months where I improved my Spanish and gained an understanding of diﬀerent cultures” ● You wanted a fresh start: “I chose to take time oﬀ work to pursue my interest in painting and had the time to decide on a new career path that really ﬁts my personal goals”● You were ill: “I took time oﬀ work due to a lengthy illness, but the time oﬀ allowed me to fully regain ﬁtness for the long-term and I became involved in volunteering at a local charity shop to get me back into the swing of work” ● You were caring for someone else: “I took time oﬀ to care for my brother who has now made a full recovery” Formatting can help Addressing a career break is all about accentuating the positives."
+        "response": "It'll also be important to provide some reassurance that you're not planning another career break any time soon. Again, let's look at some examples: \u25cf You went travelling: \u201cI ful\ufb01lled my life-long dream of travelling through South America for six months where I improved my Spanish and gained an understanding of di\ufb00erent cultures\u201d \u25cf You wanted a fresh start: \u201cI chose to take time o\ufb00 work to pursue my interest in painting and had the time to decide on a new career path that really \ufb01ts my personal goals\u201d\u25cf You were ill: \u201cI took time o\ufb00 work due to a lengthy illness, but the time o\ufb00 allowed me to fully regain \ufb01tness for the long-term and I became involved in volunteering at a local charity shop to get me back into the swing of work\u201d \u25cf You were caring for someone else: \u201cI took time o\ufb00 to care for my brother who has now made a full recovery\u201d Formatting can help Addressing a career break is all about accentuating the positives."
     },
     {
         "input": "Give me some Resume tips",
-        "response": "W hile you do have to mention you've been oﬀ work, you can format your CV in such a way that recruiters focus on other parts of your employment and personal history. One option is to describe jobs in terms of the years you worked there, rather than exact months."
+        "response": "W hile you do have to mention you've been o\ufb00 work, you can format your CV in such a way that recruiters focus on other parts of your employment and personal history. One option is to describe jobs in terms of the years you worked there, rather than exact months."
     },
     {
         "input": "I need help with my Resume",
-        "response": "For example: “Marketing Company: 2009-2010”, rather than “Marketing Company: November 2009-February 2010”: ● Perhaps during your early career, you had a few periods out of work for personal reasons, but since then have followed a standard career path. You may just want to describe those early years in this way."
+        "response": "For example: \u201cMarketing Company: 2009-2010\u201d, rather than \u201cMarketing Company: November 2009-February 2010\u201d: \u25cf Perhaps during your early career, you had a few periods out of work for personal reasons, but since then have followed a standard career path. You may just want to describe those early years in this way."
     },
     {
         "input": "Can you give me some tips to improve my Resume?",
-        "response": "If you've had a more stable career ever since, it's probably not necessary to draw too much attention to that earlier spotty period. Alternatively, you might want to create a ‘skills' or ‘themed' CV – as opposed to the more common chronological format: ● Maybe for the last ten years or so you had the opportunity to live in the south of France and didn't need to work much but are now keen to return to the UK and restart your career."
+        "response": "If you've had a more stable career ever since, it's probably not necessary to draw too much attention to that earlier spotty period. Alternatively, you might want to create a \u2018skills' or \u2018themed' CV \u2013 as opposed to the more common chronological format: \u25cf Maybe for the last ten years or so you had the opportunity to live in the south of France and didn't need to work much but are now keen to return to the UK and restart your career."
     },
     {
         "input": "Could you improve my CV?",
@@ -697,23 +697,23 @@
     },
     {
         "input": "Could you suggest changes on me CV?",
-        "response": "For instance, you'd likely be ﬂuent in French by now and capable of working in a multilingual environment. Or you might be familiar with French tax law or the country's property market, knowledge that wouldbe very helpful for all sorts of businesses."
+        "response": "For instance, you'd likely be \ufb02uent in French by now and capable of working in a multilingual environment. Or you might be familiar with French tax law or the country's property market, knowledge that wouldbe very helpful for all sorts of businesses."
     },
     {
         "input": "I need help with my Resume",
-        "response": "By making your skills stand out, employers will understand the value you could bring them and look past the time out of formal employment. Example Summary Section for Career Break: I am a conﬁdent and capable oﬃce manager with over ten years' experience in a range of businesses."
+        "response": "By making your skills stand out, employers will understand the value you could bring them and look past the time out of formal employment. Example Summary Section for Career Break: I am a con\ufb01dent and capable o\ufb03ce manager with over ten years' experience in a range of businesses."
     },
     {
         "input": "Could you improve my CV?",
-        "response": "I have a solid understanding of all core oﬃce management responsibilities, I am friendly and approachable, and I learn new skills fast. I am now returning to the workforce after a period of absence while providing care for a relative, but am now ready and motivated to restart my career."
+        "response": "I have a solid understanding of all core o\ufb03ce management responsibilities, I am friendly and approachable, and I learn new skills fast. I am now returning to the workforce after a period of absence while providing care for a relative, but am now ready and motivated to restart my career."
     },
     {
         "input": "Give me some CV tips",
-        "response": "For the past two months I have taken on volunteering work as a part time oﬃce manager at a local charity to refresh my skills. Resume for Senior or above  Engineers The more experienced you are, the more likely you stand out based on your experience and past  titles."
+        "response": "For the past two months I have taken on volunteering work as a part time o\ufb03ce manager at a local charity to refresh my skills. Resume for Senior or above  Engineers The more experienced you are, the more likely you stand out based on your experience and past  titles."
     },
     {
         "input": "I want ways to enhance my CV",
-        "response": "For someone having experience of over 7-8 years, your challenge will be to keep your  resume relevant to the position you're applying for: Career break years the experience you carry, the hiring team will look forward to this summary section to know about  your motivation behind applying to their firm. Soft Achievements Mention soft achievements — mentoring junior developers, leading a team, and other activities  where you helped others."
+        "response": "For someone having experience of over 7-8 years, your challenge will be to keep your  resume relevant to the position you're applying for: Career break years the experience you carry, the hiring team will look forward to this summary section to know about  your motivation behind applying to their firm. Soft Achievements Mention soft achievements \u2014 mentoring junior developers, leading a team, and other activities  where you helped others."
     },
     {
         "input": "I want ways to enhance my CV",
@@ -725,7 +725,7 @@
     },
     {
         "input": "I want ways to enhance my CV",
-        "response": "Only keep standout details in one line or two. Resume for Tech Leads You might have gone for many months—or years—without a job or work in a software field."
+        "response": "Only keep standout details in one line or two. Resume for Tech Leads You might have gone for many months\u2014or years\u2014without a job or work in a software field."
     },
     {
         "input": "I want ways to enhance my CV",
@@ -741,7 +741,7 @@
     },
     {
         "input": "Give me some Resume tips",
-        "response": "Make it easier to find. Specifics and Context  Specify the size & makeup of the team—3 frontend, 2 backend & 1 QA engineer's team."
+        "response": "Make it easier to find. Specifics and Context  Specify the size & makeup of the team\u20143 frontend, 2 backend & 1 QA engineer's team."
     },
     {
         "input": "I want ways to enhance my Resume",
@@ -773,11 +773,11 @@
     },
     {
         "input": "Can you give me some tips to improve my Resume?",
-        "response": "Consider adding the “|” separator character to add more information to your headline. For  example, “Frontend developer with 2 years of experience | JavaScript, Express, MongoDB,  Next.js”."
+        "response": "Consider adding the \u201c|\u201d separator character to add more information to your headline. For  example, \u201cFrontend developer with 2 years of experience | JavaScript, Express, MongoDB,  Next.js\u201d."
     },
     {
         "input": "How can I improve my Resume?",
-        "response": "A tailored headline will rank your profile higher with keyword searches that grab the  recruiters' attention.Current Position Describe your current role properly. For example, if you're leading a team of frontend developers,  you should write “Frontend Lead” or “Frontend Team Lead”."
+        "response": "A tailored headline will rank your profile higher with keyword searches that grab the  recruiters' attention.Current Position Describe your current role properly. For example, if you're leading a team of frontend developers,  you should write \u201cFrontend Lead\u201d or \u201cFrontend Team Lead\u201d."
     },
     {
         "input": "I want ways to enhance my CV",
@@ -805,7 +805,7 @@
     },
     {
         "input": "Give me some CV tips",
-        "response": "Remove positions that don't strengthen this image. Open for work Do not add “Looking for opportunities”, “open for a new role” or something similar on your  headline."
+        "response": "Remove positions that don't strengthen this image. Open for work Do not add \u201cLooking for opportunities\u201d, \u201copen for a new role\u201d or something similar on your  headline."
     },
     {
         "input": "How can I improve my Resume?",
@@ -822,5 +822,653 @@
     {
         "input": "Could you improve my Resume?",
         "response": "If you're moving to a different location, you can  update it. In case you're looking for remote positions, you can specify that.."
+    },
+    {
+        "input": "Give me some CV tips",
+        "response": "Crafting an effective curriculum vitae (CV) means revising and reviewing it throughout your professional career. You may find it helpful to update your document once or twice a year to reflect your experiences and abilities accurately."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Understanding how to improve your CV may help you create a document differentiating and highlighting your qualifications to employers. It's important to update your CV because you can stay up-to-date on CV trends to incorporate them into the document."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "You can also use this as an opportunity to refresh your writing while adding additional education and work experiences you have acquired since the last time you updated the document. Frequently updating your CV allows you to submit your document to employers quickly by spending minimal time on revisions."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "Improving your CV could also raise your chances of receiving an interview because you updated your document with the most up-to-date skills and qualifications a company might seek in a professional. A CV profile or a personal statement can provide a thorough qualification summary, allowing employers to gain a brief synopsis of what you can offer to the company."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "You can craft the summary to be about two to four sentences, highlighting your most applicable skills. Place the profile near the top of your document, below your name and contact details."
+    },
+    {
+        "input": "I want you to help me update my CV",
+        "response": "Professional profile heading: Use the heading 'Professional Profile' or a relevant title to introduce your statement. You may also title it, 'Career Objectives,' 'Personal Statement' or 'Profile Statement.' Skills heading: This is an optional component of your CV profile, but it allows employers to understand your qualifications for the position."
+    },
+    {
+        "input": "I want you to help me update my CV",
+        "response": "Bulleted list of skills: Include a bulleted skills list under the 'Skills' heading where you can introduce relevant skills along with your current certifications. Structure this section to include groupings of three or four bullet points that take up horizontal space."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "Similar to a resume, show employers what you have accomplished in your career and your current and previous job responsibilities when describing your achievements by quantifying your impact. Quantifiable statements can help employers determine the work ethic and passion you can bring to their business."
+    },
+    {
+        "input": "Give me some CV tips",
+        "response": "Including numbers to your accomplishments can provide validity to your claims, and it may show hiring managers if you exceed goals and expectations regularly. For example, rather than saying, 'I coordinated events while overseeing a team of event specialists,' try saying, 'I coordinated over 200 events while overseeing a team of 15 event specialists.' CVs encourage professionals to discuss their experiences and qualifications in-depth, meaning it's suggested you exceed more than a page compared to a resume."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "Using two pages is effective if you're in the beginning stages of your career, and you may focus more on your academic experiences and achievements. If you're an experienced professional who has held multiple jobs, achieved several certifications or completed numerous volunteer hours, use the CV's length expectations to your advantage and aim between two to four pages."
+    },
+    {
+        "input": "I want you to help me update my Resume",
+        "response": "Create multiple documents for different areas of your expertise. For example, if you have experience working as a history professor, but you also have experience as a researcher and author, consider creating three different CVs highlighting each area of relevant expertise."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "If you wish to pursue writing jobs, create a CV specifically showcasing your previous educational experiences and jobs that qualify you for a writing position. This enhancement tactic allows you to organize your various skills and credentials to discuss them in greater detail."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "Consider revising the overall format of your CV for a more engaging presence. Review your fonts and determine how you can professionally incorporate two to three complementary fonts to add more distinction to your sections."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Some standard professional fonts include Times New Roman, Calibri, Avenir and Helvetica, while individuals may use other fonts like Courier, Futura and Comic Sans in creative and decorative circumstances. Consider choosing a sans-serif font and a serif font, one for the heading and one for the body to add a visual appeal."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Additionally, review the amount of white space in your CV. Restructure your document so each section fills any excessive white spaces you may have on your page."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "You can do this by centering headings and making horizontal lists. Make sure the margins are about 0.5 - 1 inch."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "Summarizing what you have learned from past roles is optional, but it can be beneficial to increase page length while showing employers your specific skills, habits and lessons learned. For example, if you're applying for a marketing manager position, you may include, 'In my time as a marketing manager at Clawson Marketing Solutions, I developed an understanding of inbound marketing strategies and how these methods may invoke cost-saving initiatives within larger campaigns.' Hiring managers can review the statements of what you have learned from previous experience and determine how you can apply those skills to benefit their company."
+    },
+    {
+        "input": "Give me some CV tips",
+        "response": "Additionally, you may find including this section helpful if you're gaining experiences in the early stages of your career. Consider removing references you may have included for past jobs."
+    },
+    {
+        "input": "I want you to help me update my Resume",
+        "response": "You can give these references to an employer as a separate document along with your CV if they request it. Eliminating your references can give you more room to expand on your relevant experiences."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "If you wish to keep your references, you can also simplify your recommendation section to include the name, relationship and contact details for two or more references. Additionally, double-check with your references that they still consent to you using them as a reference."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "It's important to make your paragraphs small, between two to three sentences. Brief sections are more appealing and can make it easier for employers to skim through your qualifications."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "You can also shorten paragraphs by transforming written lists into a bulleted format where appropriate. For example, instead of saying: 'I learned how to communicate better with teammates, prioritize time management and develop problem-solving skills,' you could say something like, 'From my role as a project manager, I learned to: Streamline communication with teammates, Prioritize time management, Develop problem-solving skills'."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "Keywords may improve the chances of an employer selecting it over other similar professionals. Review the job posting for a company's desired candidate skills and qualifications list and include the ones you possess on your document."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "For example, a civil engineer job posting may express the requirement for dedicated, spirited and experienced professionals in physics and geology. Use the keywords 'dedicated' and 'energetic' in your CV profile and highlight physics and geology under your skills."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "If the employer uses an applicant tracking system (ATS), the company programs the system to select applications that include relevant words and phrases from the job description. Using action words on your CV is essential because they provide clear and concise statements to summarize your experiences and abilities."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "Action words help encourage the reader to move quickly throughout your document, which can help the hiring managers skim through and determine if you're a qualified candidate. Here are some action words to consider using on your CV: Launched, Partnered, Coordinated, Strengthened, Calculated, Regulated, Assessed, Guided."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Including impressive skills and achievements on your CV may help the hiring managers understand what makes you different from other professionals with similar backgrounds. Consider including your abilities and accomplishments that might not be as common among professionals."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "These credentials may help you find more success in your job search or gain new opportunities to expand your career. Here are some examples of impressive skills and achievements you may include on your document: Language skills, First aid abilities, Commercial awareness skills, Internal and external negotiation abilities, Data protection skills."
+    },
+    {
+        "input": "I want you to help me update my CV",
+        "response": "If you have other accomplishments and abilities you wish to detail in your CV, consider adding additional sections to highlight them. New categories can help you expand your document's length to the appropriate amount, which might be helpful if you're still in the starting stages of your career."
+    },
+    {
+        "input": "Give me some Resume tips",
+        "response": "Here are some additional sections you may incorporate into your CV: Academic or professional achievements, Publications, Awards, Notable responsibilities, Certifications. To help you with organization, consider using a CV template."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "A template can help you add in your information to the existing structure, allowing you to customize it where needed. Using a template may also help you focus more on articulating your information well and less on the formatting elements because it's already pre-determined for you."
+    },
+    {
+        "input": "Could you suggest changes on me CV?",
+        "response": "Additionally, templates may help you save time when enhancing your documents, especially if you have multiple CVs. Be sure to proofread your CV for grammar, spelling, and punctuation before submitting it with a job application."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "You might notice mistakes and make corrections to improve the quality of your document. You can also print out a copy of your CV to look for mistakes, install a software program invented to catch errors or have someone else read over your CV to identify potential mistakes."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Start with a summary of your skills and key accomplishments. This will attract the recruiter and grab their attention from the outset."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "This personal profile is an important part of your CV and tells the recruiter exactly who you are, so you want to make the right impression. Instead of just listing your past responsibilities, make your CV stand out by emphasizing your results, using quantifiable data to show your accomplishments."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "So for example, instead of saying \u201cI helped to increase social media engagement for Company X\u201d, write \u201cI increased social media engagement by 38% for Company X\u201d. Respond directly to the job description and explain exactly why you are the candidate for the role."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "You can do this by relating your accomplishments to the elements of the job role. Employers want candidates to understand the role they are applying for, and the more you can demonstrate this, the more your CV will stand out."
+    },
+    {
+        "input": "I want you to help me update my Resume",
+        "response": "It might take longer for you to write your CV, especially when applying for a large number of roles, but it if it helps you to find your perfect position then it is time well spent! In your CV you should focus on your personal development. Show how you have grown and changed in your roles, and the accomplishments you have achieved."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "This will show the recruiter that you have learnt a lot from your past positions, and that you are committed to learning and expanding your skill set. Whether it be at university or in past job roles, you will have met an array of different people."
+    },
+    {
+        "input": "Could you suggest changes on me CV?",
+        "response": "Make sure this comes through. Networking displays that you have strong communication skills and this is something that employers value greatly."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "An awareness of the industry you are applying for will show the recruiter that you have the ability to stay on top of trends. You will be a lot more attractive to employers if you are able to demonstrate knowledge of the industry, so make sure you are up to date with any news and industry changes."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "This will also help you if you reach the interview stage. Using power words will emphasize your accomplishments and will give your CV additional impact."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "Include words such as adaptable, innovative, implemented and achieved for each of your roles, and follow up with impressive results or outcomes which demonstrate what you have delivered. Many companies use database software to filter out candidates out who don\u2019t use certain key words, so make sure you study the job description and know what the recruiter is looking for."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "Creating the perfect CV can be quite time-consuming, but it is your opportunity to show off your accomplishments and skills to the employer. The more you study the job description and the industry, the better equipped you will be to make your CV stand out."
+    },
+    {
+        "input": "I want you to help me update my CV",
+        "response": "We hope these CV tips have helped you, and good luck in your job search! A CV that doesn\u2019t reflect your strengths adequately to recruiters and employers is never going to help you reach your lofty careers goals. One of the most important things to keep in mind when writing a CV is that they only get around six to eight seconds of air time."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "Recruiters are time-poor, and when reviewing a lot of applications, they must be able to quickly scan through and determine which candidates are worth inviting in for an interview and which aren\u2019t. Therefore, you need to make it as easy as possible for them to see that you\u2019re a skilled and suitable - and the format plays a big part in that."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "If your current CV is bursting at the seams with text, or perhaps you\u2019ve experimented with a quirky layout in the past, it might be time to do some reformatting. Go through and cut down any bulky chunks of text and make sure you\u2019ve used sub-headings and bullet points where appropriate to break up the information and make it easier to read."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "What\u2019s more, although it can be tempting to try and keep up with more modern formats, sometimes these can actually damage your chances of landing the role, so it\u2019s best to stick with simplicity and readability over anything else. This means it must be persuasive and grab their attention from the moment they set eyes on it."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "Make sure this section (which includes your profile, core skills section and current role) are packed with the most sought-after requirements that your target employers are looking for. Research your target jobs thoroughly to extract the most in-demand skills, experience and knowledge in your field, and highlight your most suitable talents in this top part of your CV."
+    },
+    {
+        "input": "I want you to help me update my Resume",
+        "response": "This way, when the recruiter begins skimming through your CV, they will instantly see that you\u2019re a good fit for the position. If you feel like your CV is lacking some of the most requested skills for your target jobs, or perhaps you don\u2019t have as many recent achievements as you\u2019d like, then you consider taking on some new responsibilities."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "Speak to your current employer about working on new projects, overseeing more employees or taking on any other responsibilities that will help you to gain the necessary experience for your new chosen roles. This will give you some new talking points for your CV and is your chance to get some impressive results or projects behind you that you can shout about on your application."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "One way to instantly boost your employability and make your CV look great is to learn some new skills. For example, you might wish to learn how to use new tools or software, remote working practices, or even just upgrade your knowledge in your current field."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "There are multiple ways you can do gain skills nowadays; you could take an online course or digital workshop, listen to podcasts or watch tutorials. Alternatively, you could join an evening class or ask someone in your current workplace to teach you."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "However you choose to go about it, it\u2019s a good idea to work out your objectives first as this will help you choose the right type of course or training for your career. Let\u2019s say you have an ideal new job in mind; you can take a look over similar job descriptions to find out what sought-after skills or know-how you\u2019re missing."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "This will help to guide you in your pursuit of knowledge and new skill sets. When you\u2019ve had a long or established career, you might have years of experience and multiple qualifications behind you, but over time these can become less relevant and simply take up precious space."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "In fact, when it comes to your CV, the information you choose to leave out can be just as important as the information you choose to include. The best approach to take is to examine the job description and see what the employer is after, then omit any information that is not relevant or required for the role."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "For example, in your employment history, you can leave out any roles that aren\u2019t relevant to the industry or position you\u2019re applying for and cut down any older roles to just one-line summaries. By stripping out any outdated or irrelevant information, you make it much easier for the recruiter to find the relevant information that proves you\u2019re a good fit for the role."
+    },
+    {
+        "input": "Give me some CV tips",
+        "response": "So, if you are looking for a new position this year, keep this advice in mind when writing your CV. Even just one of our five tips could be enough to instantly boost your CV and help you secure an interview."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Employers use resumes throughout the hiring process to learn more about candidates and determine whether they might be a good fit. An effective resume is easy to read, summarizes your accomplishments and skills and highlights relevant experience."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "Learning how to showcase your credentials on a resume can help you impress potential employers. The best place to start when preparing to write a resume is to carefully read the job postings that interest you."
+    },
+    {
+        "input": "How can I improve my Resume?",
+        "response": "As you apply for different jobs, study each job description for keywords that show what the employer is looking for in an ideal candidate. Include those keywords in your resume where relevant."
+    },
+    {
+        "input": "Give me some Resume tips",
+        "response": "For example, if you're applying for a job as a medical billing coder, an employer might list keywords like 'coding,' 'claims submission,' 'compliance' or 'accounts receivable management' in the job description. Pay particular attention to anything listed in the 'Requirements' or 'Qualifications' sections."
+    },
+    {
+        "input": "Give me some Resume tips",
+        "response": "If you have the skills employers are looking for, you can add these terms to your resume in the experience or skills sections. When crafting your resume, you might study examples of resumes from your industry for inspiration and best practices."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "Samples are useful examples of high-quality resumes used in your industry and for your job title. While there are many ways you can use resume samples, there are three main takeaways to look for: Simplicity."
+    },
+    {
+        "input": "How can I improve my Resume?",
+        "response": "Resume samples are straightforward because employers have minimal time to review your resume, so readability is key. Brevity."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "You may notice that each section of the resume sample is short and to the point, including the summary and experience descriptions. Including only the most key and relevant information means employers can consume more information about you and quickly understand your fitness for the role."
+    },
+    {
+        "input": "How can I improve my Resume?",
+        "response": "Numbers. You might also notice that there are often metrics in the experience section of resume samples because employers are highly responsive to measurable proven value."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "For example, one bullet point under the experience description for an administrative assistant reads, Processed 100 vendor contracts and implemented a standardized process, reducing contract discrepancies by 90%. Use a basic, clean font like Arial or Times New Roman."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "Keep your font size between 10 and 12 points. Selecting a clear, readable font can help make your resume appear more professional."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "Reduce or eliminate any extraneous white space. You make it easier for the resume reader to focus only on the content of your resume instead of the white spaces."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "You can reduce white space by increasing your font size to 12 points and possibly adding optional sections like 'Career Highlights,' 'Skills' or 'Awards and Achievements.' While you might have extensive work or educational experience, it's important to keep your resume as brief as possible without leaving out key information. If your resume includes old or irrelevant information, such as jobs held more than 10 years ago or minor degrees and achievements, it may distract from key information."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "An example to leave off would be a GPA of 3.2 or a certification in an unrelated field. Try to include only work experience, achievements, education and skills most relevant to the employer."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "You can find the most relevant attributes by closely reading the job posting. Prioritize important information on your resume to highlight key skills and achievements."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "This may mean creating a  functional rather than a chronological resume, focusing on how prior roles have given you the skills and experience needed for this role. Write your resume using active language without extraneous words."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "This means using power words, such as 'achieved,' 'earned,' 'completed' or 'accomplished.' If your resume is too long or seems hard to read, you might consider making sentences shorter or ideas more concise. For example, you may have a job description that reads: 'During my time at Freedom Inc., I ran multiple team-based projects and helped each team member with various tasks associated with each project.' You can shorten and strengthen this example in the following way: 'Led 10 team-based projects, including the implementation of a new point-of-service system, and helped five team members meet project requirements and deadlines with 95% accuracy.' The revised version communicates the same ideas about your accomplishments while including more active language and further quantifying your results."
+    },
+    {
+        "input": "How can I improve my Resume?",
+        "response": "Instead of listing your job duties under the experience section, select your top three or four most important achievements in each role you've held. Where possible, include numbers that measure your success for that particular goal or achievement."
+    },
+    {
+        "input": "Give me some CV tips",
+        "response": "You might also consider including a separate 'Achievements' or 'Skills' section to highlight relevant achievements in your education, career, volunteer work or other experiences. Whether you're using a resume template or creating your own, you may find there are some recommended sections you don't need."
+    },
+    {
+        "input": "I want you to help me update my CV",
+        "response": "For example, if you're graduating from college or high school and have not yet held a professional position, you might replace the experience section with relevant coursework, academic achievements and other experiences like internships or extracurricular projects. You may also find it useful to combine sections if you're having trouble filling a section with more than two bullet points."
+    },
+    {
+        "input": "How can I improve my Resume?",
+        "response": "Typically, you can use a one-inch margin size on all sides of your resume with single spaces between the lines. If you have too much white space, consider spacing your lines by 1.15 or 1.5."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "You can also increase your margins if you find it difficult to fill your resume but make sure they stay below two inches. Before sending your resume, undergo several rounds of proofreading to ensure there are no spelling or grammar errors."
+    },
+    {
+        "input": "How can I improve my Resume?",
+        "response": "While you can use several proofreading programs and tools, it's also helpful to ask trusted friends or colleagues to review your resume. It's helpful for an objective third party to look at your resume as an employer might to find ways you can correct or improve it."
+    },
+    {
+        "input": "I want you to help me update my Resume",
+        "response": "Before applying, you ask yourself, 'Have I made it as easy as possible for this employer to see that I'm qualified?' If you're applying for a job with unique requirements, you may need another version of your resume to demonstrate your qualifications fully. Decide on a case-by-case basis which resume to use."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Once you finalize your resume, it can help you get more callbacks, interviews and job offers. While you can build a strong resume on a blank document, consider using a template from a graphic design tool like Canva to build your resume, giving it a more eye-catching appearance."
+    },
+    {
+        "input": "I want you to help me update my CV",
+        "response": "When choosing the design and layout, think about the following: The role you\u2019re applying for, and the job description. For example, a graphic designer might choose a bold, colorful template, while someone in accounting or finance might prefer a more traditional or corporate layout."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "The aspects of your professional history that are the most relevant. Besides your name and contact information, the sections you'll need include education, previous employment and professional experience, tools you are trained to use, technical skills, certifications and courses you\u2019ve completed, awards you\u2019ve received, and hobbies and interests."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "How to position these sections within the template in the most advantageous way. 2."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "Add skills or areas of expertise near or below your name. Summarize who you are as a professional before providing all of the details."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "This section can take up two or three lines on your resume and should include your area of expertise, such as \u201cdesign thinking specialist\u201d or \u201cinvestigative journalist,\u201d and a list of your most relevant skills. For each job you apply to, think about which skills the employer would most likely hire you for, and include those."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "You can often determine what's most important to the potential employer by examining the job listing. Try to keep your skills list specific and quantifiable, for example, 'Agile project management' or 'Python programming.' In addition to conveying confidence in your abilities, this section can demonstrate to employers that you are intentional about your career and the application you are submitting."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "A resume objective can expand what you include in your area of expertise section by listing your professional goals and what you\u2019d like to contribute to the company to which you\u2019re applying. Near your name and contact information, list any online accounts you have that can showcase your interests, passions, or previous work."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "The list could include social media, an online portfolio, or your website. Be sure to remove anything from your online accounts that you don\u2019t want a potential employer to view."
+    },
+    {
+        "input": "I want you to help me update my CV",
+        "response": "Post content that may be relevant to the job you\u2019re applying for or that is your original work. One of the most important things to get your resume seen is to use keywords optimized for the applicant tracking systems (ATS) that recruiters and employers use to find prospective employees."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "An ATS allows recruiters to process hundreds of resumes for relevant keywords and narrow down the pool of applicants they\u2019ll invite to an interview. Find the best keywords by: Reviewing the job listing for keywords, Googling \u201c[industry] keywords\u201d and making a list of the most relevant ones, Using a free ATS to scan your resume for opportunities to optimize your keywords."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "Using industry-specific terms and jargon also demonstrates your familiarity with your new field. In conjunction with your ATS keyword research, use action verbs, such as \u201cmanaged,\u201d \u201cimplemented,\u201d or \u201cdeveloped,\u201d to describe the tasks you performed or projects you completed in previous roles."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Action verbs are a great way to specify your experience and emphasize your technical skills. Here\u2019s an example a cybersecurity analyst might use: \u201cImplemented a backup system to add a layer of security company data.\u201d Include a sentence with your job scope and a bullet list of accomplishment items under each job."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "Try to be specific and use concrete metrics that demonstrate the impact of your accomplishments. If you boosted social media engagement in your last marketing job, for example, include the percentage of that increase."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "This section can show more of your personality and abilities you did not list in other areas of the resume. Your hobbies and interests can be great conversation starters and position you as a well-rounded employee with versatile skills."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "If you're looking for your first job and don't yet have much professional experience, you might turn to your extracurricular activities as a way to highlight key job skills, like problem solving, critical thinking, creativity, or teamwork. At the same time that you include details about your professional history and career objectives that employers will find attractive, remain mindful of potential red flags on your resume and address them."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "Red flags might include short job durations and gaps in employment in your job experience section. For gaps in your employment history lasting longer than six months, consider including what you did during that time."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "Caregiving, travel, volunteer work, and independent projects are all opportunities to highlight related, transferrable skills. Once you have most of the sections filled in, scan the resume for unnecessary details that you can remove."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "These might include: Job experience from long ago, particularly if it\u2019s not relevant to the position you\u2019re applying for Graduation dates, Details from your hobbies and interests section that are the least relevant, Buzzwords like \u201cself-starter\u201d and \u201chard worker\u201d. Typically, your resume should fit on a single page, unless you have more than 10 to 15 years of related professional experience."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "Highlight your achievements in your resume. A common mistake job seekers make is believing a resume is a recap of your career, when in reality, it should convey what you have accomplished, says Christy Noel, a career expert and author of \u201cYour Personal Career Coach.\u201d \u201cI always say, spend less of your real estate describing your job, and more time describing your results,\u201d says Ms."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "Noel. Customize your resume."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "Read over the job posting, and think about the work experience you have had that is most directly relevant to the position you are pursuing. You can leave out some past jobs and internships if the experience you had wasn\u2019t related."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "Whatever you do: Don\u2019t submit a generic resume to dozens of postings. \u201cEven if you have the best experience, if your resume isn\u2019t speaking directly to the position in which you are applying, there is a strong chance you\u2019ll never even get an interview,\u201d says Demisha Jennings, a certified professional resume writer and founder and owner of She Assists LLC."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "The same applies to your cover letter. It is your chance to provide more detail on how your experience will help you succeed in the job."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "Read our cover letter guide for how to write one that makes you stand out. Decide how to format your resume."
+    },
+    {
+        "input": "Give me some CV tips",
+        "response": "Most of the time, a chronological resume will work well for communicating your past experience. But, in some cases, a functional or hybrid resume might be more appropriate."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "Make your contact information easy to find. Include your name, phone number, email address, city and state."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "It may also be appropriate to include the URL to your LinkedIn profile. You want it to be easy for hiring managers to reach out."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "In addition to making it easy to connect with you, it is important to your job search that you grow your network. Read our networking guide for tips on how to do so."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "Consider adding a summary. Many resume templates leave space for an objective statement, outlining career goals, but that approach is outdated, says Ms."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "Jennings. Instead, consider a carefully worded summary."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "The summary is often the first place a hiring manager will look, and gives you an opportunity to introduce your skills high up on the page. You can also work in relevant keywords from the job description."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "\u201cRecruiters are looking for what you can bring to the table and what you\u2019ve done, rather than you saying, \u2018I\u2019m seeking a position,\u2019\u201d Ms. Jennings says."
+    },
+    {
+        "input": "I want you to help me update my Resume",
+        "response": "Great resumes should stand out to skim readers. Most recruiters spend just a few seconds skimming through a resume\u2014with an average in one study of 7.4 seconds."
+    },
+    {
+        "input": "Give me some CV tips",
+        "response": "To have the best chance of making an impression, ensure your job titles, company names and dates of employment are easy to read. The sections of your resume should be adequately spaced, too, says Dana Leavy-Detrick, founder and director of Brooklyn Resume Studio."
+    },
+    {
+        "input": "Give me some Resume tips",
+        "response": "Make your resume robot-friendly. Structure your resume to meet the requirements of an applicant tracking system to give yourself the best chance of having it reach an actual human."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "Ms. Leavy-Detrick suggests the following: Optimize keywords."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "Use the same words and language that are in the job description. For example, three different companies might describe the same role as \u201cprogrammer,\u201d \u201cdeveloper\u201d or \u201csoftware engineer.\u201d Use a straightforward format."
+    },
+    {
+        "input": "Give me some Resume tips",
+        "response": "Avoid tables and text-based graphics, which might not get picked up by a scan of the resume. Sans-serif fonts such as Arial or Helvetica are also best to ensure readability."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "Think about order. When formatting each line item of work experience, list the company name first, followed by the job location (city, state), your job title, and your start and end dates."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "Some resumes can get lost if the dates are listed before the job title. Prioritize relevant keywords."
+    },
+    {
+        "input": "How can I improve my Resume?",
+        "response": "Tailoring your skills to include language from the job posting is an important way to let both the applicant tracking system and, eventually, a hiring manager, see how your prior qualifications tie into the job requirements. But just because you have a resume full of keywords doesn\u2019t mean you\u2019ll automatically get an interview."
+    },
+    {
+        "input": "I want you to help me update my CV",
+        "response": "\u201cThe ATS isn\u2019t there to help the job seeker, it is there to help the employer review your skills against their most important qualifications,\u201d says Ashley Watkins, a career coach and resume writer with Write Step Resumes LLC. Craft compelling and concise bullet points."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "The goal of a resume is to list your accomplishments, rather than every duty you performed in the role. Resume-writing experts recommend including no more than five bullet points per prior job listed."
+    },
+    {
+        "input": "Give me some Resume tips",
+        "response": "Don\u2019t focus on tasks. Many job seekers describe what they did every day, such as answering phones or creating marketing materials, Ms."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "Watkins says. \u201cSimply copying and pasting the job description doesn\u2019t account for the things you did great, that you did above and beyond your peers,\u201d she says."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "Instead, explain what those tasks achieved. Emphasize your results."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "Ms. Watkins suggests asking yourself \u201cDid I save [the employer] money? Did I save time? Did I improve a process? Did I build a relationship?\u201d These will help you format your bullet points."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "Use metrics. Say what you achieved, then contextualize it\u2014with figures if possible."
+    },
+    {
+        "input": "I want ways to enhance my Resume",
+        "response": "You might not be able to put a monetary value on every accomplishment, but you can frame it by sharing details like the time it took or how many people were involved. \u201cIf you raised sales 50% in two months, that means a whole lot more than \u2018I\u2019m in charge of sales,\u2019\u201d Ms."
+    },
+    {
+        "input": "I want you to help me update my Resume",
+        "response": "Watkins says. Don\u2019t omit accomplishments that aren\u2019t quantifiable."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "Not every achievement will have metrics to show success. If there are figures, you might not always have access to them."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "But that shouldn\u2019t stop you from including them, says Ms. Leavy-Detrick."
+    },
+    {
+        "input": "Could you suggest changes on me CV?",
+        "response": "Perhaps you had a positive impact on the culture of an organization, or improved a struggling relationship with a client. These efforts could help to demonstrate your soft skills."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "Focus on transferable skills if you lack experience. If you are applying for a job in a new field or you are an entry-level applicant and don\u2019t have much direct experience, don\u2019t worry."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "Highlight transferable skills you have developed in the past that will serve you well in the position, says Ms. Leavy-Detrick."
+    },
+    {
+        "input": "I need help with my CV",
+        "response": "For example, you could play up leadership skills you developed participating in an extracurricular activity or time-management skills you learned in a prior job. Go beyond your work history, and include all relevant experience."
+    },
+    {
+        "input": "Could you suggest changes on me Resume?",
+        "response": "If you are new to the workforce, or are job-hunting after being laid off, you could also include related experience that was outside of a traditional full-time job, says Ms. Watkins."
+    },
+    {
+        "input": "I want you to help me update my Resume",
+        "response": "For example, you can highlight volunteer work, consulting projects or educational training, all as part of making the case for your unique value, she says. Don\u2019t worry too much about gaps in your resume."
+    },
+    {
+        "input": "I want ways to enhance my CV",
+        "response": "The Covid-19 pandemic economy resulted in many people being laid off or furloughed. Ms."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Watkins says the 2020 job market reminds her of 2008, when she worked as a recruiter. The expectation at that time, she says, was that candidates would have gaps on their resumes or list more short-term positions."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "While it isn\u2019t necessary to directly address the gaps in your resume, you should be prepared to talk about them in an interview. \u201cThe focus should not be centered on the fact that you were furloughed or laid off, it should be focused on you and your skills and what you do that impacts the company\u2019s bottom line in a positive way,\u201d Ms."
+    },
+    {
+        "input": "Could you improve my CV?",
+        "response": "Watkins says. While it is common to list the months and years you started and ended positions in the job history section, you could just use years."
+    },
+    {
+        "input": "Could you improve my Resume?",
+        "response": "This will draw less attention to a six- or eight-month gap, says Ms. Leavy-Detrick."
+    },
+    {
+        "input": "How can I improve my Resume?",
+        "response": "Highlight relevant skills. It is common to add a skills section to your resume, outlining expertise relevant to the position."
+    },
+    {
+        "input": "Give me some CV tips",
+        "response": "You can include languages you speak, technical skills or courses you have done. If you lack experience, you can also complete some trainings, which you can find on LinkedIn and elsewhere, related to the job you are applying for and add the courses in this section, says Ms."
+    },
+    {
+        "input": "I need help with my Resume",
+        "response": "Jennings. Prioritize work experience over education."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "The professional experience you have had is often more relevant to the position than your education history, which is why the work experience should be listed first. In the \u201cEducation\u201d section, you should list where you attended college, if applicable, or the highest level of education you have attained."
+    },
+    {
+        "input": "Give me some Resume tips",
+        "response": "If you graduated with honors, you can flag that, but it isn\u2019t necessary to list your GPA. If you are early on in your career, a key resume tip is to limit it to one page."
+    },
+    {
+        "input": "Could you suggest changes on me CV?",
+        "response": "If you are early on in your career, you should limit your resume to one page. It is OK to start spilling onto a second page after you have eight to 10 years of experience, says Ms."
+    },
+    {
+        "input": "Could you suggest changes on me CV?",
+        "response": "Leavy-Detrick. Add some color for a stylish resume that sets you apart."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "Your resume should look clean and professional and you should keep applicant tracking systems in mind when formatting the document. But, if it is appropriate, you can add subtle accents of color in the section headings or in bars that separate sections as a way to differentiate your resume."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "Ms. Leavy-Detrick doesn\u2019t overstress the need for good design with her clients."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "\u201cBut it can definitely help,\u201d she says. \u201cWhen I say design, I don\u2019t mean crazy graphic design."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "I mean having a polished application,\u201d she says. \u201cThink of it the same way you would coming dressed to an interview, it is part of your presentation, and so many people overlook this on the resume.\u201d It may be appropriate to incorporate a more creative and graphic-based layout depending on the field in which you work and where you are applying."
+    },
+    {
+        "input": "Can you give me some tips to improve my CV?",
+        "response": "If you are applying for a position in a creative field, and you are emailing your resume directly to a hiring manager, then it can be appropriate to use more designs, says Ms. Jennings."
+    },
+    {
+        "input": "Can you give me some tips to improve my Resume?",
+        "response": "But if you are applying to a large company that uses an applicant tracking system or job portal, she says it is best to avoid using graphics unless you are working with a resume writer who can help you get your resume through the system. Proofread and double-check the formatting."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "You may be eager to send your resume or submit your application, but you should take the time to first check for typos and grammatical errors. You could also have a friend or family member look over it."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "When you are checking for errors, be sure to double-check the formatting. Sometimes the spacing can get thrown off when you save the file, so check how it looks as a saved document and, if you can, save it as a PDF before sending."
+    },
+    {
+        "input": "How can I improve my CV?",
+        "response": "Make sure the saved file name includes your name. Make less work for the hiring manager by including your full name in the file name of the resume document.."
     }
 ]

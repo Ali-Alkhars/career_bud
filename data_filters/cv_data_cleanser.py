@@ -30,7 +30,7 @@ def question_maker():
     ]
     return random.choice(questions)
 
-def process_questions():
+def process_HF_questions():
     # extract the data
     data = load_dataset('gkrishnan/Resume_Best_Practices')
     text_data = data['train']['text'][0].replace('\n', ' ')  # Replacing \n with space
@@ -45,8 +45,30 @@ def process_questions():
     structured_data = [{"input": question_maker(), "response": entry} for entry in grouped_sentences]
     
     # Write the structured dataset to a JSON file.
-    with open('../Datasets/cv_dataset.json', 'w', encoding='utf-8') as f:
-        json.dump(structured_data, f, ensure_ascii=False, indent=4)
+    with open('../Datasets/cv_dataset.json', 'w', encoding='utf-8') as file:
+        json.dump(structured_data, file, ensure_ascii=False, indent=4)
+
+def process_web_questions():
+    # extract the data
+    with open('../Unfiltered-datasets/CV/CV_improvements_data.txt', 'r', encoding='utf-8') as file:
+        data = file.read()
+
+    # Split the text into sentences (by full stop).
+    sentences = data.split('. ')
+    
+    # Group every two sentences together.
+    grouped_sentences = ['. '.join(sentences[i:i+2]) + '.' for i in range(0, len(sentences)-1, 2)]
+    
+    # Create the structured dataset.
+    structured_data = [{"input": question_maker(), "response": entry} for entry in grouped_sentences]
+    
+    # Write the structured dataset to a JSON file.
+    with open('../Datasets/cv_dataset.json', 'r+', encoding='utf-8') as file:
+        allData = json.load(file)
+        allData.extend(structured_data)
+        file.seek(0)
+        json.dump(allData, file, indent=4)
 
 # Create the structured dataset
-process_questions()
+process_web_questions()
+# process_HF_questions()
