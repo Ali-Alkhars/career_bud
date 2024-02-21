@@ -69,6 +69,28 @@ def process_web_questions():
         file.seek(0)
         json.dump(allData, file, indent=4)
 
+def process_web_questions2():
+    # extract the data
+    with open('../Unfiltered-datasets/CV/CV_improvements_data2.txt', 'r', encoding='utf-8') as file:
+        data = file.read()
+
+    # Split the text into sentences (by full stop).
+    sentences = data.split('. ')
+    
+    # Group every two sentences together.
+    grouped_sentences = ['. '.join(sentences[i:i+2]) + '.' for i in range(0, len(sentences)-1, 2)]
+    
+    # Create the structured dataset.
+    structured_data = [{"input": question_maker(), "response": entry} for entry in grouped_sentences]
+    
+    # Write the structured dataset to a JSON file.
+    with open('../Datasets/cv_dataset.json', 'r+', encoding='utf-8') as file:
+        allData = json.load(file)
+        allData.extend(structured_data)
+        file.seek(0)
+        json.dump(allData, file, indent=4)
+
 # Create the structured dataset
-process_web_questions()
 # process_HF_questions()
+# process_web_questions()
+process_web_questions2()
