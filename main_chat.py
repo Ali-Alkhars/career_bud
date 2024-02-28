@@ -1,6 +1,7 @@
 import torch
 from transformers import T5Tokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM, AutoTokenizer
 import logging
+from job_fetcher import fetch_jobs
 
 class T5Chatbot:
     def __init__(self, model_name='T5-IC', tokenizer_name='t5-small'):
@@ -101,6 +102,7 @@ choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2): ")
 print()
 input_text = ''
 bot = None
+job_search_key = "[JOBSEARCH]" # The key used to train models to search for jobs
 
 if choice == '1':
     bot = T5Chatbot()
@@ -115,13 +117,20 @@ else:
     print("Incorrect input! Try again")
 
 while input_text != 'quit' and bot != None:
+    job_search = False
     input_text = input("User: ")
     if input_text == 'quit':
         response = 'Goodbye! Talk to you soon'
     else:
         response = bot.chat(input_text)
+        # Check if user asked for job search
+        if job_search_key in response:
+            response.replace(job_search_key, "")    # remove the key from the output
+            job_search = True
 
     print(f'{bot.name()} Career Bud: {response} \n\n')
+    if job_search:
+        fetch_jobs()
 
 
 
