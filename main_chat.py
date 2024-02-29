@@ -44,8 +44,6 @@ class LlamaChatbot:
 
         return response
 
-    
-
     def chat_with_history(self, input_text):
         # Tokenize the new input sentence
         new_input_ids = self.tokenizer.encode(input_text + self.tokenizer.eos_token, return_tensors='pt')
@@ -76,6 +74,20 @@ class DialoGPTChatbot:
         # Encode the new user input, add the eos_token and return a tensor in Pytorch
         new_user_input_ids = self.tokenizer.encode(user_input + self.tokenizer.eos_token, return_tensors='pt')
 
+        # Generate a response
+        chat_ids = self.model.generate(new_user_input_ids, max_length=500, pad_token_id=self.tokenizer.eos_token_id)
+
+        # Decode and return the response
+        response = self.tokenizer.decode(chat_ids[:, new_user_input_ids.shape[-1]:][0], skip_special_tokens=True)
+
+
+        return response
+
+
+    def chat_with_history(self, user_input):
+        # Encode the new user input, add the eos_token and return a tensor in Pytorch
+        new_user_input_ids = self.tokenizer.encode(user_input + self.tokenizer.eos_token, return_tensors='pt')
+
         # Append the new user input tokens to the chat history
         bot_input_ids = torch.cat([self.chat_history_ids, new_user_input_ids], dim=-1) if self.chat_history_ids is not None else new_user_input_ids
         self.current_history_saved += 1
@@ -95,7 +107,9 @@ class DialoGPTChatbot:
         return response
 
     def name(self):
-        return f'({self.current_history_saved if self.current_history_saved != 0 else "5"}/{self.max_history_saved}) DialoGPT'
+        # Uncomment if saving chat history
+        # return f'({self.current_history_saved if self.current_history_saved != 0 else "5"}/{self.max_history_saved}) DialoGPT'
+        return 'DialoGPT'
 
 
 choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2): ")
