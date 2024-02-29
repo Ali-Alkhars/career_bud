@@ -4,7 +4,7 @@ import logging
 from job_fetcher import fetch_jobs
 
 class T5Chatbot:
-    def __init__(self, model_name='T5-IC', tokenizer_name='t5-small'):
+    def __init__(self, model_name='T5-CareerBud', tokenizer_name='t5-small'):
         logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the irrelevant warnings
         self.tokenizer = T5Tokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
@@ -132,14 +132,14 @@ else:
 
 while input_text != 'quit' and bot != None:
     job_search = False
-    input_text = input("User: ")
+    input_text = input("\nUser: ")
     if input_text == 'quit':
         response = 'Goodbye! Talk to you soon'
     else:
         response = bot.chat(input_text)
         # Check if user asked for job search
         if job_search_key in response:
-            response.replace(job_search_key, "")    # remove the key from the output
+            response = response.replace(job_search_key, "")    # remove the key from the output
             job_search = True
 
     print(f'{bot.name()} Career Bud: {response} \n\n')
