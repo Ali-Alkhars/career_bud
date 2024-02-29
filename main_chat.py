@@ -40,7 +40,7 @@ class LlamaChatbot:
         chat_ids = self.model.generate(new_input_ids.to(self.device), max_length=500, pad_token_id=self.tokenizer.eos_token_id)
 
         # Decode and return the response
-        response = self.tokenizer.decode(chat_ids[0], skip_special_tokens=True)
+        response = self.tokenizer.decode(chat_ids[:, new_input_ids.shape[-1]:][0], skip_special_tokens=True)
 
         return response
 
@@ -79,7 +79,6 @@ class DialoGPTChatbot:
 
         # Decode and return the response
         response = self.tokenizer.decode(chat_ids[:, new_user_input_ids.shape[-1]:][0], skip_special_tokens=True)
-
 
         return response
 
