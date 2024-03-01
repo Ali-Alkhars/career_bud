@@ -119,4 +119,6 @@ best_trial = trainer.hyperparameter_search(
     backend="optuna"
 )
 
+print(f"\n\n{best_trial}\n\n")
+
 print(f'HP search done! Timestamp: {datetime.datetime.now()}')
