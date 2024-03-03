@@ -124,6 +124,7 @@ trainer = SFTTrainer(
     peft_config=peft_parameters,
     train_dataset=dataset["train"],
     eval_dataset=dataset["test"],
+    dataset_text_field="questions",
     tokenizer=tokenizer,
     compute_metrics=compute_metrics,
 )
