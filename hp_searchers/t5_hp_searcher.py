@@ -96,7 +96,7 @@ training_args = Seq2SeqTrainingArguments(
     output_dir="../T5-hp",
     evaluation_strategy="epoch",
     logging_strategy="epoch",
-    save_strategy="epoch",
+    save_strategy="no",
     predict_with_generate = True,
 )
 

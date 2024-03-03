@@ -1,14 +1,18 @@
 import datetime
 import evaluate
 import json
+import torch
 from datasets import Dataset, DatasetDict
 from sklearn.model_selection import train_test_split
-from transformers import GPT2Tokenizer, GPT2LMHeadModel, TrainingArguments, Trainer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, TrainingArguments
+from peft import LoraConfig
+from trl import SFTTrainer
+import numpy as np
 import evaluate
 
 """
 This scripts attempts to find the optimal training parameters
-for the DialoGPT model on the combined CareerBud dataset. 
+for the Llama-2 model on the combined CareerBud dataset. 
 
 The code runs hyperparameter search using the optuna library
 integrated into the Trainer API.
@@ -33,20 +37,29 @@ dataset = DatasetDict({
 })
 
 # Load the tokenizer
-tokenizer = GPT2Tokenizer.from_pretrained('microsoft/DialoGPT-medium')
+tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-2-7b-chat-hf')
 tokenizer.pad_token = tokenizer.eos_token
-
-def encode(examples):
-    """Encode the dataset"""
-    encoded = tokenizer(examples['questions'], truncation=True, padding='max_length', max_length=128)
-    encoded['labels'] = encoded['input_ids'][:]
-    return encoded
-
-encoded_dataset = dataset.map(encode, batched=True)
+tokenizer.padding_side = "right"
 
 def model_init(trial):
     """Initialise the model"""
-    return GPT2LMHeadModel.from_pretrained('microsoft/DialoGPT-medium')
+    # Quantization Config
+    quant_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_use_double_quant=False
+    )
+
+    # Model
+    model = AutoModelForCausalLM.from_pretrained(
+        'meta-llama/Llama-2-7b-chat-hf',
+        quantization_config=quant_config,
+        device_map={"": 0}
+    )
+    model.config.use_cache = False
+    model.config.pretraining_tp = 1
+    return model
 
 def hp_space(trial):
     """Define the hyperparameter space"""
@@ -63,36 +76,54 @@ def compute_objective(metrics):
 
 def compute_metrics(eval_pred):
     """Define evaluate function for tracking BLEU score"""
-    predictions, labels = eval_pred
-    
+    logits, labels = eval_pred
     # Decode the predictions
-    decoded_predictions = [tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True) for g in predictions.argmax(-1)]
+    predictions = np.argmax(logits, axis=-1)
     
-    # Since the labels are already in the encoded form, we need to decode them as well
-    decoded_labels = [[tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True)] for g in labels]
+    # Convert the integer predictions and labels back to text
+    decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+    # Labels are -100 for non-target values, so we need to filter those out
+    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
     
+    # Since BLEU expects a list of references for each prediction, we need to adjust the format
+    decoded_labels = [[label] for label in decoded_labels]
+
     # Initialize the BLEU metric
     bleu_metric = evaluate.load('bleu')
+
+    # Calculate BLEU scores
+    result = bleu_metric.compute(predictions=decoded_preds, references=decoded_labels)
     
-    # Compute BLEU score
-    results = bleu_metric.compute(predictions=decoded_predictions, references=decoded_labels)
-    
-    return {"bleu": results["bleu"]}
+    return {"bleu": result["bleu"]}
+
+# LoRA Config
+peft_parameters = LoraConfig(
+    lora_alpha=16,
+    lora_dropout=0.1,
+    r=8,
+    bias="none",
+    task_type="CAUSAL_LM"
+)
 
 # Set basic training parameters
 training_args = TrainingArguments(
-    output_dir="../DialoGPT-hp",
+    output_dir="../Llama-2-hp",
     evaluation_strategy="epoch",
     logging_strategy="epoch",
     save_strategy="no",
+    optim="paged_adamw_32bit",
+    fp16=False,
+    bf16=False,
 )
 
 # Initialize the Trainer with the model, training arguments, and other necessary inputs
-trainer = Trainer(
+trainer = SFTTrainer(
     args=training_args,
     model_init=model_init,
-    train_dataset=encoded_dataset["train"],
-    eval_dataset=encoded_dataset["test"],
+    peft_config=peft_parameters,
+    train_dataset=dataset["train"],
+    eval_dataset=dataset["test"],
     tokenizer=tokenizer,
     compute_metrics=compute_metrics,
 )
