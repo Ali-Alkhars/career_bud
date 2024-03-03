@@ -57,7 +57,7 @@ def model_init(trial):
 def hp_space(trial):
     """Define the hyperparameter space"""
     return {
-        "learning_rate": trial.suggest_float("learning_rate", 1e-6, 1e-4, log=True),
+        "learning_rate": trial.suggest_float("learning_rate", 1e-6, 5e-4, log=True),
         "num_train_epochs": trial.suggest_int("num_train_epochs", 3, 8),
         "per_device_train_batch_size": trial.suggest_categorical("per_device_train_batch_size", [4, 16, 32, 64]),
         "per_device_eval_batch_size": trial.suggest_categorical("per_device_eval_batch_size", [4, 16, 32, 64]),
