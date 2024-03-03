@@ -58,7 +58,7 @@ def hp_space(trial):
     """Define the hyperparameter space"""
     return {
         "learning_rate": trial.suggest_float("learning_rate", 1e-6, 1e-4, log=True),
-        "num_train_epochs": trial.suggest_int("num_train_epochs", 1, 8),
+        "num_train_epochs": trial.suggest_int("num_train_epochs", 3, 8),
         "per_device_train_batch_size": trial.suggest_categorical("per_device_train_batch_size", [4, 16, 32, 64]),
         "per_device_eval_batch_size": trial.suggest_categorical("per_device_eval_batch_size", [4, 16, 32, 64]),
     }
@@ -97,6 +97,7 @@ training_args = Seq2SeqTrainingArguments(
     evaluation_strategy="epoch",
     logging_strategy="epoch",
     save_strategy="epoch",
+    predict_with_generate = True,
 )
 
 # Initialize the Trainer with the model, training arguments, and other necessary inputs
