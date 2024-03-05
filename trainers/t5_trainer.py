@@ -50,16 +50,14 @@ encoded_dataset = dataset.map(encode, batched=True)
 
 # Define the Training Arguments
 training_args = Seq2SeqTrainingArguments(
+    num_train_epochs=5,
+    per_device_train_batch_size=32,
+    per_device_eval_batch_size=4,
+    learning_rate=0.00046605619289282927,
+
     output_dir="../T5-CareerBud-Checkpoints",
     evaluation_strategy="epoch",
-    learning_rate=3e-4,                    # As recommended by the Hugging Face T5 Docs
-    per_device_train_batch_size=4,
-    per_device_eval_batch_size=4,
-    predict_with_generate = True,
-    num_train_epochs=5,
-    weight_decay=0.01,
-    logging_dir='../logs',
-    logging_steps=10,                      # Log every 10 steps
+    predict_with_generate = True,   # because seq2seq
     load_best_model_at_end=True,
     metric_for_best_model="eval_bleu",
     greater_is_better=True,

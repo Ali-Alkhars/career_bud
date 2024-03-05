@@ -85,6 +85,7 @@ def compute_metrics(eval_pred):
 
 
 # LoRA Config
+# As suggested by https://deci.ai/blog/fine-tune-llama-2-with-lora-for-question-answering/
 peft_parameters = LoraConfig(
     lora_alpha=16,
     lora_dropout=0.1,
@@ -95,23 +96,17 @@ peft_parameters = LoraConfig(
 
 # Define the Training Arguments
 train_params = TrainingArguments(
-    output_dir="../Llama-2-CareerBud-checkpoints",
-    evaluation_strategy="epoch",           # Evaluate after each epoch
     num_train_epochs=3,
     per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
-    gradient_accumulation_steps=1,
+    learning_rate=2e-4,
+
+    output_dir="../Llama-2-CareerBud-checkpoints",
+    evaluation_strategy="epoch",           # Evaluate after each epoch
     optim="paged_adamw_32bit",
-    logging_steps=10,
-    learning_rate=2e-4,                     # Suggested by author
-    weight_decay=0.001,
     fp16=False,
     bf16=False,
-    max_grad_norm=0.3,
-    max_steps=-1,
-    warmup_ratio=0.03,
     group_by_length=True,
-    lr_scheduler_type="constant",
     load_best_model_at_end=True,           # Load the best model at the end of training
     save_strategy="epoch",                 # Save model checkpoint after each epoch
     metric_for_best_model="eval_bleu",      # Use BLEU to identify the best model

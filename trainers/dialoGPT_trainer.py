@@ -43,17 +43,17 @@ encoded_dataset = dataset.map(encode, batched=True)
 
 # Define the Training Arguments
 training_args = TrainingArguments(
-    output_dir="../DialoGPT-CareerBud-Checkpoints",    # Directory for model outputs
-    evaluation_strategy="epoch",           # Evaluate after each epoch
+    num_train_epochs=4,
     per_device_train_batch_size=4,
-    per_device_eval_batch_size=4,
-    num_train_epochs=5,                    # Number of training epochs (just like paper)
-    weight_decay=0.01,                     # Regularization
-    logging_dir='../logs',                  # Directory for logs
-    logging_steps=10,                      # Log every 10 steps
+    per_device_eval_batch_size=32,
+    learning_rate=0.00024863917760767915,
+
+    output_dir="../DialoGPT-CareerBud-Checkpoints",
+    evaluation_strategy="epoch",           # Evaluate after each epoch
     load_best_model_at_end=True,           # Load the best model at the end of training
     save_strategy="epoch",                 # Save model checkpoint after each epoch
     metric_for_best_model="eval_bleu",      # Use BLEU to identify the best model
+    greater_is_better=True,
 )
 
 # Define evaluate function for tracking BLEU score
