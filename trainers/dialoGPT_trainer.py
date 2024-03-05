@@ -54,6 +54,7 @@ training_args = TrainingArguments(
     save_strategy="epoch",                 # Save model checkpoint after each epoch
     metric_for_best_model="eval_bleu",      # Use BLEU to identify the best model
     greater_is_better=True,
+    logging_strategy="epoch"
 )
 
 # Define evaluate function for tracking BLEU score

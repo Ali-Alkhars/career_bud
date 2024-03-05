@@ -62,6 +62,7 @@ training_args = Seq2SeqTrainingArguments(
     metric_for_best_model="eval_bleu",
     greater_is_better=True,
     save_strategy="epoch",
+    logging_strategy="epoch"
 )
 
 # Define evaluate function for tracking BLEU score

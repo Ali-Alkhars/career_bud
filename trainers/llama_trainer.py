@@ -110,6 +110,8 @@ train_params = TrainingArguments(
     load_best_model_at_end=True,           # Load the best model at the end of training
     save_strategy="epoch",                 # Save model checkpoint after each epoch
     metric_for_best_model="eval_bleu",      # Use BLEU to identify the best model
+    greater_is_better=True,
+    logging_strategy="epoch"
 )
 
 # Initialise the Trainer
