@@ -82,5 +82,57 @@
     {
         "prompt": "I want to learn about the Internet of Things (IoT). Which IBM SkillsBuild courses would be most beneficial?",
         "ground_truth": "To delve into the Internet of Things (IoT), start with 'IoT Foundations: Understanding Its Scope and Impact.' Then, 'Developing IoT Solutions with IBM' will teach you how to create practical IoT applications. 'IoT Security Basics' is also critical for ensuring your solutions are secure. These courses provide a comprehensive introduction to IoT, from basic concepts to development and security considerations."
+    },
+    {
+        "prompt": "I am a software engineer looking to transition into machine learning roles. How should I adjust my CV to highlight relevant skills and projects?",
+        "ground_truth": "To transition your CV for machine learning roles, emphasize your programming skills, especially in Python, R, or Julia. Highlight any projects or contributions to open-source that demonstrate your machine learning expertise. Include coursework or certifications related to data science and machine learning. Tailoring your 'Experience' section to showcase how your software engineering skills provide a solid foundation for machine learning roles is also crucial."
+    },
+    {
+        "prompt": "As an experienced sales manager moving into the tech industry, what changes should I make to my resume to make it more appealing to tech companies?",
+        "ground_truth": "For transitioning into the tech industry, adapt your resume to showcase your ability to understand and sell tech products. Highlight any technical skills or knowledge, such as CRM software proficiency or understanding of the SaaS model. Emphasize achievements that demonstrate your ability to learn quickly and adapt to new industries. Consider adding a 'Technical Skills' section if you've taken any courses or certifications relevant to the tech field.\""
+    },
+    {
+        "prompt": "How can I reflect a career gap due to personal reasons on my CV without it negatively impacting my job application?",
+        "ground_truth": "Addressing a career gap can be done positively by focusing on how you used the time constructively. If you pursued any courses, volunteering, freelance projects, or personal development activities, list these in your CV. Frame the gap in a positive light, focusing on skills and experiences gained during this period. You can briefly mention the reason for the gap in your cover letter, emphasizing your readiness and enthusiasm to return to the workforce."
+    },
+    {
+        "prompt": "I'm a recent film studies graduate looking to break into the film industry. What key sections should I include in my resume to stand out?",
+        "ground_truth": "For a resume aimed at the film industry, include sections on 'Education,' highlighting relevant coursework and projects; 'Film Projects,' detailing roles and contributions to any films, including student and independent works; 'Skills,' focusing on technical abilities like editing software or camera operation; and 'Internships and Work Experience,' showcasing any industry-related experience. Also, consider a 'Festivals and Awards' section if applicable to highlight any recognitions your work has received."
+    },
+    {
+        "prompt": "I have extensive volunteering experience in different countries. How can I incorporate this into my CV to appeal to international organizations?",
+        "ground_truth": "To appeal to international organizations, create a 'Volunteering Experience' section on your CV, detailing your roles, responsibilities, and the impact of your work in each country. Highlight skills developed, such as cross-cultural communication, adaptability, and languages learned. Emphasizing any projects you led or contributions to community development can showcase your leadership and initiative, making your application more attractive to organizations with a global focus."
+    },
+    {
+        "prompt": "As a professional transitioning from the military to the civilian workforce, how can I effectively translate my military experience into skills that are appealing to civilian employers on my resume?",
+        "ground_truth": "To translate military experience for civilian roles, focus on universal skills such as leadership, project management, teamwork, and problem-solving. Use civilian terms to describe your roles and achievements. For example, 'squad leader' can be presented as 'team leader,' emphasizing leadership and coordination skills. Highlighting specific training programs and certifications that have civilian equivalents can also demonstrate your preparedness for the transition."
+    },
+    {
+        "prompt": "What are some strategies for highlighting freelance or consulting work on a resume to demonstrate stability and progression?",
+        "ground_truth": "To highlight freelance or consulting work, organize your experience under a single 'Freelance' or 'Consultant' header, listing significant projects in reverse chronological order. Describe the scope of each project, your role, and measurable outcomes. Demonstrating a progression of responsibilities or project complexity can illustrate career growth. Include testimonials or endorsements from clients to validate your success and impact."
+    },
+    {
+        "prompt": "I am a non-profit professional looking to transition into the corporate sector. How can I adjust my resume to make my skills and experiences relevant?",
+        "ground_truth": "For transitioning into the corporate sector, align your non-profit experience with corporate language and values. Highlight transferable skills such as project management, fundraising (sales/marketing skills), community outreach (customer service), and strategic planning. Quantify achievements to demonstrate impact, such as funds raised or program growth. Tailor your resume to reflect the job description's keywords and requirements, showing how your non-profit experience has prepared you for corporate roles."
+    },
+    {
+        "prompt": "How can I present multiple short-term positions on my resume without giving the impression of job-hopping?",
+        "ground_truth": "To present multiple short-term positions, group similar roles under a collective title such as 'Contract Roles' or 'Project-Based Positions,' with inclusive dates. This format reduces the appearance of job-hopping by emphasizing the project-based nature of the work. Highlight the skills and achievements from these roles, focusing on how each experience contributed to your professional growth. If applicable, mention any extenuating circumstances like company closures or contract ends in your cover letter."
+    },
+    {
+        "prompt": "As a senior executive, how should I structure my CV to highlight my strategic leadership and impact on the companies I've led?",
+        "ground_truth": "For senior executives, structure your CV to emphasize strategic leadership and impact. Start with a brief 'Executive Summary' highlighting your leadership philosophy and achievements. Use a 'Leadership Experience' section to detail your roles, focusing on strategic initiatives you led, organizational growth, and measurable outcomes. Include case studies or key projects to illustrate your approach and results. A 'Key Achievements' section can also showcase significant contributions to company success."
+    },
+    {
+        "prompt": "I'm an artist looking to apply for grants and residencies. How can I adapt my resume to highlight my artistic achievements and exhibitions?",
+        "ground_truth": "For artists applying for grants and residencies, include sections for 'Exhibitions,' 'Awards and Grants,' 'Residencies,' and 'Publications' to showcase your artistic career. Detail solo and group exhibitions, highlight any awards or grants received, list residencies participated in, and mention any critical publications or reviews. Tailor the 'Skills' section to include techniques and mediums you excel in. Providing a link to an online portfolio can also be highly beneficial."
+    },
+    {
+        "prompt": "How can I showcase my tech skills on my CV when applying for web developer positions, considering I'm self-taught and lack formal education in the field?",
+        "ground_truth": "For self-taught web developers, create a 'Technical Skills' section to list programming languages, frameworks, and tools you're proficient in. Include a 'Projects' section to detail websites or applications you've built, highlighting any client or personal projects that demonstrate your skills. Mention contributions to open-source projects or active GitHub repositories. Addressing the lack of formal education, emphasize continuous learning and practical experience in your 'Summary' or cover letter."
+    },
+    {
+        "prompt": "As an environmental engineer looking to specialize in sustainable development, how can I modify my CV to target roles in this niche?",
+        "ground_truth": "To specialize in sustainable development, highlight projects and roles where you've applied environmental engineering principles to sustainability challenges. Include any certifications or courses related to sustainable development or green technologies. Emphasize skills in environmental impact assessment, sustainable design, and renewable energy projects. Tailoring your 'Professional Summary' to reflect your passion for sustainability and how your background makes you a strong candidate for such roles is also effective."
     }
 ]
