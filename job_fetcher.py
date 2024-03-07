@@ -34,14 +34,18 @@ def fetch_jobs():
         else:
             print(f"\nFailed to retrieve data, status code: {response.status_code}\nI'm very sorry, maybe try again?")
     except Exception as e:
-            print(e)
+            print(f"Exception: {e}")
             print(f"\nI'm having some difficulties with retrieving job offers. I'm very sorry, maybe try again?")
 
 def show_jobs(results):
     """Handle the logic of showing the user a specific number of results"""
-    print(f'\nI found some potential jobs for you!')
     current_job = 0
     count = len(results)
+
+    if count > 0:
+        print(f'\nI found some potential jobs for you!')
+    else:
+        print(f"\nSorry, I couldn't find jobs in your specified field!")
 
     # Show first five results (or all if < 5)
     while current_job < count and current_job < 5:
@@ -58,9 +62,17 @@ def show_jobs(results):
 
 def show_job(count, data):
     """Display a specific job offer to the user"""
+    # Retrieve data safely
+    job_title = data.get('title', '[MISSING JOB TITLE]')
+    company_display_name = data.get('company', {}).get('display_name', '[MISSING COMPANY NAME]')
+    job_description = data.get('description', '[MISSING JOB DESCRIPTION]')
+    salary = data.get('salary_min', -99999999)
+    apply_url = data.get('redirect_url', '[MISSING APPLY URL]')
+    post_date = data.get('created', '[MISSING DATE]')
+
     print("\n-------------------------------------------")
-    print(f"\nJob {count}: {data['title']} at {data['company']['display_name']}")
-    print(f"\nDescription: {data['description']}")
-    print(f"\nPredicted salary: £{int(data['salary_min'])}")
-    print(f"\nApply here: {data['redirect_url']}")
-    print(f"\nJob post date: {data['created'].split('T')[0]}")
+    print(f"\nJob {count}: {job_title} at {company_display_name}")
+    print(f"\nDescription: {job_description}")
+    print(f"\nPredicted salary: £{int(salary)}")
+    print(f"\nApply here: {apply_url}")
+    print(f"\nJob post date: {post_date.split('T')[0]}")

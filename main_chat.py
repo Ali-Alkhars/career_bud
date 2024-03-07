@@ -4,7 +4,7 @@ import logging
 from job_fetcher import fetch_jobs
 
 class T5Chatbot:
-    def __init__(self, model_name='T5-IC', tokenizer_name='t5-small'):
+    def __init__(self, model_name='T5-CareerBud', tokenizer_name='t5-small'):
         logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the irrelevant warnings
         self.tokenizer = T5Tokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
@@ -27,9 +27,10 @@ class T5Chatbot:
 
 
 class LlamaChatbot:
-    def __init__(self, tokenizer_name="meta-llama/Llama-2-7b-chat-hf", model_name="Llama-2-interviews"):
+    def __init__(self, tokenizer_name="meta-llama/Llama-2-7b-chat-hf", model_name="Llama-2-CareerBud"):
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, torch_dtype="auto")
         self.model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", load_in_4bit=True, device_map="auto")
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.chat_history_ids = None
 
     def chat(self, input_text):
@@ -40,11 +41,9 @@ class LlamaChatbot:
         chat_ids = self.model.generate(new_input_ids.to(self.device), max_length=500, pad_token_id=self.tokenizer.eos_token_id)
 
         # Decode and return the response
-        response = self.tokenizer.decode(chat_ids[0], skip_special_tokens=True)
+        response = self.tokenizer.decode(chat_ids[:, new_input_ids.shape[-1]:][0], skip_special_tokens=True)
 
         return response
-
-    
 
     def chat_with_history(self, input_text):
         # Tokenize the new input sentence
@@ -64,7 +63,7 @@ class LlamaChatbot:
         return 'Llama-2'
 
 class DialoGPTChatbot:
-    def __init__(self, model_name="DialoGPT-interviews", tokenizer_name="microsoft/DialoGPT-medium"):
+    def __init__(self, model_name="DialoGPT-CareerBud", tokenizer_name="microsoft/DialoGPT-medium"):
         logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the misleading left_padding warning
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
@@ -73,6 +72,19 @@ class DialoGPTChatbot:
         self.current_history_saved = 0
 
     def chat(self, user_input):
+        # Encode the new user input, add the eos_token and return a tensor in Pytorch
+        new_user_input_ids = self.tokenizer.encode(user_input + self.tokenizer.eos_token, return_tensors='pt')
+
+        # Generate a response
+        chat_ids = self.model.generate(new_user_input_ids, max_length=500, pad_token_id=self.tokenizer.eos_token_id)
+
+        # Decode and return the response
+        response = self.tokenizer.decode(chat_ids[:, new_user_input_ids.shape[-1]:][0], skip_special_tokens=True)
+
+        return response
+
+
+    def chat_with_history(self, user_input):
         # Encode the new user input, add the eos_token and return a tensor in Pytorch
         new_user_input_ids = self.tokenizer.encode(user_input + self.tokenizer.eos_token, return_tensors='pt')
 
@@ -95,7 +107,9 @@ class DialoGPTChatbot:
         return response
 
     def name(self):
-        return f'({self.current_history_saved if self.current_history_saved != 0 else "5"}/{self.max_history_saved}) DialoGPT'
+        # Uncomment if saving chat history
+        # return f'({self.current_history_saved if self.current_history_saved != 0 else "5"}/{self.max_history_saved}) DialoGPT'
+        return 'DialoGPT'
 
 
 choice = input("Choose a model (1 for T5), (2 for DialoGPT), (3 for Llama-2): ")
@@ -118,14 +132,14 @@ else:
 
 while input_text != 'quit' and bot != None:
     job_search = False
-    input_text = input("User: ")
+    input_text = input("\nUser: ")
     if input_text == 'quit':
         response = 'Goodbye! Talk to you soon'
     else:
         response = bot.chat(input_text)
         # Check if user asked for job search
         if job_search_key in response:
-            response.replace(job_search_key, "")    # remove the key from the output
+            response = response.replace(job_search_key, "")    # remove the key from the output
             job_search = True
 
     print(f'{bot.name()} Career Bud: {response} \n\n')
