@@ -1,0 +1,34 @@
+[
+    {
+        "prompt": "I'm looking to pivot into data science from a non-technical background. Can you recommend specific IBM SkillsBuild courses that would help me start this journey?",
+        "ground_truth": "Absolutely! To start your journey into data science, I recommend beginning with 'Data Science Fundamentals' to grasp the basics. Following that, 'Python for Data Science' will equip you with essential programming skills. Lastly, 'Data Analysis with Python' will help you apply what you've learned in real-world scenarios. These courses are designed to build a solid foundation and progressively enhance your skills."
+    },
+    {
+        "prompt": "As a recent graduate in marketing, I want to enhance my analytical skills. Which IBM SkillsBuild courses can help me integrate data analysis into my marketing career?",
+        "ground_truth": "For integrating data analysis into your marketing career, start with 'Data Analysis and Visualization with Excel.' Then, proceed with 'Introduction to Data Analytics' to understand data's role in decision-making. Finally, 'Digital Marketing Analytics' will specifically tailor your analytical skills for marketing purposes. These courses will empower you with the analytical tools needed to excel in your field."
+    },
+    {
+        "prompt": "I have 5 years of experience in software development, and I'm struggling to make my CV stand out. What improvements can I make to highlight my expertise and projects?",
+        "ground_truth": "To enhance your CV, focus on quantifying your achievements in past projects, such as 'Reduced application load time by 30% through optimized code.' Include specific technologies you're proficient in under a 'Skills' section. Also, consider adding a 'Projects' section where you can detail significant projects you've worked on, highlighting your role and the project's impact. Tailoring your CV to the job description can further increase your chances."
+    },
+    {
+        "prompt": "As a recent graduate with limited work experience, how can I improve my resume to attract potential employers in the tech industry?",
+        "ground_truth": "For recent graduates, emphasizing educational achievements, relevant coursework, and any hands-on projects or internships is key. Include a 'Projects' section to detail any software or hardware projects you've completed, even as part of your coursework. Mentioning participation in tech clubs or hackathons can also showcase your passion and initiative. Tailor your resume to highlight skills and experiences relevant to the job you're applying for."
+    },
+    {
+        "prompt": "I'm preparing for an entry-level software engineering interview. What are some common questions I should expect, and how can I best prepare for them?",
+        "ground_truth": "Expect to encounter questions on data structures and algorithms, such as 'Explain the difference between a stack and a queue.' Be prepared to solve coding problems in real-time, possibly involving array manipulation or string processing. Behavioral questions like 'Describe a challenging project and how you overcame difficulties' are also common. Practice coding problems on platforms like LeetCode and review software engineering principles to prepare effectively."
+    },
+    {
+        "prompt": "For a senior software engineer position, what advanced interview questions should I anticipate, and how should I approach answering them?",
+        "ground_truth": "For a senior role, expect questions on system design, such as 'Design a URL shortening service,' and questions on software architecture, like 'How do you manage state in a distributed system?' Deep knowledge in your specialization area, whether it be frontend, backend, or devops, will be tested. Demonstrate your experience with leadership and project management through examples. Preparing case studies of your past projects can be a very effective strategy."
+    },
+    {
+        "prompt": "I'm an experienced project manager in the tech industry looking for new opportunities. Could you provide me with real-time job offers available in the San Francisco Bay Area?",
+        "ground_truth": "Certainly! As of now, there are several opportunities in the San Francisco Bay Area for experienced project managers in tech. Company A is seeking a Senior Project Manager with a strong background in agile methodologies. Company B is looking for a Technical Project Manager experienced in managing cross-functional teams. Company C has an opening for a Project Manager with expertise in software development lifecycle. I recommend visiting their career pages for more details and application instructions."
+    },
+    {
+        "prompt": "I'm a newly graduated software engineer interested in remote positions. Can you show me some of the current job openings that would suit my profile?",
+        "ground_truth": "Of course! For newly graduated software engineers interested in remote work, there are multiple openings. Company D is offering a Junior Software Engineer position focusing on web development technologies. Company E is searching for an Entry-Level Backend Developer with a keen interest in cloud services. Additionally, Company F has an opportunity for a Frontend Developer with a passion for creating intuitive user interfaces. Checking their career websites will provide you with more information on how to apply."
+    }
+]
