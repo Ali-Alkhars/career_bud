@@ -134,5 +134,57 @@
     {
         "prompt": "As an environmental engineer looking to specialize in sustainable development, how can I modify my CV to target roles in this niche?",
         "ground_truth": "To specialize in sustainable development, highlight projects and roles where you've applied environmental engineering principles to sustainability challenges. Include any certifications or courses related to sustainable development or green technologies. Emphasize skills in environmental impact assessment, sustainable design, and renewable energy projects. Tailoring your 'Professional Summary' to reflect your passion for sustainability and how your background makes you a strong candidate for such roles is also effective."
+    },
+    {
+        "prompt": "What are some effective strategies for answering behavioral interview questions in a software engineering interview?",
+        "ground_truth": "In answering behavioral interview questions, the STAR method (Situation, Task, Action, Result) is highly effective. Describe a specific Situation, outline the Task required, detail the Action you took, and conclude with the Result of your action, emphasizing your contributions and what you learned. Tailoring your responses to demonstrate qualities like teamwork, problem-solving, and adaptability is crucial. Practice articulating your experiences in a concise and structured manner to convey your strengths effectively."
+    },
+    {
+        "prompt": "How should I prepare for technical coding challenges in a software engineering interview?",
+        "ground_truth": "To prepare for technical coding challenges, focus on understanding common data structures (arrays, linked lists, trees, graphs) and algorithms (sorting, searching, dynamic programming). Practice coding problems on platforms like LeetCode, HackerRank, or CodeSignal to gain proficiency. Learn to verbalize your thought process during coding challenges, discussing potential solutions and their trade-offs. Brushing up on system design concepts can also be beneficial for certain roles."
+    },
+    {
+        "prompt": "What system design interview questions are commonly asked for senior software engineering roles, and how can I prepare for them?",
+        "ground_truth": "Common system design questions for senior roles include designing scalable systems (e.g., a web crawler, a messaging system, or a social media feed). To prepare, study key concepts in scalability, database design, caching, load balancing, and microservices architecture. Familiarize yourself with real-world architectures of popular systems. Practice sketching out designs and explaining your choices. Reading books like 'Designing Data-Intensive Applications' by Martin Kleppmann can also be very helpful."
+    },
+    {
+        "prompt": "For a front-end developer position, what are some specific interview questions I should expect?",
+        "ground_truth": "Expect questions on core front-end technologies (HTML, CSS, JavaScript), such as 'How do you ensure your website's design is responsive?' and 'Can you explain the box model in CSS?'. Questions on frameworks/libraries you're familiar with (e.g., React, Angular, Vue) like 'How do you manage state in React?' are common. Additionally, be prepared for practical tasks like debugging a snippet of code or discussing how you would improve a given website's UI/UX."
+    },
+    {
+        "prompt": "What questions should I expect in an interview for a backend developer role focusing on databases?",
+        "ground_truth": "In a backend developer interview focusing on databases, expect questions on database design principles, normalization, and SQL queries (e.g., 'How do you design a schema for a user management system?'). Questions on transactions, indexing, and optimization techniques (e.g., 'How do you optimize a slow-running query?') are common. Understanding differences between SQL and NoSQL databases and when to use each can also be tested."
+    },
+    {
+        "prompt": "How can I demonstrate my problem-solving skills during a software engineering interview?",
+        "ground_truth": "To demonstrate problem-solving skills, approach each coding or technical challenge methodically. Start by clarifying the problem and asking questions if needed. Discuss your initial thoughts on possible solutions, including their pros and cons. As you code, explain your thought process, highlighting how you address complexities or potential challenges. After presenting a solution, discuss any possible improvements or alternative approaches. This not only showcases your problem-solving skills but also your communication and analytical thinking."
+    },
+    {
+        "prompt": "What are some common questions related to algorithms that I might face in a software engineering interview?",
+        "ground_truth": "Common algorithm-related questions include finding the complexity of algorithms (time and space complexity), sorting algorithms (e.g., 'Explain quicksort and its complexity'), searching algorithms (e.g., 'How does binary search work?'), and data structures (e.g., 'Implement a hash table'). Be prepared to solve problems involving dynamic programming, graph algorithms (like Dijkstra's algorithm), and recursion. Demonstrating a thorough understanding of these concepts through examples or by walking through problems is crucial."
+    },
+    {
+        "prompt": "During a software engineering interview, how should I answer questions about my experience with agile development methodologies?",
+        "ground_truth": "When discussing your experience with agile development methodologies, focus on specific projects where you applied agile principles. Describe the methodology used (e.g., Scrum, Kanban) and your role in the process (e.g., Scrum Master, team member). Highlight how agile practices facilitated team collaboration, quick iteration, and project success. Share examples of overcoming challenges in an agile environment, such as adapting to changing requirements or improving team dynamics. Emphasizing your adaptability and commitment to continuous improvement will be key."
+    },
+    {
+        "prompt": "What kind of questions should I prepare for if the interview includes a pair programming session?",
+        "ground_truth": "In a pair programming interview, expect to solve a coding problem collaboratively with an interviewer or another candidate. Prepare by practicing coding out loud, explaining your thought process as you write code. Familiarize yourself with the syntax and idioms of the programming language you'll be using. Be ready to discuss your approach, accept feedback, and iterate on your solution. Demonstrating effective communication, openness to ideas, and teamwork skills is as important as technical proficiency."
+    },
+    {
+        "prompt": "How do I handle questions about projects I have worked on in the past during a software engineering interview?",
+        "ground_truth": "When discussing past projects, be clear about the project's goals, your specific contributions, the technologies used, and the outcomes achieved. Highlight challenges you faced and how you overcame them, emphasizing your problem-solving and technical skills. Be prepared to discuss any design decisions, particularly innovative solutions or trade-offs you made. Sharing insights on what you learned from the project and how it contributed to your professional growth can also be very impactful."
+    },
+    {
+        "prompt": "What questions can I expect about version control systems in a software engineering interview?",
+        "ground_truth": "Expect questions on your experience with version control systems like Git, such as 'How do you resolve a merge conflict?' or 'What is the difference between rebase and merge?'. You might also be asked to explain version control best practices, such as commit message conventions or branching strategies (e.g., Git Flow). Demonstrating familiarity with version control workflows and explaining how they contribute to collaborative development and code quality is crucial."
+    },
+    {
+        "prompt": "For a DevOps engineer position, what specific interview questions related to continuous integration and continuous deployment (CI/CD) should I prepare for?",
+        "ground_truth": "For a DevOps engineer role, prepare for questions on setting up and managing CI/CD pipelines (e.g., 'Describe the process of creating a CI/CD pipeline for a web application'). Discuss tools you've used (like Jenkins, GitLab CI/CD, or CircleCI), how you've automated builds, tests, and deployments, and how you monitor and ensure the reliability of the deployment process. Be ready to talk about containerization (Docker, Kubernetes) and how it integrates into CI/CD workflows."
+    },
+    {
+        "prompt": "What type of questions should I expect related to software testing during an interview for a software engineering position?",
+        "ground_truth": "In an interview focusing on software testing, expect questions on different testing methodologies (unit, integration, system, acceptance testing) and when to apply them. You might be asked to design test cases for a given scenario or explain how you ensure code quality. Familiarity with automated testing tools and frameworks (e.g., JUnit, Selenium, Jest) will be tested. Discussing your approach to regression testing, test-driven development (TDD), and behavior-driven development (BDD) could also be relevant."
     }
 ]
