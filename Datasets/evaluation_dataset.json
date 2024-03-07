@@ -30,5 +30,57 @@
     {
         "prompt": "I'm a newly graduated software engineer interested in remote positions. Can you show me some of the current job openings that would suit my profile?",
         "ground_truth": "Of course! For newly graduated software engineers interested in remote work, there are multiple openings. Company D is offering a Junior Software Engineer position focusing on web development technologies. Company E is searching for an Entry-Level Backend Developer with a keen interest in cloud services. Additionally, Company F has an opportunity for a Frontend Developer with a passion for creating intuitive user interfaces. Checking their career websites will provide you with more information on how to apply."
+    },
+    {
+        "prompt": "I'm interested in transitioning to cybersecurity from a general IT background. Which IBM SkillsBuild courses would you recommend to facilitate this shift?",
+        "ground_truth": "To transition into cybersecurity, start with 'Cybersecurity Fundamentals' to understand the field's core concepts. Then, proceed with 'Network Security' to gain insights into securing digital infrastructures. 'Ethical Hacking and Penetration Testing' is also recommended to learn about identifying and exploiting vulnerabilities. These IBM SkillsBuild courses are designed to build up your knowledge progressively for a successful career in cybersecurity."
+    },
+    {
+        "prompt": "As a business analyst looking to delve into artificial intelligence, what IBM SkillsBuild courses can help bridge my knowledge gap?",
+        "ground_truth": "For business analysts aspiring to enter the AI domain, I recommend visiting IBM SkillsBuild starting with 'AI for Everyone' to grasp the basics of artificial intelligence. Follow this with 'Data Science and AI for Business Analysts' to understand how AI can be applied in business analytics. Finally, 'Machine Learning with Python' will provide you with hands-on skills to implement AI solutions. These courses are curated to ease your transition into AI, enhancing your analytical capabilities."
+    },
+    {
+        "prompt": "I want to enhance my project management skills with a focus on agile methodologies. What online courses are offered in this area?",
+        "ground_truth": "To strengthen your project management skills with a focus on agile methodologies, start with 'Introduction to Agile and Scrum' on IBM SkillsBuild to understand the principles and framework. 'Applying Agile to Project Management' will then help you adapt these methodologies to your projects effectively. Additionally, 'Agile Leadership Principles' is beneficial for managing teams within agile environments. These courses will equip you with the knowledge to implement agile methodologies successfully."
+    },
+    {
+        "prompt": "What courses would you recommend for a graphic designer looking to expand into UX/UI design?",
+        "ground_truth": "For graphic designers aiming to expand into UX/UI design, begin with 'Introduction to UX Design' to understand user experience principles. Proceed with 'UI Design Fundamentals' to learn about creating intuitive and attractive interfaces. 'Prototyping and Wireframing' will then equip you with practical skills to design and test your creations. These courses are available on IBM SkillsBuild. They offer a comprehensive path from graphic design to mastering UX/UI design principles."
+    },
+    {
+        "prompt": "I am a teacher looking to integrate technology into my curriculum. What IBM SkillsBuild courses can assist me with this?",
+        "ground_truth": "To integrate technology into your curriculum, 'Digital Literacy for Educators' is a great starting point. Follow this with 'Integrating Technology into the Classroom' to learn about practical tools and methods. 'Creating Digital Content for Education' will then help you develop engaging material for your students. These courses are tailored to empower educators with the knowledge and skills to effectively incorporate technology into their teaching."
+    },
+    {
+        "prompt": "As an environmental scientist, how can I use IBM SkillsBuild to learn about technology's role in sustainable development?",
+        "ground_truth": "For environmental scientists interested in technology's role in sustainable development, 'Sustainability and Technology' offers insights into how digital solutions can support environmental goals. 'Data Science for Environmental Sustainability' delves into analyzing and interpreting environmental data. 'Blockchain for Sustainable Solutions' explores how blockchain technology can be applied to enhance sustainability efforts. These courses combine your environmental expertise with technological solutions for sustainability."
+    },
+    {
+        "prompt": "I'm a retail manager wanting to leverage data analytics for business growth. Which online courses should I consider?",
+        "ground_truth": "For retail managers looking to leverage data analytics, start with 'Data Analytics Basics for Retail' on IBM SkillsBuild. Follow that with 'Customer Insights with Data Analytics' to understand customer behavior better. 'Predictive Analytics for Retail' will teach you how to forecast trends and make data-driven decisions. These courses are specifically designed to enhance your ability to use data analytics for retail business growth."
+    },
+    {
+        "prompt": "I'm keen on developing mobile applications. What courses would set me on the right path?",
+        "ground_truth": "IBM SkillsBuild is a great platform for online courses. To embark on mobile application development, 'Introduction to Mobile App Development' provides a solid foundation. Proceed with 'Android App Development' to learn about building apps for Android devices. For iOS, 'iOS App Development with Swift' will give you the necessary tools and knowledge. These courses will guide you through the basics to more advanced topics in mobile app development."
+    },
+    {
+        "prompt": "How can I use IBM SkillsBuild to learn about blockchain technology and its applications?",
+        "ground_truth": "To learn about blockchain technology, start with 'Blockchain Essentials' to grasp the foundational concepts. 'Developing Blockchain Applications' will then introduce you to practical development techniques. 'Blockchain for Business' explores its applications in various industries. These courses offer a comprehensive understanding of blockchain technology and its real-world applications."
+    },
+    {
+        "prompt": "I'm a digital marketer looking to understand analytics and data management. What online courses would you recommend?",
+        "ground_truth": "For digital marketers seeking to understand analytics and data management, begin with 'Digital Marketing Analytics' to learn how to measure and analyze your marketing efforts. 'Data Management Fundamentals' will provide you with a broader understanding of managing marketing data efficiently. 'Applying AI in Marketing' can also be beneficial to leverage artificial intelligence for data-driven strategies. These courses are tailored to enhance your marketing strategies through analytics and data management."
+    },
+    {
+        "prompt": "I am interested in developing cloud computing skills. Could you suggest me some online courses to start?",
+        "ground_truth": "To develop cloud computing skills, 'Cloud Computing Fundamentals' on IBM SkillsBuild is the perfect starting point. Continue with 'Building Cloud Applications with IBM Cloud' to gain practical experience. 'Cloud Security Essentials' is also crucial for understanding how to secure cloud environments. These courses provide a pathway from foundational knowledge to practical application and security in cloud computing."
+    },
+    {
+        "prompt": "What courses are available for someone looking to improve their leadership and management skills?",
+        "ground_truth": "For those looking to improve leadership and management skills, IBM SkillsBuild offers some great online courses on this topic. 'Leadership Essentials' offers insights into effective leadership practices. 'Project Management Principles' is ideal for honing project leadership and execution skills. 'Emotional Intelligence for Leaders' will help you develop the emotional intelligence necessary for effective leadership. These courses are designed to enhance your capabilities in leading and managing teams successfully."
+    },
+    {
+        "prompt": "I want to learn about the Internet of Things (IoT). Which IBM SkillsBuild courses would be most beneficial?",
+        "ground_truth": "To delve into the Internet of Things (IoT), start with 'IoT Foundations: Understanding Its Scope and Impact.' Then, 'Developing IoT Solutions with IBM' will teach you how to create practical IoT applications. 'IoT Security Basics' is also critical for ensuring your solutions are secure. These courses provide a comprehensive introduction to IoT, from basic concepts to development and security considerations."
     }
 ]
