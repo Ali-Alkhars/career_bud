@@ -24,14 +24,6 @@
         "ground_truth": "For a senior role, expect questions on system design, such as 'Design a URL shortening service,' and questions on software architecture, like 'How do you manage state in a distributed system?' Deep knowledge in your specialization area, whether it be frontend, backend, or devops, will be tested. Demonstrate your experience with leadership and project management through examples. Preparing case studies of your past projects can be a very effective strategy."
     },
     {
-        "prompt": "I'm an experienced project manager in the tech industry looking for new opportunities. Could you provide me with real-time job offers available in the San Francisco Bay Area?",
-        "ground_truth": "Certainly! As of now, there are several opportunities in the San Francisco Bay Area for experienced project managers in tech. Company A is seeking a Senior Project Manager with a strong background in agile methodologies. Company B is looking for a Technical Project Manager experienced in managing cross-functional teams. Company C has an opening for a Project Manager with expertise in software development lifecycle. I recommend visiting their career pages for more details and application instructions."
-    },
-    {
-        "prompt": "I'm a newly graduated software engineer interested in remote positions. Can you show me some of the current job openings that would suit my profile?",
-        "ground_truth": "Of course! For newly graduated software engineers interested in remote work, there are multiple openings. Company D is offering a Junior Software Engineer position focusing on web development technologies. Company E is searching for an Entry-Level Backend Developer with a keen interest in cloud services. Additionally, Company F has an opportunity for a Frontend Developer with a passion for creating intuitive user interfaces. Checking their career websites will provide you with more information on how to apply."
-    },
-    {
         "prompt": "I'm interested in transitioning to cybersecurity from a general IT background. Which IBM SkillsBuild courses would you recommend to facilitate this shift?",
         "ground_truth": "To transition into cybersecurity, start with 'Cybersecurity Fundamentals' to understand the field's core concepts. Then, proceed with 'Network Security' to gain insights into securing digital infrastructures. 'Ethical Hacking and Penetration Testing' is also recommended to learn about identifying and exploiting vulnerabilities. These IBM SkillsBuild courses are designed to build up your knowledge progressively for a successful career in cybersecurity."
     },
