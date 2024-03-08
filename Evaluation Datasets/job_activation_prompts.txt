@@ -1,0 +1,20 @@
+Should Activate:
+
+- I'm an experienced project manager in the tech industry looking for new opportunities. Could you provide me with real-time job offers available in London?
+- Find the latest openings for legal professionals in London, focusing on firms that specialise in international law and offer opportunities for career progression. Please include any requirements for practicing law in the UK.
+- I'm looking for entry-level data analyst positions in Manchester. Can you provide me with some recent job openings?
+- I am an experienced Java developer seeking job opportunities in Cambridge, UK. What are the latest openings available?
+- Search for recent job listings in the UK's renewable energy sector, specifically looking for positions in wind and solar energy projects in Scotland and Wales. Highlight roles that seek expertise in sustainable development and environmental impact assessment.
+- Could you search for entry-level marketing positions available in London that offer career advancement opportunities and specify the qualifications needed?
+- I'm a professional graphic designer searching for remote work opportunities worldwide. Are there any fresh job postings?
+- Identify the top five companies hiring for artificial intelligence research positions in the UK, including job requirements and application deadlines.
+- Find recent job postings for bilingual customer service representatives in Scotland, highlighting those that offer language training benefits.
+- Please list the newest job vacancies in the field of digital health and telemedicine in the UK, focusing on roles that contribute to innovation in patient care.
+- Show me the latest job openings for graphic designers in the gaming industry, specifying companies that are known for their creative freedom, employee benefits, and are based in London.
+- What are the current opportunities for freelance content writers in the travel and tourism sector in the UK, including information on pay rates and submission guidelines?
+- Can you find project management positions in the construction industry in the Northern Ireland, emphasising projects that aim for sustainable development?
+- Provide a summary of recent job postings for financial analysts in fintech startups in the UK, including any specific software skills or certifications preferred by employers.
+- Please list the current opportunities for healthcare professionals in the NHS across the UK, with a special focus on mental health nursing positions. Include any specific qualifications or certifications required, as well as information on how to apply for roles that offer training programs for career advancement.
+
+
+Should NOT Activate:
