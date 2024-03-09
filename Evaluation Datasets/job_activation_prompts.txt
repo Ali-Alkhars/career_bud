@@ -18,3 +18,19 @@ Should Activate:
 
 
 Should NOT Activate:
+
+- I'm looking to move to London and need information on available flats that are pet-friendly and close to tech hubs. Could you provide me with the latest listings?
+- Search for upcoming legal workshops in London that focus on international law and career development for professionals. Please include dates and registration requirements.
+- I'm interested in entry-level baking classes in Manchester. Can you show me some recent classes being offered?
+- I am an aspiring Java programmer seeking online courses in Cambridge, UK. What are the latest courses available?
+- Find information on the next green energy seminars in the UK, specifically those focusing on wind and solar energy projects in Scotland and Wales. Highlight seminars that offer insights into sustainable development and environmental impact assessments.
+- Could you search for Comedy movies on Netflix that have been released in the past 5 years and are less than 2 hours long?
+- I'm a pet lover looking to adopt some cats or dogs. Could you help me look for cute black kittens or golden retrievers that have been recently listed for adoption?
+- Identify the top five universities offering artificial intelligence research programs in the UK, including program requirements and application deadlines.
+- Find Korean shows on Prime Video, highlighting those with high critic ratings.
+- Please list the top hospitals in the UK for Cancer treatment, focusing on institutions that offer experimental treatments.
+- Show me the latest exhibitions for Star Wars fans, specifying events that are known for showcasing impressive attendance counts.
+- Look up top spots for travel photography in Wales, including information on where to stay and trip price range.
+- Can you find bookshops in London that have a collection of rare books, showing their postcodes?
+- Provide a summary of recent financial investment seminars for fintech enthusiasts in the UK, including any specific software tools or strategies discussed.
+- Please list the flagship phones of this year, mentioning the thing they do best, e.g. camera or battery life.
