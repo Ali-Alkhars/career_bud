@@ -27,4 +27,4 @@ while True:
     }
 
     # Append entry to the JSON file
-    append_to_json_file('../Datasets/evaluation_dataset.json', entry)
+    append_to_json_file('../Evaluation Datasets/manual_evaluation_dataset.json', entry)
