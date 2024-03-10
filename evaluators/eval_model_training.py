@@ -1,8 +1,8 @@
 """
 This script is used to evaluate the fine-tuned models after the
-hyper-parameter search is done. It contains functions that evaluate
-the models based on their BLEU score (higher is better) and validation
-loss (less is better).
+hyper-parameter search is done to find the best fine-tune parameters. 
+It contains functions that evaluate the models based on their BLEU 
+score (higher is better) and validation loss (less is better).
 
 Because we need to maximise BLEU score and minimise validation loss,
 the scores are normalised and a combined score is calculated (higher is better).
