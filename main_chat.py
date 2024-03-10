@@ -28,6 +28,7 @@ class T5Chatbot:
 
 class LlamaChatbot:
     def __init__(self, tokenizer_name="meta-llama/Llama-2-7b-chat-hf", model_name="Llama-2-CareerBud"):
+        logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the irrelevant warnings
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, torch_dtype="auto")
         self.model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", load_in_4bit=True, device_map="auto")
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
