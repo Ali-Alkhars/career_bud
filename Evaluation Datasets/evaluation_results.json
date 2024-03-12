@@ -513,7 +513,13 @@
         "manual_meteor": {
             "meteor": 0.03106572239270858
         },
-        "job_activation_accuracy": {}
+        "job_activation_accuracy": {
+            "true_positive": 0,
+            "true_negative": 15,
+            "false_positive": 0,
+            "false_negative": 15,
+            "accuracy": 0.5
+        }
     },
     "microsoft/DialoGPT-medium": {
         "auto_outputs": [
@@ -615,7 +621,13 @@
         "manual_meteor": {
             "meteor": 0.053265679402685805
         },
-        "job_activation_accuracy": {}
+        "job_activation_accuracy": {
+            "true_positive": 0,
+            "true_negative": 15,
+            "false_positive": 0,
+            "false_negative": 15,
+            "accuracy": 0.5
+        }
     },
     "ChatGPT-4": {
         "auto_outputs": [

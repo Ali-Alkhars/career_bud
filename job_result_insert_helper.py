@@ -74,4 +74,4 @@ def extract_prompts(list_name):
 
     return data[list_name]
 
-auto_calc_accuracy(model_name="T5-CareerBud", model=T5Chatbot())
+auto_calc_accuracy(model_name="microsoft/DialoGPT-medium", model=BaseDialoGPTChatbot())
