@@ -181,5 +181,45 @@
         "rouge": {},
         "meteor": {},
         "job_accuracy": {}
+    },
+    "meta-llama/Llama-2-7b-chat-hf": {
+        "auto_outputs": [],
+        "manual_outputs": [],
+        "bleu": {},
+        "rouge": {},
+        "meteor": {},
+        "job_accuracy": {}
+    },
+    "t5-small": {
+        "auto_outputs": [],
+        "manual_outputs": [],
+        "bleu": {},
+        "rouge": {},
+        "meteor": {},
+        "job_accuracy": {}
+    },
+    "microsoft/DialoGPT-medium": {
+        "auto_outputs": [],
+        "manual_outputs": [],
+        "bleu": {},
+        "rouge": {},
+        "meteor": {},
+        "job_accuracy": {}
+    },
+    "ChatGPT-4": {
+        "auto_outputs": [],
+        "manual_outputs": [],
+        "bleu": {},
+        "rouge": {},
+        "meteor": {},
+        "job_accuracy": {}
+    },
+    "Gemini": {
+        "auto_outputs": [],
+        "manual_outputs": [],
+        "bleu": {},
+        "rouge": {},
+        "meteor": {},
+        "job_accuracy": {}
     }
 }
