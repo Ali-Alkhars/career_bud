@@ -26,7 +26,7 @@ def insert_output(model_name, list_name):
 
 
 # Run the function
-model_name = "Llama-2-CareerBud"
-list_name = "auto_outputs"
+model_name = "DialoGPT-CareerBud"
+list_name = "manual_outputs"
 while True:
     insert_output(model_name, list_name)
