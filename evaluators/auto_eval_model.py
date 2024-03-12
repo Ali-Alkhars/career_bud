@@ -71,6 +71,4 @@ def extract_references(file_name):
         references.append(entry['ground_truth'])
     return references
 
-
-
-eval_outputs('Llama-2-CareerBud')
+eval_outputs('Gemini')

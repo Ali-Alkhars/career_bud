@@ -157,12 +157,50 @@
             "What is the purpose of a software engineering job?",
             "What is the purpose of a project?"
         ],
-        "auto_bleu": {},
-        "auto_rouge": {},
-        "auto_meteor": {},
-        "manual_bleu": {},
-        "manual_rouge": {},
-        "manual_meteor": {},
+        "auto_bleu": {
+            "bleu": 0.0005270758702986015,
+            "precisions": [
+                0.30793650793650795,
+                0.06153846153846154,
+                0.03148148148148148,
+                0.012121212121212121
+            ],
+            "brevity_penalty": 0.01016414559663631,
+            "length_ratio": 0.17892644135188868,
+            "translation_length": 630,
+            "reference_length": 3521
+        },
+        "auto_rouge": {
+            "rouge1": 0.0915400832095804,
+            "rouge2": 0.021094823135196956,
+            "rougeL": 0.07473972990976334,
+            "rougeLsum": 0.07520375138965657
+        },
+        "auto_meteor": {
+            "meteor": 0.040589555602901985
+        },
+        "manual_bleu": {
+            "bleu": 0.002291829939387281,
+            "precisions": [
+                0.42857142857142855,
+                0.16666666666666666,
+                0.08333333333333333,
+                0.015151515151515152
+            ],
+            "brevity_penalty": 0.023517745856009107,
+            "length_ratio": 0.21052631578947367,
+            "translation_length": 84,
+            "reference_length": 399
+        },
+        "manual_rouge": {
+            "rouge1": 0.15513864790180582,
+            "rouge2": 0.08491341833868642,
+            "rougeL": 0.11808688387635756,
+            "rougeLsum": 0.1182877064456012
+        },
+        "manual_meteor": {
+            "meteor": 0.07060263094846041
+        },
         "job_accuracy": {}
     },
     "DialoGPT-CareerBud": {
@@ -221,12 +259,50 @@
             "What is the purpose of the'`<' key in javascript?",
             "What is the difference between a hash table and a hash table-specific object?"
         ],
-        "auto_bleu": {},
-        "auto_rouge": {},
-        "auto_meteor": {},
-        "manual_bleu": {},
-        "manual_rouge": {},
-        "manual_meteor": {},
+        "auto_bleu": {
+            "bleu": 0.0027908243548643422,
+            "precisions": [
+                0.3472727272727273,
+                0.043601895734597156,
+                0.01287128712871287,
+                0.002072538860103627
+            ],
+            "brevity_penalty": 0.11070247399092566,
+            "length_ratio": 0.31241124680488497,
+            "translation_length": 1100,
+            "reference_length": 3521
+        },
+        "auto_rouge": {
+            "rouge1": 0.15965706460545195,
+            "rouge2": 0.026225084797832317,
+            "rougeL": 0.10979534511455705,
+            "rougeLsum": 0.10973363442142736
+        },
+        "auto_meteor": {
+            "meteor": 0.08403844741269356
+        },
+        "manual_bleu": {
+            "bleu": 0.008195615984290205,
+            "precisions": [
+                0.4051724137931034,
+                0.10909090909090909,
+                0.057692307692307696,
+                0.030612244897959183
+            ],
+            "brevity_penalty": 0.08719091211057524,
+            "length_ratio": 0.2907268170426065,
+            "translation_length": 116,
+            "reference_length": 399
+        },
+        "manual_rouge": {
+            "rouge1": 0.1578560246068274,
+            "rouge2": 0.059314216176961275,
+            "rougeL": 0.13609007885784688,
+            "rougeLsum": 0.13609007885784688
+        },
+        "manual_meteor": {
+            "meteor": 0.08783621013429337
+        },
         "job_accuracy": {}
     },
     "meta-llama/Llama-2-7b-chat-hf": {
@@ -285,12 +361,50 @@
             "Begriffe und Definitionen.\n\n1. What is your experience with software development?\n2. Can you tell us about a project you worked on and the technologies you used?\n3. How do you approach problem-solving in software development?\n4. Can you walk us through your debugging process?\n5. How do you stay current with the latest technologies and trends in software development?\n6. Can you give an example of a time when you had to make a difficult technical decision, and how did you handle it?\n7. How do you handle working on a team and collaborating with others?\n8. Can you tell us about a project you worked on that required a lot of communication and coordination with stakeholders?\n9. How do you prioritize tasks and manage your time effectively?\n10. Can you give an example of a project you worked on that required a lot of creativity and innovation?\n\nSome common behavioral interview questions:\n\n1. Can you tell us about a time when you had to work with a difficult team member or stakeholder?\n2. Can you give an example of a project you worked on that required a lot of collaboration and teamwork?\n3. How do you handle change and unexpected obstacles in a project?\n4. Can you tell us about a time when you had to make a presentation or pitch to a group of people?\n5. How do you handle feedback and criticism from others?\n6. Can you give an example of a time when you had to make a difficult technical decision, and how did you handle it?\n7. How do you handle working on a project with a tight deadline and limited resources?\n8. Can you tell us about a time when you had to balance technical and non-technical tasks?\n9. How do you handle working on a project with a lot of ambiguity and uncertainty?\n10. Can you give an example of a time when you had to think creatively and come up with a unique solution to a problem?\n\nSome common technical interview questions:\n\n1. Can you tell us about a project you worked on and the technologies you used?\n2. How",
             ". \nSure! I'd be happy to help you prepare for your interview. Can you tell me a bit more about the position you're interviewing for? What kind of back-end development are they looking for?"
         ],
-        "auto_bleu": {},
-        "auto_rouge": {},
-        "auto_meteor": {},
-        "manual_bleu": {},
-        "manual_rouge": {},
-        "manual_meteor": {},
+        "auto_bleu": {
+            "bleu": 0.019946166129417797,
+            "precisions": [
+                0.10348685437255267,
+                0.02736225380204438,
+                0.010875679729983124,
+                0.005139776858468096
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 4.569440499857995,
+            "translation_length": 16089,
+            "reference_length": 3521
+        },
+        "auto_rouge": {
+            "rouge1": 0.1703874691971134,
+            "rouge2": 0.04633906145024515,
+            "rougeL": 0.11345891341633418,
+            "rougeLsum": 0.1290913340030471
+        },
+        "auto_meteor": {
+            "meteor": 0.2342106277184513
+        },
+        "manual_bleu": {
+            "bleu": 0.01345284470822126,
+            "precisions": [
+                0.10676940011007155,
+                0.02263942573163998,
+                0.006094182825484765,
+                0.0022234574763757642
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 4.553884711779449,
+            "translation_length": 1817,
+            "reference_length": 399
+        },
+        "manual_rouge": {
+            "rouge1": 0.197171532771982,
+            "rouge2": 0.04241910422467899,
+            "rougeL": 0.12383948444162807,
+            "rougeLsum": 0.15397598872435903
+        },
+        "manual_meteor": {
+            "meteor": 0.22671904333633017
+        },
         "job_accuracy": {}
     },
     "t5-small": {
@@ -349,12 +463,50 @@
             "questions",
             "Ask me some common back-end questions"
         ],
-        "auto_bleu": {},
-        "auto_rouge": {},
-        "auto_meteor": {},
-        "manual_bleu": {},
-        "manual_rouge": {},
-        "manual_meteor": {},
+        "auto_bleu": {
+            "bleu": 2.469304221282942e-08,
+            "precisions": [
+                0.5432692307692307,
+                0.22699386503067484,
+                0.16279069767441862,
+                0.08653846153846154
+            ],
+            "brevity_penalty": 1.2095048192693156e-07,
+            "length_ratio": 0.059074126668560066,
+            "translation_length": 208,
+            "reference_length": 3521
+        },
+        "auto_rouge": {
+            "rouge1": 0.06804555071096424,
+            "rouge2": 0.025231037208575256,
+            "rougeL": 0.05830949262407946,
+            "rougeLsum": 0.058362548707644527
+        },
+        "auto_meteor": {
+            "meteor": 0.02489141272477832
+        },
+        "manual_bleu": {
+            "bleu": 0.0,
+            "precisions": [
+                0.5,
+                0.16666666666666666,
+                0.05,
+                0.0
+            ],
+            "brevity_penalty": 4.551744463083231e-06,
+            "length_ratio": 0.07518796992481203,
+            "translation_length": 30,
+            "reference_length": 399
+        },
+        "manual_rouge": {
+            "rouge1": 0.0892590578833545,
+            "rouge2": 0.026027979198710905,
+            "rougeL": 0.06311440863066575,
+            "rougeLsum": 0.062049859696639814
+        },
+        "manual_meteor": {
+            "meteor": 0.03106572239270858
+        },
         "job_accuracy": {}
     },
     "microsoft/DialoGPT-medium": {
@@ -413,12 +565,50 @@
             "What kind of software engineering position?",
             "What's the most important thing you learned in your interview?"
         ],
-        "auto_bleu": {},
-        "auto_rouge": {},
-        "auto_meteor": {},
-        "manual_bleu": {},
-        "manual_rouge": {},
-        "manual_meteor": {},
+        "auto_bleu": {
+            "bleu": 0.0002583237454566772,
+            "precisions": [
+                0.34761120263591433,
+                0.042704626334519574,
+                0.015473887814313346,
+                0.00423728813559322
+            ],
+            "brevity_penalty": 0.008224325608472399,
+            "length_ratio": 0.1723942061914229,
+            "translation_length": 607,
+            "reference_length": 3521
+        },
+        "auto_rouge": {
+            "rouge1": 0.09206878273852925,
+            "rouge2": 0.015032505326555739,
+            "rougeL": 0.06480487689720202,
+            "rougeLsum": 0.06519977098458879
+        },
+        "auto_meteor": {
+            "meteor": 0.04478433322529793
+        },
+        "manual_bleu": {
+            "bleu": 0.0,
+            "precisions": [
+                0.36619718309859156,
+                0.03076923076923077,
+                0.0,
+                0.0
+            ],
+            "brevity_penalty": 0.009855571887640567,
+            "length_ratio": 0.17794486215538846,
+            "translation_length": 71,
+            "reference_length": 399
+        },
+        "manual_rouge": {
+            "rouge1": 0.09862250014748392,
+            "rouge2": 0.011417513304305757,
+            "rougeL": 0.07075983717774763,
+            "rougeLsum": 0.07134073118012119
+        },
+        "manual_meteor": {
+            "meteor": 0.053265679402685805
+        },
         "job_accuracy": {}
     },
     "ChatGPT-4": {
@@ -477,12 +667,50 @@
             "Preparing for a software engineering interview involves understanding a wide range of topics from technical knowledge to problem-solving skills and system design. Here are some common questions you might encounter: Technical and Coding Questions Data Structures: Be ready to explain and implement basic data structures like arrays, linked lists, trees, stacks, queues, and graphs. Algorithms: Expect questions on sorting (quick sort, merge sort), searching (binary search), and algorithmic strategies like recursion, dynamic programming, and backtracking. System Design: You might be asked to design a scalable system (e.g., a social media platform, a web crawler) focusing on components, data flow, and scalability. Coding Problems: Solve coding problems on platforms like LeetCode or HackerRank. Problems could range from string manipulation and array sorting to more complex data structure and algorithm challenges. Object-Oriented Programming: Questions might cover principles like inheritance, encapsulation, polymorphism, and design patterns (singleton, factory, observer, etc.). Behavioral Questions Team Experience: Share experiences where you worked in a team. Highlight your role, the challenge, the solution, and the outcome. Problem Solving: Be prepared to discuss a difficult problem you solved, your thought process, and the solution. Failure and Learning: Talk about a project or task where you failed, what you learned from it, and how you applied those learnings in future projects. Adaptability: Provide examples of how you've adapted to changes in technology, project requirements, or team dynamics. Questions About Your Experience and Background Past Projects: Be ready to discuss your most significant projects. Highlight your contributions, the technologies used, and the impact of your work. Technical Choices: Explain the rationale behind specific technical decisions in your projects, including choice of languages, frameworks, and architectures. Questions You Should Ask Team Structure: Ask about the team you'll be working with and how it fits within the company. Technology Stack: Inquire about the technologies the company uses and why they chose them. Development Process: Understand their development lifecycle, how tasks are assigned, and the review process. Remember, interviews are also an opportunity for you to assess if the company is a good fit for you. Good luck with your preparation!",
             "Sure, let's conduct a mock interview. I'll ask you some common questions related to back-end development. Imagine you're in the interview and respond as you would in that setting. Can you explain what REST is and how it is used in building web services? What is the difference between a NoSQL database and a traditional SQL database? When would you choose one over the other? Describe how you would handle security concerns in your web applications, specifically regarding SQL injection and cross-site scripting (XSS). How do you ensure your APIs can handle the load as the number of users grows? Include considerations for scaling and performance optimization. Explain the concept of microservices. How do they differ from a monolithic architecture, and what are the benefits of using them in a large-scale application? Can you describe a challenging problem you solved in your last project? What was the problem, and how did you approach solving it? What are containers, and why are they important in modern back-end development? How do they differ from virtual machines? Discuss how you manage state in a distributed system. Include strategies for ensuring data consistency across services. What tools and practices do you use for monitoring and logging in back-end applications? How do you ensure that you can quickly identify and resolve issues? Continuous integration and continuous delivery (CI/CD) are crucial for modern back-end development. Can you explain their importance and describe how you have implemented them in a project? Prepare your answers as if you're in an actual interview, and we can discuss any areas you'd like to delve deeper into or clarify."
         ],
-        "auto_bleu": {},
-        "auto_rouge": {},
-        "auto_meteor": {},
-        "manual_bleu": {},
-        "manual_rouge": {},
-        "manual_meteor": {},
+        "auto_bleu": {
+            "bleu": 0.0314604391314806,
+            "precisions": [
+                0.12981886996485537,
+                0.046341463414634146,
+                0.019288236892148872,
+                0.008442265795206972
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 5.252769099687589,
+            "translation_length": 18495,
+            "reference_length": 3521
+        },
+        "auto_rouge": {
+            "rouge1": 0.23518235311274904,
+            "rouge2": 0.085292175059577,
+            "rougeL": 0.14516139849951953,
+            "rougeLsum": 0.14536510222307916
+        },
+        "auto_meteor": {
+            "meteor": 0.32204854154488916
+        },
+        "manual_bleu": {
+            "bleu": 0.017707616905121612,
+            "precisions": [
+                0.11524358302776323,
+                0.027325275880189175,
+                0.008434370057986295,
+                0.0037017451084082496
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 4.784461152882206,
+            "translation_length": 1909,
+            "reference_length": 399
+        },
+        "manual_rouge": {
+            "rouge1": 0.20950926831877148,
+            "rouge2": 0.056554825276361985,
+            "rougeL": 0.13298985834197102,
+            "rougeLsum": 0.13241010865742306
+        },
+        "manual_meteor": {
+            "meteor": 0.28031074251086496
+        },
         "job_accuracy": {}
     },
     "Gemini": {
@@ -541,12 +769,50 @@
             "Software engineering interview questions can be broadly categorized into two areas: technical and behavioral. Here's a breakdown of some common ones you might encounter: Technical: Data Structures & Algorithms: Be prepared to discuss concepts like arrays, linked lists, stacks, queues, trees, and graphs. You may also be asked to analyze the time and space complexity of algorithms. Object-Oriented Programming (OOP): Explain core OOP concepts like classes, objects, inheritance, polymorphism, and encapsulation. System Design: Discuss how you'd design a system for a specific purpose, considering scalability, fault tolerance, and maintainability. Programming Languages: Be prepared to talk about your proficiency in relevant languages for the position. Problem-Solving: You might be presented with a coding challenge to assess your problem-solving approach and coding skills. Behavioral: Past Projects: Discuss a project you've worked on, highlighting the challenges you faced and how you overcame them. Learning New Technologies: Describe a situation where you had to learn a new technology and how you approached it. Teamwork: Share an experience where you collaborated effectively in a team setting. Communication: Explain how you communicate complex technical concepts to non-technical audiences. Here are some tips for approaching these questions: Practice makes perfect: Do mock interviews and practice coding challenges. Focus on fundamentals: Have a strong grasp of core software engineering concepts. Be clear and concise: Explain your thought process during coding challenges. Highlight your problem-solving skills: Showcase your ability to break down problems and find solutions. Ask thoughtful questions: Show your interest in the role and the company. Remember, interviews are a two-way street. Prepare questions for the interviewer as well to assess the company culture and team fit.",
             "Mock Back-End Developer Interview Technical Knowledge Concepts: Can you explain the difference between GET and POST requests in HTTP? Databases: What are the key differences between SQL and NoSQL databases? When would you choose one over the other? Security: Briefly describe how SQL injection attacks work and how to prevent them in your code. Design Patterns: What is a design pattern? Can you give an example of a common design pattern used in back-end development? Scalability: How would you approach designing a back-end system that can handle a growing user base? Problem-Solving Scenario: Imagine a social media application needs to display a user's feed efficiently. How would you implement a caching strategy to improve performance? Additional Questions Soft Skills: Can you describe a time you encountered a challenging bug in your code? How did you approach debugging it? Experience: Tell me about a back-end project you're particularly proud of. What were your responsibilities and what challenges did you overcome? Remember: These are just a few examples, and the specific questions you'll encounter will vary depending on the company and role. Be prepared to discuss your experience with relevant programming languages, frameworks, and tools. During the interview, take your time, explain your thought process, and don't hesitate to ask clarifying questions."
         ],
-        "auto_bleu": {},
-        "auto_rouge": {},
-        "auto_meteor": {},
-        "manual_bleu": {},
-        "manual_rouge": {},
-        "manual_meteor": {},
+        "auto_bleu": {
+            "bleu": 0.030886601429400733,
+            "precisions": [
+                0.14782125234554172,
+                0.04134132738427217,
+                0.01671445555633261,
+                0.008909779710958328
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 4.0866231184322634,
+            "translation_length": 14389,
+            "reference_length": 3521
+        },
+        "auto_rouge": {
+            "rouge1": 0.2647569164839486,
+            "rouge2": 0.0786711089687567,
+            "rougeL": 0.15607224595245572,
+            "rougeLsum": 0.15544184568124103
+        },
+        "auto_meteor": {
+            "meteor": 0.3249424137088922
+        },
+        "manual_bleu": {
+            "bleu": 0.01731238355758324,
+            "precisions": [
+                0.14239690721649484,
+                0.031047865459249677,
+                0.007792207792207792,
+                0.002607561929595828
+            ],
+            "brevity_penalty": 1.0,
+            "length_ratio": 3.889724310776942,
+            "translation_length": 1552,
+            "reference_length": 399
+        },
+        "manual_rouge": {
+            "rouge1": 0.23391477078427406,
+            "rouge2": 0.05538035859614791,
+            "rougeL": 0.12565086831333852,
+            "rougeLsum": 0.12595149361396382
+        },
+        "manual_meteor": {
+            "meteor": 0.30788148933968906
+        },
         "job_accuracy": {}
     }
 }
