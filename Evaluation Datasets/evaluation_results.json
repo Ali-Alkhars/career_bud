@@ -99,7 +99,7 @@
         "manual_meteor": {
             "meteor": 0.19018801004793517
         },
-        "job_accuracy": {}
+        "job_activation_accuracy": {}
     },
     "T5-CareerBud": {
         "auto_outputs": [
@@ -201,7 +201,13 @@
         "manual_meteor": {
             "meteor": 0.07060263094846041
         },
-        "job_accuracy": {}
+        "job_activation_accuracy": {
+            "true_positive": 15,
+            "true_negative": 0,
+            "false_positive": 15,
+            "false_negative": 0,
+            "accuracy": 0.5
+        }
     },
     "DialoGPT-CareerBud": {
         "auto_outputs": [
@@ -303,7 +309,7 @@
         "manual_meteor": {
             "meteor": 0.08783621013429337
         },
-        "job_accuracy": {}
+        "job_activation_accuracy": {}
     },
     "meta-llama/Llama-2-7b-chat-hf": {
         "auto_outputs": [
@@ -405,7 +411,7 @@
         "manual_meteor": {
             "meteor": 0.22671904333633017
         },
-        "job_accuracy": {}
+        "job_activation_accuracy": {}
     },
     "t5-small": {
         "auto_outputs": [
@@ -507,7 +513,7 @@
         "manual_meteor": {
             "meteor": 0.03106572239270858
         },
-        "job_accuracy": {}
+        "job_activation_accuracy": {}
     },
     "microsoft/DialoGPT-medium": {
         "auto_outputs": [
@@ -609,7 +615,7 @@
         "manual_meteor": {
             "meteor": 0.053265679402685805
         },
-        "job_accuracy": {}
+        "job_activation_accuracy": {}
     },
     "ChatGPT-4": {
         "auto_outputs": [
@@ -711,7 +717,7 @@
         "manual_meteor": {
             "meteor": 0.28031074251086496
         },
-        "job_accuracy": {}
+        "job_activation_accuracy": {}
     },
     "Gemini": {
         "auto_outputs": [
@@ -813,6 +819,6 @@
         "manual_meteor": {
             "meteor": 0.30788148933968906
         },
-        "job_accuracy": {}
+        "job_activation_accuracy": {}
     }
 }
