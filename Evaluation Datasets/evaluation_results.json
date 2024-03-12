@@ -1,0 +1,26 @@
+{
+    "Llama-2-CareerBud": {
+        "auto_outputs": [],
+        "manual_outputs": [],
+        "bleu": {},
+        "rouge": {},
+        "meteor": {},
+        "job_accuracy": {}
+    },
+    "T5-CareerBud": {
+        "auto_outputs": [],
+        "manual_outputs": [],
+        "bleu": {},
+        "rouge": {},
+        "meteor": {},
+        "job_accuracy": {}
+    },
+    "DialoGPT-CareerBud": {
+        "auto_outputs": [],
+        "manual_outputs": [],
+        "bleu": {},
+        "rouge": {},
+        "meteor": {},
+        "job_accuracy": {}
+    }
+}
