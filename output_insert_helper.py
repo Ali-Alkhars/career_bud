@@ -76,8 +76,8 @@ def run_manual_insertion(model_name, list_name):
 
 
 auto_insert_output(
-    model_name="t5-small", 
-    list_name="manual_outputs", 
-    prompts_file="./Evaluation Datasets/manual_evaluation_dataset.json",
-    model=BaseT5Chatbot()
+    model_name="microsoft/DialoGPT-medium", 
+    list_name="auto_outputs", 
+    prompts_file="./Evaluation Datasets/auto_evaluation_dataset.json",
+    model=BaseDialoGPTChatbot()
 )
