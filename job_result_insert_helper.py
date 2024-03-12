@@ -74,4 +74,4 @@ def extract_prompts(list_name):
 
     return data[list_name]
 
-auto_calc_accuracy(model_name="microsoft/DialoGPT-medium", model=BaseDialoGPTChatbot())
+auto_calc_accuracy(model_name="meta-llama/Llama-2-7b-chat-hf", model=BaseLlamaChatbot())
