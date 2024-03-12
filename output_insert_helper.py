@@ -76,8 +76,8 @@ def run_manual_insertion(model_name, list_name):
 
 
 auto_insert_output(
-    model_name="microsoft/DialoGPT-medium", 
+    model_name="meta-llama/Llama-2-7b-chat-hf", 
     list_name="auto_outputs", 
     prompts_file="./Evaluation Datasets/auto_evaluation_dataset.json",
-    model=BaseDialoGPTChatbot()
+    model=BaseLlamaChatbot()
 )
