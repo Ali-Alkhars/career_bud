@@ -75,9 +75,11 @@ def run_manual_insertion(model_name, list_name):
         manual_insert_output(model_name, list_name)
 
 
-auto_insert_output(
-    model_name="meta-llama/Llama-2-7b-chat-hf", 
-    list_name="auto_outputs", 
-    prompts_file="./Evaluation Datasets/auto_evaluation_dataset.json",
-    model=BaseLlamaChatbot()
-)
+# auto_insert_output(
+#     model_name="meta-llama/Llama-2-7b-chat-hf", 
+#     list_name="auto_outputs", 
+#     prompts_file="./Evaluation Datasets/auto_evaluation_dataset.json",
+#     model=BaseLlamaChatbot()
+# )
+
+run_manual_insertion("ChatGPT-4", 'auto_outputs')
