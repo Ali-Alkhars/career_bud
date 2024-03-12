@@ -1,5 +1,5 @@
 import json
-from trained_chatbots import T5Chatbot
+from trained_chatbots import T5Chatbot, LlamaChatbot
 
 """
 A helper script to make inserting model outputs to the
@@ -75,8 +75,8 @@ def run_manual_insertion(model_name, list_name):
 
 
 auto_insert_output(
-    model_name="T5-CareerBud", 
+    model_name="Llama-2-CareerBud", 
     list_name="manual_outputs", 
     prompts_file="./Evaluation Datasets/manual_evaluation_dataset.json",
-    model=T5Chatbot()
+    model=LlamaChatbot()
 )
