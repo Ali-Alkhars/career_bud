@@ -31,9 +31,9 @@ while input_text != 'quit' and bot != None:
     else:
         response = bot.chat(input_text)
         # Check if user asked for job search
-        if job_search_key in response:
-            response = response.replace(job_search_key, "")    # remove the key from the output
-            job_search = True
+        # if job_search_key in response:
+        #     response = response.replace(job_search_key, "")    # remove the key from the output
+        #     job_search = True
 
     print(f'{bot.name()} Career Bud: {response} \n\n')
     if job_search:
