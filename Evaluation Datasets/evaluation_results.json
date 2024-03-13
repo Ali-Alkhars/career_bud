@@ -215,7 +215,9 @@
             "false_positive": 15,
             "false_negative": 0,
             "accuracy": 0.5
-        }
+        },
+        "auto_simCSE": 0.45594739185439215,
+        "manual_simCSE": 0.555647999048233
     },
     "DialoGPT-CareerBud": {
         "auto_outputs": [
@@ -317,7 +319,9 @@
         "manual_meteor": {
             "meteor": 0.08783621013429337
         },
-        "job_activation_accuracy": {}
+        "job_activation_accuracy": {},
+        "auto_simCSE": 0.5795702083243264,
+        "manual_simCSE": 0.4880506793657939
     },
     "meta-llama/Llama-2-7b-chat-hf": {
         "auto_outputs": [
@@ -425,7 +429,9 @@
             "false_positive": 0,
             "false_negative": 15,
             "accuracy": 0.5
-        }
+        },
+        "auto_simCSE": 0.724110581063562,
+        "manual_simCSE": 0.7947108248869578
     },
     "t5-small": {
         "auto_outputs": [
@@ -533,7 +539,9 @@
             "false_positive": 0,
             "false_negative": 15,
             "accuracy": 0.5
-        }
+        },
+        "auto_simCSE": 0.49082366194989946,
+        "manual_simCSE": 0.4770486354827881
     },
     "microsoft/DialoGPT-medium": {
         "auto_outputs": [
@@ -641,7 +649,9 @@
             "false_positive": 0,
             "false_negative": 15,
             "accuracy": 0.5
-        }
+        },
+        "auto_simCSE": 0.3453541377352344,
+        "manual_simCSE": 0.33763932809233665
     },
     "ChatGPT-4": {
         "auto_outputs": [
@@ -743,7 +753,9 @@
         "manual_meteor": {
             "meteor": 0.28031074251086496
         },
-        "job_activation_accuracy": {}
+        "job_activation_accuracy": {},
+        "auto_simCSE": 0.8859451095263163,
+        "manual_simCSE": 0.8429328501224518
     },
     "Gemini": {
         "auto_outputs": [
@@ -845,6 +857,8 @@
         "manual_meteor": {
             "meteor": 0.30788148933968906
         },
-        "job_activation_accuracy": {}
+        "job_activation_accuracy": {},
+        "auto_simCSE": 0.867731245358785,
+        "manual_simCSE": 0.8608466386795044
     }
 }

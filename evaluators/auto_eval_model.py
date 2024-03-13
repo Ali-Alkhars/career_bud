@@ -138,4 +138,4 @@ def extract_references(file_name):
     return references
 
 # eval_outputs('Gemini')
-eval_simCSE_score("Llama-2-CareerBud")
+eval_simCSE_score("Gemini")
