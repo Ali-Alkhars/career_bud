@@ -105,7 +105,9 @@
             "false_positive": 7,
             "false_negative": 4,
             "accuracy": 0.6333333333333333
-        }
+        },
+        "auto_simCSE": 0.5656985938710148,
+        "manual_simCSE": 0.7235950572641827
     },
     "T5-CareerBud": {
         "auto_outputs": [
