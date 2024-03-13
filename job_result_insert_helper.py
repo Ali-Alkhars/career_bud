@@ -50,6 +50,49 @@ def auto_calc_accuracy(model_name, model):
     }
     extend_accuracy_results(model_name=model_name, results=results)
 
+def manual_calc_accuracy(model_name):
+    """
+    Calculate the job activation accuracy, by entering results manually.
+    Update "evaluation_results.json" with the results.
+    """
+    activation_prompts = extract_prompts("activation")
+    non_activation_prompts = extract_prompts("non_activation")
+
+    tp = 0  # True positive
+    tn = 0  # True negative
+    fp = 0  # False positive
+    fn = 0  # False negative
+
+    # Calculate the accuracy of activation prompts
+    for prompt in activation_prompts:
+        print(f"\n\nActivation prompt: \n{prompt}")
+        result = input("\nResult ('t' for True positive. anything else for False negative): ").lower()
+        if result == "t":
+            tp += 1
+        else:
+            fn += 1
+
+    # Calculate the accuracy of non_activation prompts
+    for prompt in non_activation_prompts:
+        print(f"\n\nNon-activation prompt: \n{prompt}")
+        result = input("\nResult ('t' for True negative. anything else for False positive): ").lower()
+        if result == "t":
+            tn += 1
+        else:
+            fp += 1
+
+    # Calculate results and upload them to "evaluation_results.json"
+    accuracy = (tp + tn) / (tp + tn + fp + fn)
+
+    results = {
+        "true_positive": tp,
+        "true_negative": tn,
+        "false_positive": fp,
+        "false_negative": fn,
+        "accuracy": accuracy
+    }
+    extend_accuracy_results(model_name=model_name, results=results)
+
 def extend_accuracy_results(model_name, results):
     """
     Extend the "evaluation_results.json" file with the given
@@ -74,4 +117,5 @@ def extract_prompts(list_name):
 
     return data[list_name]
 
-auto_calc_accuracy(model_name="meta-llama/Llama-2-7b-chat-hf", model=BaseLlamaChatbot())
+# auto_calc_accuracy(model_name="meta-llama/Llama-2-7b-chat-hf", model=BaseLlamaChatbot())
+manual_calc_accuracy("DialoGPT-CareerBud")
