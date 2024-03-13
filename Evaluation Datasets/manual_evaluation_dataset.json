@@ -1,0 +1,26 @@
+[
+    {
+        "prompt": "I've been trying to develop my Java programming skills by taking online courses. I recently stumbled upon IBM's SkillsBuild platform. Does it offer any courses on Java?",
+        "ground_truth": "While the SkillsBuild platform does not offer Java programming courses made by IBM, it contains a selection of hand-picked online courses from other websites. Here are some: - \"Learn Java Tutorial\" by w3schools. - \"Learn programming with Java\" by openclassrooms."
+    },
+    {
+        "prompt": "I'm interested to learn more about UI/UX design. Could you help me find UX-design learning material on SkillsBuild?",
+        "ground_truth": "Certainly! IBM SkillsBuild offers the \"User Experience Design Fundamentals\" digital credential. This credential is a great starting point for people looking to learn more about UX Design with 7 eLearning courses, including \"Introduction to UX Design\" and \"Wireframing and Prototyping\"."
+    },
+    {
+        "prompt": "I'm having a hard time editing my CV to fit a software engineering position I'm interested in applying for. Do you have any suggestions on how I can make my CV stand out for that position?",
+        "ground_truth": "To customise your CV for a software engineer position, make sure that you list experiences related to software engineering. It is also encouraged to mention projects you've worked on related to software engineering, especially if you do not possess much working experience in the field. In general, make sure to order the entries in descending order and try your best to mention relevant numbers in the descriptions."
+    },
+    {
+        "prompt": "I'm writing my resume for the first time. What are the most important things I should keep in mind when writing?",
+        "ground_truth": "Here are some important tips to keep in mind when crafting your resume: - Be concise and use bullet points to showcase your experiences. - Be consistent in your chronological order and font used. - check for spelling mistakes. - Fit your resume on a single page. - Finally, keep in mind that recruiters often scan a resume in under 15 seconds, so make sure you add relevant keywords and numbers."
+    },
+    {
+        "prompt": "I'm preparing to go through an interview for a software engineering position. What are some common software engineering interview questions I need to be aware of?",
+        "ground_truth": "Job interviews usually consist of multiple rounds. To get ready for the technical round of a software engineering interview, you should expect to be asked verbal questions. Here are some examples: - Can you describe the MVC (Model-View-Controller) architecture? - What is the difference between a library and a framework? - What are some of the key differences between Angular and React?"
+    },
+    {
+        "prompt": "To prepare me for an interview for a Back-end development position, let us conduct a mock interview. Ask me some common back-end questions that might come up in my interview.",
+        "ground_truth": "Here is a list of questions that one might be asked in an interview for a back-end development position: - Explain the purpose of the back-end. - How do you handle errors when making API calls? - What is the difference between a relational and a non-relational database? - What are some benefits of using a NoSQL database? - What are some common scalability issues and how can they be addressed?"
+    }
+]
