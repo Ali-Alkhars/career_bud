@@ -118,4 +118,4 @@ def extract_prompts(list_name):
     return data[list_name]
 
 # auto_calc_accuracy(model_name="meta-llama/Llama-2-7b-chat-hf", model=BaseLlamaChatbot())
-manual_calc_accuracy("DialoGPT-CareerBud")
+manual_calc_accuracy("ChatGPT-4")

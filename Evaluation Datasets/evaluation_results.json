@@ -759,7 +759,13 @@
         "manual_meteor": {
             "meteor": 0.28031074251086496
         },
-        "job_activation_accuracy": {},
+        "job_activation_accuracy": {
+            "true_positive": 8,
+            "true_negative": 15,
+            "false_positive": 0,
+            "false_negative": 7,
+            "accuracy": 0.7666666666666667
+        },
         "auto_simCSE": 0.8859451095263163,
         "manual_simCSE": 0.8429328501224518
     },
