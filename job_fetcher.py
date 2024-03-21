@@ -31,6 +31,8 @@ def fetch_jobs():
         if response.status_code == 200:
             data = response.json()
             show_jobs(data['results'])
+        elif response.status_code == 400 or response.status_code == 401:
+            print(f"\nFailed to retrieve data, please make sure that you setup a '.env' file with the API's APP_ID and APP_KEY.\n")
         else:
             print(f"\nFailed to retrieve data, status code: {response.status_code}\nI'm very sorry, maybe try again?")
     except Exception as e:
