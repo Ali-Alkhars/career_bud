@@ -49,7 +49,7 @@ def show_jobs(results):
     else:
         print(f"\nSorry, I couldn't find jobs in your specified field!")
 
-    # Show first five results (or all if < 3)
+    # Show first three results (or all if < 3)
     while current_job < count and current_job < 3:
         show_job(current_job+1, results[current_job])
         current_job += 1
