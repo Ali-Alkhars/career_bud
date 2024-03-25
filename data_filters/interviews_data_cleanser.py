@@ -13,6 +13,12 @@ def question_maker(topic="software engineering"):
     """
     Return a random question from a pre-made list of questions
     given a specific topic.
+
+    args:
+        topic: The topic of the job interview.
+
+    return:
+        A randomly selected question.
     """
     questions = [
         f'Can you give me interview questions about {topic}?',
@@ -33,8 +39,14 @@ def question_maker(topic="software engineering"):
 def process_questions(input_file, output_file, regex, topic):
     """
     Extract the questions of a data file that are structured
-    in an undesirable way, use a given regular expression 
-    to get the correct structure to the JSON dataset.
+    in an undesirable way using the regular expression, use a 
+    append the structured input-response pair to the JSON dataset.
+
+    args:
+        input_file: The path of the file containing questions.
+        output_file: The path of the dataset to append the structured input-output pair.
+        regex: The regular expression to extract the text of the input_file only.
+        topic: The topic of the job interview. 
     """
     # Regular expression to match the new question pattern
     pattern = re.compile(regex)
