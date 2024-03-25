@@ -45,7 +45,7 @@ def process_questions(input_file, output_file, regex, topic):
     args:
         input_file: The path of the file containing questions.
         output_file: The path of the dataset to append the structured input-output pair.
-        regex: The regular expression to extract the text of the input_file only.
+        regex: The regular expression to extract only the text of the input_file.
         topic: The topic of the job interview. 
     """
     # Regular expression to match the new question pattern
@@ -55,7 +55,7 @@ def process_questions(input_file, output_file, regex, topic):
     with open(input_file, 'r') as file:
         lines = file.readlines()
 
-    # Extract questions from each line
+    # Extract questions from each line of the input file
     questions = []
     for line in lines:
         match = pattern.match(line)
@@ -66,7 +66,7 @@ def process_questions(input_file, output_file, regex, topic):
                 "response": question_text
             })
 
-    # Append to the existing JSON file
+    # Append the input-response pair to the existing JSON dataset
     with open(output_file, 'r+') as file:
         data = json.load(file)
         data.extend(questions)
