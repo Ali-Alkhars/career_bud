@@ -6,7 +6,7 @@ from transformers import AutoModel, AutoTokenizer
 
 """
 This script is used to evaluate the outputs of
-models automatically on three metrics:
+models automatically on four metrics:
 - BLEU
 - ROUGE
 - METEOR
