@@ -1,24 +1,24 @@
 import random
 import json
 
-def question_maker(topic="computer science"):
+def question_maker(title="computer science"):
     questions = [
-        f'Could you give me {topic} online course recommendations?',
-        f'I need some training on {topic}',
-        f'I want a course on {topic}',
-        f'How can I improve my {topic} skills?',
+        f'Could you give me {title} online course recommendations?',
+        f'I need some training on {title}',
+        f'I want a course on {title}',
+        f'How can I improve my {title} skills?',
         f'Give me some online course recommendations',
         f'I need some online courses',
-        f'Help me learn more about {topic}',
-        f'Are there any online courses you recommend on {topic}?',
-        f'Show me courses on {topic}',
-        f'I am looking for courses on {topic}',
-        f'Recommend me some courses on {topic}',
+        f'Help me learn more about {title}',
+        f'Are there any online courses you recommend on {title}?',
+        f'Show me courses on {title}',
+        f'I am looking for courses on {title}',
+        f'Recommend me some courses on {title}',
     ]
     return random.choice(questions)
 
-def answer_maker(title, content):
-    answer = f"Here is an online course I found on IBM SkillsBuild titled ({title}): {content}"
+def answer_maker(title, description):
+    answer = f"Here is an online course I found on IBM SkillsBuild titled ({title}): {description}"
     return answer
 
 def append_to_json_file(file_path, new_data):
@@ -40,11 +40,11 @@ def append_to_json_file(file_path, new_data):
 while True:
     print("\n\n---------- New Entry ----------")
     title = input("\nEnter the course title: ")
-    content = input("\nEnter the course description: ")
+    description = input("\nEnter the course description: ")
 
     entry = {
         "input": question_maker(title),
-        "response": answer_maker(title, content)
+        "response": answer_maker(title, description)
     }
 
     # Append entry to the JSON file

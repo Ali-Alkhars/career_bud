@@ -38,9 +38,9 @@ def question_maker(topic="software engineering"):
 
 def process_questions(input_file, output_file, regex, topic):
     """
-    Extract the questions of a data file that are structured
-    in an undesirable way using the regular expression, use a 
-    append the structured input-response pair to the JSON dataset.
+    Extract the questions of an unstructured data file using the 
+    regular expression. Append the structured input-response pair 
+    to the JSON dataset.
 
     args:
         input_file: The path of the file containing questions.
