@@ -43,10 +43,10 @@ encoded_dataset = dataset.map(encode, batched=True)
 
 # Define the Training Arguments
 training_args = TrainingArguments(
-    num_train_epochs=4,
-    per_device_train_batch_size=4,
-    per_device_eval_batch_size=32,
-    learning_rate=0.00024863917760767915,
+    num_train_epochs=5,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    learning_rate=0.00005,
 
     output_dir="../DialoGPT-CareerBud-Checkpoints",
     evaluation_strategy="epoch",           # Evaluate after each epoch
@@ -64,10 +64,10 @@ def compute_metrics(eval_pred):
     # Decode the predictions
     decoded_predictions = [tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True) for g in predictions.argmax(-1)]
     
-    # Since the labels are already in the encoded form, we need to decode them as well
+    # Decode the labels (references)
     decoded_labels = [[tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True)] for g in labels]
     
-    # Initialize the BLEU metric
+    # Initialise the BLEU metric
     bleu_metric = evaluate.load('bleu')
     
     # Compute BLEU score

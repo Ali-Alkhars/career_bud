@@ -95,7 +95,7 @@ peft_parameters = LoraConfig(
 )
 
 # Define the Training Arguments
-train_params = TrainingArguments(
+training_args = TrainingArguments(
     num_train_epochs=3,
     per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
@@ -117,13 +117,13 @@ train_params = TrainingArguments(
 # Initialise the Trainer
 trainer = SFTTrainer(
     model=model,
+    args=training_args,
     train_dataset=dataset['train'],
     eval_dataset=dataset['test'],
+    compute_metrics=compute_metrics,
     peft_config=peft_parameters,
     dataset_text_field="questions",
     tokenizer=tokenizer,
-    args=train_params,
-    compute_metrics=compute_metrics
 )
 
 print(f'Trainer initialised and now starting. Timestamp: {datetime.datetime.now()}')
