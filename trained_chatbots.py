@@ -26,7 +26,7 @@ class T5Chatbot:
 
 
 class LlamaChatbot:
-    def __init__(self, tokenizer_name="meta-llama/Llama-2-7b-chat-hf", model_name="Llama-2-CareerBud"):
+    def __init__(self, tokenizer_name="meta-llama/Llama-2-7b-chat-hf", model_name="ali-alkhars/Llama-2-CareerBud"):
         logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the irrelevant warnings
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, torch_dtype="auto")
         self.model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", load_in_4bit=True, device_map="auto")
@@ -63,7 +63,7 @@ class LlamaChatbot:
         return 'Llama-2'
 
 class DialoGPTChatbot:
-    def __init__(self, model_name="DialoGPT-CareerBud", tokenizer_name="microsoft/DialoGPT-medium"):
+    def __init__(self, model_name="ali-alkhars/DialoGPT-CareerBud", tokenizer_name="microsoft/DialoGPT-medium"):
         logging.getLogger("transformers").setLevel(logging.ERROR) # Stop the misleading left_padding warning
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
