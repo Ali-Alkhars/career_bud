@@ -1,0 +1,223 @@
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.689700	0.555585	0.302595
+2	0.376900	0.555098	0.321551
+3	0.216400	0.638294	0.328868
+4	0.136300	0.735657	0.331937
+5	0.099600	0.837548	0.335277
+6	0.079000	0.898607	0.334486
+7	0.067400	0.930909	0.337420
+8	0.059100	0.975538	0.337660
+
+Trial 0 finished with value: 0.3376604404389713 and parameters: {'learning_rate': 0.0004716652895541923, 'num_train_epochs': 8, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 32}. Best is trial 0 with value: 0.3376604404389713.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	2.465200	1.434535	0.027863
+2	1.406600	1.257141	0.049330
+3	1.269200	1.167387	0.060663
+4	1.195300	1.108767	0.068775
+5	1.147400	1.072065	0.081055
+6	1.119800	1.051473	0.086191
+7	1.107400	1.044881	0.087350
+
+Trial 1 finished with value: 0.08734977680045149 and parameters: {'learning_rate': 1.0141392063577006e-06, 'num_train_epochs': 7, 'per_device_train_batch_size': 32, 'per_device_eval_batch_size': 16}. Best is trial 0 with value: 0.3376604404389713.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	1.201400	0.735696	0.223748
+2	0.706100	0.649824	0.272671
+3	0.642700	0.622996	0.281794
+4	0.609500	0.610354	0.284107
+5	0.590800	0.603920	0.285510
+6	0.582000	0.601831	0.284122
+
+Trial 2 finished with value: 0.2841218541172172 and parameters: {'learning_rate': 2.7927290089918106e-05, 'num_train_epochs': 6, 'per_device_train_batch_size': 64, 'per_device_eval_batch_size': 4}. Best is trial 0 with value: 0.3376604404389713.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.845700	0.644370	0.272277
+2	0.629100	0.604917	0.282532
+3	0.583100	0.587211	0.286471
+4	0.555500	0.579409	0.293265
+5	0.540700	0.577247	0.292946
+
+Trial 3 finished with value: 0.2929459653032739 and parameters: {'learning_rate': 8.668080506964765e-06, 'num_train_epochs': 5, 'per_device_train_batch_size': 4, 'per_device_eval_batch_size': 4}. Best is trial 0 with value: 0.3376604404389713.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	2.678600	1.502538	0.025539
+2	1.471800	1.305413	0.041510
+3	1.317300	1.208455	0.056843
+4	1.237800	1.149439	0.063471
+5	1.187300	1.111273	0.069609
+6	1.158600	1.089533	0.075048
+7	1.144100	1.082552	0.075719
+
+Trial 4 finished with value: 0.07571907599422882 and parameters: {'learning_rate': 1.6711973250096898e-06, 'num_train_epochs': 7, 'per_device_train_batch_size': 64, 'per_device_eval_batch_size': 32}. Best is trial 0 with value: 0.3376604404389713.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.642400	0.553608	0.310871
+2	0.358200	0.548458	0.327702
+3	0.187800	0.648511	0.337041
+4	0.106100	0.791181	0.340478
+
+Trial 5 finished with value: 0.34047805853449026 and parameters: {'learning_rate': 0.00024863917760767915, 'num_train_epochs': 4, 'per_device_train_batch_size': 4, 'per_device_eval_batch_size': 32}. Best is trial 5 with value: 0.34047805853449026.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.827500	0.595262	0.285354
+2	0.548800	0.552057	0.295691
+3	0.463200	0.534818	0.306697
+4	0.404500	0.535929	0.312205
+5	0.359600	0.542537	0.316730
+6	0.325300	0.556488	0.322781
+7	0.301000	0.566087	0.324873
+8	0.287100	0.576560	0.324246
+
+Trial 6 finished with value: 0.320181 and parameters: {'learning_rate': 0.00005, 'num_train_epochs': 5, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 16}. Best is trial 5 with value: 0.34047805853449026.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.759800	0.583981	0.293174
+2	0.529500	0.541849	0.303646
+3	0.446200	0.528985	0.309464
+4	0.384000	0.537996	0.316670
+
+Trial 7 pruned. 
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	1.038800	0.662761	0.266318
+2	0.636800	0.607787	0.284338
+3	0.577400	0.585937	0.288243
+4	0.540100	0.574987	0.296606
+5	0.515400	0.569932	0.296902
+6	0.502900	0.568595	0.296556
+
+Trial 8 finished with value: 0.2965560709651511 and parameters: {'learning_rate': 5.036991644124055e-05, 'num_train_epochs': 6, 'per_device_train_batch_size': 64, 'per_device_eval_batch_size': 32}. Best is trial 5 with value: 0.34047805853449026.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.864500	0.619899	0.280507
+2	0.594400	0.585686	0.288755
+3	0.545700	0.577579	0.293741
+
+Trial 9 finished with value: 0.29374135336340823 and parameters: {'learning_rate': 5.2364536218159775e-05, 'num_train_epochs': 3, 'per_device_train_batch_size': 32, 'per_device_eval_batch_size': 16}. Best is trial 5 with value: 0.34047805853449026.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.649100	0.552307	0.306118
+2	0.346900	0.552621	0.331885
+3	0.169200	0.668664	0.337736
+
+Trial 10 finished with value: 0.3377360231737208 and parameters: {'learning_rate': 0.00028987860881907326, 'num_train_epochs': 3, 'per_device_train_batch_size': 4, 'per_device_eval_batch_size': 64}. Best is trial 5 with value: 0.34047805853449026.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.688000	0.589448	0.300177
+
+Trial 11 pruned. 
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.637700	0.542577	0.307989
+2	0.362200	0.540721	0.328346
+3	0.200400	0.639647	0.337840
+4	0.118400	0.760958	0.340061
+
+Trial 12 finished with value: 0.3400612896873321 and parameters: {'learning_rate': 0.00019190633730130504, 'num_train_epochs': 4, 'per_device_train_batch_size': 4, 'per_device_eval_batch_size': 64}. Best is trial 5 with value: 0.34047805853449026.
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.633000	0.537257	0.305577
+
+Trial 13 pruned. 
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.631700	0.536565	0.308387
+2	0.370200	0.530734	0.330045
+3	0.216800	0.608127	0.337520
+4	0.133200	0.731651	0.339119
+
+Trial 14 pruned. 
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.826600	0.637480	0.273583
+
+Trial 15 pruned. 
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.632100	0.536121	0.305363
+
+Trial 16 pruned. 
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.762900	0.606133	0.280464
+
+Trial 17 pruned. 
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.710700	0.547419	0.298083
+2	0.460400	0.525347	0.314148
+3	0.358000	0.533179	0.326127
+4	0.282800	0.572547	0.328157
+
+Trial 18 pruned. 
+
+----------------------------------------------------------------------------
+
+Epoch	Training Loss	Validation Loss	Bleu
+1	0.643800	0.554277	0.303177
+
+Trial 19 pruned. 
+
+----------------------------------------------------------------------------
+
+Model scores:
+
+Model [0] combined score: -0.150109
+Model [1] combined score: -0.4350905
+Model [2] combined score: -0.016793500000000017
+Model [3] combined score: 0.004322500000000007
+Model [4] combined score: -0.465557
+Model [5] combined score: -0.05511250000000001
+Model [6] combined score: 0.02237149999999999
+Model [7] PRUNED
+Model [8] combined score: 0.012258500000000006
+Model [9] combined score: 0.004951499999999998
+Model [10] combined score: 0.0034039999999999626
+Model [11] PRUNED
+Model [12] combined score: -0.04041800000000001
+Model [13] PRUNED
+Model [14] PRUNED
+Model [15] PRUNED
+Model [16] PRUNED
+Model [17] PRUNED
+Model [18] PRUNED
+Model [19] PRUNED
+
+Model with the highest score: Model [6]
