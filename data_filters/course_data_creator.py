@@ -1,6 +1,11 @@
 import random
 import json
 
+"""
+This script is used to help with manually scraping the course contents
+found on IBM SkillsBuild to create the courses dataset.
+"""
+
 def question_maker(title="computer science"):
     questions = [
         f'Could you give me {title} online course recommendations?',
@@ -48,4 +53,4 @@ while True:
     }
 
     # Append entry to the JSON file
-    append_to_json_file('../Datasets/courses_dataset.json', entry)
+    append_to_json_file('../Fine-tuning Datasets/courses_dataset.json', entry)

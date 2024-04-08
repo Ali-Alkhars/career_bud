@@ -1,5 +1,10 @@
 import json
 
+"""
+This script is used to structure the manually generated evaluation dataset
+into a JSON file to be used for running evaluations.
+"""
+
 def append_to_json_file(file_path, new_data):
     # Open the JSON file for reading and load its content
     try:

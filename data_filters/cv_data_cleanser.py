@@ -63,7 +63,7 @@ def process_web_questions():
     structured_data = [{"input": question_maker(), "response": entry} for entry in grouped_sentences]
     
     # Write the structured dataset to a JSON file.
-    with open('../Datasets/cv_dataset.json', 'r+', encoding='utf-8') as file:
+    with open('../Fine-tuning Datasets/cv_dataset.json', 'r+', encoding='utf-8') as file:
         allData = json.load(file)
         allData.extend(structured_data)
         file.seek(0)
@@ -84,7 +84,7 @@ def process_web_questions2():
     structured_data = [{"input": question_maker(), "response": entry} for entry in grouped_sentences]
     
     # Write the structured dataset to a JSON file.
-    with open('../Datasets/cv_dataset.json', 'r+', encoding='utf-8') as file:
+    with open('../Fine-tuning Datasets/cv_dataset.json', 'r+', encoding='utf-8') as file:
         allData = json.load(file)
         allData.extend(structured_data)
         file.seek(0)

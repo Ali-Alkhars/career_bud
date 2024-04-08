@@ -10,7 +10,7 @@ train the DialoGPT model on the combined CareerBud dataset.
 """
 
 # Load the JSON dataset
-with open('../Datasets/careerbud_dataset.json', 'r') as file:
+with open('../Fine-tuning Datasets/careerbud_dataset.json', 'r') as file:
     data = json.load(file)
 
 # Convert each item to the specified string format and collect them

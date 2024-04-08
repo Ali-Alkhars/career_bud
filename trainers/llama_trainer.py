@@ -17,7 +17,7 @@ Useful: https://huggingface.co/blog/4bit-transformers-bitsandbytes
 """
 
 # Load the JSON dataset
-with open('../Datasets/careerbud_dataset.json', 'r') as file:
+with open('../Fine-tuning Datasets/careerbud_dataset.json', 'r') as file:
     data = json.load(file)
 
 # Convert each item to the specified string format and collect them

@@ -5,7 +5,8 @@ import csv
 
 """
 This script is intended to structure specific data files into 
-a Json dataset that will be used to train Language Models.
+a Json dataset that will be used to train Language Models to provide
+job interview preparation questions.
 """
 
 

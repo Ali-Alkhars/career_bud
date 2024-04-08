@@ -4,7 +4,7 @@ import random
 """
 This script is intended to structure a specific data file into 
 a Json dataset that will be used to train Language Models to
-go looking for job offers.
+generate a signal to search for real-time job offers.
 """
 
 def response_maker():
@@ -50,4 +50,4 @@ def process_data(input_file, output_file):
         file.seek(0)
         json.dump(data, file, indent=4)
 
-process_data('../Unfiltered-datasets/job_prompts.txt', '../Datasets/job_propmts_dataset.json')
+process_data('../Unfiltered-datasets/job_prompts.txt', '../Fine-tuning Datasets/job_propmts_dataset.json')
