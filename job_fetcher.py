@@ -20,24 +20,26 @@ def fetch_jobs():
     Make a GET HTTP to the Adzuna API to fetch some job offers for the user.
     Call helper function to display the results.
     """
-    FIELD = input("\nPlease specify a field for the job search, e.g. Software Engineering: ")
-    print(f'\nSearching for jobs in {FIELD}...')
-    API_URL = f'https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id={APP_ID}&app_key={APP_KEY}&what={FIELD}&location0={COUNTRY}&max_days_old={MAX_DAYS}&sort_by={SORT}'
+    FIELD = input("\nPlease specify a field for the job search, e.g. Software Engineering, or input 'back' if you got here by mistake: ")
 
-    # Make the GET request
-    response = requests.get(API_URL)
+    if FIELD.lower() != 'back':
+        print(f'\nSearching for jobs in {FIELD}...')
+        API_URL = f'https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id={APP_ID}&app_key={APP_KEY}&what={FIELD}&location0={COUNTRY}&max_days_old={MAX_DAYS}&sort_by={SORT}'
 
-    try:
-        if response.status_code == 200:
-            data = response.json()
-            show_jobs(data['results'])
-        elif response.status_code == 400 or response.status_code == 401:
-            print(f"\nFailed to retrieve data, please make sure that you setup a '.env' file with the API's APP_ID and APP_KEY.\n")
-        else:
-            print(f"\nFailed to retrieve data, status code: {response.status_code}\nI'm very sorry, maybe try again?")
-    except Exception as e:
-            print(f"Exception: {e}")
-            print(f"\nI'm having some difficulties with retrieving job offers. I'm very sorry, maybe try again?")
+        # Make the GET request
+        response = requests.get(API_URL)
+
+        try:
+            if response.status_code == 200:
+                data = response.json()
+                show_jobs(data['results'])
+            elif response.status_code == 400 or response.status_code == 401:
+                print(f"\nFailed to retrieve data, please make sure that you setup a '.env' file with the API's APP_ID and APP_KEY.\n")
+            else:
+                print(f"\nFailed to retrieve data, status code: {response.status_code}\nI'm very sorry, maybe try again?")
+        except Exception as e:
+                print(f"Exception: {e}")
+                print(f"\nI'm having some difficulties with retrieving job offers. I'm very sorry, maybe try again?")
 
 def show_jobs(results):
     """Handle the logic of showing the user a specific number of results"""
