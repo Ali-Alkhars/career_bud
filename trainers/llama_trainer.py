@@ -60,6 +60,26 @@ model = AutoModelForCausalLM.from_pretrained(
 model.config.use_cache = False
 model.config.pretraining_tp = 1
 
+# Define the Training Arguments
+training_args = TrainingArguments(
+    num_train_epochs=3,
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
+    learning_rate=2e-4,
+
+    output_dir="../Llama-2-CareerBud-checkpoints",
+    evaluation_strategy="epoch",           # Evaluate after each epoch
+    optim="paged_adamw_32bit",
+    fp16=False,
+    bf16=False,
+    group_by_length=True,
+    load_best_model_at_end=True,           # Load the best model at the end of training
+    save_strategy="epoch",                 # Save model checkpoint after each epoch
+    metric_for_best_model="eval_bleu",      # Use BLEU to identify the best model
+    greater_is_better=True,
+    logging_strategy="epoch"
+)
+
 # Define evaluate function for tracking BLEU score (using evaluate library)
 def compute_metrics(eval_pred):
     logits, labels = eval_pred
@@ -92,26 +112,6 @@ peft_parameters = LoraConfig(
     r=8,
     bias="none",
     task_type="CAUSAL_LM"
-)
-
-# Define the Training Arguments
-training_args = TrainingArguments(
-    num_train_epochs=3,
-    per_device_train_batch_size=4,
-    per_device_eval_batch_size=4,
-    learning_rate=2e-4,
-
-    output_dir="../Llama-2-CareerBud-checkpoints",
-    evaluation_strategy="epoch",           # Evaluate after each epoch
-    optim="paged_adamw_32bit",
-    fp16=False,
-    bf16=False,
-    group_by_length=True,
-    load_best_model_at_end=True,           # Load the best model at the end of training
-    save_strategy="epoch",                 # Save model checkpoint after each epoch
-    metric_for_best_model="eval_bleu",      # Use BLEU to identify the best model
-    greater_is_better=True,
-    logging_strategy="epoch"
 )
 
 # Initialise the Trainer
